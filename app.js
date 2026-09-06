@@ -7,8 +7,12 @@
   const fixtures = fx.fixtures;
   const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
   const day = d => d.toISOString().slice(0, 10);
-  const fmtDate = s => new Date(s).toLocaleDateString("en-IE", { weekday: "short", day: "numeric", month: "short" });
-  const fmtTime = f => f.tbc ? '<span class="tbc">time TBC</span>' : (f.time || "").slice(0, 5);
+  // Fixture dates are Irish local dates; build them as local dates so the day heading never shifts with the viewer's timezone.
+  const local = s => { const [y, m, d] = s.slice(0, 10).split("-").map(Number); return new Date(y, m - 1, d); };
+  const fmtDate = s => local(s).toLocaleDateString("en-IE", { weekday: "short", day: "numeric", month: "short" });
+  // gaa.ie gives true UTC instants (All-Ireland finals show as 14:30Z, i.e. 15:30 Irish time), so show Irish time.
+  const irishDay = s => new Date(s).toLocaleDateString("en-CA", { timeZone: "Europe/Dublin" });
+  const fmtTime = f => f.tbc ? '<span class="tbc">time TBC</span>' : new Date(f.date).toLocaleTimeString("en-IE", { hour: "2-digit", minute: "2-digit", hour12: false, timeZone: "Europe/Dublin" });
   const score = f => f.score && f.score.hg != null ? ` ${f.score.hg}-${f.score.hp} to ${f.score.ag}-${f.score.ap}` : "";
 
   // Defaults: the next six weeks, or the whole season if nothing is upcoming.
@@ -33,7 +37,7 @@
     const sports = [...document.querySelectorAll("input[name=sport]:checked")].map(cb => cb.value);
     const comp = $("comp").value, results = $("results").checked;
     return fixtures.filter(f => {
-      const d = f.date.slice(0, 10);
+      const d = irishDay(f.date);
       return (!from || d >= from) && (!to || d <= to) && sports.includes(f.sport) && (!comp || f.competition === comp) && (results || !f.result);
     });
   }
@@ -61,10 +65,10 @@
     }
 
     const byDay = new Map();
-    for (const f of shown) { const d = f.date.slice(0, 10); if (!byDay.has(d)) byDay.set(d, []); byDay.get(d).push(f); }
+    for (const f of shown) { const d = irishDay(f.date); if (!byDay.has(d)) byDay.set(d, []); byDay.get(d).push(f); }
     $("list").innerHTML = shown.length ? [...byDay.keys()].sort().map(d => `
       <h2>${fmtDate(d)}</h2>
-      <table>${byDay.get(d).sort((a, b) => (a.time || "").localeCompare(b.time || "")).map(f => `
+      <table>${byDay.get(d).sort((a, b) => a.date.localeCompare(b.date)).map(f => `
         <tr><td class="when">${fmtTime(f)}</td>
             <td>${esc(f.home.name)} v ${esc(f.away.name)}${score(f)}<br><small>${esc(f.competition)}${f.round ? ", " + esc(f.round) : ""}${f.tv ? " · " + esc(f.tv) : ""}${f.tickets ? ` · <a href="${esc(f.tickets)}" rel="noopener">tickets</a>` : ""}</small></td>
             <td class="venue">${venues[f.venueId] && venues[f.venueId].lat != null ? `<a href="#map" data-venue="${esc(f.venueId)}">${esc(f.venue)}</a>` : esc(f.venue)}</td></tr>`).join("")}
