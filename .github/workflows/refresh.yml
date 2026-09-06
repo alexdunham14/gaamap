@@ -1,4 +1,4 @@
-name: Refresh fixtures and deploy
+name: Refresh fixtures
 on:
   schedule:
     - cron: "17 5 * * 1"   # Mondays 05:17 UTC
@@ -21,7 +21,3 @@ jobs:
           git add fixtures.json venues.json
           git diff --cached --quiet || git commit -m "Refresh fixtures $(date -u +%F)"
           git push
-      - uses: cloudflare/wrangler-action@v3
-        with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}

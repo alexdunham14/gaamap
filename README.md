@@ -36,6 +36,5 @@ git commit -am "Refresh fixtures" && git push
 
 ## Hosting
 
-Cloudflare Workers static assets (`wrangler.jsonc`). Pushes to main deploy via
-GitHub Actions using the `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID`
-repository secrets. The weekly refresh workflow uses the same secrets.
+Cloudflare Workers static assets (`wrangler.jsonc`). Deploy by hand with `wrangler deploy` from a checkout. The GitHub Actions deploy was removed on 2026-09-06 because the `CLOUDFLARE_API_TOKEN` secret is not set and every push failed; put it back (cloudflare/wrangler-action with the token and `CLOUDFLARE_ACCOUNT_ID`) once the token exists.
+The weekly refresh workflow commits new data but does not deploy it.
