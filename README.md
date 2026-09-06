@@ -5,9 +5,18 @@ competition. For the traveller who wants to know what is on near them next week.
 
 ## Definition of done
 
-- A static page: map with a point per venue sized by number of fixtures, and a
-  plain list by day underneath. Filters for date range, football/hurling,
-  competition, and whether to include played matches.
+- A static page: map with a point per venue sized by number of fixtures and
+  coloured by sport, and a plain list by day underneath. Filters for date range
+  (with presets for the coming weeks and each month of the season),
+  football/hurling, level, competition, team, and whether to include played
+  matches. Results show the score with the points total.
+- The season's shape is visible: every competition is classified into a level
+  (senior championship, national league, under-20, minor, club, schools) and,
+  where the level has them, a tier (Sam Maguire down to the junior
+  championship, Liam MacCarthy down to Lory Meagher, league divisions, minor
+  and under-20 grades). A "what is in here" guide lists them with counts, and
+  the competition menu is grouped the same way. The classification is by name
+  in `app.js`, so a new competition still lands somewhere.
 - Data refreshed weekly by a scheduled workflow that fetches gaa.ie, commits
   `fixtures.json`, and deploys. If gaa.ie changes its page format, the fetch
   fails loudly and the site keeps serving the last good data.
@@ -15,7 +24,8 @@ competition. For the traveller who wants to know what is on near them next week.
   guessed wrong. New venues get geocoded on the next refresh and flagged.
 
 Out of scope: club fixtures below the All-Ireland stages (those live on county
-board sites, not gaa.ie), historical data, results analysis.
+board sites, not gaa.ie), camogie and ladies' football (separate associations
+with their own sites; the page says so), historical data, results analysis.
 
 ## How it works
 

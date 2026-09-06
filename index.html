@@ -4,24 +4,38 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>GAA Map</title>
-<meta name="description" content="Upcoming GAA hurling and football fixtures on a map of Ireland, filterable by sport, competition, and date.">
+<meta name="description" content="Every inter-county hurling and football fixture gaa.ie lists, on a map of Ireland, filterable by sport, level, competition, team, and date.">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <h1>GAA Map</h1>
-<p>Every fixture gaa.ie lists, on a map. Pick a date range and see where the matches are. Data is gaa.ie's own, refreshed weekly; times marked <em>TBC</em> are not yet confirmed there either.</p>
+<p>Every fixture gaa.ie lists, on a map. Pick a date range and see where the matches are. That is men's Gaelic football and hurling from the national leagues to the All-Ireland finals, plus the under-20, minor, All-Ireland club, and schools competitions gaa.ie carries. Camogie and ladies' football are run by their own associations and are not on gaa.ie, so they are not here. Times are Irish time; <em>TBC</em> means gaa.ie has not confirmed one either.</p>
+<p id="season"></p>
+
+<details id="guide">
+  <summary>What is in here, and how the competitions rank</summary>
+  <div id="guide-body"></div>
+</details>
 
 <form id="f" onsubmit="return false">
-  <label>from <input id="from" type="date"></label>
-  <label>to <input id="to" type="date"></label>
-  <label><input type="checkbox" name="sport" value="Football" checked> football</label>
-  <label><input type="checkbox" name="sport" value="Hurling" checked> hurling</label>
-  <label>competition <select id="comp"><option value="">all</option></select></label>
-  <label><input id="results" type="checkbox"> include played matches</label>
+  <span class="row">
+    <label>from <input id="from" type="date"></label>
+    <label>to <input id="to" type="date"></label>
+    <span class="presets" id="presets"></span>
+  </span>
+  <span class="row">
+    <label><input type="checkbox" name="sport" value="Football" checked> <span class="dot football"></span>football</label>
+    <label><input type="checkbox" name="sport" value="Hurling" checked> <span class="dot hurling"></span>hurling</label>
+    <label>level <select id="level"><option value="">all</option></select></label>
+    <label>competition <select id="comp"><option value="">all</option></select></label>
+    <label>team <input id="team" type="search" placeholder="Kerry" size="10"></label>
+    <label><input id="results" type="checkbox"> include played matches</label>
+  </span>
 </form>
 
 <div id="map"></div>
+<p class="legend"><span class="dot football"></span>football <span class="dot hurling"></span>hurling <span class="dot both"></span>both · bigger dot, more fixtures · click a dot for the list</p>
 
 <p id="count"></p>
 <div id="list"></div>
