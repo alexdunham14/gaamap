@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GAA Map</title>
+<meta name="description" content="Upcoming GAA hurling and football fixtures on a map of Ireland, filterable by sport, competition, and date.">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1>GAA Map</h1>
+<p>Every fixture gaa.ie lists, on a map. Pick a date range and see where the matches are. Data is gaa.ie's own, refreshed weekly; times marked <em>TBC</em> are not yet confirmed there either.</p>
+
+<form id="f" onsubmit="return false">
+  <label>from <input id="from" type="date"></label>
+  <label>to <input id="to" type="date"></label>
+  <label><input type="checkbox" name="sport" value="Football" checked> football</label>
+  <label><input type="checkbox" name="sport" value="Hurling" checked> hurling</label>
+  <label>competition <select id="comp"><option value="">all</option></select></label>
+  <label><input id="results" type="checkbox"> include played matches</label>
+</form>
+
+<div id="map"></div>
+
+<p id="count"></p>
+<div id="list"></div>
+
+<hr>
+<p id="meta"></p>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
