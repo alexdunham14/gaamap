@@ -1,5 +1,7 @@
 # GAA Map
 
+Live at https://gaamatchmap.com (gaamap.alexdunham14.workers.dev also serves it; .ie is not on Cloudflare Registrar).
+
 Every fixture gaa.ie lists, on a map of Ireland, filterable by date, sport, and
 competition. For the traveller who wants to know what is on near them next week.
 
