@@ -24,7 +24,7 @@
   // somewhere sensible.
   const LEVELS = ["Senior championship", "National league", "Under-20", "Minor", "Club", "Schools"];
   const LEVEL_NOTE = {
-    "Senior championship": "the summer championship for county teams, in tiers; tier 1 is the All-Ireland everyone means",
+    "Senior championship": "the summer championship for county teams, in tiers; tier 1 is the All-Ireland proper",
     "National league": "the spring league for county teams, promotion and relegation between divisions",
     "Under-20": "county teams, under-20s, in grades",
     "Minor": "county teams, under-17s, in tiers",
@@ -77,8 +77,30 @@
   const today = new Date(); today.setHours(0, 0, 0, 0);
   const p = new URLSearchParams(location.search);
   const upcoming = fixtures.some(f => new Date(f.date) >= today);
-  $("from").value = p.get("from") || (upcoming ? day(today) : first);
-  $("to").value = p.get("to") || (upcoming ? day(new Date(today.getTime() + 42 * 864e5)) : last);
+  const plus = (s, n) => { const d = local(s); d.setDate(d.getDate() + n); return day(d); };
+  const defaultFrom = upcoming ? day(today) : first, defaultTo = upcoming ? plus(day(today), 42) : last;
+  // Both pickers are bounded to the season and to each other ("to" cannot precede "from");
+  // fixing one side moves the other rather than leaving an empty range. Empty means unbounded.
+  $("from").min = $("to").min = first; $("from").max = $("to").max = last;
+  $("from").value = p.has("from") ? p.get("from") : defaultFrom;
+  $("to").value = p.has("to") ? p.get("to") : defaultTo;
+  function linkDates(changed) {
+    const f = $("from"), t = $("to");
+    if (f.value && t.value && t.value < f.value) { if (changed === "from") t.value = f.value; else f.value = t.value; }
+    t.min = f.value || first; f.max = t.value || last;
+  }
+  const setDates = (f, t) => { $("from").value = f; $("to").value = t; linkDates(); render(); };
+  $("from").addEventListener("change", () => { linkDates("from"); render(); });
+  $("to").addEventListener("change", () => { linkDates("to"); render(); });
+  $("clear-dates").addEventListener("click", () => setDates("", ""));
+  const shift = dir => {
+    const f = $("from").value || first, t = $("to").value || last;
+    const len = Math.round((local(t) - local(f)) / 864e5) + 1;
+    setDates(plus(f, dir * len), plus(t, dir * len));
+  };
+  $("earlier").addEventListener("click", () => shift(-1));
+  $("later").addEventListener("click", () => shift(1));
+  linkDates();
   if (!upcoming || p.has("results")) $("results").checked = true;
   $("season").textContent = upcoming
     ? `The ${first.slice(0, 4)} season runs ${fmtShort(first)} to ${fmtShort(last)}; ${fixtures.filter(f => new Date(f.date) >= today).length} fixtures still to play.`
@@ -119,7 +141,12 @@
   $("presets").innerHTML = presets.map(([n, a, b]) => `<a href="#" data-from="${a}" data-to="${b}">${esc(n)}</a>`).join("");
   $("presets").addEventListener("click", ev => {
     const a = ev.target.closest("a[data-from]"); if (!a) return;
-    ev.preventDefault(); $("from").value = a.dataset.from; $("to").value = a.dataset.to; render();
+    ev.preventDefault(); setDates(a.dataset.from, a.dataset.to);
+  });
+  $("reset").addEventListener("click", () => {
+    for (const cb of document.querySelectorAll("input[name=sport]")) cb.checked = true;
+    $("level").value = ""; fillComps(); $("comp").value = ""; $("team").value = ""; $("results").checked = !upcoming;
+    setDates(defaultFrom, defaultTo);
   });
 
   // The guide: the season's shape, with the whole season's fixture counts, every name a filter.
@@ -144,7 +171,41 @@
   const map = L.map("map", { scrollWheelZoom: false }).setView([53.4, -7.9], 7);
   L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", { maxZoom: 18, attribution: "&copy; OpenStreetMap contributors" }).addTo(map);
   const layer = L.layerGroup().addTo(map);
+  // Colour says the sport; size says the level (and, within the senior championship, the tier).
   const FILL = { Football: "#e0864f", Hurling: "#5aa06e", both: "#9a8a7a" };
+  const RADIUS = { "Senior championship": 12, "National league": 9, "Under-20": 7, Club: 7, Minor: 6, Schools: 5 };
+  const radiusOf = f => f.level === "Senior championship" ? Math.max(7, RADIUS[f.level] - 1.5 * (Math.min(f.tier, 5) - 1)) : RADIUS[f.level];
+  const rankOf = f => LEVELS.indexOf(f.level) * 10 + f.tier;
+  $("legend").innerHTML = `<span><i class="dot football"></i>football</span><span><i class="dot hurling"></i>hurling</span><span><i class="dot both"></i>both</span>`
+    + `<span class="sizes">size is the level: ${[["Senior championship", 12, "senior, tier 1"], ["Senior championship", 9, "lower tiers"], ["National league", 9, "league"], ["Under-20", 7, "under-20, club"], ["Minor", 6, "minor"], ["Schools", 5, "schools"]].map(([l, r, n]) => `<i style="width:${r * 1.3}px;height:${r * 1.3}px"></i>${n}`).join(" ")}</span><span>click a dot for the list</span>`;
+  let dots = [];  // { marker, radius, label, rank }
+  // Map labels: the venue without its naming-rights sponsor, and without the town where the name stands alone.
+  const VENUE_SPONSOR = /^(Hastings Insurance|SuperValu|FBD|Zimmer Biomet|Cedral|Laois Hire|BOX-IT|Glennon Brothers?'?s?|Heartland Credit Union|King & Moffatt|Kingspan|Netwatch|O'Neills|TEG|TUS|UPMC|Azzurri|Chadwicks|DEFY|Glenisk|Grant Heating|Cappoquin Logistics|Find Insurance|Integral|Protection & Prosperity)\s+/i;
+  const venueLabel = name => clean(name).replace(VENUE_SPONSOR, "").replace(/^Breffni/, "Breffni Park").replace(/\s+-\s+/, ", ");
+
+  // Label a dot with its venue where there is room: top-level dots first, a label goes to the
+  // right of its dot, else left, above, or below, wherever the box overlaps no other label or dot.
+  function placeLabels() {
+    const size = map.getSize(), taken = [];
+    const hit = (a, b) => a.x < b.x + b.w && a.x + a.w > b.x && a.y < b.y + b.h && a.y + a.h > b.y;
+    const pts = dots.map(d => ({ d, pt: map.latLngToContainerPoint(d.marker.getLatLng()) }));
+    for (const { d, pt } of pts) taken.push({ x: pt.x - d.radius, y: pt.y - d.radius, w: 2 * d.radius, h: 2 * d.radius });
+    const ordered = pts.slice().sort((a, b) => a.d.rank - b.d.rank || b.d.radius - a.d.radius);
+    for (const { d, pt } of ordered) {
+      d.marker.unbindTooltip();
+      if (pt.x < -20 || pt.y < -20 || pt.x > size.x + 20 || pt.y > size.y + 20) continue;
+      const w = d.label.length * 6.6 + 12, h = 17;
+      const r = d.radius + 2;
+      const spots = { right: [{ x: pt.x + r, y: pt.y - h / 2, w, h }, [r, 0]], left: [{ x: pt.x - r - w, y: pt.y - h / 2, w, h }, [-r, 0]],
+        top: [{ x: pt.x - w / 2, y: pt.y - r - h, w, h }, [0, -r]], bottom: [{ x: pt.x - w / 2, y: pt.y + r, w, h }, [0, r]] };
+      const fits = box => box.x >= 0 && box.x + box.w <= size.x && box.y >= 0 && box.y + box.h <= size.y && !taken.some(t => hit(box, t));
+      const side = Object.keys(spots).find(k => fits(spots[k][0]));
+      if (!side) continue;
+      taken.push(spots[side][0]);
+      d.marker.bindTooltip(d.label, { permanent: true, direction: side, className: "marker-label", offset: spots[side][1] });
+    }
+  }
+  map.on("zoomend moveend", placeLabels);
 
   function selected() {
     const from = $("from").value, to = $("to").value;
@@ -175,7 +236,7 @@
     if (sports.length !== 2) for (const s of sports) u.searchParams.append("sport", s);
     history.replaceState(null, "", u);
 
-    layer.clearLayers();
+    layer.clearLayers(); dots = [];
     const byVenue = new Map();
     for (const f of shown) { if (!byVenue.has(f.venueId)) byVenue.set(f.venueId, []); byVenue.get(f.venueId).push(f); }
     let unplaced = 0;
@@ -183,9 +244,13 @@
       const v = venues[vid];
       if (!v || v.lat == null) { unplaced += list.length; continue; }
       const kinds = new Set(list.map(f => f.sport)), fill = kinds.size > 1 ? FILL.both : FILL[[...kinds][0]];
-      const m = L.circleMarker([v.lat, v.lon], { radius: 6 + Math.min(list.length, 8), color: "#333", weight: 1, fillColor: fill, fillOpacity: .85 }).addTo(layer);
+      const best = list.slice().sort((a, b) => rankOf(a) - rankOf(b))[0], radius = radiusOf(best);
+      const m = L.circleMarker([v.lat, v.lon], { radius, color: "#333", weight: 1, fillColor: fill, fillOpacity: .85 }).addTo(layer);
+      dots.push({ marker: m, radius, label: venueLabel(v.name), rank: rankOf(best) });
       m.bindPopup(`<div class="pop"><b>${esc(v.name)}</b>${list.map(f => `${fmtDate(f.date)} ${fmtTime(f)} · ${esc(f.home.name)} v ${esc(f.away.name)}<br><small>${detail(f)}</small>`).join("<br>")}</div>`, { maxWidth: 320 });
     }
+
+    placeLabels();
 
     const byDay = new Map();
     for (const f of shown) { const d = irishDay(f.date); if (!byDay.has(d)) byDay.set(d, []); byDay.get(d).push(f); }
@@ -196,7 +261,8 @@
             <td>${teamLine(f)}<br><small class="tag">${detail(f)}${tv(f) ? " · " + esc(tv(f)) : ""}${f.tickets ? ` · <a href="${esc(f.tickets)}" rel="noopener">tickets</a>` : ""}${f.url ? ` · <a href="https://www.gaa.ie${esc(f.url)}" rel="noopener">gaa.ie</a>` : ""}</small></td>
             <td class="venue">${venues[f.venueId] && venues[f.venueId].lat != null ? `<a href="#map" data-venue="${esc(f.venueId)}">${esc(f.venue)}</a>` : esc(f.venue) || '<span class="tag">venue TBC</span>'}</td></tr>`).join("")}
       </table>`).join("") : `<p class="none">No fixtures match. ${$("results").checked ? "Widen the dates or clear a filter." : 'Widen the dates, clear a filter, or tick "include played matches".'}</p>`;
-    const range = $("from").value && $("to").value ? `, ${fmtShort($("from").value)} to ${fmtShort($("to").value)}` : "";
+    const fv = $("from").value, tvv = $("to").value;
+    const range = fv && tvv ? `, ${fmtShort(fv)} to ${fmtShort(tvv)}` : fv ? `, from ${fmtShort(fv)}` : tvv ? `, to ${fmtShort(tvv)}` : ", whole season";
     $("count").textContent = `${shown.length} fixture${shown.length === 1 ? "" : "s"} at ${byVenue.size} venue${byVenue.size === 1 ? "" : "s"}${range}${unplaced ? ` (${unplaced} at venues not yet on the map)` : ""}.`;
   }
 
@@ -205,7 +271,7 @@
     const v = venues[a.dataset.venue]; map.setView([v.lat, v.lon], 11);
     layer.eachLayer(m => { const ll = m.getLatLng(); if (ll.lat === v.lat && ll.lng === v.lon) m.openPopup(); });
   });
-  for (const el of document.querySelectorAll("#f input, #f select")) el.addEventListener(el.id === "team" ? "input" : "change", () => { if (el.id === "level" || el.name === "sport") fillComps(); render(); });
+  for (const el of document.querySelectorAll("#f input:not([type=date]), #f select")) el.addEventListener(el.id === "team" ? "input" : "change", () => { if (el.id === "level" || el.name === "sport") fillComps(); render(); });
   $("meta").textContent = `Fixtures fetched from gaa.ie on ${fx.fetched.slice(0, 10)}: ${fixtures.length} matches, ${fmtShort(first)} to ${fmtShort(last)} ${first.slice(0, 4)}, ${comps.size} competitions. Competition names are gaa.ie's with the sponsor dropped; the level and tier labels are this site's reading of them.`;
   render();
 })();
