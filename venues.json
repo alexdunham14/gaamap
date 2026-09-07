@@ -56,7 +56,8 @@
   "lon": -5.507,
   "query": "Ballycran, County Down, Ireland",
   "matched": "St Joseph's Ballycran GAC, McKenna Road, Rubane, Ards and North Down District Council, County Down, Northern Ireland / T",
-  "hint": "Down"
+  "hint": "Down",
+  "same": "edefb4b1-fa85-4b6b-9980-24fc6fe70467"
  },
  "39011adf-0101-4f66-8846-0c10c57c90ff": {
   "name": "Ballyforan",
@@ -72,7 +73,8 @@
   "lon": -8.18977,
   "query": "Ballyshannon, County Donegal, Ireland",
   "matched": "Ballyshannon, County Donegal, Ulster, Éire / Ireland",
-  "hint": "Donegal"
+  "hint": "Donegal",
+  "same": "c6778b91-d8d8-43e8-8561-af473a8651dc"
  },
  "8410eac2-11ce-4bb3-94db-8f399a67750e": {
   "name": "Banagher",
@@ -112,7 +114,8 @@
   "lon": -7.63491,
   "query": "Brewster Park, Enniskillen, County Fermanagh, Ireland",
   "matched": "Brewster Park, Factory Road, Kilmacormick, Enniskillen, Fermanagh and Omagh District, Northern Ireland / Tuaisceart Éire",
-  "hint": "Fermanagh"
+  "hint": "Fermanagh",
+  "same": "54b4be41-4c0c-405c-8033-ebe68bbcff34"
  },
  "6c6b943a-a494-4fb8-93d6-2819ac9828ff": {
   "name": "Cappoquin Logistics Fraher Field",
@@ -128,7 +131,8 @@
   "lon": -7.62432,
   "query": "Fraher Field, Dungarvan, Ireland",
   "matched": "Fraher Field, L3147, Dungarvan No 1 Urban, The Municipal District of Dungarvan — Lismore, County Waterford, Munster, Éir",
-  "hint": "Waterford"
+  "hint": "Waterford",
+  "same": "6c6b943a-a494-4fb8-93d6-2819ac9828ff"
  },
  "7e4832c4-104a-42f3-82c3-731822a64745": {
   "name": "Cedral St Conleth's Newbridge",
@@ -144,7 +148,8 @@
   "lon": -6.79518,
   "query": "St Conleth's Park, Newbridge, Ireland",
   "matched": "St. Conleth's Park, Saint Bridget's Terrace, Newbridge, The Municipal District of Kildare — Newbridge, County Kildare, L",
-  "hint": "Kildare"
+  "hint": "Kildare",
+  "same": "7e4832c4-104a-42f3-82c3-731822a64745"
  },
  "1d1e7f46-7380-4641-928b-846be9c18e49": {
   "name": "Celtic Park",
@@ -168,7 +173,8 @@
   "lon": -6.47599,
   "query": "Chadwicks Wexford Park, County Wexford, Ireland",
   "matched": "Chadwicks Wexford Park, Clonard Road, Clonard, Wexford, County Wexford, Leinster, Y35 RT91, Éire / Ireland",
-  "hint": "Wexford"
+  "hint": "Wexford",
+  "same": "79529a7e-f684-46ec-a8e9-c9ca00d6c629"
  },
  "924c9ec9-05cd-431d-a857-9b502e7ae0bd": {
   "name": "Clarecastle GAA",
@@ -192,7 +198,8 @@
   "lon": -8.85286,
   "query": "Connacht GAA Centre of Excellence, Bekan, Ireland",
   "matched": "Connacht GAA Centre Of Excellence, R323, Bekan ED, Claremorris-Swinford Municipal District, County Mayo, Connacht, Éire ",
-  "hint": "Sligo"
+  "hint": "Sligo",
+  "same": "e9b84b10-bb2b-48bf-a2d3-d1de2941eb13"
  },
  "e9b84b10-bb2b-48bf-a2d3-d1de2941eb13": {
   "name": "Connacht GAA Centre",
@@ -208,7 +215,8 @@
   "lon": -8.85286,
   "query": "Connacht GAA Centre, Ireland",
   "matched": "Connacht GAA Centre Of Excellence, R323, Bekan ED, Claremorris-Swinford Municipal District, County Mayo, Connacht, Éire ",
-  "hint": "Leitrim"
+  "hint": "Leitrim",
+  "same": "e9b84b10-bb2b-48bf-a2d3-d1de2941eb13"
  },
  "c2eff5f4-68cd-4422-a554-58829ed4c8e5": {
   "name": "Corduff",
@@ -296,7 +304,8 @@
   "lon": -6.32903,
   "query": "Aughrim, County Wicklow, Ireland",
   "matched": "Aughrim, The Municipal District of Arklow, County Wicklow, Leinster, Éire / Ireland",
-  "hint": "Wicklow"
+  "hint": "Wicklow",
+  "same": "fa801c2c-f75c-4ba0-b8e7-f0dbd257f109"
  },
  "35d5c1fa-05cb-4376-af26-1e241e557668": {
   "name": "Enniscrone",
@@ -328,7 +337,8 @@
   "lon": -7.82602,
   "query": "Semple Stadium, Thurles, Ireland",
   "matched": "FBD Semple Stadium, Childers Park, Thurles Urban, The Municipal District of Thurles, County Tipperary, Munster, Éire / I",
-  "hint": null
+  "hint": null,
+  "same": "94730150-c0d2-49a6-8378-57f5c5408cc9"
  },
  "c6778b91-d8d8-43e8-8561-af473a8651dc": {
   "name": "Father Tierney Park, Ballyshannon",
@@ -392,7 +402,8 @@
   "lon": -7.48941,
   "query": "O'Connor Park, Tullamore, Ireland",
   "matched": "O'Connor Park, Ardan Road, Tullamore, The Municipal District of Tullamore, County Offaly, Leinster, Éire / Ireland",
-  "hint": "Offaly"
+  "hint": "Offaly",
+  "same": "23baabb1-ff0d-4bf4-8176-38fbe315561e"
  },
  "23baabb1-ff0d-4bf4-8176-38fbe315561e": {
   "name": "Glenisk O'Connor Park",
@@ -408,7 +419,8 @@
   "lon": -7.80504,
   "query": "Pearse Park, Longford, Ireland",
   "matched": "Pearse Park, N4 Retail and Business Park, N4 Axis Centre, Aghadegnan, Longford Rural ED, Longford, County Longford, Lein",
-  "hint": "Longford"
+  "hint": "Longford",
+  "same": "17d67366-e912-4be8-9eeb-72a4ca3d4266"
  },
  "17d67366-e912-4be8-9eeb-72a4ca3d4266": {
   "name": "Glennon Brothers Pearse Park",
@@ -456,7 +468,8 @@
   "lon": -6.60331,
   "query": "Inniskeen GAA, Ireland",
   "matched": "Inniskeen Grattans GAA Club, Kednaminsha, Kiltybegs, Carrickmacross-Castleblayney Municipal District, County Monaghan, U",
-  "hint": null
+  "hint": null,
+  "same": "30740ae9-6270-4862-85de-89c50fe8aeb3"
  },
  "9b3a021d-3464-4bbf-b79b-d9ce505cf82d": {
   "name": "Integral GAA Grounds, Drogheda",
@@ -552,7 +565,8 @@
   "lon": -0.39839,
   "query": "McGovern Park, Ruislip, London, UK",
   "matched": "McGovern Park, West End Road, London Borough of Hillingdon, Greater London, England, HA4 6QS, United Kingdom",
-  "hint": "London, UK"
+  "hint": "London, UK",
+  "same": "593966c8-66d2-46b9-8e06-0bd56e1fea96"
  },
  "593966c8-66d2-46b9-8e06-0bd56e1fea96": {
   "name": "McGovern Park, Ruislip",
@@ -592,7 +606,8 @@
   "lon": -7.80243,
   "query": "Longford Slashers GAA, Longford, Ireland",
   "matched": "Longford Slashers GAA (Michael Fay Park), L1127, Farranyoogan, Longford, County Longford, Leinster, N39 R8W3, Éire / Ire",
-  "hint": null
+  "hint": null,
+  "same": "a3049914-3c94-41be-b099-418af83e405b"
  },
  "c52346ea-de1e-417f-9095-e7223049f913": {
   "name": "Moneygall",
@@ -616,7 +631,8 @@
   "lon": -6.91664,
   "query": "Netwatch Cullen Park, Carlow, County Carlow, Ireland",
   "matched": "Netwatch Cullen Park, Oak Park Road, Rathnapish, Carlow Rural ED, The Municipal District of Carlow, County Carlow, Leins",
-  "hint": "Carlow"
+  "hint": "Carlow",
+  "same": "64f31b44-f357-4eb5-8ea7-3e2548876567"
  },
  "2dcfdb7b-427c-4c59-b9cf-7ff253251c59": {
   "name": "O Kennedy Park, New Ross",
@@ -704,7 +720,8 @@
   "lon": -6.25098,
   "query": "Páirc an Chrócaigh, Ireland",
   "matched": "Croke Park, Jones's Road, Ballybough, North Strand, Ballybough B Ward 1986, Dublin, County Dublin, Leinster, D03 A095, É",
-  "hint": "New York, USA"
+  "hint": "New York, USA",
+  "same": "5c72d530-e7a7-4106-a9bf-64c67109a0ad"
  },
  "0e733392-f208-4b49-8e1c-6efadb1938f8": {
   "name": "Páirc na hÉireann, Birmingham",
@@ -712,7 +729,8 @@
   "lon": -1.73195,
   "query": "Pairc na hEireann, Solihull, UK",
   "matched": "Páirc na hÉireann, Catherine-de-Barnes, Hampton in Arden, Bickenhill, Solihull, West Midlands, England, United Kingdom",
-  "hint": "Warwickshire, UK"
+  "hint": "Warwickshire, UK",
+  "same": "e9ecc463-bc8a-4c62-b646-3b12e38e92ae"
  },
  "e9ecc463-bc8a-4c62-b646-3b12e38e92ae": {
   "name": "Páirc na hÉireann, Birmingham",
@@ -856,7 +874,8 @@
   "lon": -8.73057,
   "query": "Tubbercurry, County Sligo, Ireland",
   "matched": "Tobercurry, Tobercurry ED, Ballymote-Tubbercurry Municipal District, County Sligo, Connacht, Éire / Ireland",
-  "hint": "Sligo"
+  "hint": "Sligo",
+  "same": "0cb15dec-b4a7-4ff0-bd3a-c9fe2cc95d34"
  },
  "9ed841da-f647-4db8-80e8-fcc28c1eae44": {
   "name": "Tulla",
@@ -880,7 +899,8 @@
   "lon": -8.56981,
   "query": "University of Limerick, Limerick, Ireland",
   "matched": "University of Limerick, University Bridge, Castletroy, Ballysimon ED, The Metropolitan District of Limerick City, Limeri",
-  "hint": null
+  "hint": null,
+  "same": "5b8479bc-9083-4e55-8f92-1881b3f4f7d5"
  },
  "5f960223-d8d6-43e6-be8f-50e77522e689": {
   "name": "UPMC Nowlan Park",
@@ -896,7 +916,8 @@
   "lon": -7.24026,
   "query": "UPMC Nowlan Park, Kilkenny, County Kilkenny, Ireland",
   "matched": "UPMC Nowlan Park, Pennefeather Green, Kilkenny, The Municipal District of Kilkenny City, County Kilkenny, Leinster, Éire",
-  "hint": "Kilkenny"
+  "hint": "Kilkenny",
+  "same": "5f960223-d8d6-43e6-be8f-50e77522e689"
  },
  "a1f65ab7-5129-44c7-aa4a-6831ed39732a": {
   "name": "Weavers Fields",

@@ -104,7 +104,7 @@
   if (!upcoming || p.has("results")) $("results").checked = true;
   $("season").textContent = upcoming
     ? `The ${first.slice(0, 4)} season runs ${fmtShort(first)} to ${fmtShort(last)}; ${fixtures.filter(f => new Date(f.date) >= today).length} fixtures still to play.`
-    : `The ${first.slice(0, 4)} season is over (${fmtShort(first)} to ${fmtShort(last)}, ${fixtures.length} matches). ${Number(first.slice(0, 4)) + 1} fixtures appear here as soon as gaa.ie publishes them; until then this is the season just gone, results and all.`;
+    : `The ${first.slice(0, 4)} season is over (${fmtShort(first)} to ${fmtShort(last)}, ${fixtures.length} matches). ${Number(first.slice(0, 4)) + 1} fixtures will appear here once published on gaa.ie.`;
 
   for (const l of LEVELS) if (fixtures.some(f => f.level === l)) $("level").insertAdjacentHTML("beforeend", `<option value="${esc(l)}">${esc(l.toLowerCase())}</option>`);
   if (p.get("level")) $("level").value = p.get("level");
@@ -154,8 +154,8 @@
     const cs = compList.filter(c => c.sport === sport && c.level === l);
     const byTier = new Map(); for (const c of cs) { if (!byTier.has(c.tier)) byTier.set(c.tier, []); byTier.get(c.tier).push(c); }
     const line = c => `<a href="#" data-comp="${esc(c.name)}">${esc(c.short)}</a> <span class="tag">${c.n}</span>`;
-    return `<dt>${esc(l)} <span class="tag">· ${esc(LEVEL_NOTE[l])}</span></dt>` + [...byTier.values()].map(list =>
-      `<dd>${l === "Senior championship" || l === "Minor" || l === "Under-20" || l === "Schools" || l === "Club" ? `<span class="tier">${esc(list[0].tierName.replace(/,.*/, ""))}</span> ` : ""}${list.map(line).join(" · ")}${/,/.test(list[0].tierName) ? ` <span class="tag">(${esc(list[0].tierName.replace(/^[^,]*, /, ""))})</span>` : ""}</dd>`).join("");
+    return `<dt>${esc(l)}<span class="tag">, ${esc(LEVEL_NOTE[l])}</span></dt>` + [...byTier.values()].map(list =>
+      `<dd>${l === "Senior championship" || l === "Minor" || l === "Under-20" || l === "Schools" || l === "Club" ? `<span class="tier">${esc(list[0].tierName.replace(/,.*/, ""))}</span> ` : ""}${list.map(line).join(", ")}${/,/.test(list[0].tierName) ? ` <span class="tag">(${esc(list[0].tierName.replace(/^[^,]*, /, ""))})</span>` : ""}</dd>`).join("");
   }).join("") + "</dl>").join("");
   $("guide-body").addEventListener("click", ev => {
     const a = ev.target.closest("a[data-comp]"); if (!a) return;
@@ -184,6 +184,8 @@
   map.on("zoomend", () => { const g = grow(); for (const d of dots) { d.radius = d.base + g; d.marker.setRadius(d.radius); } });
   // Map labels: the venue without its naming-rights sponsor, and without the town where the name stands alone.
   const VENUE_SPONSOR = /^(Hastings Insurance|SuperValu|FBD|Zimmer Biomet|Cedral|Laois Hire|BOX-IT|Glennon Brothers?'?s?|Heartland Credit Union|King & Moffatt|Kingspan|Netwatch|O'Neills|TEG|TUS|UPMC|Azzurri|Chadwicks|DEFY|Glenisk|Grant Heating|Cappoquin Logistics|Find Insurance|Integral|Protection & Prosperity)\s+/i;
+  // gaa.ie gives one ground several ids; venues.json points the extras at a canonical one.
+  const canon = id => (venues[id] && venues[id].same) || id;
   const venueLabel = name => clean(name).replace(VENUE_SPONSOR, "").replace(/^Breffni/, "Breffni Park").replace(/\s+-\s+/, ", ");
 
   // Label a dot with its venue where there is room: top-level dots first, a label goes to the
@@ -220,12 +222,12 @@
     });
   }
 
-  // "Tailteann Cup, Round 1 · senior football championship, tier 2": the sport only when the name does not say it.
+  // "Tailteann Cup, Round 1, senior football championship, tier 2": the sport only when the name does not say it.
   const detail = f => {
     const sport = new RegExp(f.sport, "i").test(f.short) ? "" : f.sport.toLowerCase() + " ";
     const tier = f.level === "Senior championship" || f.level === "Minor" ? ", " + f.tierName.replace(/,.*/, "") : f.level === "Under-20" && f.tier > 1 ? ", " + f.tierName : "";
     const level = f.level === "Senior championship" ? `senior ${sport}championship` : `${sport}${f.level.toLowerCase()}`;
-    return `${esc(f.short)}${f.round ? ", " + esc(round(f)) : ""} · ${esc(level + tier)}`;
+    return `${esc(f.short)}${f.round ? ", " + esc(round(f)) : ""}, ${esc(level + tier)}`;
   };
 
   function render() {
@@ -240,8 +242,8 @@
     history.replaceState(null, "", u);
 
     layer.clearLayers(); dots = [];
-    const byVenue = new Map();
-    for (const f of shown) { if (!byVenue.has(f.venueId)) byVenue.set(f.venueId, []); byVenue.get(f.venueId).push(f); }
+    const byVenue = new Map();  // keyed by the canonical venue id (see scripts/merge_venues.py)
+    for (const f of shown) { const k = canon(f.venueId); if (!byVenue.has(k)) byVenue.set(k, []); byVenue.get(k).push(f); }
     let unplaced = 0;
     for (const [vid, list] of byVenue) {
       const v = venues[vid];
@@ -250,7 +252,7 @@
       const best = list.slice().sort((a, b) => rankOf(a) - rankOf(b))[0], base = radiusOf(best), radius = base + grow();
       const m = L.circleMarker([v.lat, v.lon], { radius, color: "#333", weight: 1, fillColor: fill, fillOpacity: .85 }).addTo(layer);
       dots.push({ marker: m, base, radius, label: venueLabel(v.name), rank: rankOf(best) });
-      m.bindPopup(`<div class="pop"><b>${esc(v.name)}</b>${list.map(f => `${fmtDate(f.date)} ${fmtTime(f)} · ${esc(f.home.name)} v ${esc(f.away.name)}<br><small>${detail(f)}</small>`).join("<br>")}</div>`, { maxWidth: 320 });
+      m.bindPopup(`<div class="pop"><b>${esc(v.name)}</b>${list.map(f => `${fmtDate(f.date)} ${fmtTime(f)}, ${esc(f.home.name)} v ${esc(f.away.name)}<br><small>${detail(f)}</small>`).join("<br>")}</div>`, { maxWidth: 320 });
     }
 
     placeLabels();
@@ -261,8 +263,8 @@
       <h2>${fmtDate(d)}</h2>
       <table>${byDay.get(d).sort((a, b) => a.date.localeCompare(b.date) || LEVELS.indexOf(a.level) - LEVELS.indexOf(b.level) || a.tier - b.tier).map(f => `
         <tr><td class="when">${fmtTime(f)}</td>
-            <td>${teamLine(f)}<br><small class="tag">${detail(f)}${tv(f) ? " · " + esc(tv(f)) : ""}${f.tickets ? ` · <a href="${esc(f.tickets)}" rel="noopener">tickets</a>` : ""}${f.url ? ` · <a href="https://www.gaa.ie${esc(f.url)}" rel="noopener">gaa.ie</a>` : ""}</small></td>
-            <td class="venue">${venues[f.venueId] && venues[f.venueId].lat != null ? `<a href="#map" data-venue="${esc(f.venueId)}">${esc(f.venue)}</a>` : esc(f.venue) || '<span class="tag">venue TBC</span>'}</td></tr>`).join("")}
+            <td>${teamLine(f)}<br><small class="tag">${detail(f)}${tv(f) ? ", " + esc(tv(f)) : ""}${f.tickets ? `, <a href="${esc(f.tickets)}" rel="noopener">tickets</a>` : ""}${f.url ? `, <a href="https://www.gaa.ie${esc(f.url)}" rel="noopener">gaa.ie</a>` : ""}</small></td>
+            <td class="venue">${venues[canon(f.venueId)] && venues[canon(f.venueId)].lat != null ? `<a href="#map" data-venue="${esc(canon(f.venueId))}">${esc(f.venue)}</a>` : esc(f.venue) || '<span class="tag">venue TBC</span>'}</td></tr>`).join("")}
       </table>`).join("") : `<p class="none">No fixtures match. ${$("results").checked ? "Widen the dates or clear a filter." : 'Widen the dates, clear a filter, or tick "include played matches".'}</p>`;
     const fv = $("from").value, tvv = $("to").value;
     const range = fv && tvv ? `, ${fmtShort(fv)} to ${fmtShort(tvv)}` : fv ? `, from ${fmtShort(fv)}` : tvv ? `, to ${fmtShort(tvv)}` : ", whole season";

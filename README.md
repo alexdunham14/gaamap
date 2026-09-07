@@ -41,13 +41,19 @@ doc in the parent repo.
 - `scripts/geocode.py` fills `venues.json` for any venue without coordinates,
   using Nominatim with a county hint taken from the home team. Never overwrites
   a venue that already has coordinates, so hand fixes stick.
+- `scripts/merge_venues.py` marks the venue ids that are one ground under
+  different gaa.ie names ("Croke Park" and "Páirc an Chrócaigh"; hurling and
+  football often use different ids) with `"same": <canonical id>`, taking any
+  two geocoded venues within 150 m to be the same ground. Existing `same`
+  entries are kept, so a hand edit (a near-duplicate further apart, or a
+  better choice of name) sticks. The map groups fixtures by the canonical id.
 - `index.html`, `styles.css`, `app.js`: the site. Leaflet from cdnjs, tiles
   from OpenStreetMap. No build step.
 
 ## Refresh by hand
 
 ```
-./scripts/fetch.py && ./scripts/geocode.py
+./scripts/fetch.py && ./scripts/geocode.py && ./scripts/merge_venues.py
 git commit -am "Refresh fixtures" && git push
 ```
 

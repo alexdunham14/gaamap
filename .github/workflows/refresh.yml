@@ -14,6 +14,8 @@ jobs:
         run: ./scripts/fetch.py
       - name: Geocode any new venues
         run: ./scripts/geocode.py
+      - name: Merge venue ids that share a ground
+        run: ./scripts/merge_venues.py
       - name: Commit if changed
         run: |
           git config user.name "gaamap bot"
