@@ -24,12 +24,12 @@
   // somewhere sensible.
   const LEVELS = ["Senior championship", "National league", "Under-20", "Minor", "Club", "Schools"];
   const LEVEL_NOTE = {
-    "Senior championship": "the summer championship for county teams, in tiers; tier 1 is the All-Ireland proper",
-    "National league": "the spring league for county teams, promotion and relegation between divisions",
-    "Under-20": "county teams, under-20s, in grades",
-    "Minor": "county teams, under-17s, in tiers",
-    "Club": "the All-Ireland stages of the club championships (provincial winners onward); everything before that lives on county board sites, not gaa.ie",
-    "Schools": "post-primary schools' All-Ireland finals, grades A to D",
+    "Senior championship": "the summer championship for county teams",
+    "National league": "the spring league for county teams, with promotion and relegation between divisions",
+    "Under-20": "county teams, under-20s",
+    "Minor": "county teams, under-17s",
+    "Club": "the All-Ireland stages of the club championships (provincial winners onward)",
+    "Schools": "post-primary schools' All-Ireland finals",
   };
   const SPONSOR = /^(AIB|Allianz|Electric Ireland|Fulfil|Dalata Hotel Group|Masita|Beko|Bord Gáis Energy|EirGrid|Lidl)\s+(GAA\s+)?/i;
   const shortName = c => clean(c).replace(SPONSOR, "").replace(/\bGAA\s+/, "").replace(/\bRoinn\b/, "Division").replace(/\s+-\s+/, ", ")
