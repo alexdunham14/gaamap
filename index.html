@@ -21,27 +21,35 @@
 <form id="f" onsubmit="return false">
   <div class="row">
     <span class="rowlabel">dates</span>
-    <label>from <input id="from" type="date"></label>
-    <label>to <input id="to" type="date"></label>
-    <span class="nudge"><button type="button" id="earlier" title="Shift the range back by its own length">&lsaquo; earlier</button> <button type="button" id="later" title="Shift the range forward by its own length">later &rsaquo;</button></span>
-    <button type="button" id="clear-dates" class="clear" title="Show the whole season">clear</button>
-    <span class="presets" id="presets"></span>
+    <div class="ctl">
+      <label>from <input id="from" type="date"></label>
+      <label>to <input id="to" type="date"></label>
+      <span class="nudge"><button type="button" id="earlier" title="Shift the range back by its own length">&lsaquo; earlier</button> <button type="button" id="later" title="Shift the range forward by its own length">later &rsaquo;</button></span>
+      <button type="button" id="clear-dates" class="clear" title="Show the whole season">clear</button>
+      <span class="presets" id="presets"></span>
+    </div>
   </div>
   <div class="row">
     <span class="rowlabel">sport</span>
-    <label><input type="checkbox" name="sport" value="Football" checked> <span class="dot football"></span>football</label>
-    <label><input type="checkbox" name="sport" value="Hurling" checked> <span class="dot hurling"></span>hurling</label>
+    <div class="ctl">
+      <label><input type="checkbox" name="sport" value="Football" checked> <span class="dot football"></span>football</label>
+      <label><input type="checkbox" name="sport" value="Hurling" checked> <span class="dot hurling"></span>hurling</label>
+    </div>
   </div>
   <div class="row">
     <span class="rowlabel">competition</span>
-    <label>level <select id="level"><option value="">all</option></select></label>
-    <label>competition <select id="comp"><option value="">all</option></select></label>
+    <div class="ctl">
+      <label>level <select id="level"><option value="">all</option></select></label>
+      <label>competition <select id="comp"><option value="">all</option></select></label>
+    </div>
   </div>
   <div class="row">
     <span class="rowlabel">team</span>
-    <input id="team" type="search" placeholder="Kerry" size="14" aria-label="Team">
-    <label><input id="results" type="checkbox"> include played matches</label>
-    <button type="button" id="reset" class="clear" title="Clear every filter">reset all</button>
+    <div class="ctl">
+      <input id="team" type="search" placeholder="Kerry" size="14" aria-label="Team">
+      <label><input id="results" type="checkbox"> include played matches</label>
+      <button type="button" id="reset" class="clear" title="Clear every filter">reset all</button>
+    </div>
   </div>
 </form>
 
