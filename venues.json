@@ -772,6 +772,14 @@
   "matched": "Scotstown, Monaghan Municipal District, County Monaghan, Ulster, Éire / Ireland",
   "hint": "Down"
  },
+ "manual-st-brigids-ballinacree": {
+  "name": "St Brigid's GAA, Ballinacree",
+  "lat": 53.76688,
+  "lon": -7.22688,
+  "query": "hand",
+  "matched": "Ballinacree Community Centre, L6812, Oldcastle, County Meath (OSM); the pitch is beside it, approximate",
+  "hint": "Meath"
+ },
  "cb03b775-c687-476b-b255-b04cbd58267d": {
   "name": "St Peregrine's, Dublin",
   "lat": 53.3959,
@@ -921,9 +929,11 @@
  },
  "a1f65ab7-5129-44c7-aa4a-6831ed39732a": {
   "name": "Weavers Fields",
-  "lat": null,
-  "lon": null,
-  "hint": "Wicklow"
+  "lat": 53.35062,
+  "lon": -7.05209,
+  "hint": "Offaly",
+  "query": "hand",
+  "matched": "Edenderry GAA, Carrick Road, Edenderry (OSM sports_centre); Weavers Fields is the club's second ground off Carrick Road, Eircode R45 W659"
  },
  "0198790f-7890-4d73-9ab4-0bfcf8652c59": {
   "name": "Zimmer Biomet Páirc Chíosóg, Ennis",

@@ -9,6 +9,7 @@ site simply keeps serving the last good fixtures.json.
 import datetime as dt
 import gzip
 import json
+import os
 import re
 import sys
 import urllib.request
@@ -97,6 +98,13 @@ def main():
     for m in matches:
         by_id.setdefault(m["matchId"], m)
     rows = [slim(m) for m in by_id.values()]
+    # Venues gaa.ie leaves blank, found by hand: scripts/venue_overrides.json, keyed by match id.
+    opath = os.path.join(os.path.dirname(os.path.abspath(__file__)), "venue_overrides.json")
+    overrides = json.load(open(opath)) if os.path.exists(opath) else {}
+    for r in rows:
+        o = overrides.get(r["id"])
+        if o:
+            r["venueId"], r["venue"] = o["venueId"], o["venue"]
     rows.sort(key=lambda r: (r["date"] or "", r["competition"] or ""))
     if len(rows) < 50:
         sys.exit(f"only {len(rows)} fixtures parsed; refusing to overwrite fixtures.json")

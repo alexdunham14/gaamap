@@ -43,6 +43,9 @@ doc in the parent repo.
 - `scripts/geocode.py` fills `venues.json` for any venue without coordinates,
   using Nominatim with a county hint taken from the home team. Never overwrites
   a venue that already has coordinates, so hand fixes stick.
+- `scripts/venue_overrides.json` names the venue for matches gaa.ie lists with
+  none, keyed by match id and applied by `fetch.py` on every refresh; the
+  venue gets a hand-placed entry in `venues.json` under a `manual-` id.
 - `scripts/merge_venues.py` marks the venue ids that are one ground under
   different gaa.ie names ("Croke Park" and "Páirc an Chrócaigh"; hurling and
   football often use different ids) with `"same": <canonical id>`, taking any
