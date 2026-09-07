@@ -168,7 +168,7 @@
   });
 
   // ---- Map and list -----------------------------------------------------------------
-  const map = L.map("map", { scrollWheelZoom: false }).setView([53.4, -7.9], 7);
+  const map = L.map("map").setView([53.4, -7.9], 7);
   L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", { maxZoom: 18, attribution: "&copy; OpenStreetMap contributors" }).addTo(map);
   const layer = L.layerGroup().addTo(map);
   // Colour says the sport; size says the level (and, within the senior championship, the tier).
