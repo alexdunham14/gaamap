@@ -27,6 +27,13 @@ Out of scope: club fixtures below the All-Ireland stages (those live on county
 board sites, not gaa.ie), camogie and ladies' football (separate associations
 with their own sites; the page says so), historical data, results analysis.
 
+Camogie has been scoped, though: `scripts/fetch_camogie.py` is a working
+prototype against camogie.ie's paginated "load more" JSON endpoint, which
+uses the same venue UUIDs as gaa.ie. Not wired in yet; it still needs a
+Europe/Dublin to UTC conversion, a tier ladder for camogie's grades, and a
+geocode run for the venues gaa.ie never lists. See the 2026-09-07 session
+doc in the parent repo.
+
 ## How it works
 
 - `scripts/fetch.py` pulls the fixtures page and extracts the match records
