@@ -2,9 +2,10 @@
 
 Live at https://gaamatchmap.com (gaamap.alexdunham14.workers.dev also serves it; .ie is not on Cloudflare Registrar).
 
-Every inter-county fixture gaa.ie, camogie.ie and ladiesgaelic.ie list, on a map
-of Ireland, filterable by season, date, sport, and competition. For the traveller
-who wants to know what is on near them next week.
+Every inter-county fixture gaa.ie, camogie.ie and ladiesgaelic.ie list, and the
+club championship fixtures of the county boards and provincial councils whose sites
+can be read, on a map of Ireland, filterable by season, date, sport, and competition.
+For the traveller who wants to know what is on near them next week.
 
 ## Definition of done
 
@@ -29,14 +30,27 @@ who wants to know what is on near them next week.
   lettered minor, under-20, under-23 and under-16 grades). A "what is in here" guide lists them with counts, and
   the competition menu is grouped the same way. The classification is by name
   in `app.js`, so a new competition still lands somewhere.
-- Data refreshed weekly by a scheduled workflow that fetches all three sites and
+- Club championships too, from August on, when gaa.ie goes quiet: county rounds,
+  the provincial series and the All-Ireland stages, at senior and intermediate
+  grade, from every county board and provincial council whose site runs the GAA's
+  shared fixtures theme (fifteen counties and two provinces at the time of writing,
+  `scripts/club_sites.json`). Club fixtures accumulate week by week, because no
+  site publishes more than a few weeks ahead. A county that is not on the list is
+  a county whose site cannot be read, not a county with no matches, and the page
+  says so.
+- Data refreshed weekly by a scheduled workflow that fetches all the sites and
   commits the season files. If a site changes its page format, that fetch fails
   loudly, writes nothing, and the site keeps serving the last good data.
 - Venues geocoded once into `venues.json`, hand-corrected where the geocoder
   guessed wrong. New venues get geocoded on the next refresh and flagged.
 
-Out of scope: club fixtures below the All-Ireland stages (those live on county
-board sites, not gaa.ie), historical data, results analysis.
+Out of scope: club fixtures from the counties whose sites are not readable
+(Antrim, Armagh, Carlow, Cork, Derry, Dublin, Galway, Leitrim, Limerick, Longford,
+Louth, Mayo, Roscommon, Sligo, Waterford, Wexford, Wicklow, and Leinster and Munster
+as provinces), club leagues and junior grades below what the sites file under senior
+and intermediate, historical data, results analysis. The GAA's Foireann open-data
+API would cover every county with coordinates on every venue, but its keys go to
+club administrators only.
 
 ladiesgaelic.ie publishes every season back to 2016 and the fetch will take them
 (`--since 2016`), but only the current season is on the site: the other two sources
@@ -70,6 +84,18 @@ and each one adds a few dozen club grounds to geocode.
   is no endpoint to page through). Output: `data/<year>-ladies.json`. Its two hard
   parts: the competition name is split across three fields and none of them is the
   whole name, and the venue is prose rather than a UUID.
+- `scripts/fetch_club.py` pulls club championship fixtures and results from the
+  county and provincial sites in `scripts/club_sites.json`, through the same paged
+  endpoint camogie.ie has (they share a theme). Output: `data/<year>-club.json`. Its
+  rows carry the venue as the same Foireann UUID gaa.ie uses, so a club match at a
+  county ground lands on the dot already there, and a new club ground gets an entry
+  for `geocode.py`, with the publishing county as the hint. Unlike the other fetches
+  it merges with what it wrote last time: results are kept for good, unplayed
+  fixtures are whatever the sites say today, and a site that fails keeps last
+  week's rows. Competition names are hand-typed per county, so the sponsor is taken
+  off the front and the county put on ("Kerry Senior Football County Championship"),
+  and every row is marked `club: county|provincial` so `app.js` can file it under the
+  club level rather than reading "Senior Football Championship" as the county team's.
 - `scripts/venue_match.py` is that venue name matching. LGFA writes venues the way
   gaa.ie does — "BOX-IT Athletic Grounds, Armagh", or the Irish "Páirc an
   Chrócaigh" for Croke Park — so a name is looked up under three keys of
@@ -106,12 +132,12 @@ and each one adds a few dozen club grounds to geocode.
 ## Refresh by hand
 
 ```
-./scripts/fetch.py && ./scripts/fetch_camogie.py && ./scripts/fetch_ladies.py
+./scripts/fetch.py && ./scripts/fetch_camogie.py && ./scripts/fetch_ladies.py && ./scripts/fetch_club.py
 ./scripts/geocode.py && ./scripts/merge_venues.py
 git commit -am "Refresh fixtures" && git push
 ```
 
-The three fetches are independent: if camogie.ie is down, its season file keeps
+The four fetches are independent: if camogie.ie is down, its season file keeps
 its last good contents and the rest of the refresh proceeds (the weekly workflow
 marks those steps `continue-on-error` for the same reason). `fetch_ladies.py
 --venues` prints what each venue name matched, which is the thing to read after a

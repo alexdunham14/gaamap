@@ -4,7 +4,8 @@ this script never overwrites an entry that already has coordinates unless --forc
 
 Uses Nominatim (OpenStreetMap), one request per second as its policy requires. The county
 hint comes from the home team when the home team is a county, which is most inter-county
-fixtures and resolves the many duplicate ground names (two Cusack Parks, several Pearse Parks).
+fixtures, and from the publishing county board for a club fixture; it resolves the many
+duplicate ground names (two Cusack Parks, several Pearse Parks).
 """
 import collections
 import json
@@ -26,14 +27,26 @@ COUNTIES = {
 }
 ABROAD = {"London": "London, UK", "Lancashire": "Lancashire, UK", "New York": "New York, USA", "Warwickshire": "Warwickshire, UK"}
 IRELAND = {"south": 51.3, "north": 55.5, "west": -10.8, "east": -5.3}
-# The one county with two names in common use, and the one Nominatim answers to.
-ALIASES = {"Derry": ("Derry", "Londonderry")}
+# The one county with two names in common use, and the one Nominatim answers to. And the
+# six counties of Northern Ireland, which Nominatim mostly names by district council rather
+# than county ("Beragh, Omagh, Fermanagh and Omagh District Council, Northern Ireland"), so
+# a county there is also any district that lies partly in it. Broader than the county, but a
+# ground placed in the next county along is a small error and one placed 190 km away is not.
+ALIASES = {
+    "Derry": ("Derry", "Londonderry", "Derry City and Strabane", "Causeway Coast and Glens", "Mid Ulster"),
+    "Tyrone": ("Tyrone", "Fermanagh and Omagh", "Mid Ulster", "Derry City and Strabane"),
+    "Fermanagh": ("Fermanagh", "Fermanagh and Omagh"),
+    "Armagh": ("Armagh", "Armagh City, Banbridge and Craigavon", "Armagh, Banbridge and Craigavon", "Newry, Mourne and Down"),
+    "Down": ("Down", "Newry, Mourne and Down", "Ards and North Down", "Lisburn and Castlereagh", "Belfast", "Armagh City, Banbridge and Craigavon"),
+    "Antrim": ("Antrim", "Antrim and Newtownabbey", "Mid and East Antrim", "Causeway Coast and Glens", "Belfast", "Lisburn and Castlereagh"),
+}
 # Eircodes ("A82 Y942", "W91WN82") ride along in camogie.ie's venue names. Nominatim cannot
 # match them and they poison every query they appear in, so they come out before searching.
 EIRCODE_RE = re.compile(r"\b[A-Z]\d{2}\s?[A-Z0-9]{4}\b")
 # Club grounds are mostly a place name wrapped in boilerplate: "Ballinamere GAA Club",
 # "Edendork St. Malachy's GAC", "Fethard Town Park (Grass Pitch)", "Hawkfield Kildare C of
 # Excel". Nominatim knows the places, not the boilerplate, so the stripped name is tried too.
+GENERIC_RE = re.compile(r"(?:\b(?:memorial|park|páirc|pairc|grounds?|gaa|gac|clg|club|pitch|centre|community|sports?|field|complex|the|st\.?|naomh|main|county|training|development|of|excellence|and|&|[0-9]+|[A-Z])\b[\s,.-]*)+", re.I)
 BOILER_RE = re.compile(
     r"\b(GAA|GAC|CLG|GFC|Club|Centre of Excellence|C of Excel|CoE|Grass Pitch|Main Campus Pitch|"
     r"Stand Pitch|[34]G Pitch|Pitch\s*\d*|Hurling and Camogie|Camogie|Grounds?)\b", re.I)
@@ -77,6 +90,10 @@ def main():
         hints.setdefault(vid, {"name": f["venue"], "counties": collections.Counter(), "abroad": set()})
         if home in COUNTIES:
             hints[vid]["counties"][home] += 1
+        # A club fixture names the county whose board published it, which is where the
+        # ground is far more often than the home team's name would tell us.
+        if f.get("county") in COUNTIES:
+            hints[vid]["counties"][f["county"]] += 1
         if home in ABROAD:
             hints[vid]["abroad"].add(ABROAD[home])
     for vid, h in hints.items():
@@ -107,7 +124,10 @@ def main():
         listed = name  # as the source spells it, which is how venue_queries.json is keyed
         name = EIRCODE_RE.sub("", name).replace(" ,", ",").strip(" ,.")
         words = name.split()
-        variants = [name] + [" ".join(words[k:]) for k in range(1, min(4, len(words) - 1))]
+        # Dropping words off the front takes a sponsor off ("King & Moffatt Dr. Hyde Park"),
+        # but must not leave only furniture: "Davy Brennan Memorial Park" reduced to "Memorial
+        # Park" found a different club's memorial park 30 km away.
+        variants = [name] + [v for v in (" ".join(words[k:]) for k in range(1, min(4, len(words) - 1))) if not GENERIC_RE.fullmatch(v)]
         stripped = re.sub(r"[\s,]+", " ", BOILER_RE.sub(" ", name)).strip(" ,-")
         if stripped and stripped != name:
             variants.insert(1, stripped)

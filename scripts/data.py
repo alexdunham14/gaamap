@@ -8,6 +8,7 @@ one *source* (gaa.ie, camogie.ie, ladiesgaelic.ie) and writes one file per seaso
     data/2026-gaa.json    football and hurling from gaa.ie, 2026
     data/2026-camogie.json
     data/2026-ladies.json
+    data/2026-club.json   club championships from the county and provincial sites
 
 Two properties this shape buys, both of which the single root-level fixtures.json lacked:
 
@@ -33,6 +34,10 @@ SOURCES = {
     "gaa": {"sports": ["Football", "Hurling"], "site": "gaa.ie"},
     "camogie": {"sports": ["Camogie"], "site": "camogie.ie"},
     "ladies": {"sports": ["Ladies' Football"], "site": "ladiesgaelic.ie"},
+    # Club championships, from the county boards and provincial councils whose sites can be
+    # read (scripts/club_sites.json). Unlike the other three this file accumulates, because
+    # no site shows more than a few weeks at a time: see fetch_club.py.
+    "club": {"sports": ["Football", "Hurling", "Camogie", "Ladies' Football"], "site": "county and provincial board sites"},
 }
 
 

@@ -21,6 +21,11 @@ jobs:
       - name: Fetch ladies' football fixtures from ladiesgaelic.ie
         run: ./scripts/fetch_ladies.py --venues
         continue-on-error: true
+      # Club championships from the county and provincial sites. This one accumulates across
+      # refreshes (each site shows only a few weeks), so a failure keeps last week's rows.
+      - name: Fetch club fixtures from the county and provincial sites
+        run: ./scripts/fetch_club.py
+        continue-on-error: true
       - name: Geocode any new venues
         run: ./scripts/geocode.py
       - name: Merge venue ids that share a ground

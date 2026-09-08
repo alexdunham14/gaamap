@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-08T18:32:31Z",
+ "generated": "2026-09-08T20:23:29Z",
  "latest": 2026,
  "seasons": [
   {
@@ -44,6 +44,22 @@
      "to": "2026-08-02",
      "fetched": "2026-09-08T18:32:31Z",
      "source": "https://ladiesgaelic.ie/fixtures-results/results/"
+    },
+    {
+     "key": "club",
+     "file": "data/2026-club.json",
+     "site": "county and provincial board sites",
+     "sports": [
+      "Camogie",
+      "Football",
+      "Hurling",
+      "Ladies' Football"
+     ],
+     "count": 844,
+     "from": "2026-08-25",
+     "to": "2026-12-06",
+     "fetched": "2026-09-08T19:28:54Z",
+     "source": "county board and provincial council websites, listed in scripts/club_sites.json"
     }
    ]
   }

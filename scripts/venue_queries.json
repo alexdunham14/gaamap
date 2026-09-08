@@ -320,6 +320,79 @@
  "University of Limerick, Maguires 4G Pitch": [
   "University of Limerick, Limerick, Ireland"
  ],
- "Glenfin GAA": "Nominatim has no Glenfin in Donegal, only a Glenfin Street in Stranorlar 8 km away, and it answers every query for the village with that street. A dot there would be wrong.",
- "Annanough GAA": "Nominatim has no Annanough at all, under any spelling, and nothing nearby is named after the club. Left off rather than guessed at."
+ "Annanough GAA": "Nominatim has no Annanough at all, under any spelling, and nothing nearby is named after the club. Left off rather than guessed at.",
+ "Mac Cumhaill Park": [
+  "MacCumhaill Park, Ballybofey, County Donegal, Ireland"
+ ],
+ "Pairc Aoidh Ruaidh": [
+  "Father Tierney Park, Ballyshannon, County Donegal, Ireland",
+  "Ballyshannon, County Donegal, Ireland"
+ ],
+ "O Donnell Park": [
+  "O'Donnell Park, Letterkenny, County Donegal, Ireland",
+  "Letterkenny, County Donegal, Ireland"
+ ],
+ "Towney Park": [
+  "Towney, Kilcar, County Donegal, Ireland",
+  "Kilcar, County Donegal, Ireland"
+ ],
+ "Machaire Gathlán": [
+  "Magheragallon, County Donegal, Ireland",
+  "Gweedore, County Donegal, Ireland"
+ ],
+ "Naomh Padraig Leifear": [
+  "Lifford, County Donegal, Ireland"
+ ],
+ "Na Meilte, Mullach Derg": [
+  "Mullaghderg, County Donegal, Ireland",
+  "Kincasslagh, County Donegal, Ireland"
+ ],
+ "Páirc Colmcille, Carrickmore": [
+  "Carrickmore, County Tyrone, UK"
+ ],
+ "Killyclogher": [
+  "Killyclogher, County Tyrone, UK"
+ ],
+ "Beragh": [
+  "Beragh, County Tyrone, UK"
+ ],
+ "Gortin Main Pitch": [
+  "Gortin, County Tyrone, UK"
+ ],
+ "Granemore": [
+  "Granemore, County Armagh, UK"
+ ],
+ "Ballymacnab": [
+  "Ballymacnab, County Armagh, UK"
+ ],
+ "Our Lady of Lourdes Park Mullahoran": [
+  "Mullahoran, County Cavan, Ireland"
+ ],
+ "St. Felim's Park Drumalee": [
+  "Drumalee, Cavan, County Cavan, Ireland"
+ ],
+ "Castlerahan Community Development": [
+  "Castlerahan, County Cavan, Ireland"
+ ],
+ "Edwin Carolan Community Park Cuchulainns": [
+  "Mullagh, County Cavan, Ireland"
+ ],
+ "Páirc Lachtain": [
+  "Freshford, County Kilkenny, Ireland"
+ ],
+ "Pairc Ciocaim Dundrum": [
+  "Dundrum, County Tipperary, Ireland"
+ ],
+ "Tourlestrane": [
+  "Tourlestrane, County Sligo, Ireland"
+ ],
+ "Dr Crokes Park": [
+  "Dr. Crokes GAA, Killarney, County Kerry, Ireland",
+  "Lewis Road, Killarney, County Kerry, Ireland"
+ ],
+ "Grass Pitch": "The site names no ground, only a pitch type; nothing to place.",
+ "To be confirmed": "Not a venue; the site's own placeholder.",
+ "Banagher": [
+  "Banagher, County Offaly, Ireland"
+ ]
 }

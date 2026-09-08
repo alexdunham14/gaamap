@@ -1,0 +1,22 @@
+{
+ "_comment": "Where scripts/fetch_club.py reads club fixtures from: the county boards and provincial councils whose sites run the GAA's shared WordPress fixtures theme, which exposes the Foireann fixture cards as HTML fragments through ?ajax=1&feed_type=fixtures|results&page=N&size=50&grade=<grade>. Probed 2026-09-08. Not on it, so not here: Antrim, Armagh, Carlow, Cork, Derry, Dublin, Galway, Leitrim, Limerick, Longford, Louth, Mayo, Roscommon, Sligo, Waterford, Wexford, Wicklow (their own platforms), Leinster (a JavaScript app with no readable page), Munster (an older theme whose page carries schools games and numeric venue ids, nothing of the club championship). `grades` is which feeds to pull: senior and intermediate are the matches a visitor wants; junior is included for a province, where it is the county champions' competition, but not for a county, where it is dozens of cards a week.",
+ "sites": [
+  {"id": "cavan", "county": "Cavan", "name": "Cavan GAA", "base": "https://cavangaa.ie", "grades": ["senior", "intermediate"]},
+  {"id": "clare", "county": "Clare", "name": "Clare GAA", "base": "https://clare.gaa.ie", "grades": ["senior", "intermediate"]},
+  {"id": "donegal", "county": "Donegal", "name": "Donegal GAA", "base": "https://donegalgaa.ie", "grades": ["senior", "intermediate"]},
+  {"id": "down", "county": "Down", "name": "Down GAA", "base": "https://downgaa.net", "grades": ["senior", "intermediate"]},
+  {"id": "fermanagh", "county": "Fermanagh", "name": "Fermanagh GAA", "base": "https://fermanagh.gaa.ie", "grades": ["senior", "intermediate"]},
+  {"id": "kerry", "county": "Kerry", "name": "Kerry GAA", "base": "https://kerrygaa.ie", "grades": ["senior", "intermediate"]},
+  {"id": "kildare", "county": "Kildare", "name": "Kildare GAA", "base": "https://kildaregaa.ie", "grades": ["senior", "intermediate"]},
+  {"id": "kilkenny", "county": "Kilkenny", "name": "Kilkenny GAA", "base": "https://kilkennygaa.ie", "grades": ["senior", "intermediate"]},
+  {"id": "laois", "county": "Laois", "name": "Laois GAA", "base": "https://laoisgaa.ie", "grades": ["senior", "intermediate"]},
+  {"id": "meath", "county": "Meath", "name": "Meath GAA", "base": "https://meath.gaa.ie", "grades": ["senior", "intermediate"]},
+  {"id": "monaghan", "county": "Monaghan", "name": "Monaghan GAA", "base": "https://monaghangaa.ie", "grades": ["senior", "intermediate"]},
+  {"id": "offaly", "county": "Offaly", "name": "Offaly GAA", "base": "https://offaly.gaa.ie", "grades": ["senior", "intermediate"]},
+  {"id": "tipperary", "county": "Tipperary", "name": "Tipperary GAA", "base": "https://tipperary.gaa.ie", "grades": ["senior", "intermediate"]},
+  {"id": "tyrone", "county": "Tyrone", "name": "Tyrone GAA", "base": "https://tyronegaa.ie", "grades": ["senior", "intermediate"]},
+  {"id": "westmeath", "county": "Westmeath", "name": "Westmeath GAA", "base": "https://westmeathgaa.ie", "grades": ["senior", "intermediate"]},
+  {"id": "ulster", "province": "Ulster", "name": "Ulster GAA", "base": "https://ulster.gaa.ie", "grades": ["senior", "intermediate", "junior"]},
+  {"id": "connacht", "province": "Connacht", "name": "Connacht GAA", "base": "https://connachtgaa.ie", "grades": ["senior", "intermediate", "junior"]}
+ ]
+}

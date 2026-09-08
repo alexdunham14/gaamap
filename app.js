@@ -35,7 +35,9 @@
   // All three sites list every competition as a flat sponsor-prefixed name. The GAA's season has a
   // shape, though: senior inter-county championship (in tiers), the spring national league
   // (in divisions), the age grades, the All-Ireland stages of the club championship,
-  // and the post-primary schools finals. Classify each fixture into a level and a tier so the
+  // and the post-primary schools finals; and, from the county and provincial sites, the club
+  // championships, which the site marks as such (f.club) because a county's "Senior Football
+  // Championship" is named exactly like the county team's. Classify each fixture into a level and a tier so the
   // page can show that shape. Rules are by name, so a new competition next season still lands
   // somewhere sensible.
   const SPORTS = ["Football", "Hurling", "Camogie", "Ladies' Football"];
@@ -50,7 +52,7 @@
     "Under-16": "county teams, under-16s",
     "Under-14": "county teams, under-14s",
     "Third level": "the All-Ireland third-level championships, between universities and colleges; the cups below the Lynch Cup are not ranked here",
-    Club: "the All-Ireland stages of the club championships (provincial winners onward)",
+    Club: "the club championships: county rounds from the county boards that publish them (about half do, see the note at the foot of the page), the provincial series, and the All-Ireland stages from gaa.ie",
     Schools: "post-primary schools' All-Ireland finals",
   };
   const SPONSOR = /^(AIB|Allianz|Electric Ireland|Fulfil|Dalata Hotel Group|Masita|Beko|Bord Gáis Energy|EirGrid|Lidl|Glen Dimplex|Very)\s+(GAA\s+)?/i;
@@ -105,9 +107,15 @@
   }
   function classify(f) {
     const c = clean(f.competition), s = f.sport, m = x => x.test(c);
+    // Club first, whatever the code: a county's "Senior Camogie Championship" is a club
+    // competition. The grade is read from the name before the site's filing, because a
+    // county files its intermediate and junior championships under "senior" often enough.
+    if (f.club || m(/Club Championship/i)) {
+      const g = m(/\bSenior\b/i) && !m(/\bJunior\b/i) ? "senior" : m(/\bIntermediate\b/i) ? "intermediate" : m(/\bJunior\b/i) ? "junior" : f.grade || "senior";
+      return { level: "Club", tier: { senior: 1, intermediate: 2, junior: 3 }[g] || 9, tierName: g };
+    }
     if (s === "Camogie") return classifyCamogie(c);
     if (s === "Ladies' Football") return classifyLadies(c);
-    if (m(/Club Championship/i)) return { level: "Club", tier: m(/Senior/) ? 1 : m(/Intermediate/) ? 2 : 3, tierName: m(/Senior/) ? "senior" : m(/Intermediate/) ? "intermediate" : "junior" };
     if (m(/Post Primary|\bPPS\b|Schools/i)) { const g = (c.match(/Senior ([A-D])\b/) || [])[1] || "?"; return { level: "Schools", tier: "ABCD".indexOf(g) + 1 || 9, tierName: "senior " + g }; }
     if (m(/U20/i)) { const g = (c.match(/U20([A-C])?/) || [])[1] || "A"; return { level: "Under-20", tier: "ABC".indexOf(g) + 1, tierName: g === "A" ? "top grade" : "grade " + g }; }
     if (m(/Minor/i)) { const t = Number((c.match(/Tier (\d)/) || [])[1] || 1); return { level: "Minor", tier: t, tierName: "tier " + t }; }
@@ -148,8 +156,9 @@
     const level = f.level === "Senior championship"
       ? (f.sport === "Camogie" && /senior/i.test(f.short) ? "camogie championship" : `senior ${sport}championship`)
       : f.level === "Third level" ? `third-level ${f.sport.toLowerCase()}`
+      : f.level === "Club" ? `${f.club === "county" ? "county" : f.club === "provincial" ? "provincial" : "All-Ireland"} club ${sport}`.trim() + `, ${f.tierName}`
       : `${sport}${f.level.toLowerCase()}`;
-    return `${esc(f.short)}${f.round ? ", " + esc(round(f)) : ""}, ${esc(level + tier)}`;
+    return `${esc(f.short)}${f.group ? ", " + esc(f.group) : ""}${f.round ? ", " + esc(round(f)) : ""}, ${esc(level + tier)}`;
   };
 
   // gaa.ie gives the match page as a path, the other two a whole URL. Build the link from
@@ -173,10 +182,11 @@
   const CODE = { Football: "football", "Ladies' Football": "football", Hurling: "hurling", Camogie: "hurling" };
   const FILL = { football: "#e0864f", hurling: "#5aa06e", both: "#9a8a7a" };
   const RADIUS = { "Senior championship": 12, "National league": 9, "Under-23": 7, "Under-20": 7, Club: 7, "Third level": 7, "Under-18": 6, Minor: 6, "Under-16": 5, "Under-14": 5, Schools: 5 };
-  const radiusOf = f => f.level === "Senior championship" ? Math.max(7, RADIUS[f.level] - 1.5 * (Math.min(f.tier, 5) - 1)) : RADIUS[f.level] || 5;
+  // A county round of the club championship is a smaller dot than the provincial and All-Ireland stages.
+  const radiusOf = f => f.level === "Senior championship" ? Math.max(7, RADIUS[f.level] - 1.5 * (Math.min(f.tier, 5) - 1)) : f.club === "county" ? 6 : RADIUS[f.level] || 5;
   const rankOf = f => LEVELS.indexOf(f.level) * 10 + f.tier;
   $("legend").innerHTML = `<span><i class="dot football"></i>football and ladies' football</span><span><i class="dot hurling"></i>hurling and camogie</span><span><i class="dot both"></i>both games</span>`
-    + `<span class="key">size is the level:</span>` + [[12, "senior, tier 1"], [9, "lower tiers"], [9, "league"], [7, "under-23, under-20, club, third level"], [6, "under-18, minor"], [5, "under-16, under-14, schools"]].map(([r, n]) => `<span><i class="size" style="width:${r * 1.3}px;height:${r * 1.3}px"></i>${n}</span>`).join("") + `<span class="key">click a dot for the matches there</span>`;
+    + `<span class="key">size is the level:</span>` + [[12, "senior, tier 1"], [9, "lower tiers"], [9, "league"], [7, "under-23, under-20, provincial and All-Ireland club, third level"], [6, "county club, under-18, minor"], [5, "under-16, under-14, schools"]].map(([r, n]) => `<span><i class="size" style="width:${r * 1.3}px;height:${r * 1.3}px"></i>${n}</span>`).join("") + `<span class="key">click a dot for the matches there</span>`;
   let dots = [];  // { marker, base, radius, label, rank }
   // Dots grow a little as the map zooms in past the whole-island view, so the small ones stay visible.
   const grow = () => Math.min(5, Math.max(0, map.getZoom() - 7) * .8);
@@ -334,7 +344,7 @@
     const parts = await seasonRows(y);
     sources = parts.filter(part => part.rows.length).map(part => part.src);
     fixtures = [].concat(...parts.map(part => part.rows))
-      .map(f => Object.assign(f, classify(f), { short: shortName(f.competition), teams: fold(f.home.name + " " + f.away.name) }));
+      .map(f => Object.assign(f, classify(f), { short: shortName(f.competition), teams: fold(f.home.name + " " + f.away.name + " " + (f.county || "")) }));
     fixtures.sort((a, b) => a.date.localeCompare(b.date));
     first = fixtures[0].date.slice(0, 10);
     last = fixtures[fixtures.length - 1].date.slice(0, 10);
@@ -393,8 +403,10 @@
         `<dd>${l !== "National league" ? `<span class="tier">${esc(list[0].tierName.replace(/,.*/, ""))}</span> ` : ""}${list.map(line).join(", ")}${/,/.test(list[0].tierName) ? ` <span class="tag">(${esc(list[0].tierName.replace(/^[^,]*, /, ""))})</span>` : ""}</dd>`).join("");
     }).join("") + "</dl>").join("");
 
+    const clubSites = [...new Set(fixtures.filter(f => f.club).map(f => { try { return new URL(f.url).host.replace(/^www\./, ""); } catch { return null; } }).filter(Boolean))].sort();
     $("meta").innerHTML = `${y}: ` + sources.map(s => `${esc(s.count)} from ${esc(s.site)}, fetched ${esc(s.fetched.slice(0, 10))}`).join("; ")
-      + `. Competition names are each site's with the sponsor dropped; the level and tier labels are this site's reading of them.`;
+      + `. Competition names are each site's with the sponsor dropped; the level and tier labels are this site's reading of them.`
+      + (clubSites.length ? ` Club fixtures come from the boards whose sites can be read (${clubSites.map(esc).join(", ")}); the rest of the counties publish theirs elsewhere, so a county missing here is not a county with no matches. Club fixtures are published a few weeks ahead and refreshed weekly.` : "");
     render();
   }
 
