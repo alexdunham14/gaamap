@@ -1,7 +1,11 @@
 (async function () {
   const $ = id => document.getElementById(id);
-  const [fx, venues] = await Promise.all([
+  // Two fixture files: gaa.ie's football and hurling, and camogie.ie's camogie
+  // (scripts/fetch.py and scripts/fetch_camogie.py each own one). If the camogie file
+  // is missing or unreadable the rest of the map still draws.
+  const [fx, cam, venues] = await Promise.all([
     fetch("fixtures.json", { cache: "no-cache" }).then(r => r.json()),
+    fetch("camogie.json", { cache: "no-cache" }).then(r => r.ok ? r.json() : { fixtures: [] }).catch(() => ({ fixtures: [] })),
     fetch("venues.json", { cache: "no-cache" }).then(r => r.json()),
   ]);
   const clean = s => String(s ?? "").replace(/[\x00-\x1f\x7f-\x9f]/g, "").replace(/\s+/g, " ").trim();
@@ -15,28 +19,52 @@
   const irishDay = s => new Date(s).toLocaleDateString("en-CA", { timeZone: "Europe/Dublin" });
   const fmtTime = f => f.tbc ? '<span class="tbc">time TBC</span>' : new Date(f.date).toLocaleTimeString("en-IE", { hour: "2-digit", minute: "2-digit", hour12: false, timeZone: "Europe/Dublin" });
 
-  // ---- Making sense of gaa.ie's competition names ----------------------------------
-  // gaa.ie lists every competition as a flat sponsor-prefixed name. The GAA's season has a
+  // ---- Making sense of the competition names ---------------------------------------
+  // Both sites list every competition as a flat sponsor-prefixed name. The GAA's season has a
   // shape, though: senior inter-county championship (in tiers), the spring national league
   // (in divisions), under-20 and minor grades, the All-Ireland stages of the club championship,
   // and the post-primary schools finals. Classify each fixture into a level and a tier so the
   // page can show that shape. Rules are by name, so a new competition next season still lands
   // somewhere sensible.
-  const LEVELS = ["Senior championship", "National league", "Under-20", "Minor", "Club", "Schools"];
+  const SPORTS = ["Football", "Hurling", "Camogie"];
+  const LEVELS = ["Senior championship", "National league", "Under-23", "Under-20", "Minor", "Under-16", "Club", "Schools"];
   const LEVEL_NOTE = {
     "Senior championship": "the summer championship for county teams",
     "National league": "the spring league for county teams, with promotion and relegation between divisions",
+    "Under-23": "county teams, under-23s (camogie's grade; the GAA's equivalent is under-20)",
     "Under-20": "county teams, under-20s",
     "Minor": "county teams, under-17s",
+    "Under-16": "county teams, under-16s",
     "Club": "the All-Ireland stages of the club championships (provincial winners onward)",
     "Schools": "post-primary schools' All-Ireland finals",
   };
-  const SPONSOR = /^(AIB|Allianz|Electric Ireland|Fulfil|Dalata Hotel Group|Masita|Beko|Bord Gáis Energy|EirGrid|Lidl)\s+(GAA\s+)?/i;
+  const SPONSOR = /^(AIB|Allianz|Electric Ireland|Fulfil|Dalata Hotel Group|Masita|Beko|Bord Gáis Energy|EirGrid|Lidl|Glen Dimplex|Very)\s+(GAA\s+)?/i;
   const shortName = c => clean(c).replace(SPONSOR, "").replace(/\bGAA\s+/, "").replace(/\bRoinn\b/, "Division").replace(/\s+-\s+/, ", ")
     .replace(/^(Football|Hurling) All-Ireland (Senior|Intermediate|Junior|U20\w*) (Club )?Championship/, "All-Ireland $2 $3$1 Championship")
     .replace(/^(Connacht|Leinster|Munster|Ulster) (Football|Hurling) Senior Championship/, "$1 Senior $2 Championship");
+  // Camogie's own ladder: senior down to junior in the championship, five league divisions,
+  // and under-23/minor/under-16 grades lettered A to C, some with a Shield for teams knocked
+  // out of the Cup. Named nothing like the GAA's competitions, so classified on its own terms.
+  function classifyCamogie(c) {
+    const m = x => x.test(c);
+    const grade = (re, fallback = "A") => (c.match(re) || [])[1] || fallback;
+    const graded = (level, g) => ({ level, tier: "ABC".indexOf(g) + 1 || 9, tierName: g === "A" ? "top grade" : "grade " + g });
+    // "Minor A Shield" is a second competition for teams out of the Cup, half a tier below it.
+    // "U16B Cup/Shield" is not: that is one competition whose name happens to say both.
+    const shield = (t, g) => /Shield/i.test(c) && !/Cup\/Shield/i.test(c) ? { ...t, tier: t.tier + 0.5, tierName: `grade ${g} shield` } : t;
+    if (m(/National League/i)) { const d = grade(/Div (\w+)/, "?"); return { level: "National league", tier: { "1A": 1, "1B": 2, "2A": 3, "2B": 4, "3A": 5, "3B": 6 }[d] || 9, tierName: "division " + d }; }
+    if (m(/U23/)) return graded("Under-23", grade(/U23([A-C])/));
+    if (m(/U16/)) { const g = grade(/U16([A-C])/); return shield(graded("Under-16", g), g); }
+    if (m(/Minor/i)) { const g = grade(/Minor ([A-C])/); return shield(graded("Minor", g), g); }
+    if (m(/Senior/i)) return { level: "Senior championship", tier: 1, tierName: "tier 1, O'Duffy Cup" };
+    if (m(/Intermediate/i)) return { level: "Senior championship", tier: 2, tierName: "tier 2" };
+    if (m(/Premier Junior/i)) return { level: "Senior championship", tier: 3, tierName: "tier 3" };
+    if (m(/Junior/i)) return { level: "Senior championship", tier: 4, tierName: "tier 4" };
+    return { level: "Senior championship", tier: 9, tierName: "" };
+  }
   function classify(f) {
     const c = clean(f.competition), s = f.sport, m = x => x.test(c);
+    if (s === "Camogie") return classifyCamogie(c);
     if (m(/Club Championship/i)) return { level: "Club", tier: m(/Senior/) ? 1 : m(/Intermediate/) ? 2 : 3, tierName: m(/Senior/) ? "senior" : m(/Intermediate/) ? "intermediate" : "junior" };
     if (m(/Post Primary|\bPPS\b|Schools/i)) { const g = (c.match(/Senior ([A-D])\b/) || [])[1] || "?"; return { level: "Schools", tier: "ABCD".indexOf(g) + 1 || 9, tierName: "senior " + g }; }
     if (m(/U20/i)) { const g = (c.match(/U20([A-C])?/) || [])[1] || "A"; return { level: "Under-20", tier: "ABC".indexOf(g) + 1, tierName: g === "A" ? "top grade" : "grade " + g }; }
@@ -59,7 +87,7 @@
   const tv = f => f.tv ? TV[clean(f.tv).toLowerCase()] || clean(f.tv) : "";
   const round = f => clean(f.round).replace(/FInal/, "Final");
 
-  const fixtures = fx.fixtures.map(f => Object.assign(f, classify(f), { short: shortName(f.competition), teams: fold(f.home.name + " " + f.away.name) }));
+  const fixtures = [...fx.fixtures, ...cam.fixtures].map(f => Object.assign(f, classify(f), { short: shortName(f.competition), teams: fold(f.home.name + " " + f.away.name) }));
   fixtures.sort((a, b) => a.date.localeCompare(b.date));
   const first = fixtures[0].date.slice(0, 10), last = fixtures[fixtures.length - 1].date.slice(0, 10);
 
@@ -104,7 +132,7 @@
   if (!upcoming || p.has("results")) $("results").checked = true;
   $("season").textContent = upcoming
     ? `The ${first.slice(0, 4)} season runs ${fmtShort(first)} to ${fmtShort(last)}; ${fixtures.filter(f => new Date(f.date) >= today).length} fixtures still to play.`
-    : `The ${first.slice(0, 4)} season is over (${fmtShort(first)} to ${fmtShort(last)}, ${fixtures.length} matches). ${Number(first.slice(0, 4)) + 1} fixtures will appear here once published on gaa.ie.`;
+    : `The ${first.slice(0, 4)} season is over (${fmtShort(first)} to ${fmtShort(last)}, ${fixtures.length} matches). ${Number(first.slice(0, 4)) + 1} fixtures will appear here once published on gaa.ie and camogie.ie.`;
 
   for (const l of LEVELS) if (fixtures.some(f => f.level === l)) $("level").insertAdjacentHTML("beforeend", `<option value="${esc(l)}">${esc(l.toLowerCase())}</option>`);
   if (p.get("level")) $("level").value = p.get("level");
@@ -150,12 +178,12 @@
   });
 
   // The guide: the season's shape, with the whole season's fixture counts, every name a filter.
-  $("guide-body").innerHTML = ["Football", "Hurling"].map(sport => `<h3>${sport}</h3><dl>` + LEVELS.filter(l => compList.some(c => c.sport === sport && c.level === l)).map(l => {
+  $("guide-body").innerHTML = SPORTS.filter(sport => compList.some(c => c.sport === sport)).map(sport => `<h3>${sport}</h3><dl>` + LEVELS.filter(l => compList.some(c => c.sport === sport && c.level === l)).map(l => {
     const cs = compList.filter(c => c.sport === sport && c.level === l);
     const byTier = new Map(); for (const c of cs) { if (!byTier.has(c.tier)) byTier.set(c.tier, []); byTier.get(c.tier).push(c); }
     const line = c => `<a href="#" data-comp="${esc(c.name)}">${esc(c.short)}</a> <span class="tag">${c.n}</span>`;
     return `<dt>${esc(l)}<span class="tag">, ${esc(LEVEL_NOTE[l])}</span></dt>` + [...byTier.values()].map(list =>
-      `<dd>${l === "Senior championship" || l === "Minor" || l === "Under-20" || l === "Schools" || l === "Club" ? `<span class="tier">${esc(list[0].tierName.replace(/,.*/, ""))}</span> ` : ""}${list.map(line).join(", ")}${/,/.test(list[0].tierName) ? ` <span class="tag">(${esc(list[0].tierName.replace(/^[^,]*, /, ""))})</span>` : ""}</dd>`).join("");
+      `<dd>${l !== "National league" ? `<span class="tier">${esc(list[0].tierName.replace(/,.*/, ""))}</span> ` : ""}${list.map(line).join(", ")}${/,/.test(list[0].tierName) ? ` <span class="tag">(${esc(list[0].tierName.replace(/^[^,]*, /, ""))})</span>` : ""}</dd>`).join("");
   }).join("") + "</dl>").join("");
   $("guide-body").addEventListener("click", ev => {
     const a = ev.target.closest("a[data-comp]"); if (!a) return;
@@ -171,13 +199,17 @@
   const map = L.map("map").setView([53.4, -7.9], 7);
   L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", { maxZoom: 18, attribution: "&copy; OpenStreetMap contributors" }).addTo(map);
   const layer = L.layerGroup().addTo(map);
-  // Colour says the sport; size says the level (and, within the senior championship, the tier).
-  const FILL = { Football: "#e0864f", Hurling: "#5aa06e", both: "#9a8a7a" };
-  const RADIUS = { "Senior championship": 12, "National league": 9, "Under-20": 7, Club: 7, Minor: 6, Schools: 5 };
+  // Colour says which game is played, size says the level (and, within the senior
+  // championship, the tier). Camogie is the same game as hurling, so it takes the same
+  // colour rather than a fourth hue: grey then keeps meaning "more than one game here",
+  // and a ground with hurling and camogie on it stays green, which is the truth.
+  const CODE = { Football: "football", Hurling: "hurling", Camogie: "hurling" };
+  const FILL = { football: "#e0864f", hurling: "#5aa06e", both: "#9a8a7a" };
+  const RADIUS = { "Senior championship": 12, "National league": 9, "Under-23": 7, "Under-20": 7, Club: 7, Minor: 6, "Under-16": 5, Schools: 5 };
   const radiusOf = f => f.level === "Senior championship" ? Math.max(7, RADIUS[f.level] - 1.5 * (Math.min(f.tier, 5) - 1)) : RADIUS[f.level];
   const rankOf = f => LEVELS.indexOf(f.level) * 10 + f.tier;
-  $("legend").innerHTML = `<span><i class="dot football"></i>football</span><span><i class="dot hurling"></i>hurling</span><span><i class="dot both"></i>both</span>`
-    + `<span class="key">size is the level:</span>` + [[12, "senior, tier 1"], [9, "lower tiers"], [9, "league"], [7, "under-20, club"], [6, "minor"], [5, "schools"]].map(([r, n]) => `<span><i class="size" style="width:${r * 1.3}px;height:${r * 1.3}px"></i>${n}</span>`).join("") + `<span class="key">click a dot for the list</span>`;
+  $("legend").innerHTML = `<span><i class="dot football"></i>football</span><span><i class="dot hurling"></i>hurling and camogie</span><span><i class="dot both"></i>both games</span>`
+    + `<span class="key">size is the level:</span>` + [[12, "senior, tier 1"], [9, "lower tiers"], [9, "league"], [7, "under-23, under-20, club"], [6, "minor"], [5, "under-16, schools"]].map(([r, n]) => `<span><i class="size" style="width:${r * 1.3}px;height:${r * 1.3}px"></i>${n}</span>`).join("") + `<span class="key">click a dot for the list</span>`;
   let dots = [];  // { marker, base, radius, label, rank }
   // Dots grow a little as the map zooms in past the whole-island view, so the small ones stay visible.
   const grow = () => Math.min(5, Math.max(0, map.getZoom() - 7) * .8);
@@ -225,9 +257,22 @@
   // "Tailteann Cup, Round 1, senior football championship, tier 2": the sport only when the name does not say it.
   const detail = f => {
     const sport = new RegExp(f.sport, "i").test(f.short) ? "" : f.sport.toLowerCase() + " ";
-    const tier = f.level === "Senior championship" || f.level === "Minor" ? ", " + f.tierName.replace(/,.*/, "") : f.level === "Under-20" && f.tier > 1 ? ", " + f.tierName : "";
-    const level = f.level === "Senior championship" ? `senior ${sport}championship` : `${sport}${f.level.toLowerCase()}`;
+    const tier = f.level === "Senior championship" || f.level === "Minor" ? ", " + f.tierName.replace(/,.*/, "") : /^Under-/.test(f.level) && f.tier > 1 ? ", " + f.tierName : "";
+    // Camogie's top competition is called just "Senior Championship", so the usual phrasing
+    // would read "Senior Championship, ..., senior camogie championship". Say it once.
+    const level = f.level === "Senior championship"
+      ? (f.sport === "Camogie" && /senior/i.test(f.short) ? "camogie championship" : `senior ${sport}championship`)
+      : `${sport}${f.level.toLowerCase()}`;
     return `${esc(f.short)}${f.round ? ", " + esc(round(f)) : ""}, ${esc(level + tier)}`;
+  };
+
+  // gaa.ie gives the match page as a path, camogie.ie as a whole URL. Build the link from
+  // whichever it is and name it after the site it actually goes to.
+  const source = f => {
+    if (!f.url) return "";
+    const href = /^https?:/i.test(f.url) ? f.url : "https://www.gaa.ie" + f.url;
+    let host; try { host = new URL(href).host.replace(/^www\./, ""); } catch { return ""; }
+    return `, <a href="${esc(href)}" rel="noopener">${esc(host)}</a>`;
   };
 
   function render() {
@@ -238,7 +283,7 @@
     $("results").checked ? u.searchParams.set("results", "") : u.searchParams.delete("results");
     u.searchParams.delete("sport");
     const sports = [...document.querySelectorAll("input[name=sport]:checked")].map(cb => cb.value);
-    if (sports.length !== 2) for (const s of sports) u.searchParams.append("sport", s);
+    if (sports.length !== SPORTS.length) for (const s of sports) u.searchParams.append("sport", s);
     history.replaceState(null, "", u);
 
     layer.clearLayers(); dots = [];
@@ -248,7 +293,7 @@
     for (const [vid, list] of byVenue) {
       const v = venues[vid];
       if (!v || v.lat == null) { unplaced += list.length; continue; }
-      const kinds = new Set(list.map(f => f.sport)), fill = kinds.size > 1 ? FILL.both : FILL[[...kinds][0]];
+      const kinds = new Set(list.map(f => CODE[f.sport])), fill = kinds.size > 1 ? FILL.both : FILL[[...kinds][0]];
       const best = list.slice().sort((a, b) => rankOf(a) - rankOf(b))[0], base = radiusOf(best), radius = base + grow();
       const m = L.circleMarker([v.lat, v.lon], { radius, color: "#333", weight: 1, fillColor: fill, fillOpacity: .85 }).addTo(layer);
       dots.push({ marker: m, base, radius, label: venueLabel(v.name), rank: rankOf(best) });
@@ -263,7 +308,7 @@
       <h2>${fmtDate(d)}</h2>
       <table>${byDay.get(d).sort((a, b) => a.date.localeCompare(b.date) || LEVELS.indexOf(a.level) - LEVELS.indexOf(b.level) || a.tier - b.tier).map(f => `
         <tr><td class="when">${fmtTime(f)}</td>
-            <td>${teamLine(f)}<br><small class="tag">${detail(f)}${tv(f) ? ", " + esc(tv(f)) : ""}${f.tickets ? `, <a href="${esc(f.tickets)}" rel="noopener">tickets</a>` : ""}${f.url ? `, <a href="https://www.gaa.ie${esc(f.url)}" rel="noopener">gaa.ie</a>` : ""}</small></td>
+            <td>${teamLine(f)}<br><small class="tag">${detail(f)}${tv(f) ? ", " + esc(tv(f)) : ""}${f.tickets ? `, <a href="${esc(f.tickets)}" rel="noopener">tickets</a>` : ""}${source(f)}</small></td>
             <td class="venue">${venues[canon(f.venueId)] && venues[canon(f.venueId)].lat != null ? `<a href="#map" data-venue="${esc(canon(f.venueId))}">${esc(f.venue)}</a>` : esc(f.venue) || '<span class="tag">venue TBC</span>'}</td></tr>`).join("")}
       </table>`).join("") : `<p class="none">No fixtures match. ${$("results").checked ? "Widen the dates or clear a filter." : 'Widen the dates, clear a filter, or tick "include played matches".'}</p>`;
     const fv = $("from").value, tvv = $("to").value;

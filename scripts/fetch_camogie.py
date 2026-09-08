@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-"""Prototype: pull camogie inter-county fixtures/results from camogie.ie and write
-them in gaamap's fixtures.json record shape (sport: "Camogie").
+"""Pull camogie inter-county fixtures/results from camogie.ie into camogie.json,
+in the same record shape fetch.py writes for gaa.ie (sport: "Camogie").
 
 camogie.ie is a WordPress site (theme "camogie_association") whose fixtures-results
 page renders match rows server-side and loads more of them via an undocumented
@@ -25,15 +25,23 @@ camogie geocoding pass is needed except for venues gaa.ie has never listed.
 
 Only inter-county fixtures/results (level=inter_county) from the current calendar
 year are kept, matching the window gaa.ie's own fetch.py effectively captures.
+
+Times need converting: camogie.ie prints a bare Irish wall-clock time with no zone,
+so a throw-in is read in Europe/Dublin and written as the UTC instant fetch.py gets
+from gaa.ie for free. Getting this wrong puts every summer match an hour out.
 """
 import datetime as dt
+import html
 import json
 import re
 import sys
 import time
 import urllib.request
+from zoneinfo import ZoneInfo
 
 BASE = "https://camogie.ie/fixtures-results/"
+OUT = "camogie.json"
+IRELAND = ZoneInfo("Europe/Dublin")
 UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128 Safari/537.36"
 PAGE_SIZE = 50
 MAX_PAGES = 20  # safety cap per feed
@@ -61,6 +69,12 @@ def fetch_json(url):
         return json.loads(r.read().decode("utf-8"))
 
 
+def text(s):
+    """Markup text as it should read: entities decoded, whitespace collapsed.
+    camogie.ie writes apostrophes as &#039;, which geocodes badly and looks worse."""
+    return re.sub(r"\s+", " ", html.unescape(s)).strip() if s else s
+
+
 def parse_date(s):
     s = ORDINAL_RE.sub(r"\1", s.strip())
     return dt.datetime.strptime(s, "%A %d %b %Y").date()
@@ -69,6 +83,56 @@ def parse_date(s):
 def parse_score(s):
     m = re.match(r"(\d+)-(\d+)", s.strip())
     return (int(m.group(1)), int(m.group(2))) if m else None
+
+
+# camogie.ie's competition names are typed by hand and drift: "Div 1 B National League"
+# beside "Div 1A National League", a trailing full stop on 20 of the 22 U16C rows, a round
+# ("Finals", "Quarter Final") pasted onto the end of the name, "Under 23A" for "U23A", and
+# "All-Ireland" present or absent. Left alone they split one competition across several
+# entries in the site's competition menu and its guide. Canonicalise to one spelling each.
+ROUND_SUFFIX_RE = re.compile(r"\s+((?:Quarter|Semi)[- ]?Finals?|Finals?)$", re.I)
+
+
+def canonical_competition(comp, round_):
+    """One spelling per competition. Returns (competition, round), moving a round that was
+    pasted onto the name into the round field when the row has none of its own."""
+    c = comp.strip().rstrip(".").strip()
+    m = ROUND_SUFFIX_RE.search(c)
+    if m:
+        c = c[: m.start()].strip()
+        if not round_:
+            r = m.group(1).title().replace("-", " ")
+            round_ = "Final" if r in ("Final", "Finals") else r.replace("Final", " Final").replace("  ", " ")
+    c = re.sub(r"\bAll-Ireland\s+", "", c)              # every row here is the All-Ireland series
+    c = re.sub(r"\bUnder\s*(\d+)", r"U\1", c, flags=re.I)  # "Under 23A" -> "U23A"
+    c = re.sub(r"\b(U\d+)\s+([A-C])\b", r"\1\2", c)      # "U16 A" -> "U16A"
+    c = re.sub(r"\bDiv\s*(\d)\s*([AB])\b", r"Div \1\2", c)  # "Div 1 B" -> "Div 1B"
+    if not re.search(r"\b(Championship|League|Cup|Shield)\b", c, re.I):
+        c += " Championship"                              # "U23A" -> "U23A Championship"
+    return re.sub(r"\s+", " ", c).strip(), round_
+
+
+# Rounds are typed by hand too: "R1" beside "Round 1", four spellings of semi-final,
+# "FINAL", and the grade repeated ("'A' Championship Final") when the competition already
+# says it. One spelling each, so the fixture lines read consistently.
+ROUND_FIXES = [
+    (r"^R\s*(\d+)$", r"Round \1"),
+    (r"[\u2018\u2019'\"]([ABC])[\u2018\u2019'\"]\s+Championship\s+", ""),
+    (r"^Final\s*\((Cup|Shield)\)$", r"\1 Final"),
+    (r"\bfinal\b", "Final"),
+    (r"\bquarter[\s-]?Final\b", "Quarter-final"),
+    (r"\bsemi[\s-]?Final\b", "Semi-final"),
+    (r"\bplay\s*-?\s*off\b", "play-off"),
+]
+
+
+def normalize_round(r):
+    if not r:
+        return r
+    r = re.sub(r"\s+", " ", r.strip())
+    for pat, rep in ROUND_FIXES:
+        r = re.sub(pat, rep, r, flags=re.I)
+    return r[:1].upper() + r[1:]
 
 
 def split_competition(raw):
@@ -107,16 +171,19 @@ def parse_fragment(html, is_result):
             if not m:
                 continue
             href, comp_raw, home, hscore_s, time_s, ascore_s, away, venue_id, venue = m.groups()
+            href, comp_raw, home, away, venue = (text(x) for x in (href, comp_raw, home, away, venue))
             comp, group, round_ = split_competition(comp_raw)
+            comp, round_ = canonical_competition(comp, round_)
+            round_ = normalize_round(round_)
             hscore, ascore = (parse_score(hscore_s), parse_score(ascore_s)) if is_result else (None, None)
             time_s = time_s.strip() if time_s else None
             try:
                 hh, mm = (int(x) for x in time_s.split(":")[:2])
-                # camogie.ie times are printed in Irish local time with no zone marker;
-                # treat as UTC here (a real integration needs an Europe/Dublin -> UTC
-                # conversion, same problem fetch.py's gaa.ie times don't have since
-                # gaa.ie already gives an ISO instant).
-                iso = dt.datetime(match_date.year, match_date.month, match_date.day, hh, mm, tzinfo=dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%S+00:00")
+                # The printed time is Irish wall clock with no zone marker. Read it in
+                # Europe/Dublin and store the UTC instant, so summer throw-ins are not an
+                # hour out against gaa.ie's rows, which already arrive as instants.
+                local = dt.datetime(match_date.year, match_date.month, match_date.day, hh, mm, tzinfo=IRELAND)
+                iso = local.astimezone(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%S+00:00")
             except (ValueError, AttributeError):
                 iso = f"{match_date.isoformat()}T00:00:00+00:00"
             rows.append(
@@ -191,10 +258,9 @@ def main():
         "source": BASE,
         "fixtures": rows,
     }
-    out_path = "/tmp/claude-1000/-home-alex-projects-small-project-builder/aeeeb495-2b43-4b8a-ac78-ba117cb9b943/scratchpad/camogie.json"
-    with open(out_path, "w", encoding="utf-8") as f:
+    with open(OUT, "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=0)
-    print(f"{len(rows)} fixtures -> {out_path}")
+    print(f"{len(rows)} camogie fixtures, {rows[0]['date'][:10]} to {rows[-1]['date'][:10]}")
 
 
 if __name__ == "__main__":

@@ -13,13 +13,18 @@ a new id that lands in an old group simply points at the old canonical.
 """
 import json
 import math
+import os
+import sys
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import data  # noqa: E402
 
 RADIUS_M = 150
 
 
 def main():
     venues = json.load(open("venues.json"))
-    fixtures = json.load(open("fixtures.json"))["fixtures"]
+    fixtures = data.all_fixtures()
     counts = {}
     for f in fixtures:
         counts[f["venueId"]] = counts.get(f["venueId"], 0) + 1

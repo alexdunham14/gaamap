@@ -3,6 +3,8 @@ body { max-width: 60rem; margin: 1.5rem auto; padding: 0 1rem; font: 1rem/1.5 Ge
 h1 { font-weight: normal; font-size: 1.9rem; margin: 0 0 .4rem; }
 h2 { font-weight: normal; font-size: 1.2rem; margin: 1.5rem 0 .25rem; border-bottom: 1px solid #ccc; }
 .draft { color: #a33; font-style: italic; }
+.note { font-size: .9rem; color: #555; margin: -.2rem 0 .6rem; }
+@media (prefers-color-scheme: dark) { .note { color: #a8a8a8; } }
 
 /* Filters: one row per kind. A small label in a fixed column on the left, the controls
    wrapping in a block of their own on the right; on a phone the label sits above the controls. */

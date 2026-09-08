@@ -10,16 +10,74 @@
   "matched": "Castleblayney, 1, 2, Ashview Court, Castleblayney, Carrickmacross-Castleblayney Municipal District, County Monaghan, Uls",
   "hint": "Monaghan"
  },
+ "8f33a11e-c10c-4013-bac4-edcc35f9ac08": {
+  "name": "Abbotstown - Pitch 1",
+  "lat": 53.38985,
+  "lon": -6.34771,
+  "query": "Abbotstown, Dublin, Ireland",
+  "matched": "Abbotstown AGI, Blanchardstown-Abbotstown DED 1986, Dublin, Fingal, County Dublin, Leinster, Éire / Ireland",
+  "hint": "Dublin"
+ },
+ "d0767c9f-61e3-4453-9adc-b42f496c5ee6": {
+  "name": "Abbotstown 3G Pitch",
+  "lat": 53.38985,
+  "lon": -6.34771,
+  "query": "Abbotstown, Dublin, Ireland",
+  "matched": "Abbotstown AGI, Blanchardstown-Abbotstown DED 1986, Dublin, Fingal, County Dublin, Leinster, Éire / Ireland",
+  "hint": "Kildare",
+  "same": "8f33a11e-c10c-4013-bac4-edcc35f9ac08"
+ },
  "e770ee2f-9486-43cd-8d68-de1589079854": {
   "name": "Abbottstown - GAA Centre of Excellence",
   "lat": 53.38985,
   "lon": -6.34771,
   "query": "Abbotstown, Dublin, Ireland",
   "matched": "Abbotstown AGI, Blanchardstown-Abbotstown DED 1986, Dublin, Fingal, County Dublin, Leinster, Éire / Ireland",
-  "hint": "New York, USA"
+  "hint": "New York, USA",
+  "same": "8f33a11e-c10c-4013-bac4-edcc35f9ac08"
+ },
+ "cc94c547-f4cd-4674-964b-0bf771f51851": {
+  "name": "Adrian Feeman Memorial Park",
+  "lat": 54.09926,
+  "lon": -10.06261,
+  "query": "Memorial Park, County Mayo, Ireland",
+  "matched": "Blacksod Bay Emigration Memorial Garden, An Fód Dubh, An Fál Mór, An Geata Mór Theas ED, Westport-Belmullet Municipal Di",
+  "hint": "Mayo"
+ },
+ "139c5a04-bca4-427d-9afd-20e6fe5aec9e": {
+  "name": "Ahoghill",
+  "lat": 54.85133,
+  "lon": -6.36569,
+  "query": "Ahoghill, County Antrim, Ireland",
+  "matched": "Ahoghill, Mid and East Antrim District, County Antrim, Northern Ireland / Tuaisceart Éireann, BT42 1JZ, United Kingdom",
+  "hint": "Antrim"
+ },
+ "71c6679d-49af-4dd2-b014-44d76f8454e8": {
+  "name": "All Saints, Ballymena",
+  "lat": 54.87124,
+  "lon": -6.2705,
+  "query": "All Saints, Ballymena, County Antrim, Ireland",
+  "matched": "All Saints, 2, Broughshane Road, Ballymena, Mid and East Antrim District, County Antrim, Northern Ireland / Tuaisceart É",
+  "hint": "Antrim"
+ },
+ "bc6a103e-5e32-443d-8b06-46a1a439db2c": {
+  "name": "Allen Park, BT41 4NA",
+  "lat": 54.58265,
+  "lon": -5.95531,
+  "query": "Park, BT41 4NA, County Antrim, Ireland",
+  "matched": "National Football Stadium, Olympia Drive, The Village, Belfast City District, County Antrim, Northern Ireland / Tuaiscea",
+  "hint": "Antrim"
+ },
+ "e000646e-3069-4a4f-96d4-e45d3fe27fd7": {
+  "name": "Ardmore GAA",
+  "lat": 51.95081,
+  "lon": -7.72551,
+  "hint": "Waterford",
+  "query": "Ardmore, County Waterford, Ireland",
+  "matched": "Ardmore, County Waterford, Munster, Éire / Ireland"
  },
  "595e1c18-f56d-4ab3-a75f-9b38db3e3d8b": {
-  "name": "Austin Stack Park",
+  "name": "Austin Stack Park, Tralee",
   "lat": 52.26998,
   "lon": -9.69346,
   "query": "Austin Stack Park, County Kerry, Ireland",
@@ -41,6 +99,22 @@
   "query": "Athletic Grounds, Armagh, UK",
   "matched": "Armagh GAA Athletic Grounds, Dalton Park, Armagh, Armagh City, Banbridge and Craigavon District Council, County Armagh, ",
   "hint": null
+ },
+ "71bc7343-65fe-4212-b523-96187d524a01": {
+  "name": "Ballinamere GAA Club",
+  "lat": 53.28813,
+  "lon": -7.56162,
+  "hint": "Offaly",
+  "query": "Ballinamere, County Offaly, Ireland",
+  "matched": "Ballinamere, Silverbrook ED, The Municipal District of Tullamore, County Offaly, Leinster, Éire / Ireland"
+ },
+ "02fc8984-df04-46b1-b917-da4a5c8b7ae9": {
+  "name": "Ballinascreen GAC",
+  "lat": 54.79358,
+  "lon": -6.7842,
+  "query": "Draperstown, County Londonderry, UK",
+  "matched": "Draperstown, Mid-Ulster District Council, County Londonderry, Northern Ireland / Tuaisceart Éireann, BT45 7AL, United Ki",
+  "hint": "Derry"
  },
  "9fc0ac60-5c9c-42a0-83ea-8f7f785e725c": {
   "name": "Ballinlough GAA Club",
@@ -65,7 +139,32 @@
   "lon": -8.2661,
   "query": "Ballyforan, County Roscommon, Ireland",
   "matched": "Ballyforan, Taghboy ED, Athlone Municipal District, County Roscommon, Connacht, Éire / Ireland",
-  "hint": "Roscommon"
+  "hint": "Roscommon",
+  "same": "bc7ae1a5-654b-40f5-95fd-539f17bdad24"
+ },
+ "3c9be64f-3733-4743-918b-1640a5f3195f": {
+  "name": "Ballyheigue",
+  "lat": 52.38929,
+  "lon": -9.83524,
+  "query": "Ballyheigue, County Kerry, Ireland",
+  "matched": "Ballyheigue, County Kerry, Munster, Éire / Ireland",
+  "hint": "Kerry"
+ },
+ "a9346201-3042-42f2-a779-47b90a384a4f": {
+  "name": "Ballymachugh GAA pitch, A82 Y942",
+  "lat": 53.83395,
+  "lon": -7.35501,
+  "query": "Ballymachugh GAA pitch, County Cavan, Ireland",
+  "matched": "Ballymachugh GAA training pitch running track, Mullaghboy Road, Ballyheelan, Ballymachugh ED, Ballyjamesduff Municipal D",
+  "hint": "Cavan"
+ },
+ "f1295c8e-bbf4-47dd-8bde-d1c04705f0c0": {
+  "name": "Ballymore Eustace GAA, W91WN82",
+  "lat": 53.13024,
+  "lon": -6.58704,
+  "query": "Ballymore Eustace GAA, County Kildare, Ireland",
+  "matched": "Ballymore Eustace GAA, L2025, Ballymore Eustace ED, The Municipal District of Naas, County Kildare, Leinster, Éire / Ire",
+  "hint": "Kildare"
  },
  "c907d019-f989-4232-8dc4-5828bbf2a0ab": {
   "name": "Ballyshannon",
@@ -100,8 +199,16 @@
   "matched": "Borrisokane GAA, Main Street, Borrisokane, The Municipal District of Nenagh, County Tipperary, Munster, Éire / Ireland",
   "hint": null
  },
+ "5fd37d07-c45c-4add-b852-6294c2f495e8": {
+  "name": "Bray Emmets GAA Club",
+  "lat": 53.20638,
+  "lon": -6.12868,
+  "query": "Emmets GAA Club, County Wicklow, Ireland",
+  "matched": "Bray Emmets GAA Club, Old Connaught View, Fassaroe Estate, Rathmichael (Bray) ED, Брей, County Wicklow, Leinster, Éire /",
+  "hint": "Wicklow"
+ },
  "54b4be41-4c0c-405c-8033-ebe68bbcff34": {
-  "name": "Brewster Park",
+  "name": "Brewster Park, Enniskillen",
   "lat": 54.35103,
   "lon": -7.63491,
   "query": "Brewster Park, County Fermanagh, Ireland",
@@ -116,6 +223,30 @@
   "matched": "Brewster Park, Factory Road, Kilmacormick, Enniskillen, Fermanagh and Omagh District, Northern Ireland / Tuaisceart Éire",
   "hint": "Fermanagh",
   "same": "54b4be41-4c0c-405c-8033-ebe68bbcff34"
+ },
+ "6c21b74a-f745-4cbf-ac1c-924cc4bfa5b1": {
+  "name": "Bunclody",
+  "lat": 52.65511,
+  "lon": -6.65205,
+  "query": "Bunclody, County Wexford, Ireland",
+  "matched": "Bunclody, County Wexford, Leinster, Éire / Ireland",
+  "hint": "Wexford"
+ },
+ "030250ae-1bfb-4054-8e0f-79c79635abb0": {
+  "name": "Callanbridge Playing Fields",
+  "lat": 54.44067,
+  "lon": -6.40817,
+  "query": "Playing Fields, County Armagh, Ireland",
+  "matched": "Kernan Playing Fields, Drumagoon, Craigavon, Armagh City, Banbridge and Craigavon District Council, County Armagh, North",
+  "hint": "Armagh"
+ },
+ "3bfee38b-2669-481a-9c11-e63dfc847500": {
+  "name": "Cappamore GAA",
+  "lat": 52.62176,
+  "lon": -8.33866,
+  "query": "Cappamore GAA, County Limerick, Ireland",
+  "matched": "Cappamore GAA, L5024, Doon West, The Municipal District of Cappamore — Kilmallock, County Limerick, Munster, Éire / Irel",
+  "hint": "Limerick"
  },
  "6c6b943a-a494-4fb8-93d6-2819ac9828ff": {
   "name": "Cappoquin Logistics Fraher Field",
@@ -134,6 +265,46 @@
   "hint": "Waterford",
   "same": "6c6b943a-a494-4fb8-93d6-2819ac9828ff"
  },
+ "841c6779-9fa1-40f3-9e36-e70102ede5b7": {
+  "name": "Carlow GAA, Centre of Excellence, Fenagh",
+  "lat": 52.72651,
+  "lon": -6.80395,
+  "query": "Fenagh, County Carlow, Ireland",
+  "matched": "Fenagh Parish, County Carlow, Leinster, R93 E129, Éire / Ireland",
+  "hint": "Carlow"
+ },
+ "1a39cdba-26ff-4bca-9af2-6a461b3275b9": {
+  "name": "Carndonagh",
+  "lat": 55.25131,
+  "lon": -7.26115,
+  "query": "Carndonagh, County Donegal, Ireland",
+  "matched": "Carndonagh, Inishowen Municipal District, County Donegal, Ulster, Éire / Ireland",
+  "hint": "Donegal"
+ },
+ "8c472d5c-fb9f-4374-87ce-ec9737b47841": {
+  "name": "Carnmore GAA Club",
+  "lat": 53.30782,
+  "lon": -8.86875,
+  "query": "Carnmore, County Galway, Ireland",
+  "matched": "Carnmore, Aughrim ED, Athenry-Oranmore Municipal District, County Galway, Connacht, Éire / Ireland",
+  "hint": "Galway"
+ },
+ "2ec2ed72-4c5f-4351-a38f-ac954f15e4e6": {
+  "name": "Castlebar Mitchels GAA, F23 X651",
+  "lat": 53.853,
+  "lon": -9.28385,
+  "query": "Castlebar Mitchels GAA, County Mayo, Ireland",
+  "matched": "Castlebar Mitchels GAA, Lawn Road, Gorteendrunagh, Castlebar, Castlebar Municipal District, County Mayo, Connacht, Éire ",
+  "hint": "Mayo"
+ },
+ "d11016b1-f4f4-48b2-8e8e-f4d2cccc42e8": {
+  "name": "Castletown Geoghan",
+  "lat": 53.44472,
+  "lon": -7.48576,
+  "query": "Castletown Geoghegan, County Westmeath, Ireland",
+  "matched": "Castletown Geoghegan, Castletown ED, The Municipal District of Athlone — Moate, County Westmeath, Leinster, Éire / Irela",
+  "hint": "Galway"
+ },
  "7e4832c4-104a-42f3-82c3-731822a64745": {
   "name": "Cedral St Conleth's Newbridge",
   "lat": 53.17986,
@@ -142,8 +313,17 @@
   "matched": "St. Conleth's Park, Saint Bridget's Terrace, Newbridge, The Municipal District of Kildare — Newbridge, County Kildare, L",
   "hint": null
  },
- "c797b913-8551-4a6f-9e31-678e02755b5f": {
+ "ef084f7f-844d-4771-a6ad-a3e56eb89ed2": {
   "name": "Cedral St Conleth's Park",
+  "lat": 53.17986,
+  "lon": -6.79518,
+  "query": "St Conleth's Park, Newbridge, Ireland",
+  "matched": "St. Conleth's Park, Saint Bridget's Terrace, Newbridge, The Municipal District of Kildare — Newbridge, County Kildare, L",
+  "hint": "Kildare",
+  "same": "7e4832c4-104a-42f3-82c3-731822a64745"
+ },
+ "c797b913-8551-4a6f-9e31-678e02755b5f": {
+  "name": "Cedral St Conleth's Park, Newbridge",
   "lat": 53.17986,
   "lon": -6.79518,
   "query": "St Conleth's Park, Newbridge, Ireland",
@@ -182,7 +362,32 @@
   "lon": -8.97222,
   "query": "Clarecastle GAA GAA, Ireland",
   "matched": "Clarecastle GAA, Meadow View, Ennis, Ennis Municipal District, County Clare, Munster, Éire / Ireland",
-  "hint": null
+  "hint": null,
+  "same": "278eea82-201f-4ff6-8765-96b61a9581c9"
+ },
+ "278eea82-201f-4ff6-8765-96b61a9581c9": {
+  "name": "Clarecastle GAA, V95 T275",
+  "lat": 52.8169,
+  "lon": -8.97222,
+  "query": "Clarecastle GAA, County Clare, Ireland",
+  "matched": "Clarecastle GAA, Meadow View, Ennis, Ennis Municipal District, County Clare, Munster, Éire / Ireland",
+  "hint": "Clare"
+ },
+ "2617463e-5876-4972-b394-8747e26534f8": {
+  "name": "Cliftonville Playing Fields",
+  "lat": 54.57518,
+  "lon": -5.96967,
+  "query": "Playing Fields, County Antrim, Ireland",
+  "matched": "Boucher Playing Fields, Upper Falls, Ballymurphy, Belfast City District, County Antrim, Northern Ireland / Tuaisceart Éi",
+  "hint": "Antrim"
+ },
+ "3787a02c-82ac-4131-8047-573290a9f366": {
+  "name": "Clonduff",
+  "lat": 54.19658,
+  "lon": -6.12416,
+  "query": "Clonduff, County Down, Ireland",
+  "matched": "Clonduff, Hilltown, Armagh City, Banbridge and Craigavon District Council, Newry, Mourne and Down District Council, Nort",
+  "hint": "Down"
  },
  "c291a913-b41d-4dcb-830e-13c5369d4c63": {
   "name": "Clonmel",
@@ -191,6 +396,22 @@
   "query": "Clonmel, County Tipperary, Ireland",
   "matched": "Clonmel, Thomas Street, Clonmel East Urban, Clonmel, County Tipperary, Munster, Éire / Ireland",
   "hint": "Tipperary"
+ },
+ "4987b888-446f-418c-ab2c-07e3a52b2755": {
+  "name": "Clontibret O'Neills GAA",
+  "lat": 54.21834,
+  "lon": -6.84406,
+  "query": "Clontibret O'Neills GAA, County Monaghan, Ireland",
+  "matched": "Clontibret O'Neills GAA, L54512, Castleshane ED, Monaghan Municipal District, County Monaghan, Ulster, Éire / Ireland",
+  "hint": "Monaghan"
+ },
+ "e9a74294-f646-41f1-960e-3badece2437b": {
+  "name": "Clough Ballacolla GAA, R32 R8HN",
+  "lat": 52.88766,
+  "lon": -7.51123,
+  "query": "Clough Ballacolla GAA, County Laois, Ireland",
+  "matched": "Clough Ballacolla GAA, L1633, Clogh, Grantstown ED, The Municipal District of Borris-in-Ossory — Mountmellick, County La",
+  "hint": "Laois"
  },
  "9c7f7b7c-d4dc-4419-bf26-127c2dd5c42f": {
   "name": "Connacht Centre of Excellence",
@@ -218,6 +439,31 @@
   "hint": "Leitrim",
   "same": "e9b84b10-bb2b-48bf-a2d3-d1de2941eb13"
  },
+ "7c43708b-79ca-4930-acfc-958ae39575ab": {
+  "name": "Connacht GAA Centre of Excellence, Bekan",
+  "lat": 53.77349,
+  "lon": -8.85286,
+  "query": "Connacht GAA Centre of Excellence, Bekan, County Mayo, Ireland",
+  "matched": "Connacht GAA Centre Of Excellence, R323, Bekan ED, Claremorris-Swinford Municipal District, County Mayo, Connacht, Éire ",
+  "hint": "Mayo",
+  "same": "e9b84b10-bb2b-48bf-a2d3-d1de2941eb13"
+ },
+ "3c8981ab-4cce-4b9f-8991-82ba78c406d2": {
+  "name": "Convoy",
+  "lat": 54.86026,
+  "lon": -7.66413,
+  "query": "Convoy, County Donegal, Ireland",
+  "matched": "Convoy, Lifford-Stranorlar Municipal District, County Donegal, Ulster, Éire / Ireland",
+  "hint": "Donegal"
+ },
+ "1a4d2469-a526-4602-aaf4-53b97137a133": {
+  "name": "Coralstown/Kinnegad",
+  "lat": 53.46143,
+  "lon": -7.10446,
+  "query": "Coralstown/Kinnegad GAA, County Westmeath, Ireland",
+  "matched": "Coralstown / Kinnegad GAA Club, The Hawthorns, Kinnegad, Kinnegad ED, The Municipal District of Mullingar — Kinnegad, Co",
+  "hint": "Westmeath"
+ },
  "c2eff5f4-68cd-4422-a554-58829ed4c8e5": {
   "name": "Corduff",
   "lat": 54.14082,
@@ -226,6 +472,22 @@
   "matched": "Corduff, Aghabog ED, Ballybay-Clones Municipal District, County Monaghan, Ulster, Éire / Ireland",
   "hint": "Monaghan"
  },
+ "8d2e34a8-2e30-4df9-b077-0a909634a69e": {
+  "name": "Cork Camogie Grounds",
+  "lat": 51.89851,
+  "lon": -8.47264,
+  "hint": "Cork",
+  "query": "Cork, County Cork, Ireland",
+  "matched": "Cork, County Cork, Munster, Éire / Ireland"
+ },
+ "1e2b2da4-5c0d-4e36-aa3c-389182ad43d3": {
+  "name": "Cork Camogie Grounds, Castle Road",
+  "lat": 51.89702,
+  "lon": -8.39676,
+  "query": "Castle Road, County Cork, Ireland",
+  "matched": "Castle Road, Blackrock, Mahon A, Cork, County Cork, Munster, Éire / Ireland",
+  "hint": "Cork"
+ },
  "c2aca5c9-6780-43b2-bdcd-2a20dea70f2e": {
   "name": "Corrigan Park",
   "lat": 54.59216,
@@ -233,6 +495,14 @@
   "query": "Corrigan Park, County Antrim, Ireland",
   "matched": "Corrigan Park, Naomh Eoin CLG, Whiterock, Ballymurphy, Belfast City District, County Antrim, Northern Ireland / Tuaiscea",
   "hint": "Antrim"
+ },
+ "f8d1fb3e-efb0-44b1-9236-2a8abe8002fe": {
+  "name": "Crinkill GAA, R42 N124",
+  "lat": 53.07788,
+  "lon": -7.89874,
+  "query": "Crinkill, Birr, County Offaly, Ireland",
+  "matched": "Crinkill, Birr, County Offaly, Leinster, Éire / Ireland",
+  "hint": "Galway"
  },
  "5c72d530-e7a7-4106-a9bf-64c67109a0ad": {
   "name": "Croke Park",
@@ -266,13 +536,55 @@
   "matched": "Ardee, The Municipal District of Ardee, County Louth, Leinster, Éire / Ireland",
   "hint": "Louth"
  },
+ "89e62a20-b48e-4e8d-ac17-5cde7c1d8362": {
+  "name": "Darver Pitch 1",
+  "lat": 53.92705,
+  "lon": -6.45865,
+  "query": "Darver, County Louth, Ireland",
+  "matched": "Darver, The Municipal District of Ardee, County Louth, Leinster, Éire / Ireland",
+  "hint": "Louth"
+ },
+ "c9f19dcf-c0b8-45d0-b3ae-e504b987d544": {
+  "name": "De La Salle Gracedieu",
+  "lat": 52.26578,
+  "lon": -7.14939,
+  "query": "De La Salle Gracedieu, County Waterford, Ireland",
+  "matched": "De La Salle GAA Club - Gracedieu Grounds, Knockhouse Road, Gracedieu, Waterford, County Waterford, Munster, Éire / Irela",
+  "hint": "Waterford"
+ },
+ "312fed11-e7e6-4851-9668-d29bebeaf84d": {
+  "name": "Doire Trasna",
+  "lat": 54.98323,
+  "lon": -7.31125,
+  "query": "Doire Trasna, County Derry, Ireland",
+  "matched": "Doire Trasna CLG, Corrody Road, Gobnascale, Derry/Londonderry, Derry and Strabane District, County Londonderry, Northern",
+  "hint": "Derry"
+ },
  "e4fb9164-da71-4adc-b9e4-7a4da24bec9f": {
   "name": "Donaghmore Ashbourne GAA",
   "lat": 53.50944,
   "lon": -6.41192,
   "query": "Donaghmore Ashbourne GAA, Ireland",
   "matched": "Donaghmore-Ashbourne GAA, Churchfield Way, Churchfields, Donaghmore ED, The Municipal District of Ashbourne, County Meat",
-  "hint": "Tyrone"
+  "hint": "Tyrone",
+  "same": "acc06fbc-c693-445b-8fbf-727cbb1fe3d5"
+ },
+ "acc06fbc-c693-445b-8fbf-727cbb1fe3d5": {
+  "name": "Donaghmore Ashbourne GAA",
+  "lat": 53.50944,
+  "lon": -6.41192,
+  "query": "Donaghmore Ashbourne GAA, County Meath, Ireland",
+  "matched": "Donaghmore-Ashbourne GAA, Churchfield Way, Churchfields, Donaghmore ED, The Municipal District of Ashbourne, County Meat",
+  "hint": "Meath"
+ },
+ "377abfa1-0762-4d00-8320-7e4cc94c7eb7": {
+  "name": "Dowdallshill, A91 PNY5",
+  "lat": 54.02626,
+  "lon": -6.38849,
+  "query": "Dowdallshill, County Louth, Ireland",
+  "matched": "Dowdallshill, Dundalk Rural ED, The Municipal District of Dundalk, County Louth, Leinster, A91 FFP3, Éire / Ireland",
+  "hint": "Louth",
+  "same": "10443d9c-af84-4bce-ba69-73c29985ef8b"
  },
  "10443d9c-af84-4bce-ba69-73c29985ef8b": {
   "name": "Dowdallshill, Dundalk",
@@ -281,6 +593,30 @@
   "query": "Dowdallshill, Dundalk, County Louth, Ireland",
   "matched": "Dowdallshill, Dundalk Rural ED, The Municipal District of Dundalk, County Louth, Leinster, A91 FFP3, Éire / Ireland",
   "hint": "Louth"
+ },
+ "15dfbe53-4886-4c4c-b211-9dbbf518289a": {
+  "name": "Drumgoon GAA, H16 RX81",
+  "lat": 54.03827,
+  "lon": -7.04952,
+  "hint": "Cavan",
+  "query": "Drumgoon, County Cavan, Ireland",
+  "matched": "Drumgoon, Corraneary ED, Bailieborough-Cootehill Municipal District, County Cavan, Ulster, Éire / Ireland"
+ },
+ "ee37d5ac-6c4c-4067-92dd-17dc3a1cbb7e": {
+  "name": "Duggan Park",
+  "lat": 53.33092,
+  "lon": -8.22923,
+  "query": "Duggan Park, County Galway, Ireland",
+  "matched": "Duggan Park, R348, Ballinasloe Urban ED, Ballinasloe Municipal District, County Galway, Connacht, Éire / Ireland",
+  "hint": "Galway"
+ },
+ "9c5094fb-b6da-4611-8d1e-a9f6692cae82": {
+  "name": "Dunganny",
+  "lat": 53.57846,
+  "lon": -6.73523,
+  "query": "Dunganny, County Meath, Ireland",
+  "matched": "Dunganny, Kilcooly ED, The Municipal District of Trim, County Meath, Leinster, Éire / Ireland",
+  "hint": "Meath"
  },
  "5c0e2578-9ff5-4d76-8be0-32c6612f9933": {
   "name": "Dunloy",
@@ -307,6 +643,14 @@
   "hint": "Wicklow",
   "same": "fa801c2c-f75c-4ba0-b8e7-f0dbd257f109"
  },
+ "bd0470ba-24a3-4987-8573-3a8e3b6778c3": {
+  "name": "Edendork St. Malachy's GAC",
+  "lat": 54.52414,
+  "lon": -6.73912,
+  "query": "Edendork, County Tyrone, UK",
+  "matched": "Edendork Road, Dungannon, Mid-Ulster District Council, County Tyrone, Northern Ireland / Tuaisceart Éireann, BT71 4DP, U",
+  "hint": "Tyrone"
+ },
  "35d5c1fa-05cb-4376-af26-1e241e557668": {
   "name": "Enniscrone",
   "lat": 54.21322,
@@ -314,6 +658,14 @@
   "query": "Enniscrone, County Sligo, Ireland",
   "matched": "Inishcrone, County Sligo, Connacht, Éire / Ireland",
   "hint": "Sligo"
+ },
+ "8858ab4e-e820-48d8-bdf7-b21bb3a93a33": {
+  "name": "Eoghan Ruadh Hurling Club, Dungannon",
+  "lat": 54.50862,
+  "lon": -6.77701,
+  "query": "Eoghan Ruadh Hurling Club, Dungannon, County Tyrone, Ireland",
+  "matched": "Eoghan Ruadh Hurling Club, Donaghmore Road, Dungannon, Mid-Ulster District Council, County Tyrone, Northern Ireland / Tu",
+  "hint": "Tyrone"
  },
  "82261ec7-26c6-41ee-b4c8-d740e978b6f7": {
   "name": "Erins Own, Cargin (Toomebridge)",
@@ -348,13 +700,31 @@
   "matched": "Ballyshannon, County Donegal, Ulster, Éire / Ireland",
   "hint": null
  },
+ "14e621bb-f607-43ec-9c4e-67237f95af25": {
+  "name": "Fethard Town Park (Grass Pitch)",
+  "lat": 52.46722,
+  "lon": -7.69111,
+  "query": "Fethard, County Tipperary, Ireland",
+  "matched": "Fethard, The Municipal District of Carrick-on-Suir, County Tipperary, Munster, Éire / Ireland",
+  "hint": "Waterford"
+ },
+ "9b9e3a1e-0a56-479e-bbbf-8e663c884d6d": {
+  "name": "Find Insurance Celtic Park",
+  "lat": 54.99322,
+  "lon": -7.33337,
+  "query": "Celtic Park, County Derry, Ireland",
+  "matched": "Celtic Park, Lone Moor Road, Waterside, Brandywell, Derry/Londonderry, Derry and Strabane District, County Londonderry, ",
+  "hint": "Derry",
+  "same": "1d1e7f46-7380-4641-928b-846be9c18e49"
+ },
  "dafc6d23-29ca-4e4b-abb1-422faa9c3bf9": {
   "name": "Find Insurance Owenbeg",
   "lat": 54.90622,
   "lon": -6.97547,
   "query": "Owenbeg, Dungiven, UK",
   "matched": "Owenbeg River, Dungiven, Causeway Coast and Glens District, County Londonderry, Northern Ireland / Tuaisceart Éireann, U",
-  "hint": "Derry"
+  "hint": "Derry",
+  "same": "b3de0da5-2624-499e-af81-86472cf37445"
  },
  "3eda4e6f-5c16-4271-bf8a-555243ffbfb3": {
   "name": "Fitzgerald Stadium, Killarney",
@@ -364,6 +734,15 @@
   "matched": "Fitzgerald Stadium, Lime Grove, Oakwood Retirement Village, Killarney, Killarney Municipal District, County Kerry, Munst",
   "hint": "Kerry"
  },
+ "4c51a21a-d0c0-45f7-918b-cf1e4255c53c": {
+  "name": "Fitzgerald Stadium, V93P892",
+  "lat": 52.06575,
+  "lon": -9.50875,
+  "query": "Fitzgerald Stadium, County Kerry, Ireland",
+  "matched": "Fitzgerald Stadium, Lime Grove, Oakwood Retirement Village, Killarney, Killarney Municipal District, County Kerry, Munst",
+  "hint": "Kerry",
+  "same": "3eda4e6f-5c16-4271-bf8a-555243ffbfb3"
+ },
  "9c0a1740-2cf1-4faf-832a-5cbc1d8e36c4": {
   "name": "Fontenoy Park, Liatroim Co. Down",
   "lat": 54.28534,
@@ -371,6 +750,22 @@
   "query": "Fontenoy Park, Liatroim Co. Down, County Down, Ireland",
   "matched": "Fontenoy Park GAC, Backaderry Road, Leitrim, Newry, Mourne and Down District Council, Northern Ireland / Tuaisceart Éire",
   "hint": "Down"
+ },
+ "6b0a3813-5003-46e0-b479-a66a988d22a3": {
+  "name": "Fr Breen Park",
+  "lat": 52.91281,
+  "lon": -7.35323,
+  "query": "Breen Park, County Laois, Ireland",
+  "matched": "Dr. Breen Park, Abbeyleix, Abbeyleix ED, The Municipal District of Portlaoise, County Laois, Leinster, Éire / Ireland",
+  "hint": "Laois"
+ },
+ "11826883-748f-40b9-b154-6a63f236c751": {
+  "name": "GAA Faithful Fields Offaly CoE",
+  "lat": 53.17591,
+  "lon": -7.72733,
+  "query": "Kilcormac, County Offaly, Ireland",
+  "matched": "Kilcormac, Kilcormac ED, Birr, County Offaly, Leinster, R42 RC92, Éire / Ireland",
+  "hint": "Offaly"
  },
  "a0297ff6-4d24-4905-b713-5f9e7295b6f1": {
   "name": "Gaeil Colmcille GFC (Grangegodden)",
@@ -430,6 +825,22 @@
   "matched": "Pearse Park, N4 Retail and Business Park, N4 Axis Centre, Aghadegnan, Longford Rural ED, Longford, County Longford, Lein",
   "hint": null
  },
+ "28cfa97b-e75c-486e-93d8-f3bb59878660": {
+  "name": "Glenroe GAA Club, V35XH90",
+  "lat": 52.32359,
+  "lon": -8.41341,
+  "query": "Glenroe GAA Club, County Limerick, Ireland",
+  "matched": "Glenroe GAA Club, R517, Darragh, The Municipal District of Cappamore — Kilmallock, County Limerick, Munster, Éire / Irel",
+  "hint": "Limerick"
+ },
+ "f9f4c8c3-3ad3-425c-9d89-6b51c2a70621": {
+  "name": "Granemore St Mary's",
+  "lat": 54.51164,
+  "lon": -6.57173,
+  "query": "St Mary's, County Armagh, Ireland",
+  "matched": "St MAry's, Maghery Road, Maghery, Armagh City, Banbridge and Craigavon District Council, County Armagh, Northern Ireland",
+  "hint": "Armagh"
+ },
  "1183653e-aa92-45bd-be92-b757b53cee80": {
   "name": "Grant Heating St Brendan's Park, Birr",
   "lat": 53.09146,
@@ -437,14 +848,6 @@
   "query": "St Brendan's Park, Birr, Ireland",
   "matched": "Saint Brendan's Park, Railway Road, Birr Urban ED, Birr, County Offaly, Leinster, Éire / Ireland",
   "hint": "Offaly"
- },
- "30740ae9-6270-4862-85de-89c50fe8aeb3": {
-  "name": "Grattan Park, Inniskeen",
-  "lat": 53.99238,
-  "lon": -6.60331,
-  "query": "Inniskeen Grattans GAA, County Monaghan, Ireland",
-  "matched": "Inniskeen Grattans GAA Club, Kednaminsha, Kiltybegs, Carrickmacross-Castleblayney Municipal District, County Monaghan, U",
-  "hint": null
  },
  "a5650f69-1117-4df1-a64f-5e649e392a46": {
   "name": "Hastings Insurance MacHale Park, Castlebar",
@@ -454,6 +857,15 @@
   "matched": "MacHale Park, McHale Road, Gorteendrunagh, Castlebar, Castlebar Municipal District, County Mayo, Connacht, Éire / Irelan",
   "hint": "Mayo"
  },
+ "ff562325-8c2b-49d3-bfe5-897a61948086": {
+  "name": "Hawkfield Kildare C of Excel",
+  "lat": 53.20485,
+  "lon": -6.82588,
+  "query": "Hawkfield, Newbridge, County Kildare, Ireland",
+  "matched": "Hawkfield, Morristownbiller ED, The Municipal District of Kildare — Newbridge, County Kildare, Leinster, Éire / Ireland",
+  "hint": "Kildare",
+  "same": "4fbf4de2-7c22-4c14-b82a-e03e03e0ba7d"
+ },
  "e8fe6c11-9763-4cab-a721-6eea7112549f": {
   "name": "Heartland Credit Union Páirc Seán MacDiarmada",
   "lat": 53.94816,
@@ -461,6 +873,22 @@
   "query": "Páirc Seán Mac Diarmada, Carrick-on-Shannon, Ireland",
   "matched": "Páirc Seán Mac Diarmada, Castlecara Road, Carrick on Shannon ED, Carrick-on-Shannon, County Leitrim, Connacht, Éire / Ir",
   "hint": "Leitrim"
+ },
+ "c5d997a4-8677-4885-bc79-23920a0744da": {
+  "name": "Hermitage Park, Lixnaw V92 FH70.",
+  "lat": 52.40402,
+  "lon": -9.61728,
+  "query": "Lixnaw, County Kerry, Ireland",
+  "matched": "Lixnaw, Lixnaw ED, Listowel Municipal District, County Kerry, Munster, Éire / Ireland",
+  "hint": "Kerry"
+ },
+ "00cc8ff5-470d-4e86-8819-a6370a67e579": {
+  "name": "Inagh GAA, V95P270",
+  "lat": 52.87782,
+  "lon": -9.18109,
+  "query": "Inagh GAA, County Clare, Ireland",
+  "matched": "Inagh-Kilnamona GAA Club, Callan View, Ballyea ED, West Clare Municipal District, County Clare, Munster, Éire / Ireland",
+  "hint": "Clare"
  },
  "ede7c410-0c0e-4f29-b62a-35464a77ccea": {
   "name": "Inniskeen",
@@ -479,6 +907,14 @@
   "matched": "Drogheda, County Louth, Leinster, Éire / Ireland",
   "hint": "Louth"
  },
+ "ff8d050b-36b5-45a9-a6ac-d8b1a665d389": {
+  "name": "Kenny Park, Athenry",
+  "lat": 53.29586,
+  "lon": -8.75023,
+  "query": "Kenny Park, Athenry, County Galway, Ireland",
+  "matched": "St Mary's Athenry - Kenny Park, Prospect, Athenry ED, Athenry-Oranmore Municipal District, County Galway, Connacht, Éire",
+  "hint": "Galway"
+ },
  "c446a1c9-8981-479d-8821-3687724be21c": {
   "name": "Kilbeacanty",
   "lat": 53.06508,
@@ -494,6 +930,30 @@
   "query": "Kilcoyne Park, Tubbercurry, County Sligo, Ireland",
   "matched": "Kilcoyne Memorial Park, Sligo Road, Tobercurry, Tobercurry ED, Ballymote-Tubbercurry Municipal District, County Sligo, C",
   "hint": "Sligo"
+ },
+ "72748512-d85a-4d39-a7d9-09dba1cad970": {
+  "name": "Kilmallock",
+  "lat": 52.40065,
+  "lon": -8.5712,
+  "query": "Kilmallock, County Limerick, Ireland",
+  "matched": "Kilmallock, The Municipal District of Cappamore — Kilmallock, County Limerick, Munster, Éire / Ireland",
+  "hint": "Limerick"
+ },
+ "ec0fa895-d504-42a9-b718-ac9870592d42": {
+  "name": "Kilmessan Hurling and Camogie club",
+  "lat": 53.56074,
+  "lon": -6.66204,
+  "hint": "Meath",
+  "query": "Kilmessan, County Meath, Ireland",
+  "matched": "Kilmessan, The Municipal District of Ratoath, County Meath, Leinster, Éire / Ireland"
+ },
+ "2b532c8f-0b32-4fcb-9c7d-040ca9055ceb": {
+  "name": "Kiltale",
+  "lat": 53.52861,
+  "lon": -6.65833,
+  "query": "Kiltale, County Meath, Ireland",
+  "matched": "Kiltale, Batterjohn, Kilmessan ED, The Municipal District of Ratoath, County Meath, Leinster, Éire / Ireland",
+  "hint": "Meath"
  },
  "f3b4ccda-1604-4b16-b8b0-8796246fad50": {
   "name": "King & Moffatt Dr. Hyde Park",
@@ -520,20 +980,28 @@
   "hint": "Down"
  },
  "8f8eb74b-df7e-438d-8c73-119ebde8b3c3": {
-  "name": "Laois Hire O'Moore Park",
+  "name": "Laois Hire O'Moore Park, Portlaoise",
   "lat": 53.02605,
   "lon": -7.30223,
   "query": "O'Moore Park, Portlaoise, Ireland",
   "matched": "O'Moore Park, Father Brown Avenue, Portlaoise, The Municipal District of Portlaoise, County Laois, Leinster, Éire / Irel",
-  "hint": null
+  "hint": "Laois"
  },
- "5aa37473-ff95-4421-83f5-407aaf243f58": {
-  "name": "Letterkenny",
-  "lat": 54.95179,
-  "lon": -7.73544,
-  "query": "Letterkenny, County Donegal, Ireland",
-  "matched": "Letterkenny Municipal District, County Donegal, Ulster, Éire / Ireland",
-  "hint": "Donegal"
+ "bda73984-389a-47f3-bd77-994a1a76c53c": {
+  "name": "Latton O'Rahillys, A75 NY32",
+  "lat": 54.07427,
+  "lon": -6.94839,
+  "query": "Latton GFC, Ireland",
+  "matched": "Latton O'Rahilly GFC, L3012, Cormeen ED, Ballybay-Clones Municipal District, County Monaghan, Ulster, Éire / Ireland",
+  "hint": "Derry"
+ },
+ "7705a781-b64d-4072-8807-f36afeadef66": {
+  "name": "Liatroim",
+  "lat": 54.28553,
+  "lon": -5.99821,
+  "query": "Liatroim, County Down, Ireland",
+  "matched": "Leitrim, Newry, Mourne and Down District Council, Northern Ireland / Tuaisceart Éireann, United Kingdom",
+  "hint": "Down"
  },
  "47df86e6-c148-4c7b-8aff-8fdbc3510508": {
   "name": "Louis Leonard Memorial Park, Donagh",
@@ -543,6 +1011,14 @@
   "matched": "Donagh, County Fermanagh, Northern Ireland / Tuaisceart Éireann, BT92 5BG, United Kingdom",
   "hint": null
  },
+ "552693d6-fbbf-4281-aa5d-abd90e5df51d": {
+  "name": "MW Hire Training Centre, Dunmore",
+  "lat": 52.69543,
+  "lon": -7.26396,
+  "query": "Centre, Dunmore, County Kilkenny, Ireland",
+  "matched": "Dunmore Recycling and Waste Disposal Centre, Dunmore, The Municipal District of Kilkenny City, County Kilkenny, Leinster",
+  "hint": "Kilkenny"
+ },
  "939e6835-5944-499b-8691-b3c4d8ee7b5e": {
   "name": "MacCumhaill Park, Ballybofey",
   "lat": 54.80125,
@@ -551,6 +1027,22 @@
   "matched": "MacCumhaill Park, Main Street, Ballybofey, Lifford-Stranorlar Municipal District, County Donegal, Ulster, Éire / Ireland",
   "hint": "Donegal"
  },
+ "52609bde-15f7-493c-92bf-24e602b27b51": {
+  "name": "Main Pitch",
+  "lat": 52.75281,
+  "lon": -8.49934,
+  "hint": "Clare",
+  "query": "Main, County Clare, Ireland",
+  "matched": "Main Street, O'Briensbridge ED, Killaloe Municipal District, County Clare, Munster, Éire / Ireland"
+ },
+ "4fbf4de2-7c22-4c14-b82a-e03e03e0ba7d": {
+  "name": "Manguard Plus Kildare GAA Centre of Excellence",
+  "lat": 53.20485,
+  "lon": -6.82588,
+  "query": "Hawkfield, Newbridge, County Kildare, Ireland",
+  "matched": "Hawkfield, Morristownbiller ED, The Municipal District of Kildare — Newbridge, County Kildare, Leinster, Éire / Ireland",
+  "hint": "Kildare"
+ },
  "3c397a67-9d3c-4e40-9420-d5258b32b555": {
   "name": "Markievicz Park, Sligo",
   "lat": 54.25711,
@@ -558,6 +1050,22 @@
   "query": "Markievicz Park, Sligo, County Sligo, Ireland",
   "matched": "Markievicz Park, Markievicz Road, Cranmore, Sligo, Sligo Municipal Borough District, County Sligo, Connacht, F91 WV44, É",
   "hint": "Sligo"
+ },
+ "8cde2ac5-395d-4ec7-ac6e-d3948ff15d0b": {
+  "name": "Mattock Rangers, A92 CR6C",
+  "lat": 53.77413,
+  "lon": -6.48067,
+  "query": "Mattock Rangers, County Louth, Ireland",
+  "matched": "Mattock Rangers Community Centre, School Lane, Collon ED, The Municipal District of Ardee, County Louth, Leinster, Éire ",
+  "hint": "Louth"
+ },
+ "10d02279-0ea2-4423-af1a-1eb4a62dd194": {
+  "name": "Maynooth",
+  "lat": 53.38302,
+  "lon": -6.59228,
+  "query": "Maynooth, County Kildare, Ireland",
+  "matched": "Maynooth, County Kildare, Leinster, Éire / Ireland",
+  "hint": "Kildare"
  },
  "b789ff69-8122-46b2-a3fd-497447b8f42d": {
   "name": "McGovern Park, Ruislip",
@@ -584,6 +1092,22 @@
   "matched": "St Joseph's Ballycran GAC, McKenna Road, Rubane, Ards and North Down District Council, County Down, Northern Ireland / T",
   "hint": "Down"
  },
+ "20f0e2d8-936b-4719-b7c8-b3a2595dba98": {
+  "name": "Meelick",
+  "lat": 52.69618,
+  "lon": -8.67376,
+  "query": "Meelick, County Clare, Ireland",
+  "matched": "Meelick, Shannon Municipal District, County Clare, Munster, Éire / Ireland",
+  "hint": "Clare"
+ },
+ "4f8ca19b-d722-401e-ae80-61c8bc9b817f": {
+  "name": "Melvin Sports Complex, BT82 9PP",
+  "lat": 54.8229,
+  "lon": -7.4639,
+  "query": "Melvin Sports Complex, BT82 9PP, County Tyrone, Ireland",
+  "matched": "Melvin Hall Sports Complex, Chestnut Park, Ballycolman, Strabane, Derry and Strabane District, County Tyrone, Northern I",
+  "hint": "Tyrone"
+ },
  "a3049914-3c94-41be-b099-418af83e405b": {
   "name": "Michael Fay Park, Longford Slashers",
   "lat": 53.71624,
@@ -600,6 +1124,22 @@
   "matched": "Mick Neville Park, L1203, Rathkeale, The Municipal District of Adare — Rathkeale, County Limerick, Munster, Éire / Irela",
   "hint": "Limerick"
  },
+ "dfcdf838-be8a-4ef1-a796-e9be08c172fc": {
+  "name": "Mid Ulster Sports Complex, Cookstown",
+  "lat": 54.63331,
+  "lon": -6.75168,
+  "query": "Complex, Cookstown, County Tyrone, Ireland",
+  "matched": "Glenavon House Hotel Health & Leisure Complex, Old Rectory Glen, Cookstown, Mid-Ulster District Council, County Tyrone, ",
+  "hint": "Tyrone"
+ },
+ "02062dba-8416-42a9-ac9b-7657198b1862": {
+  "name": "Middletown GAA, BT60 4JG",
+  "lat": 54.29664,
+  "lon": -6.84757,
+  "query": "Middletown GAA, BT60 4JG, County Armagh, Ireland",
+  "matched": "Middletown GAA, Tulybrick Lane, Middletown, Armagh City, Banbridge and Craigavon District Council, County Armagh, Northe",
+  "hint": "Armagh"
+ },
  "4943803e-56dc-4650-b685-fe51b737863d": {
   "name": "Ml. Fay Park",
   "lat": 53.71624,
@@ -609,6 +1149,14 @@
   "hint": null,
   "same": "a3049914-3c94-41be-b099-418af83e405b"
  },
+ "66815358-9e10-41e9-bbd1-4d6c0c9a4b13": {
+  "name": "Monaghan Centre of Excellence, A75 EH39",
+  "lat": 54.15698,
+  "lon": -6.80472,
+  "query": "Centre of Excellence, County Monaghan, Ireland",
+  "matched": "Monaghan GAA Centre of Excellence, Castleblayney to Clontibret Road, Cremartin ED, Ballybay-Clones Municipal District, C",
+  "hint": "Monaghan"
+ },
  "c52346ea-de1e-417f-9095-e7223049f913": {
   "name": "Moneygall",
   "lat": 52.88615,
@@ -617,13 +1165,61 @@
   "matched": "Moneygall, Castletown to Nenagh Motorway, Borrisnoe, The Municipal District of Thurles, County Tipperary, Munster, Éire ",
   "hint": "Tipperary"
  },
+ "48a3dd26-308f-4642-981b-5344303328e5": {
+  "name": "Mostrim GAA",
+  "lat": 53.68876,
+  "lon": -7.60311,
+  "query": "Edgeworthstown, County Longford, Ireland",
+  "matched": "Edgeworthstown, Station Road, Edgeworthstown, Edgeworthstown ED, Ballymahon Municipal District, County Longford, Leinste",
+  "hint": "Louth"
+ },
+ "47c0317b-bf61-40c9-909a-a5e3d6b5dbaa": {
+  "name": "Muff, F93Y306.",
+  "lat": 55.06747,
+  "lon": -7.26915,
+  "query": "Muff, County Donegal, Ireland",
+  "matched": "Muff, County Donegal, Ulster, Éire / Ireland",
+  "hint": "Donegal"
+ },
+ "31aab955-1a31-47b0-bd7d-7eb7067dfffa": {
+  "name": "Multyfarnham",
+  "lat": 53.63477,
+  "lon": -7.37049,
+  "query": "Multyfarnham, County Westmeath, Ireland",
+  "matched": "Multyfarnham, The Municipal District of Mullingar — Kinnegad, County Westmeath, Leinster, Éire / Ireland",
+  "hint": "Westmeath"
+ },
+ "75b44d70-3b6b-4505-a164-73cc6e56607c": {
+  "name": "Mungret St Pauls GAA",
+  "lat": 52.63388,
+  "lon": -8.68899,
+  "query": "Mungret St Pauls GAA, County Limerick, Ireland",
+  "matched": "Mungret St. Pauls G.A.A. Club, Mungret Road, Raheen, Ballycummin ED, Mungret, Limerick, County Limerick, Munster, Éire /",
+  "hint": "Limerick"
+ },
+ "ee3fcdb3-7292-4b30-81d5-6d9f89977c70": {
+  "name": "Munster Technological University Arena",
+  "lat": 51.87961,
+  "lon": -8.51666,
+  "query": "Bishopstown, Cork, Ireland",
+  "matched": "Bishopstown, Bishopstown ED E, Cork, County Cork, Munster, T12 P951, Éire / Ireland",
+  "hint": "Cork"
+ },
+ "5cd26c49-472a-475e-a339-bf10c74a7d3b": {
+  "name": "Nenagh",
+  "lat": 52.86194,
+  "lon": -8.19667,
+  "query": "Nenagh, County Tipperary, Ireland",
+  "matched": "Nenagh, The Municipal District of Nenagh, County Tipperary, Munster, Éire / Ireland",
+  "hint": "Carlow"
+ },
  "64f31b44-f357-4eb5-8ea7-3e2548876567": {
-  "name": "Netwatch Cullen Park",
+  "name": "Netwatch Cullen Park, Carlow",
   "lat": 52.8468,
   "lon": -6.91664,
-  "query": "Netwatch Cullen Park, Ireland",
+  "query": "Netwatch Cullen Park, County Carlow, Ireland",
   "matched": "Netwatch Cullen Park, Oak Park Road, Rathnapish, Carlow Rural ED, The Municipal District of Carlow, County Carlow, Leins",
-  "hint": null
+  "hint": "Carlow"
  },
  "60e3f5a6-6a12-4758-b7e6-6f677cd0cdfa": {
   "name": "Netwatch Cullen Park, Carlow",
@@ -650,6 +1246,14 @@
   "matched": "O'Neill Park, Lisnahull Park, Dungannon, Mid-Ulster District Council, County Tyrone, Northern Ireland / Tuaisceart Éirea",
   "hint": "Tyrone"
  },
+ "5aa37473-ff95-4421-83f5-407aaf243f58": {
+  "name": "O'Donnell Park, Letterkenny",
+  "lat": 54.95179,
+  "lon": -7.73544,
+  "query": "Letterkenny, County Donegal, Ireland",
+  "matched": "Letterkenny Municipal District, County Donegal, Ulster, Éire / Ireland",
+  "hint": "Donegal"
+ },
  "8ccafc9e-352f-4efc-8861-881246eadab9": {
   "name": "O'Neills Healy Park, Omagh",
   "lat": 54.61365,
@@ -658,13 +1262,45 @@
   "matched": "Healy Park, Gortin Road, Omagh, Fermanagh and Omagh District, Northern Ireland / Tuaisceart Éireann, BT79 7HX, United Ki",
   "hint": "Tyrone"
  },
+ "5b48faa0-0e07-48ce-89f2-5db77f3cc482": {
+  "name": "O'Raghallaigh's GAA",
+  "lat": 53.97759,
+  "lon": -7.35028,
+  "query": "O'Raghallaigh's, County Cavan, Ireland",
+  "matched": "O'Raghallaigh Park, Cavan Rural ED, Cavan, Cavan-Belturbet Municipal District, County Cavan, Ulster, Éire / Ireland",
+  "hint": "Cavan"
+ },
+ "9b5b0a3a-6203-4e0f-8b02-5e82befd975c": {
+  "name": "O'Toole Park",
+  "lat": 53.31463,
+  "lon": -6.30675,
+  "query": "O'Toole Park, County Dublin, Ireland",
+  "matched": "Páirc Lorcáin Uí Thuathail, Park Crescent, Crumlin, Kimmage E ED, Dublin, County Dublin, Leinster, Éire / Ireland",
+  "hint": "Dublin"
+ },
+ "cb20a064-b49f-4e50-a957-c94e4b00128d": {
+  "name": "Oran GAA Club, F42 CD50",
+  "lat": 53.67254,
+  "lon": -8.34706,
+  "query": "Oran, County Roscommon, Ireland",
+  "matched": "Oran, Cloonygormican ED, Roscommon Municipal District, County Roscommon, Connacht, Éire / Ireland",
+  "hint": "Roscommon"
+ },
+ "b3de0da5-2624-499e-af81-86472cf37445": {
+  "name": "Owenbeg Derry GAA Centre",
+  "lat": 54.90622,
+  "lon": -6.97547,
+  "query": "Owenbeg, Dungiven, County Londonderry, UK",
+  "matched": "Owenbeg River, Dungiven, Causeway Coast and Glens District, County Londonderry, Northern Ireland / Tuaisceart Éireann, U",
+  "hint": "Derry"
+ },
  "36e39056-a119-4f14-81ed-49bb9691b04c": {
-  "name": "Parnell Park",
+  "name": "Parnell Park, Dublin",
   "lat": 53.37312,
   "lon": -6.21641,
-  "query": "Parnell Park, Ireland",
-  "matched": "Parnell Park, Clancarthy Road, Clontarf West B Ward 1986, Dublin, County Dublin, Leinster, Éire / Ireland",
-  "hint": null
+  "query": "Parnell Park, County Dublin, Ireland",
+  "matched": "Parnell Park, Clancarthy Road, Clontarf West B ED, Dublin, County Dublin, Leinster, Éire / Ireland",
+  "hint": "Dublin"
  },
  "a203a5f0-c01c-45ef-887f-1151ea612374": {
   "name": "Patrick McManus Park, Kinawley",
@@ -688,7 +1324,8 @@
   "lon": -6.45865,
   "query": "Darver, County Louth, Ireland",
   "matched": "Darver, The Municipal District of Ardee, County Louth, Leinster, Éire / Ireland",
-  "hint": "Louth"
+  "hint": "Louth",
+  "same": "89e62a20-b48e-4e8d-ac17-5cde7c1d8362"
  },
  "c0b04cad-5890-43b4-869c-da8807e7ecc8": {
   "name": "Páirc Esler, Newry",
@@ -697,6 +1334,14 @@
   "query": "Páirc Esler, Newry, County Down, Ireland",
   "matched": "Páirc Esler (Down GAA & Newry Shamrocks GAC), Greenbank Trail, Ballybot, Newry, Newry, Mourne and Down District Council,",
   "hint": "Down"
+ },
+ "30740ae9-6270-4862-85de-89c50fe8aeb3": {
+  "name": "Páirc Grattan, Inniskeen",
+  "lat": 53.99238,
+  "lon": -6.60331,
+  "query": "Inniskeen Grattans GAA, County Monaghan, Ireland",
+  "matched": "Inniskeen Grattans GAA Club, Kednaminsha, Kiltybegs, Carrickmacross-Castleblayney Municipal District, County Monaghan, U",
+  "hint": "Monaghan"
  },
  "e40c7b32-ddbd-4d29-aab1-947e853a6a8b": {
   "name": "Páirc Sheáin Uí Eislin, Ballinamore",
@@ -740,6 +1385,14 @@
   "matched": "Páirc na hÉireann, Catherine-de-Barnes, Hampton in Arden, Bickenhill, Solihull, West Midlands, England, United Kingdom",
   "hint": "Lancashire, UK"
  },
+ "a2684e7a-0986-4b8b-b5a9-500ce4096c99": {
+  "name": "Ratharney",
+  "lat": 53.59804,
+  "lon": -7.65503,
+  "query": "Ratharney, Ireland",
+  "matched": "Ratharney, Agharra ED, Ballymahon Municipal District, County Longford, Leinster, Éire / Ireland",
+  "hint": "Westmeath"
+ },
  "6e2df97b-9e9e-4629-98ea-a92984a38f7d": {
   "name": "Rathdowney",
   "lat": 52.85339,
@@ -747,6 +1400,14 @@
   "query": "Rathdowney GAA, Ireland",
   "matched": "Rathdowney GAA, The Showgrounds, Rathdowney ED, The Municipal District of Borris-in-Ossory — Mountmellick, County Laois,",
   "hint": null
+ },
+ "20cb79c3-2b04-4e57-9465-26780e819e7f": {
+  "name": "Robert Emmets GAC",
+  "lat": 55.13075,
+  "lon": -6.04368,
+  "query": "Robert Emmets GAC, County Antrim, Ireland",
+  "matched": "Robert Emmets GAC, Bay Road, Cushendun, Causeway Coast and Glens District, County Antrim, Northern Ireland / Tuaisceart ",
+  "hint": "Antrim"
  },
  "9e2d0f1b-a8dc-444f-8b1c-e044057b6f30": {
   "name": "Roger Casements, Portglenone ",
@@ -756,6 +1417,22 @@
   "matched": "Portglenone, Mid and East Antrim District, County Antrim, Northern Ireland / Tuaisceart Éireann, BT44 8AD, United Kingdo",
   "hint": "Antrim"
  },
+ "52d8739a-e773-4d29-8b7b-ac3e20eb2658": {
+  "name": "Roseinalis Gaa",
+  "lat": 53.13583,
+  "lon": -7.40656,
+  "query": "Rosenallis, County Laois, Ireland",
+  "matched": "Rosenallis, The Municipal District of Borris-in-Ossory — Mountmellick, County Laois, Leinster, Éire / Ireland",
+  "hint": "Laois"
+ },
+ "fc192e9c-ff88-4eff-a646-7c742e452039": {
+  "name": "Rower-Inistioge GAA",
+  "lat": 52.48989,
+  "lon": -7.06305,
+  "query": "Rower-Inistioge GAA, County Kilkenny, Ireland",
+  "matched": "Rower Inistioge GAA Club, R700, Inistioge, The Municipal District of Callan — Thomastown, County Kilkenny, Leinster, Éir",
+  "hint": "Kilkenny"
+ },
  "29413cf0-7a37-4904-b159-8286e7bf6c4a": {
   "name": "Rurai Og Cushendall",
   "lat": 55.08082,
@@ -763,6 +1440,30 @@
   "query": "Cushendall, County Antrim, UK",
   "matched": "Cushendall, Causeway Coast and Glens District, County Antrim, Northern Ireland / Tuaisceart Éireann, BT44 0RR, United Ki",
   "hint": "Antrim"
+ },
+ "d440c515-723b-4848-a974-0a90a9b61e47": {
+  "name": "SETU Carlow GAA Stand Pitch (Main Campus Pitch)",
+  "lat": 52.81595,
+  "lon": -6.94455,
+  "query": "South East Technological University, Carlow, Ireland",
+  "matched": "South East Technological University - South Sports Campus, Kilkenny Road, Mortarstown Upper, Carlow Rural ED, The Munici",
+  "hint": "Wexford"
+ },
+ "2e0c7a64-6e3a-48d8-97e2-96fbccbbfe8a": {
+  "name": "SETU Waterford X91 XD96",
+  "lat": 52.2465,
+  "lon": -7.14238,
+  "query": "SETU Waterford, County Waterford, Ireland",
+  "matched": "SETU, Brown's Road, Larchville, Waterford, County Waterford, Munster, Éire / Ireland",
+  "hint": "Waterford"
+ },
+ "ac37fdb0-e265-42f5-ba8f-135790faab56": {
+  "name": "Sallins",
+  "lat": 53.24903,
+  "lon": -6.66569,
+  "query": "Sallins, County Kildare, Ireland",
+  "matched": "Sallins, The Municipal District of Naas, County Kildare, Leinster, Éire / Ireland",
+  "hint": "Wicklow"
  },
  "db38d68c-6364-46c1-b1cc-d61a9b091d1d": {
   "name": "Scotstown",
@@ -772,6 +1473,30 @@
   "matched": "Scotstown, Monaghan Municipal District, County Monaghan, Ulster, Éire / Ireland",
   "hint": "Down"
  },
+ "8b851479-8151-42bb-9294-2d1697a20df6": {
+  "name": "Scroggy Rd Playing Fields",
+  "lat": 54.98497,
+  "lon": -7.30143,
+  "query": "Playing Fields, County Derry, Ireland",
+  "matched": "Lisnagelvin Playing Fields, Altnagelvin, Derry/Londonderry, Derry and Strabane District, County Londonderry, Northern Ir",
+  "hint": "Derry"
+ },
+ "bc7ae1a5-654b-40f5-95fd-539f17bdad24": {
+  "name": "St Aidan's GAA, Ballyforan",
+  "lat": 53.47018,
+  "lon": -8.2661,
+  "query": "Ballyforan, County Roscommon, Ireland",
+  "matched": "Ballyforan, Taghboy ED, Athlone Municipal District, County Roscommon, Connacht, Éire / Ireland",
+  "hint": "Roscommon"
+ },
+ "07d0f0a9-cb4a-426c-a545-9f89ab3bfd0e": {
+  "name": "St Brides, A91 Y436",
+  "lat": 53.96611,
+  "lon": -6.47937,
+  "query": "St Brides, County Louth, Ireland",
+  "matched": "Saint Brides GFC, L3167, Castletown ED, The Municipal District of Dundalk, County Louth, Leinster, Éire / Ireland",
+  "hint": "Louth"
+ },
  "manual-st-brigids-ballinacree": {
   "name": "St Brigid's GAA, Ballinacree",
   "lat": 53.76688,
@@ -779,6 +1504,62 @@
   "query": "hand",
   "matched": "Ballinacree Community Centre, L6812, Oldcastle, County Meath (OSM); the pitch is beside it, approximate",
   "hint": "Meath"
+ },
+ "c1643a9b-11db-4724-8244-d558bfba4a9a": {
+  "name": "St Dominic's GAA Club",
+  "lat": 53.57557,
+  "lon": -8.09495,
+  "query": "Knockcroghery, County Roscommon, Ireland",
+  "matched": "Knockcroghery, County Roscommon, Connacht, F42 PY96, Éire / Ireland",
+  "hint": "Roscommon"
+ },
+ "aac48d2e-f7e1-42ff-abef-20fd5168ef40": {
+  "name": "St Lachtains, Freshford",
+  "lat": 52.72053,
+  "lon": -7.39997,
+  "query": "Freshford, County Kilkenny, Ireland",
+  "matched": "Freshford, The Municipal District of Castlecomer, County Kilkenny, Leinster, Éire / Ireland",
+  "hint": "Kilkenny"
+ },
+ "775b1d7d-b20f-4c9b-a0c0-48b89b6f95ba": {
+  "name": "St Malachy's HS Castlewellan, BY31 9AG",
+  "lat": 54.25791,
+  "lon": -5.94888,
+  "query": "St Malachy's HS Castlewellan, BY31 9AG, County Down, Ireland",
+  "matched": "Saint Malachy's High School, 3, Dublin Road, Burrenbridge, Castlewellan, Newry, Mourne and Down District Council, Northe",
+  "hint": "Down"
+ },
+ "066f7b61-c3eb-4546-a07d-7f63918c95ed": {
+  "name": "St Patrick's Park Enniscorthy",
+  "lat": 52.50074,
+  "lon": -6.5662,
+  "query": "Park Enniscorthy, County Wexford, Ireland",
+  "matched": "Bank of Ireland, Mill Park Road, Enniscorthy, The Municipal District of Enniscorthy, County Wexford, Leinster, Éire / Ir",
+  "hint": "Wexford"
+ },
+ "88f0029e-b7d7-40c8-9e5f-051e4481467e": {
+  "name": "St Patricks GAA, Wicklow Town",
+  "lat": 52.98024,
+  "lon": -6.04142,
+  "query": "Wicklow Town, County Wicklow, Ireland",
+  "matched": "Wicklow, County Wicklow, Leinster, Éire / Ireland",
+  "hint": "Wicklow"
+ },
+ "b7990a6c-18af-4906-a777-40a074f75db3": {
+  "name": "St Paul’s GAA",
+  "lat": 52.24996,
+  "lon": -7.13245,
+  "hint": "Waterford",
+  "query": "St Paul’s, County Waterford, Ireland",
+  "matched": "St. Paul's Football Club, Manor Saint John, Larchville, Waterford, County Waterford, Munster, Éire / Ireland"
+ },
+ "13fd6a9f-5bf7-40c9-8a03-3963dca52939": {
+  "name": "St Peregrine's",
+  "lat": 53.39753,
+  "lon": -6.40796,
+  "query": "Blakestown, Dublin, Ireland",
+  "matched": "Blakestown, Huntstown, Blanchardstown-Blakestown DED 1986, Mulhuddart, Fingal, County Dublin, Leinster, Éire / Ireland",
+  "hint": "Dublin"
  },
  "cb03b775-c687-476b-b255-b04cbd58267d": {
   "name": "St Peregrine's, Dublin",
@@ -788,6 +1569,14 @@
   "matched": "Saint Peregrine's GAA - Hartstown pitch, Woodvale Grove, Blanchardstown-Blakestown DED 1986, Mulhuddart, Fingal, County ",
   "hint": "Antrim"
  },
+ "2e24c80c-229e-4df0-a70f-a3e3dcdaf42c": {
+  "name": "St. Loman's GAA, Mullingar",
+  "lat": 53.5353,
+  "lon": -7.3158,
+  "query": "Loman's GAA, Mullingar, County Westmeath, Ireland",
+  "matched": "Saint Loman's GAA Club, Mullingar Rural ED, The Municipal District of Mullingar — Kinnegad, County Westmeath, Leinster, ",
+  "hint": "Westmeath"
+ },
  "a46a8058-4bd5-4b47-8560-447f23aa4abc": {
   "name": "St. Tiernach's Park, Clones",
   "lat": 54.18551,
@@ -795,6 +1584,14 @@
   "query": "St. Tiernach's Park, Clones, Ireland",
   "matched": "Saint Tiernach’s Park, Church Hill, Clones Urban ED, Ballybay-Clones Municipal District, County Monaghan, Ulster, Éire /",
   "hint": null
+ },
+ "b9af99c4-977a-4304-a4b2-12a335f5862b": {
+  "name": "Straffan GAA",
+  "lat": 53.31073,
+  "lon": -6.60612,
+  "query": "Straffan GAA, County Kildare, Ireland",
+  "matched": "Straffan GAA, Ardrass Road, Lodgepark, Straffan ED, The Municipal District of Clane — Maynooth, County Kildare, Leinster",
+  "hint": "Kildare"
  },
  "81d41026-8e61-4377-89ea-a31fd0c41383": {
   "name": "SuperValu Páirc Uí Chaoimh, Cork",
@@ -805,11 +1602,11 @@
   "hint": "Cork"
  },
  "93dcaa49-6b15-416e-9fbb-bb643a5ebd3a": {
-  "name": "TEG Cusack Park",
+  "name": "TEG Cusack Park, Westmeath",
   "lat": 53.52816,
   "lon": -7.33798,
   "query": "Cusack Park, Mullingar, Ireland",
-  "matched": "Cusack Park GAA Grounds, Friars Mill Road, Mullingar North Urban ED, The Municipal District of Mullingar — Kinnegad, Cou",
+  "matched": "Cusack Park GAA Grounds, Spout Well Lane, Mullingar North Urban ED, The Municipal District of Mullingar — Kinnegad, Coun",
   "hint": "Westmeath"
  },
  "aaafd3e2-bc96-412f-a9d9-00da90bf67e3": {
@@ -826,7 +1623,16 @@
   "lon": -8.64919,
   "hint": null,
   "query": "Moylish, Limerick, Ireland",
-  "matched": "Moylish, Ballynanty ED, The Metropolitan District of Limerick City, Limerick, County Limerick, Munster, V94 EC5T, Éire /"
+  "matched": "Moylish, Ballynanty ED, The Metropolitan District of Limerick City, Limerick, County Limerick, Munster, V94 EC5T, Éire /",
+  "same": "070ee075-080e-4955-8d28-20412145e7c8"
+ },
+ "43f6fb24-b4e2-4548-addf-81234fd6cc02": {
+  "name": "TUS Moylish,V94 EC5T",
+  "lat": 52.67397,
+  "lon": -8.64797,
+  "query": "TUS Moylish, County Limerick, Ireland",
+  "matched": "TUS Campus, Moylish Roundabout, Caherdavin, Coolraine, The Metropolitan District of Limerick City, Limerick, County Lime",
+  "hint": "Limerick"
  },
  "0ccc553a-e94d-4b35-90f2-dceb3be97152": {
   "name": "Technological University Dublin Blanchardstown Campus",
@@ -836,12 +1642,28 @@
   "matched": "TU Dublin Blanchardstown, Blanchardstown Road North, Blanchardstown-Mulhuddart DED 1986, Blanchardstown, Fingal, County ",
   "hint": "Antrim"
  },
+ "070ee075-080e-4955-8d28-20412145e7c8": {
+  "name": "Technological University of Shannon, Moylish campus",
+  "lat": 52.67717,
+  "lon": -8.64919,
+  "query": "Moylish, Limerick, Ireland",
+  "matched": "Moylish, Ballynanty ED, The Metropolitan District of Limerick City, Limerick, County Limerick, Munster, V94 EC5T, Éire /",
+  "hint": "Limerick"
+ },
  "3ad85ff0-cc41-4633-aae6-3fd708e6d0a8": {
   "name": "Templemore",
   "lat": 52.79472,
   "lon": -7.83389,
   "query": "Templemore, County Tipperary, Ireland",
   "matched": "Templemore, The Municipal District of Thurles, County Tipperary, Munster, Éire / Ireland",
+  "hint": "Tipperary"
+ },
+ "9de8c42d-88c8-4da3-ad46-7e4d99743b55": {
+  "name": "The Ragg",
+  "lat": 52.71659,
+  "lon": -7.91163,
+  "query": "The Ragg, County Tipperary, Ireland",
+  "matched": "Revel at The Ragg, L4132, Inch, The Municipal District of Thurles, County Tipperary, Munster, Éire / Ireland",
   "hint": "Tipperary"
  },
  "9c63976d-c6d6-437e-9a61-6039c558e83e": {
@@ -868,12 +1690,28 @@
   "matched": "Tooreen, Claremorris-Swinford Municipal District, County Mayo, Connacht, Éire / Ireland",
   "hint": "Mayo"
  },
+ "0c121608-cbbe-46db-a67f-ac81ba70c75f": {
+  "name": "Tramore GAA",
+  "lat": 52.16926,
+  "lon": -7.14074,
+  "query": "Tramore GAA, County Waterford, Ireland",
+  "matched": "Tramore GAA, Beach Park, Tramore, County Waterford, Munster, Éire / Ireland",
+  "hint": "Waterford"
+ },
  "ddd55e5f-e7d1-4e2a-9374-7d980a98479b": {
   "name": "Trim",
   "lat": 53.55429,
   "lon": -6.78978,
   "query": "Trim, County Meath, Ireland",
   "matched": "Trim Castle Keep, Castle Street, Trim Urban ED, The Municipal District of Trim, County Meath, Leinster, C15 HN90, Éire /",
+  "hint": "Meath"
+ },
+ "2d180035-403c-4229-a52f-ed4d30f34c11": {
+  "name": "Trim GAA Club",
+  "lat": 53.55329,
+  "lon": -6.80292,
+  "query": "Trim GAA Club, County Meath, Ireland",
+  "matched": "Trim GAA Club, Newhaggard Road, Trim, The Municipal District of Trim, County Meath, Leinster, Éire / Ireland",
   "hint": "Meath"
  },
  "166d0711-7ffc-4bc1-9bec-7a1d56f85b71": {
@@ -892,6 +1730,22 @@
   "query": "Tulla, Ireland",
   "matched": "Tulla, Killaloe Municipal District, County Clare, Munster, Éire / Ireland",
   "hint": null
+ },
+ "a93ed4fa-5c56-4a23-93fb-008befcfd1cc": {
+  "name": "Tullogher Rosbercon GAA",
+  "lat": 52.41443,
+  "lon": -7.01953,
+  "query": "Tullogher Rosbercon GAA, County Kilkenny, Ireland",
+  "matched": "Tullogher-Rosbercon GAA Grounds, Ballyknock, Dysartmoon, The Municipal District of Callan — Thomastown, County Kilkenny,",
+  "hint": "Kilkenny"
+ },
+ "7fcc0200-0ddf-443b-ae0a-278b2806208a": {
+  "name": "UCD",
+  "lat": 53.30636,
+  "lon": -6.23187,
+  "query": "UCD, County Dublin, Ireland",
+  "matched": "UCD, Wynnsward Drive, Roebuck, Clonskeagh-Belfield DED 1986, Dundrum, Dún Laoghaire-Rathdown, County Dublin, Leinster, É",
+  "hint": "Dublin"
  },
  "5b8479bc-9083-4e55-8f92-1881b3f4f7d5": {
   "name": "UL Grounds",
@@ -919,7 +1773,7 @@
   "hint": "Kilkenny"
  },
  "2e69ec4d-97e3-4b7f-b4a5-e0b60666ad66": {
-  "name": "UPMC Nowlan Park, Kilkenny",
+  "name": "UPMC Nowlan Park",
   "lat": 52.6564,
   "lon": -7.24026,
   "query": "UPMC Nowlan Park, Kilkenny, County Kilkenny, Ireland",
@@ -935,6 +1789,22 @@
   "query": "hand",
   "matched": "Edenderry GAA, Carrick Road, Edenderry (OSM sports_centre); Weavers Fields is the club's second ground off Carrick Road, Eircode R45 W659"
  },
+ "c8e6da93-1011-4825-9366-59f825a68922": {
+  "name": "Wolfe Tones Derrymacash",
+  "lat": 54.47708,
+  "lon": -6.3961,
+  "query": "Wolfe Tones Derrymacash, County Armagh, Ireland",
+  "matched": "Wolfe Tones GAC, Derrymacash Road, Silverwood, Derrymacash, Armagh City, Banbridge and Craigavon District Council, Count",
+  "hint": "Armagh"
+ },
+ "44906002-a955-4dad-ba7c-9bad1056a739": {
+  "name": "Young Irelands, Gowran",
+  "lat": 52.62856,
+  "lon": -7.08069,
+  "query": "Young Irelands, Gowran, County Kilkenny, Ireland",
+  "matched": "Young Irelands GAA Club, Church Road, Gowran, The Municipal District of Castlecomer, County Kilkenny, Leinster, Éire / I",
+  "hint": "Kilkenny"
+ },
  "0198790f-7890-4d73-9ab4-0bfcf8652c59": {
   "name": "Zimmer Biomet Páirc Chíosóg, Ennis",
   "lat": 52.8469,
@@ -942,5 +1812,13 @@
   "query": "Cusack Park, Ennis, Ireland",
   "matched": "Cusack Park, Francis Street, Ennis, Ennis Municipal District, County Clare, Munster, Éire / Ireland",
   "hint": null
+ },
+ "37245904-cdbd-4b71-aaa2-342bec61c1b7": {
+  "name": "Éire Óg Corra Choill, W91 HR97",
+  "lat": 53.25821,
+  "lon": -6.73714,
+  "query": "Éire Óg Corra Choill, County Kildare, Ireland",
+  "matched": "Éire Óg Corra Choill, L6008, Donore, Donore ED, The Municipal District of Clane — Maynooth, County Kildare, Leinster, Éi",
+  "hint": "Kildare"
  }
 }

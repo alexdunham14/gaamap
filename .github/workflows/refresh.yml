@@ -12,6 +12,11 @@ jobs:
       - uses: actions/checkout@v4
       - name: Fetch fixtures from gaa.ie
         run: ./scripts/fetch.py
+      # Camogie is a separate association with a separate site. Its fetch failing must not
+      # lose the gaa.ie refresh, so the step is allowed to fail and camogie.json stays as it was.
+      - name: Fetch camogie fixtures from camogie.ie
+        run: ./scripts/fetch_camogie.py
+        continue-on-error: true
       - name: Geocode any new venues
         run: ./scripts/geocode.py
       - name: Merge venue ids that share a ground
@@ -20,6 +25,6 @@ jobs:
         run: |
           git config user.name "gaamap bot"
           git config user.email "actions@users.noreply.github.com"
-          git add fixtures.json venues.json
+          git add fixtures.json camogie.json venues.json
           git diff --cached --quiet || git commit -m "Refresh fixtures $(date -u +%F)"
           git push

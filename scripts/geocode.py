@@ -6,12 +6,17 @@ Uses Nominatim (OpenStreetMap), one request per second as its policy requires. T
 hint comes from the home team when the home team is a county, which is most inter-county
 fixtures and resolves the many duplicate ground names (two Cusack Parks, several Pearse Parks).
 """
+import collections
 import json
 import os
+import re
 import sys
 import time
 import urllib.parse
 import urllib.request
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import data  # noqa: E402
 
 UA = "gaamap/1.0 (github.com/alexdunham14/gaamap)"
 COUNTIES = {
@@ -21,6 +26,25 @@ COUNTIES = {
 }
 ABROAD = {"London": "London, UK", "Lancashire": "Lancashire, UK", "New York": "New York, USA", "Warwickshire": "Warwickshire, UK"}
 IRELAND = {"south": 51.3, "north": 55.5, "west": -10.8, "east": -5.3}
+# The one county with two names in common use, and the one Nominatim answers to.
+ALIASES = {"Derry": ("Derry", "Londonderry")}
+# Eircodes ("A82 Y942", "W91WN82") ride along in camogie.ie's venue names. Nominatim cannot
+# match them and they poison every query they appear in, so they come out before searching.
+EIRCODE_RE = re.compile(r"\b[A-Z]\d{2}\s?[A-Z0-9]{4}\b")
+# Club grounds are mostly a place name wrapped in boilerplate: "Ballinamere GAA Club",
+# "Edendork St. Malachy's GAC", "Fethard Town Park (Grass Pitch)", "Hawkfield Kildare C of
+# Excel". Nominatim knows the places, not the boilerplate, so the stripped name is tried too.
+BOILER_RE = re.compile(
+    r"\b(GAA|GAC|CLG|Club|Centre of Excellence|C of Excel|CoE|Grass Pitch|Main Campus Pitch|"
+    r"Stand Pitch|3G Pitch|Pitch\s*\d*|Hurling and Camogie|Camogie|Grounds?)\b", re.I)
+
+
+def county_matches(hit, county):
+    """Does this result actually sit in the county we expected? Nominatim will happily
+    answer "Crinkill GAA, Offaly" with a ground in Galway, and a dot in the wrong county is
+    worse than no dot: a miss gets printed and hand-fixed, a wrong hit looks right."""
+    where = hit.get("display_name", "")
+    return any(re.search(rf"\b{re.escape(n)}\b", where, re.I) for n in ALIASES.get(county, (county,)))
 
 
 def nominatim(q):
@@ -39,16 +63,16 @@ def in_ireland(hit):
 
 def main():
     force = "--force" in sys.argv
-    fixtures = json.load(open("fixtures.json"))["fixtures"]
+    fixtures = data.all_fixtures()
     venues = json.load(open("venues.json")) if os.path.exists("venues.json") else {}
     mpath = os.path.join(os.path.dirname(os.path.abspath(__file__)), "venue_queries.json")
     manual = json.load(open(mpath)) if os.path.exists(mpath) else {}
     hints = {}
     for f in fixtures:
         vid, home = f["venueId"], (f["home"] or {}).get("name", "")
-        hints.setdefault(vid, {"name": f["venue"], "counties": set(), "abroad": set()})
+        hints.setdefault(vid, {"name": f["venue"], "counties": collections.Counter(), "abroad": set()})
         if home in COUNTIES:
-            hints[vid]["counties"].add(home)
+            hints[vid]["counties"][home] += 1
         if home in ABROAD:
             hints[vid]["abroad"].add(ABROAD[home])
     for vid, h in hints.items():
@@ -60,11 +84,18 @@ def main():
             print("skip venue with no name", vid, flush=True)
             continue
         region = next(iter(h["abroad"]), None)
-        county = next(iter(h["counties"]), None) if len(h["counties"]) == 1 else None
+        # The county a ground most often hosts, not only the unanimous case: a club ground
+        # that took one neutral fixture still belongs to its own county.
+        county = h["counties"].most_common(1)[0][0] if h["counties"] else None
         # Variants of the name: as given, with sponsor words dropped from the front, the part after a
         # comma, the part inside parentheses.
+        listed = name  # as the source spells it, which is how venue_queries.json is keyed
+        name = EIRCODE_RE.sub("", name).replace(" ,", ",").strip(" ,.")
         words = name.split()
         variants = [name] + [" ".join(words[k:]) for k in range(1, min(4, len(words) - 1))]
+        stripped = re.sub(r"[\s,]+", " ", BOILER_RE.sub(" ", name)).strip(" ,-")
+        if stripped and stripped != name:
+            variants.insert(1, stripped)
         if "," in name:
             variants.append(name.split(",", 1)[1].strip())
         if "(" in name and ")" in name:
@@ -80,7 +111,7 @@ def main():
             else:
                 queries.append(f"{var} GAA, Ireland")
         queries += [f"{var}, Ireland" for var in variants]
-        trusted = manual.get(name, [])
+        trusted = manual.get(listed) or manual.get(name, [])
         queries = trusted + [q for q in queries if q not in trusted][:8]
         hit, used = None, None
         for q in queries:
@@ -89,7 +120,7 @@ def main():
             except Exception as ex:  # noqa: BLE001
                 print("error", q, ex, file=sys.stderr)
                 continue
-            if hit and (q in trusted or region or in_ireland(hit)):
+            if hit and (q in trusted or region or (in_ireland(hit) and (not county or county_matches(hit, county)))):
                 used = q
                 break
             hit = None
