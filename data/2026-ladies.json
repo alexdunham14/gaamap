@@ -1,7 +1,7 @@
 {
 "season": 2026,
 "source": "https://ladiesgaelic.ie/fixtures-results/results/",
-"fetched": "2026-09-08T18:00:10Z",
+"fetched": "2026-09-08T18:32:31Z",
 "fixtures": [
 {
 "id": "lgfa:2026-01-18T14:00:00+00:00|National Football League Division 4|Round 1|Carlow|Sligo",
@@ -235,39 +235,6 @@
 "url": "https://ladiesgaelic.ie/fixtures-results/results/"
 },
 {
-"id": "lgfa:2026-01-25T14:00:00+00:00|National Football League Division 1|Round 1|Meath|Galway",
-"date": "2026-01-25T14:00:00+00:00",
-"time": "14:00",
-"tbc": false,
-"status": "active",
-"sport": "Ladies' Football",
-"competition": "National Football League Division 1",
-"competitionId": null,
-"rank": null,
-"group": null,
-"round": "Round 1",
-"home": {
-"id": null,
-"name": "Meath"
-},
-"away": {
-"id": null,
-"name": "Galway"
-},
-"venueId": "a0297ff6-4d24-4905-b713-5f9e7295b6f1",
-"venue": "Gaeil Colmcille GFC (Grangegodden)",
-"result": true,
-"score": {
-"hg": 0,
-"hp": 8,
-"ag": 0,
-"ap": 16
-},
-"tickets": null,
-"tv": null,
-"url": "https://ladiesgaelic.ie/fixtures-results/results/"
-},
-{
 "id": "lgfa:2026-01-25T14:00:00+00:00|National Football League Division 1|Round 1|Cork|Kildare",
 "date": "2026-01-25T14:00:00+00:00",
 "time": "14:00",
@@ -301,66 +268,33 @@
 "url": "https://ladiesgaelic.ie/fixtures-results/results/"
 },
 {
-"id": "lgfa:2026-01-25T14:00:00+00:00|National Football League Division 2|Round 1|Monaghan|Tyrone",
+"id": "lgfa:2026-01-25T14:00:00+00:00|National Football League Division 1|Round 1|Meath|Galway",
 "date": "2026-01-25T14:00:00+00:00",
 "time": "14:00",
 "tbc": false,
 "status": "active",
 "sport": "Ladies' Football",
-"competition": "National Football League Division 2",
+"competition": "National Football League Division 1",
 "competitionId": null,
 "rank": null,
 "group": null,
 "round": "Round 1",
 "home": {
 "id": null,
-"name": "Monaghan"
+"name": "Meath"
 },
 "away": {
 "id": null,
-"name": "Tyrone"
+"name": "Galway"
 },
-"venueId": "lgfa-holy-trinity-college-cookstown",
-"venue": "Holy Trinity College Cookstown",
+"venueId": "a0297ff6-4d24-4905-b713-5f9e7295b6f1",
+"venue": "Gaeil Colmcille GFC (Grangegodden)",
 "result": true,
 "score": {
 "hg": 0,
-"hp": 11,
-"ag": 7,
-"ap": 11
-},
-"tickets": null,
-"tv": null,
-"url": "https://ladiesgaelic.ie/fixtures-results/results/"
-},
-{
-"id": "lgfa:2026-01-25T14:00:00+00:00|National Football League Division 2|Round 1|Donegal|Westmeath",
-"date": "2026-01-25T14:00:00+00:00",
-"time": "14:00",
-"tbc": false,
-"status": "active",
-"sport": "Ladies' Football",
-"competition": "National Football League Division 2",
-"competitionId": null,
-"rank": null,
-"group": null,
-"round": "Round 1",
-"home": {
-"id": null,
-"name": "Donegal"
-},
-"away": {
-"id": null,
-"name": "Westmeath"
-},
-"venueId": "5aa37473-ff95-4421-83f5-407aaf243f58",
-"venue": "O'Donnell Park",
-"result": true,
-"score": {
-"hg": 2,
-"hp": 11,
-"ag": 1,
-"ap": 6
+"hp": 8,
+"ag": 0,
+"ap": 16
 },
 "tickets": null,
 "tv": null,
@@ -400,6 +334,72 @@
 "url": "https://ladiesgaelic.ie/fixtures-results/results/"
 },
 {
+"id": "lgfa:2026-01-25T14:00:00+00:00|National Football League Division 2|Round 1|Donegal|Westmeath",
+"date": "2026-01-25T14:00:00+00:00",
+"time": "14:00",
+"tbc": false,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 2",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 1",
+"home": {
+"id": null,
+"name": "Donegal"
+},
+"away": {
+"id": null,
+"name": "Westmeath"
+},
+"venueId": "5aa37473-ff95-4421-83f5-407aaf243f58",
+"venue": "O'Donnell Park",
+"result": true,
+"score": {
+"hg": 2,
+"hp": 11,
+"ag": 1,
+"ap": 6
+},
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/results/"
+},
+{
+"id": "lgfa:2026-01-25T14:00:00+00:00|National Football League Division 2|Round 1|Monaghan|Tyrone",
+"date": "2026-01-25T14:00:00+00:00",
+"time": "14:00",
+"tbc": false,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 2",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 1",
+"home": {
+"id": null,
+"name": "Monaghan"
+},
+"away": {
+"id": null,
+"name": "Tyrone"
+},
+"venueId": "lgfa-holy-trinity-college-cookstown",
+"venue": "Holy Trinity College Cookstown",
+"result": true,
+"score": {
+"hg": 0,
+"hp": 11,
+"ag": 7,
+"ap": 11
+},
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/results/"
+},
+{
 "id": "lgfa:2026-01-25T14:00:00+00:00|National Football League Division 2|Round 1|Wexford|Tipperary",
 "date": "2026-01-25T14:00:00+00:00",
 "time": "14:00",
@@ -419,7 +419,7 @@
 "id": null,
 "name": "Tipperary"
 },
-"venueId": "lgfa-samaritans-st-patrick-s-park",
+"venueId": "066f7b61-c3eb-4546-a07d-7f63918c95ed",
 "venue": "Samaritans St. Patrick's Park",
 "result": true,
 "score": {
@@ -427,39 +427,6 @@
 "hp": 9,
 "ag": 2,
 "ap": 12
-},
-"tickets": null,
-"tv": null,
-"url": "https://ladiesgaelic.ie/fixtures-results/results/"
-},
-{
-"id": "lgfa:2026-01-25T14:00:00+00:00|National Football League Division 3|Round 1|Laois|Fermanagh",
-"date": "2026-01-25T14:00:00+00:00",
-"time": "14:00",
-"tbc": false,
-"status": "active",
-"sport": "Ladies' Football",
-"competition": "National Football League Division 3",
-"competitionId": null,
-"rank": null,
-"group": null,
-"round": "Round 1",
-"home": {
-"id": null,
-"name": "Laois"
-},
-"away": {
-"id": null,
-"name": "Fermanagh"
-},
-"venueId": "lgfa-heywood-community-school-ballinakill",
-"venue": "Heywood Community School Ballinakill",
-"result": true,
-"score": {
-"hg": 3,
-"hp": 13,
-"ag": 3,
-"ap": 13
 },
 "tickets": null,
 "tv": null,
@@ -499,6 +466,39 @@
 "url": "https://ladiesgaelic.ie/fixtures-results/results/"
 },
 {
+"id": "lgfa:2026-01-25T14:00:00+00:00|National Football League Division 3|Round 1|Laois|Fermanagh",
+"date": "2026-01-25T14:00:00+00:00",
+"time": "14:00",
+"tbc": false,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 3",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 1",
+"home": {
+"id": null,
+"name": "Laois"
+},
+"away": {
+"id": null,
+"name": "Fermanagh"
+},
+"venueId": "lgfa-heywood-community-school-ballinakill",
+"venue": "Heywood Community School Ballinakill",
+"result": true,
+"score": {
+"hg": 3,
+"hp": 13,
+"ag": 3,
+"ap": 13
+},
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/results/"
+},
+{
 "id": "lgfa:2026-01-25T14:00:00+00:00|National Football League Division 3|Round 1|Roscommon|Limerick",
 "date": "2026-01-25T14:00:00+00:00",
 "time": "14:00",
@@ -525,39 +525,6 @@
 "hg": 3,
 "hp": 6,
 "ag": 0,
-"ap": 8
-},
-"tickets": null,
-"tv": null,
-"url": "https://ladiesgaelic.ie/fixtures-results/results/"
-},
-{
-"id": "lgfa:2026-01-25T14:00:00+00:00|National Football League Division 4|Round 2|Sligo|Derry",
-"date": "2026-01-25T14:00:00+00:00",
-"time": "14:00",
-"tbc": false,
-"status": "active",
-"sport": "Ladies' Football",
-"competition": "National Football League Division 4",
-"competitionId": null,
-"rank": null,
-"group": null,
-"round": "Round 2",
-"home": {
-"id": null,
-"name": "Sligo"
-},
-"away": {
-"id": null,
-"name": "Derry"
-},
-"venueId": "lgfa-cloonacool-community-park",
-"venue": "Cloonacool Community Park",
-"result": true,
-"score": {
-"hg": 1,
-"hp": 20,
-"ag": 2,
 "ap": 8
 },
 "tickets": null,
@@ -658,6 +625,39 @@
 "hp": 8,
 "ag": 0,
 "ap": 7
+},
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/results/"
+},
+{
+"id": "lgfa:2026-01-25T14:00:00+00:00|National Football League Division 4|Round 2|Sligo|Derry",
+"date": "2026-01-25T14:00:00+00:00",
+"time": "14:00",
+"tbc": false,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 4",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 2",
+"home": {
+"id": null,
+"name": "Sligo"
+},
+"away": {
+"id": null,
+"name": "Derry"
+},
+"venueId": "lgfa-cloonacool-community-park",
+"venue": "Cloonacool Community Park",
+"result": true,
+"score": {
+"hg": 1,
+"hp": 20,
+"ag": 2,
+"ap": 8
 },
 "tickets": null,
 "tv": null,
@@ -895,39 +895,6 @@
 "url": "https://ladiesgaelic.ie/fixtures-results/results/"
 },
 {
-"id": "lgfa:2026-02-01T14:00:00+00:00|National Football League Division 1|Round 2|Kildare|Armagh",
-"date": "2026-02-01T14:00:00+00:00",
-"time": "14:00",
-"tbc": false,
-"status": "active",
-"sport": "Ladies' Football",
-"competition": "National Football League Division 1",
-"competitionId": null,
-"rank": null,
-"group": null,
-"round": "Round 2",
-"home": {
-"id": null,
-"name": "Kildare"
-},
-"away": {
-"id": null,
-"name": "Armagh"
-},
-"venueId": "4fbf4de2-7c22-4c14-b82a-e03e03e0ba7d",
-"venue": "Manguard Plus Kildare GAA Centre of Excellence",
-"result": true,
-"score": {
-"hg": 0,
-"hp": 9,
-"ag": 0,
-"ap": 13
-},
-"tickets": null,
-"tv": null,
-"url": "https://ladiesgaelic.ie/fixtures-results/results/"
-},
-{
 "id": "lgfa:2026-02-01T14:00:00+00:00|National Football League Division 1|Round 2|Cork|Galway",
 "date": "2026-02-01T14:00:00+00:00",
 "time": "14:00",
@@ -961,33 +928,33 @@
 "url": "https://ladiesgaelic.ie/fixtures-results/results/"
 },
 {
-"id": "lgfa:2026-02-01T14:00:00+00:00|National Football League Division 2|Round 2|Tipperary|Cavan",
+"id": "lgfa:2026-02-01T14:00:00+00:00|National Football League Division 1|Round 2|Kildare|Armagh",
 "date": "2026-02-01T14:00:00+00:00",
 "time": "14:00",
 "tbc": false,
 "status": "active",
 "sport": "Ladies' Football",
-"competition": "National Football League Division 2",
+"competition": "National Football League Division 1",
 "competitionId": null,
 "rank": null,
 "group": null,
 "round": "Round 2",
 "home": {
 "id": null,
-"name": "Tipperary"
+"name": "Kildare"
 },
 "away": {
 "id": null,
-"name": "Cavan"
+"name": "Armagh"
 },
-"venueId": "lgfa-clonmel-sportsfield",
-"venue": "Clonmel Sportsfield",
+"venueId": "4fbf4de2-7c22-4c14-b82a-e03e03e0ba7d",
+"venue": "Manguard Plus Kildare GAA Centre of Excellence",
 "result": true,
 "score": {
-"hg": 1,
+"hg": 0,
 "hp": 9,
-"ag": 1,
-"ap": 15
+"ag": 0,
+"ap": 13
 },
 "tickets": null,
 "tv": null,
@@ -1060,6 +1027,39 @@
 "url": "https://ladiesgaelic.ie/fixtures-results/results/"
 },
 {
+"id": "lgfa:2026-02-01T14:00:00+00:00|National Football League Division 2|Round 2|Tipperary|Cavan",
+"date": "2026-02-01T14:00:00+00:00",
+"time": "14:00",
+"tbc": false,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 2",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 2",
+"home": {
+"id": null,
+"name": "Tipperary"
+},
+"away": {
+"id": null,
+"name": "Cavan"
+},
+"venueId": "lgfa-clonmel-sportsfield",
+"venue": "Clonmel Sportsfield",
+"result": true,
+"score": {
+"hg": 1,
+"hp": 9,
+"ag": 1,
+"ap": 15
+},
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/results/"
+},
+{
 "id": "lgfa:2026-02-01T14:00:00+00:00|National Football League Division 2|Round 2|Westmeath|Tyrone",
 "date": "2026-02-01T14:00:00+00:00",
 "time": "14:00",
@@ -1087,39 +1087,6 @@
 "hp": 6,
 "ag": 4,
 "ap": 15
-},
-"tickets": null,
-"tv": null,
-"url": "https://ladiesgaelic.ie/fixtures-results/results/"
-},
-{
-"id": "lgfa:2026-02-01T14:00:00+00:00|National Football League Division 3|Round 2|Laois|Down",
-"date": "2026-02-01T14:00:00+00:00",
-"time": "14:00",
-"tbc": false,
-"status": "active",
-"sport": "Ladies' Football",
-"competition": "National Football League Division 3",
-"competitionId": null,
-"rank": null,
-"group": null,
-"round": "Round 2",
-"home": {
-"id": null,
-"name": "Laois"
-},
-"away": {
-"id": null,
-"name": "Down"
-},
-"venueId": "lgfa-heywood-community-school-ballinakill",
-"venue": "Heywood Community School Ballinakill",
-"result": true,
-"score": {
-"hg": 1,
-"hp": 13,
-"ag": 2,
-"ap": 14
 },
 "tickets": null,
 "tv": null,
@@ -1159,33 +1126,33 @@
 "url": "https://ladiesgaelic.ie/fixtures-results/results/"
 },
 {
-"id": "lgfa:2026-02-01T14:00:00+00:00|National Football League Division 4|Round 3|Offaly|Kilkenny",
+"id": "lgfa:2026-02-01T14:00:00+00:00|National Football League Division 3|Round 2|Laois|Down",
 "date": "2026-02-01T14:00:00+00:00",
 "time": "14:00",
 "tbc": false,
 "status": "active",
 "sport": "Ladies' Football",
-"competition": "National Football League Division 4",
+"competition": "National Football League Division 3",
 "competitionId": null,
 "rank": null,
 "group": null,
-"round": "Round 3",
+"round": "Round 2",
 "home": {
 "id": null,
-"name": "Offaly"
+"name": "Laois"
 },
 "away": {
 "id": null,
-"name": "Kilkenny"
+"name": "Down"
 },
-"venueId": "lgfa-ferbane-gaa",
-"venue": "Ferbane GAA",
+"venueId": "lgfa-heywood-community-school-ballinakill",
+"venue": "Heywood Community School Ballinakill",
 "result": true,
 "score": {
-"hg": 5,
-"hp": 19,
-"ag": 0,
-"ap": 2
+"hg": 1,
+"hp": 13,
+"ag": 2,
+"ap": 14
 },
 "tickets": null,
 "tv": null,
@@ -1291,6 +1258,39 @@
 "url": "https://ladiesgaelic.ie/fixtures-results/results/"
 },
 {
+"id": "lgfa:2026-02-01T14:00:00+00:00|National Football League Division 4|Round 3|Offaly|Kilkenny",
+"date": "2026-02-01T14:00:00+00:00",
+"time": "14:00",
+"tbc": false,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 4",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 3",
+"home": {
+"id": null,
+"name": "Offaly"
+},
+"away": {
+"id": null,
+"name": "Kilkenny"
+},
+"venueId": "lgfa-ferbane-gaa",
+"venue": "Ferbane GAA",
+"result": true,
+"score": {
+"hg": 5,
+"hp": 19,
+"ag": 0,
+"ap": 2
+},
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/results/"
+},
+{
 "id": "lgfa:2026-02-01T14:30:00+00:00|National Football League Division 3|Round 2|Limerick|Antrim",
 "date": "2026-02-01T14:30:00+00:00",
 "time": "14:30",
@@ -1310,7 +1310,7 @@
 "id": null,
 "name": "Antrim"
 },
-"venueId": "lgfa-university-of-limerick-maguires-4g-pitch",
+"venueId": "5b8479bc-9083-4e55-8f92-1881b3f4f7d5",
 "venue": "University of Limerick, Maguires 4G Pitch",
 "result": true,
 "score": {
@@ -1489,72 +1489,6 @@
 "url": "https://ladiesgaelic.ie/fixtures-results/results/"
 },
 {
-"id": "lgfa:2026-02-08T14:00:00+00:00|National Football League Division 2|Round 3|Mayo|Tipperary",
-"date": "2026-02-08T14:00:00+00:00",
-"time": "14:00",
-"tbc": false,
-"status": "active",
-"sport": "Ladies' Football",
-"competition": "National Football League Division 2",
-"competitionId": null,
-"rank": null,
-"group": null,
-"round": "Round 3",
-"home": {
-"id": null,
-"name": "Mayo"
-},
-"away": {
-"id": null,
-"name": "Tipperary"
-},
-"venueId": "lgfa-swinford-amenity-park",
-"venue": "Swinford Amenity Park",
-"result": true,
-"score": {
-"hg": 0,
-"hp": 9,
-"ag": 0,
-"ap": 7
-},
-"tickets": null,
-"tv": null,
-"url": "https://ladiesgaelic.ie/fixtures-results/results/"
-},
-{
-"id": "lgfa:2026-02-08T14:00:00+00:00|National Football League Division 2|Round 3|Tyrone|Donegal",
-"date": "2026-02-08T14:00:00+00:00",
-"time": "14:00",
-"tbc": false,
-"status": "active",
-"sport": "Ladies' Football",
-"competition": "National Football League Division 2",
-"competitionId": null,
-"rank": null,
-"group": null,
-"round": "Round 3",
-"home": {
-"id": null,
-"name": "Tyrone"
-},
-"away": {
-"id": null,
-"name": "Donegal"
-},
-"venueId": "lgfa-aghyaran-st-davog-s-gac",
-"venue": "Aghyaran St Davog's GAC",
-"result": true,
-"score": {
-"hg": 1,
-"hp": 8,
-"ag": 3,
-"ap": 9
-},
-"tickets": null,
-"tv": null,
-"url": "https://ladiesgaelic.ie/fixtures-results/results/"
-},
-{
 "id": "lgfa:2026-02-08T14:00:00+00:00|National Football League Division 2|Round 3|Cavan|Wexford",
 "date": "2026-02-08T14:00:00+00:00",
 "time": "14:00",
@@ -1582,6 +1516,39 @@
 "hp": 11,
 "ag": 2,
 "ap": 6
+},
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/results/"
+},
+{
+"id": "lgfa:2026-02-08T14:00:00+00:00|National Football League Division 2|Round 3|Mayo|Tipperary",
+"date": "2026-02-08T14:00:00+00:00",
+"time": "14:00",
+"tbc": false,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 2",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 3",
+"home": {
+"id": null,
+"name": "Mayo"
+},
+"away": {
+"id": null,
+"name": "Tipperary"
+},
+"venueId": "lgfa-swinford-amenity-park",
+"venue": "Swinford Amenity Park",
+"result": true,
+"score": {
+"hg": 0,
+"hp": 9,
+"ag": 0,
+"ap": 7
 },
 "tickets": null,
 "tv": null,
@@ -1621,33 +1588,33 @@
 "url": "https://ladiesgaelic.ie/fixtures-results/results/"
 },
 {
-"id": "lgfa:2026-02-08T14:00:00+00:00|National Football League Division 3|Round 3|Roscommon|Antrim",
+"id": "lgfa:2026-02-08T14:00:00+00:00|National Football League Division 2|Round 3|Tyrone|Donegal",
 "date": "2026-02-08T14:00:00+00:00",
 "time": "14:00",
 "tbc": false,
 "status": "active",
 "sport": "Ladies' Football",
-"competition": "National Football League Division 3",
+"competition": "National Football League Division 2",
 "competitionId": null,
 "rank": null,
 "group": null,
 "round": "Round 3",
 "home": {
 "id": null,
-"name": "Roscommon"
+"name": "Tyrone"
 },
 "away": {
 "id": null,
-"name": "Antrim"
+"name": "Donegal"
 },
-"venueId": "lgfa-st-croan-s-gaa-roscommon",
-"venue": "St. Croan's GAA, Roscommon",
+"venueId": "lgfa-aghyaran-st-davog-s-gac",
+"venue": "Aghyaran St Davog's GAC",
 "result": true,
 "score": {
-"hg": 2,
+"hg": 1,
 "hp": 8,
-"ag": 2,
-"ap": 8
+"ag": 3,
+"ap": 9
 },
 "tickets": null,
 "tv": null,
@@ -1713,6 +1680,39 @@
 "hg": 4,
 "hp": 9,
 "ag": 0,
+"ap": 8
+},
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/results/"
+},
+{
+"id": "lgfa:2026-02-08T14:00:00+00:00|National Football League Division 3|Round 3|Roscommon|Antrim",
+"date": "2026-02-08T14:00:00+00:00",
+"time": "14:00",
+"tbc": false,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 3",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 3",
+"home": {
+"id": null,
+"name": "Roscommon"
+},
+"away": {
+"id": null,
+"name": "Antrim"
+},
+"venueId": "lgfa-st-croan-s-gaa-roscommon",
+"venue": "St. Croan's GAA, Roscommon",
+"result": true,
+"score": {
+"hg": 2,
+"hp": 8,
+"ag": 2,
 "ap": 8
 },
 "tickets": null,
@@ -1819,39 +1819,6 @@
 "url": "https://ladiesgaelic.ie/fixtures-results/results/"
 },
 {
-"id": "lgfa:2026-02-15T14:00:00+00:00|National Football League Division 4|Round 4|Wicklow|Derry",
-"date": "2026-02-15T14:00:00+00:00",
-"time": "14:00",
-"tbc": false,
-"status": "active",
-"sport": "Ladies' Football",
-"competition": "National Football League Division 4",
-"competitionId": null,
-"rank": null,
-"group": null,
-"round": "Round 4",
-"home": {
-"id": null,
-"name": "Wicklow"
-},
-"away": {
-"id": null,
-"name": "Derry"
-},
-"venueId": "5fd37d07-c45c-4add-b852-6294c2f495e8",
-"venue": "Bray Emmets GAA (3G Pitch)",
-"result": true,
-"score": {
-"hg": 0,
-"hp": 10,
-"ag": 0,
-"ap": 9
-},
-"tickets": null,
-"tv": null,
-"url": "https://ladiesgaelic.ie/fixtures-results/results/"
-},
-{
 "id": "lgfa:2026-02-15T14:00:00+00:00|National Football League Division 4|Round 4|Longford|Sligo",
 "date": "2026-02-15T14:00:00+00:00",
 "time": "14:00",
@@ -1912,6 +1879,39 @@
 "hp": 12,
 "ag": 2,
 "ap": 8
+},
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/results/"
+},
+{
+"id": "lgfa:2026-02-15T14:00:00+00:00|National Football League Division 4|Round 4|Wicklow|Derry",
+"date": "2026-02-15T14:00:00+00:00",
+"time": "14:00",
+"tbc": false,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 4",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 4",
+"home": {
+"id": null,
+"name": "Wicklow"
+},
+"away": {
+"id": null,
+"name": "Derry"
+},
+"venueId": "5fd37d07-c45c-4add-b852-6294c2f495e8",
+"venue": "Bray Emmets GAA (3G Pitch)",
+"result": true,
+"score": {
+"hg": 0,
+"hp": 10,
+"ag": 0,
+"ap": 9
 },
 "tickets": null,
 "tv": null,
@@ -2168,7 +2168,7 @@
 "id": null,
 "name": "Mary Immaculate College Limerick"
 },
-"venueId": "lgfa-university-of-limerick",
+"venueId": "5b8479bc-9083-4e55-8f92-1881b3f4f7d5",
 "venue": "University of Limerick",
 "result": true,
 "score": {
@@ -2366,7 +2366,7 @@
 "id": null,
 "name": "University of Limerick"
 },
-"venueId": "lgfa-national-games-development-centre-pitch-1",
+"venueId": "8f33a11e-c10c-4013-bac4-edcc35f9ac08",
 "venue": "National Games Development Centre (Pitch 1)",
 "result": true,
 "score": {
@@ -2611,6 +2611,39 @@
 "url": "https://ladiesgaelic.ie/fixtures-results/results/"
 },
 {
+"id": "lgfa:2026-02-22T14:00:00+00:00|National Football League Division 2|Round 4|Donegal|Cavan",
+"date": "2026-02-22T14:00:00+00:00",
+"time": "14:00",
+"tbc": false,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 2",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 4",
+"home": {
+"id": null,
+"name": "Donegal"
+},
+"away": {
+"id": null,
+"name": "Cavan"
+},
+"venueId": "c6778b91-d8d8-43e8-8561-af473a8651dc",
+"venue": "Fr Tierney Park",
+"result": true,
+"score": {
+"hg": 0,
+"hp": 7,
+"ag": 1,
+"ap": 6
+},
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/results/"
+},
+{
 "id": "lgfa:2026-02-22T14:00:00+00:00|National Football League Division 2|Round 4|Tipperary|Monaghan",
 "date": "2026-02-22T14:00:00+00:00",
 "time": "14:00",
@@ -2696,7 +2729,7 @@
 "id": null,
 "name": "Westmeath"
 },
-"venueId": "lgfa-samaritans-st-patrick-s-park",
+"venueId": "066f7b61-c3eb-4546-a07d-7f63918c95ed",
 "venue": "Samaritans St. Patrick's Park",
 "result": true,
 "score": {
@@ -2704,72 +2737,6 @@
 "hp": 13,
 "ag": 4,
 "ap": 10
-},
-"tickets": null,
-"tv": null,
-"url": "https://ladiesgaelic.ie/fixtures-results/results/"
-},
-{
-"id": "lgfa:2026-02-22T14:00:00+00:00|National Football League Division 2|Round 4|Donegal|Cavan",
-"date": "2026-02-22T14:00:00+00:00",
-"time": "14:00",
-"tbc": false,
-"status": "active",
-"sport": "Ladies' Football",
-"competition": "National Football League Division 2",
-"competitionId": null,
-"rank": null,
-"group": null,
-"round": "Round 4",
-"home": {
-"id": null,
-"name": "Donegal"
-},
-"away": {
-"id": null,
-"name": "Cavan"
-},
-"venueId": "c6778b91-d8d8-43e8-8561-af473a8651dc",
-"venue": "Fr Tierney Park",
-"result": true,
-"score": {
-"hg": 0,
-"hp": 7,
-"ag": 1,
-"ap": 6
-},
-"tickets": null,
-"tv": null,
-"url": "https://ladiesgaelic.ie/fixtures-results/results/"
-},
-{
-"id": "lgfa:2026-02-22T14:00:00+00:00|National Football League Division 3|Round 4|Down|Roscommon",
-"date": "2026-02-22T14:00:00+00:00",
-"time": "14:00",
-"tbc": false,
-"status": "active",
-"sport": "Ladies' Football",
-"competition": "National Football League Division 3",
-"competitionId": null,
-"rank": null,
-"group": null,
-"round": "Round 4",
-"home": {
-"id": null,
-"name": "Down"
-},
-"away": {
-"id": null,
-"name": "Roscommon"
-},
-"venueId": "lgfa-cherryvale-4g-pitch-belfast",
-"venue": "Cherryvale 4G Pitch, Belfast",
-"result": true,
-"score": {
-"hg": 1,
-"hp": 12,
-"ag": 2,
-"ap": 6
 },
 "tickets": null,
 "tv": null,
@@ -2809,6 +2776,39 @@
 "url": "https://ladiesgaelic.ie/fixtures-results/results/"
 },
 {
+"id": "lgfa:2026-02-22T14:00:00+00:00|National Football League Division 3|Round 4|Down|Roscommon",
+"date": "2026-02-22T14:00:00+00:00",
+"time": "14:00",
+"tbc": false,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 3",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 4",
+"home": {
+"id": null,
+"name": "Down"
+},
+"away": {
+"id": null,
+"name": "Roscommon"
+},
+"venueId": "lgfa-cherryvale-4g-pitch-belfast",
+"venue": "Cherryvale 4G Pitch, Belfast",
+"result": true,
+"score": {
+"hg": 1,
+"hp": 12,
+"ag": 2,
+"ap": 6
+},
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/results/"
+},
+{
 "id": "lgfa:2026-02-22T14:00:00+00:00|National Football League Division 3|Round 4|Louth|Limerick",
 "date": "2026-02-22T14:00:00+00:00",
 "time": "14:00",
@@ -2836,39 +2836,6 @@
 "hp": 7,
 "ag": 0,
 "ap": 6
-},
-"tickets": null,
-"tv": null,
-"url": "https://ladiesgaelic.ie/fixtures-results/results/"
-},
-{
-"id": "lgfa:2026-02-22T14:00:00+00:00|National Football League Division 4|Round 5|Sligo|Kilkenny",
-"date": "2026-02-22T14:00:00+00:00",
-"time": "14:00",
-"tbc": false,
-"status": "active",
-"sport": "Ladies' Football",
-"competition": "National Football League Division 4",
-"competitionId": null,
-"rank": null,
-"group": null,
-"round": "Round 5",
-"home": {
-"id": null,
-"name": "Sligo"
-},
-"away": {
-"id": null,
-"name": "Kilkenny"
-},
-"venueId": "lgfa-atu-sligo",
-"venue": "ATU Sligo",
-"result": true,
-"score": {
-"hg": 8,
-"hp": 24,
-"ag": 1,
-"ap": 0
 },
 "tickets": null,
 "tv": null,
@@ -2934,6 +2901,39 @@
 "hg": 7,
 "hp": 16,
 "ag": 2,
+"ap": 0
+},
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/results/"
+},
+{
+"id": "lgfa:2026-02-22T14:00:00+00:00|National Football League Division 4|Round 5|Sligo|Kilkenny",
+"date": "2026-02-22T14:00:00+00:00",
+"time": "14:00",
+"tbc": false,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 4",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 5",
+"home": {
+"id": null,
+"name": "Sligo"
+},
+"away": {
+"id": null,
+"name": "Kilkenny"
+},
+"venueId": "lgfa-atu-sligo",
+"venue": "ATU Sligo",
+"result": true,
+"score": {
+"hg": 8,
+"hp": 24,
+"ag": 1,
 "ap": 0
 },
 "tickets": null,
@@ -3125,7 +3125,7 @@
 "id": null,
 "name": "The Law School GAA"
 },
-"venueId": "lgfa-national-games-development-centre-pitch-1",
+"venueId": "8f33a11e-c10c-4013-bac4-edcc35f9ac08",
 "venue": "National Games Development Centre (Pitch 1)",
 "result": true,
 "score": {
@@ -3521,7 +3521,7 @@
 "id": null,
 "name": "Tyrone"
 },
-"venueId": "lgfa-samaritans-st-patrick-s-park",
+"venueId": "066f7b61-c3eb-4546-a07d-7f63918c95ed",
 "venue": "Samaritans St. Patrick's Park",
 "result": true,
 "score": {
@@ -3601,7 +3601,7 @@
 "url": "https://ladiesgaelic.ie/fixtures-results/results/"
 },
 {
-"id": "lgfa:2026-03-01T14:00:00+00:00|National Football League Division 2|Round 5|Westmeath|Tipperary",
+"id": "lgfa:2026-03-01T14:00:00+00:00|National Football League Division 2|Round 5|Cavan|Monaghan",
 "date": "2026-03-01T14:00:00+00:00",
 "time": "14:00",
 "tbc": false,
@@ -3614,20 +3614,20 @@
 "round": "Round 5",
 "home": {
 "id": null,
-"name": "Westmeath"
+"name": "Cavan"
 },
 "away": {
 "id": null,
-"name": "Tipperary"
+"name": "Monaghan"
 },
-"venueId": "lgfa-st-loman-s-mullingar",
-"venue": "St. Loman's Mullingar",
+"venueId": "lgfa-jim-smith-park-killinkere",
+"venue": "Jim Smith Park, Killinkere",
 "result": true,
 "score": {
-"hg": 0,
-"hp": 8,
-"ag": 3,
-"ap": 8
+"hg": 2,
+"hp": 9,
+"ag": 1,
+"ap": 9
 },
 "tickets": null,
 "tv": null,
@@ -3667,7 +3667,7 @@
 "url": "https://ladiesgaelic.ie/fixtures-results/results/"
 },
 {
-"id": "lgfa:2026-03-01T14:00:00+00:00|National Football League Division 2|Round 5|Cavan|Monaghan",
+"id": "lgfa:2026-03-01T14:00:00+00:00|National Football League Division 2|Round 5|Westmeath|Tipperary",
 "date": "2026-03-01T14:00:00+00:00",
 "time": "14:00",
 "tbc": false,
@@ -3680,53 +3680,20 @@
 "round": "Round 5",
 "home": {
 "id": null,
-"name": "Cavan"
+"name": "Westmeath"
 },
 "away": {
 "id": null,
-"name": "Monaghan"
+"name": "Tipperary"
 },
-"venueId": "lgfa-jim-smith-park-killinkere",
-"venue": "Jim Smith Park, Killinkere",
+"venueId": "2e24c80c-229e-4df0-a70f-a3e3dcdaf42c",
+"venue": "St. Loman's Mullingar",
 "result": true,
 "score": {
-"hg": 2,
-"hp": 9,
-"ag": 1,
-"ap": 9
-},
-"tickets": null,
-"tv": null,
-"url": "https://ladiesgaelic.ie/fixtures-results/results/"
-},
-{
-"id": "lgfa:2026-03-01T14:00:00+00:00|National Football League Division 3|Round 5|Limerick|Clare",
-"date": "2026-03-01T14:00:00+00:00",
-"time": "14:00",
-"tbc": false,
-"status": "active",
-"sport": "Ladies' Football",
-"competition": "National Football League Division 3",
-"competitionId": null,
-"rank": null,
-"group": null,
-"round": "Round 5",
-"home": {
-"id": null,
-"name": "Limerick"
-},
-"away": {
-"id": null,
-"name": "Clare"
-},
-"venueId": "lgfa-gerald-griffins-gaa",
-"venue": "Gerald Griffins GAA",
-"result": true,
-"score": {
-"hg": 1,
+"hg": 0,
 "hp": 8,
-"ag": 1,
-"ap": 12
+"ag": 3,
+"ap": 8
 },
 "tickets": null,
 "tv": null,
@@ -3793,6 +3760,39 @@
 "hp": 12,
 "ag": 4,
 "ap": 4
+},
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/results/"
+},
+{
+"id": "lgfa:2026-03-01T14:00:00+00:00|National Football League Division 3|Round 5|Limerick|Clare",
+"date": "2026-03-01T14:00:00+00:00",
+"time": "14:00",
+"tbc": false,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 3",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 5",
+"home": {
+"id": null,
+"name": "Limerick"
+},
+"away": {
+"id": null,
+"name": "Clare"
+},
+"venueId": "lgfa-gerald-griffins-gaa",
+"venue": "Gerald Griffins GAA",
+"result": true,
+"score": {
+"hg": 1,
+"hp": 8,
+"ag": 1,
+"ap": 12
 },
 "tickets": null,
 "tv": null,
@@ -4313,7 +4313,7 @@
 "id": null,
 "name": "DCU Dóchas Éireann"
 },
-"venueId": "lgfa-university-of-limerick-maguires-4g-pitch",
+"venueId": "5b8479bc-9083-4e55-8f92-1881b3f4f7d5",
 "venue": "University of Limerick, Maguires 4G Pitch",
 "result": true,
 "score": {
@@ -4690,6 +4690,39 @@
 "url": "https://ladiesgaelic.ie/fixtures-results/results/"
 },
 {
+"id": "lgfa:2026-03-12T14:00:00+00:00|All-Ireland Post Primary Schools Senior A Championship|Semi-Final|Our Ladys & St. Patricks Knock|Coláiste Bhaile Chláir",
+"date": "2026-03-12T14:00:00+00:00",
+"time": "14:00",
+"tbc": false,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "All-Ireland Post Primary Schools Senior A Championship",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Semi-Final",
+"home": {
+"id": null,
+"name": "Our Ladys & St. Patricks Knock"
+},
+"away": {
+"id": null,
+"name": "Coláiste Bhaile Chláir"
+},
+"venueId": "8f33a11e-c10c-4013-bac4-edcc35f9ac08",
+"venue": "National Games Development Centre (Pitch 1)",
+"result": true,
+"score": {
+"hg": 5,
+"hp": 5,
+"ag": 0,
+"ap": 10
+},
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/results/"
+},
+{
 "id": "lgfa:2026-03-12T14:00:00+00:00|All-Ireland Post Primary Schools Senior A Championship|Semi-Final|St. Josephs Secondary School Spanish Point|Moate Community School",
 "date": "2026-03-12T14:00:00+00:00",
 "time": "14:00",
@@ -4717,39 +4750,6 @@
 "hp": 8,
 "ag": 3,
 "ap": 13
-},
-"tickets": null,
-"tv": null,
-"url": "https://ladiesgaelic.ie/fixtures-results/results/"
-},
-{
-"id": "lgfa:2026-03-12T14:00:00+00:00|All-Ireland Post Primary Schools Senior A Championship|Semi-Final|Our Ladys & St. Patricks Knock|Coláiste Bhaile Chláir",
-"date": "2026-03-12T14:00:00+00:00",
-"time": "14:00",
-"tbc": false,
-"status": "active",
-"sport": "Ladies' Football",
-"competition": "All-Ireland Post Primary Schools Senior A Championship",
-"competitionId": null,
-"rank": null,
-"group": null,
-"round": "Semi-Final",
-"home": {
-"id": null,
-"name": "Our Ladys & St. Patricks Knock"
-},
-"away": {
-"id": null,
-"name": "Coláiste Bhaile Chláir"
-},
-"venueId": "lgfa-national-games-development-centre-pitch-1",
-"venue": "National Games Development Centre (Pitch 1)",
-"result": true,
-"score": {
-"hg": 5,
-"hp": 5,
-"ag": 0,
-"ap": 10
 },
 "tickets": null,
 "tv": null,
@@ -5086,72 +5086,6 @@
 "url": "https://ladiesgaelic.ie/fixtures-results/results/"
 },
 {
-"id": "lgfa:2026-03-21T17:00:00+00:00|National Football League Division 1|Round 6|Waterford|Kildare",
-"date": "2026-03-21T17:00:00+00:00",
-"time": "17:00",
-"tbc": false,
-"status": "active",
-"sport": "Ladies' Football",
-"competition": "National Football League Division 1",
-"competitionId": null,
-"rank": null,
-"group": null,
-"round": "Round 6",
-"home": {
-"id": null,
-"name": "Waterford"
-},
-"away": {
-"id": null,
-"name": "Kildare"
-},
-"venueId": "6c6b943a-a494-4fb8-93d6-2819ac9828ff",
-"venue": "Cappoquin Logistics Fraher Field",
-"result": true,
-"score": {
-"hg": 2,
-"hp": 10,
-"ag": 1,
-"ap": 13
-},
-"tickets": null,
-"tv": null,
-"url": "https://ladiesgaelic.ie/fixtures-results/results/"
-},
-{
-"id": "lgfa:2026-03-21T17:00:00+00:00|National Football League Division 1|Round 6|Galway|Dublin",
-"date": "2026-03-21T17:00:00+00:00",
-"time": "17:00",
-"tbc": false,
-"status": "active",
-"sport": "Ladies' Football",
-"competition": "National Football League Division 1",
-"competitionId": null,
-"rank": null,
-"group": null,
-"round": "Round 6",
-"home": {
-"id": null,
-"name": "Galway"
-},
-"away": {
-"id": null,
-"name": "Dublin"
-},
-"venueId": "lgfa-tuam-stadium",
-"venue": "Tuam Stadium",
-"result": true,
-"score": {
-"hg": 3,
-"hp": 13,
-"ag": 1,
-"ap": 13
-},
-"tickets": null,
-"tv": null,
-"url": "https://ladiesgaelic.ie/fixtures-results/results/"
-},
-{
 "id": "lgfa:2026-03-21T17:00:00+00:00|National Football League Division 1|Round 6|Armagh|Kerry",
 "date": "2026-03-21T17:00:00+00:00",
 "time": "17:00",
@@ -5218,6 +5152,72 @@
 "url": "https://ladiesgaelic.ie/fixtures-results/results/"
 },
 {
+"id": "lgfa:2026-03-21T17:00:00+00:00|National Football League Division 1|Round 6|Galway|Dublin",
+"date": "2026-03-21T17:00:00+00:00",
+"time": "17:00",
+"tbc": false,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 1",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 6",
+"home": {
+"id": null,
+"name": "Galway"
+},
+"away": {
+"id": null,
+"name": "Dublin"
+},
+"venueId": "lgfa-tuam-stadium",
+"venue": "Tuam Stadium",
+"result": true,
+"score": {
+"hg": 3,
+"hp": 13,
+"ag": 1,
+"ap": 13
+},
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/results/"
+},
+{
+"id": "lgfa:2026-03-21T17:00:00+00:00|National Football League Division 1|Round 6|Waterford|Kildare",
+"date": "2026-03-21T17:00:00+00:00",
+"time": "17:00",
+"tbc": false,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 1",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 6",
+"home": {
+"id": null,
+"name": "Waterford"
+},
+"away": {
+"id": null,
+"name": "Kildare"
+},
+"venueId": "6c6b943a-a494-4fb8-93d6-2819ac9828ff",
+"venue": "Cappoquin Logistics Fraher Field",
+"result": true,
+"score": {
+"hg": 2,
+"hp": 10,
+"ag": 1,
+"ap": 13
+},
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/results/"
+},
+{
 "id": "lgfa:2026-03-22T13:00:00+00:00|National Football League Division 2|Round 6|Tipperary|Donegal",
 "date": "2026-03-22T13:00:00+00:00",
 "time": "13:00",
@@ -5270,7 +5270,7 @@
 "id": null,
 "name": "Limerick"
 },
-"venueId": "lgfa-liatroim-fontenoys-gac",
+"venueId": "7705a781-b64d-4072-8807-f36afeadef66",
 "venue": "Liatroim Fontenoys GAC",
 "result": true,
 "score": {
@@ -5317,39 +5317,6 @@
 "url": "https://ladiesgaelic.ie/fixtures-results/results/"
 },
 {
-"id": "lgfa:2026-03-22T14:00:00+00:00|National Football League Division 2|Round 6|Westmeath|Mayo",
-"date": "2026-03-22T14:00:00+00:00",
-"time": "14:00",
-"tbc": false,
-"status": "active",
-"sport": "Ladies' Football",
-"competition": "National Football League Division 2",
-"competitionId": null,
-"rank": null,
-"group": null,
-"round": "Round 6",
-"home": {
-"id": null,
-"name": "Westmeath"
-},
-"away": {
-"id": null,
-"name": "Mayo"
-},
-"venueId": "lgfa-athlone-gaa",
-"venue": "Athlone GAA",
-"result": true,
-"score": {
-"hg": 1,
-"hp": 14,
-"ag": 6,
-"ap": 10
-},
-"tickets": null,
-"tv": null,
-"url": "https://ladiesgaelic.ie/fixtures-results/results/"
-},
-{
 "id": "lgfa:2026-03-22T14:00:00+00:00|National Football League Division 2|Round 6|Tyrone|Cavan",
 "date": "2026-03-22T14:00:00+00:00",
 "time": "14:00",
@@ -5383,33 +5350,33 @@
 "url": "https://ladiesgaelic.ie/fixtures-results/results/"
 },
 {
-"id": "lgfa:2026-03-22T14:00:00+00:00|National Football League Division 3|Round 6|Roscommon|Louth",
+"id": "lgfa:2026-03-22T14:00:00+00:00|National Football League Division 2|Round 6|Westmeath|Mayo",
 "date": "2026-03-22T14:00:00+00:00",
 "time": "14:00",
 "tbc": false,
 "status": "active",
 "sport": "Ladies' Football",
-"competition": "National Football League Division 3",
+"competition": "National Football League Division 2",
 "competitionId": null,
 "rank": null,
 "group": null,
 "round": "Round 6",
 "home": {
 "id": null,
-"name": "Roscommon"
+"name": "Westmeath"
 },
 "away": {
 "id": null,
-"name": "Louth"
+"name": "Mayo"
 },
-"venueId": "f3b4ccda-1604-4b16-b8b0-8796246fad50",
-"venue": "King & Moffatt Dr. Hyde Park",
+"venueId": "lgfa-athlone-gaa",
+"venue": "Athlone GAA",
 "result": true,
 "score": {
 "hg": 1,
-"hp": 8,
-"ag": 1,
-"ap": 14
+"hp": 14,
+"ag": 6,
+"ap": 10
 },
 "tickets": null,
 "tv": null,
@@ -5468,7 +5435,7 @@
 "id": null,
 "name": "Clare"
 },
-"venueId": "lgfa-kinawley-brian-boru-gaa",
+"venueId": "a203a5f0-c01c-45ef-887f-1151ea612374",
 "venue": "Kinawley Brian Boru GAA",
 "result": true,
 "score": {
@@ -5476,6 +5443,39 @@
 "hp": 15,
 "ag": 1,
 "ap": 10
+},
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/results/"
+},
+{
+"id": "lgfa:2026-03-22T14:00:00+00:00|National Football League Division 3|Round 6|Roscommon|Louth",
+"date": "2026-03-22T14:00:00+00:00",
+"time": "14:00",
+"tbc": false,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 3",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 6",
+"home": {
+"id": null,
+"name": "Roscommon"
+},
+"away": {
+"id": null,
+"name": "Louth"
+},
+"venueId": "f3b4ccda-1604-4b16-b8b0-8796246fad50",
+"venue": "King & Moffatt Dr. Hyde Park",
+"result": true,
+"score": {
+"hg": 1,
+"hp": 8,
+"ag": 1,
+"ap": 14
 },
 "tickets": null,
 "tv": null,
@@ -5614,39 +5614,6 @@
 "url": "https://ladiesgaelic.ie/fixtures-results/results/"
 },
 {
-"id": "lgfa:2026-03-29T13:00:00+00:00|National Football League Division 1|Round 7|Waterford|Galway",
-"date": "2026-03-29T13:00:00+00:00",
-"time": "14:00",
-"tbc": false,
-"status": "active",
-"sport": "Ladies' Football",
-"competition": "National Football League Division 1",
-"competitionId": null,
-"rank": null,
-"group": null,
-"round": "Round 7",
-"home": {
-"id": null,
-"name": "Waterford"
-},
-"away": {
-"id": null,
-"name": "Galway"
-},
-"venueId": "lgfa-kilrossanty-gaa",
-"venue": "Kilrossanty GAA",
-"result": true,
-"score": {
-"hg": 2,
-"hp": 12,
-"ag": 0,
-"ap": 12
-},
-"tickets": null,
-"tv": null,
-"url": "https://ladiesgaelic.ie/fixtures-results/results/"
-},
-{
 "id": "lgfa:2026-03-29T13:00:00+00:00|National Football League Division 1|Round 7|Dublin|Cork",
 "date": "2026-03-29T13:00:00+00:00",
 "time": "14:00",
@@ -5674,39 +5641,6 @@
 "hp": 8,
 "ag": 1,
 "ap": 6
-},
-"tickets": null,
-"tv": null,
-"url": "https://ladiesgaelic.ie/fixtures-results/results/"
-},
-{
-"id": "lgfa:2026-03-29T13:00:00+00:00|National Football League Division 1|Round 7|Meath|Armagh",
-"date": "2026-03-29T13:00:00+00:00",
-"time": "14:00",
-"tbc": false,
-"status": "active",
-"sport": "Ladies' Football",
-"competition": "National Football League Division 1",
-"competitionId": null,
-"rank": null,
-"group": null,
-"round": "Round 7",
-"home": {
-"id": null,
-"name": "Meath"
-},
-"away": {
-"id": null,
-"name": "Armagh"
-},
-"venueId": "lgfa-summerhill-gfc",
-"venue": "Summerhill GFC",
-"result": true,
-"score": {
-"hg": 0,
-"hp": 11,
-"ag": 1,
-"ap": 8
 },
 "tickets": null,
 "tv": null,
@@ -5746,99 +5680,66 @@
 "url": "https://ladiesgaelic.ie/fixtures-results/results/"
 },
 {
-"id": "lgfa:2026-03-29T13:00:00+00:00|National Football League Division 2|Round 7|Tipperary|Tyrone",
+"id": "lgfa:2026-03-29T13:00:00+00:00|National Football League Division 1|Round 7|Meath|Armagh",
 "date": "2026-03-29T13:00:00+00:00",
 "time": "14:00",
 "tbc": false,
 "status": "active",
 "sport": "Ladies' Football",
-"competition": "National Football League Division 2",
+"competition": "National Football League Division 1",
 "competitionId": null,
 "rank": null,
 "group": null,
 "round": "Round 7",
 "home": {
 "id": null,
-"name": "Tipperary"
+"name": "Meath"
 },
 "away": {
 "id": null,
-"name": "Tyrone"
+"name": "Armagh"
 },
-"venueId": "lgfa-clonmel-sportsfield",
-"venue": "Clonmel Sportsfield",
-"result": true,
-"score": {
-"hg": 5,
-"hp": 5,
-"ag": 5,
-"ap": 10
-},
-"tickets": null,
-"tv": null,
-"url": "https://ladiesgaelic.ie/fixtures-results/results/"
-},
-{
-"id": "lgfa:2026-03-29T13:00:00+00:00|National Football League Division 2|Round 7|Mayo|Monaghan",
-"date": "2026-03-29T13:00:00+00:00",
-"time": "14:00",
-"tbc": false,
-"status": "active",
-"sport": "Ladies' Football",
-"competition": "National Football League Division 2",
-"competitionId": null,
-"rank": null,
-"group": null,
-"round": "Round 7",
-"home": {
-"id": null,
-"name": "Mayo"
-},
-"away": {
-"id": null,
-"name": "Monaghan"
-},
-"venueId": "a5650f69-1117-4df1-a64f-5e649e392a46",
-"venue": "Hastings Insurance MacHale Park, Castlebar",
-"result": true,
-"score": {
-"hg": 2,
-"hp": 14,
-"ag": 0,
-"ap": 9
-},
-"tickets": null,
-"tv": null,
-"url": "https://ladiesgaelic.ie/fixtures-results/results/"
-},
-{
-"id": "lgfa:2026-03-29T13:00:00+00:00|National Football League Division 2|Round 7|Donegal|Wexford",
-"date": "2026-03-29T13:00:00+00:00",
-"time": "14:00",
-"tbc": false,
-"status": "active",
-"sport": "Ladies' Football",
-"competition": "National Football League Division 2",
-"competitionId": null,
-"rank": null,
-"group": null,
-"round": "Round 7",
-"home": {
-"id": null,
-"name": "Donegal"
-},
-"away": {
-"id": null,
-"name": "Wexford"
-},
-"venueId": "5aa37473-ff95-4421-83f5-407aaf243f58",
-"venue": "O'Donnell Park",
+"venueId": "lgfa-summerhill-gfc",
+"venue": "Summerhill GFC",
 "result": true,
 "score": {
 "hg": 0,
 "hp": 11,
+"ag": 1,
+"ap": 8
+},
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/results/"
+},
+{
+"id": "lgfa:2026-03-29T13:00:00+00:00|National Football League Division 1|Round 7|Waterford|Galway",
+"date": "2026-03-29T13:00:00+00:00",
+"time": "14:00",
+"tbc": false,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 1",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 7",
+"home": {
+"id": null,
+"name": "Waterford"
+},
+"away": {
+"id": null,
+"name": "Galway"
+},
+"venueId": "lgfa-kilrossanty-gaa",
+"venue": "Kilrossanty GAA",
+"result": true,
+"score": {
+"hg": 2,
+"hp": 12,
 "ag": 0,
-"ap": 3
+"ap": 12
 },
 "tickets": null,
 "tv": null,
@@ -5878,33 +5779,99 @@
 "url": "https://ladiesgaelic.ie/fixtures-results/results/"
 },
 {
-"id": "lgfa:2026-03-29T13:00:00+00:00|National Football League Division 3|Round 7|Fermanagh|Limerick",
+"id": "lgfa:2026-03-29T13:00:00+00:00|National Football League Division 2|Round 7|Donegal|Wexford",
 "date": "2026-03-29T13:00:00+00:00",
 "time": "14:00",
 "tbc": false,
 "status": "active",
 "sport": "Ladies' Football",
-"competition": "National Football League Division 3",
+"competition": "National Football League Division 2",
 "competitionId": null,
 "rank": null,
 "group": null,
 "round": "Round 7",
 "home": {
 "id": null,
-"name": "Fermanagh"
+"name": "Donegal"
 },
 "away": {
 "id": null,
-"name": "Limerick"
+"name": "Wexford"
 },
-"venueId": "lgfa-tempo-maguires-gac",
-"venue": "Tempo Maguires GAC",
+"venueId": "5aa37473-ff95-4421-83f5-407aaf243f58",
+"venue": "O'Donnell Park",
+"result": true,
+"score": {
+"hg": 0,
+"hp": 11,
+"ag": 0,
+"ap": 3
+},
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/results/"
+},
+{
+"id": "lgfa:2026-03-29T13:00:00+00:00|National Football League Division 2|Round 7|Mayo|Monaghan",
+"date": "2026-03-29T13:00:00+00:00",
+"time": "14:00",
+"tbc": false,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 2",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 7",
+"home": {
+"id": null,
+"name": "Mayo"
+},
+"away": {
+"id": null,
+"name": "Monaghan"
+},
+"venueId": "a5650f69-1117-4df1-a64f-5e649e392a46",
+"venue": "Hastings Insurance MacHale Park, Castlebar",
 "result": true,
 "score": {
 "hg": 2,
-"hp": 10,
-"ag": 1,
-"ap": 7
+"hp": 14,
+"ag": 0,
+"ap": 9
+},
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/results/"
+},
+{
+"id": "lgfa:2026-03-29T13:00:00+00:00|National Football League Division 2|Round 7|Tipperary|Tyrone",
+"date": "2026-03-29T13:00:00+00:00",
+"time": "14:00",
+"tbc": false,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 2",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 7",
+"home": {
+"id": null,
+"name": "Tipperary"
+},
+"away": {
+"id": null,
+"name": "Tyrone"
+},
+"venueId": "lgfa-clonmel-sportsfield",
+"venue": "Clonmel Sportsfield",
+"result": true,
+"score": {
+"hg": 5,
+"hp": 5,
+"ag": 5,
+"ap": 10
 },
 "tickets": null,
 "tv": null,
@@ -5944,39 +5911,6 @@
 "url": "https://ladiesgaelic.ie/fixtures-results/results/"
 },
 {
-"id": "lgfa:2026-03-29T13:00:00+00:00|National Football League Division 3|Round 7|Louth|Laois",
-"date": "2026-03-29T13:00:00+00:00",
-"time": "14:00",
-"tbc": false,
-"status": "active",
-"sport": "Ladies' Football",
-"competition": "National Football League Division 3",
-"competitionId": null,
-"rank": null,
-"group": null,
-"round": "Round 7",
-"home": {
-"id": null,
-"name": "Louth"
-},
-"away": {
-"id": null,
-"name": "Laois"
-},
-"venueId": "9b3a021d-3464-4bbf-b79b-d9ce505cf82d",
-"venue": "Integral GAA Grounds",
-"result": true,
-"score": {
-"hg": 0,
-"hp": 8,
-"ag": 0,
-"ap": 9
-},
-"tickets": null,
-"tv": null,
-"url": "https://ladiesgaelic.ie/fixtures-results/results/"
-},
-{
 "id": "lgfa:2026-03-29T13:00:00+00:00|National Football League Division 3|Round 7|Down|Antrim",
 "date": "2026-03-29T13:00:00+00:00",
 "time": "14:00",
@@ -6004,6 +5938,72 @@
 "hp": 9,
 "ag": 2,
 "ap": 8
+},
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/results/"
+},
+{
+"id": "lgfa:2026-03-29T13:00:00+00:00|National Football League Division 3|Round 7|Fermanagh|Limerick",
+"date": "2026-03-29T13:00:00+00:00",
+"time": "14:00",
+"tbc": false,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 3",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 7",
+"home": {
+"id": null,
+"name": "Fermanagh"
+},
+"away": {
+"id": null,
+"name": "Limerick"
+},
+"venueId": "lgfa-tempo-maguires-gac",
+"venue": "Tempo Maguires GAC",
+"result": true,
+"score": {
+"hg": 2,
+"hp": 10,
+"ag": 1,
+"ap": 7
+},
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/results/"
+},
+{
+"id": "lgfa:2026-03-29T13:00:00+00:00|National Football League Division 3|Round 7|Louth|Laois",
+"date": "2026-03-29T13:00:00+00:00",
+"time": "14:00",
+"tbc": false,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 3",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 7",
+"home": {
+"id": null,
+"name": "Louth"
+},
+"away": {
+"id": null,
+"name": "Laois"
+},
+"venueId": "9b3a021d-3464-4bbf-b79b-d9ce505cf82d",
+"venue": "Integral GAA Grounds",
+"result": true,
+"score": {
+"hg": 0,
+"hp": 8,
+"ag": 0,
+"ap": 9
 },
 "tickets": null,
 "tv": null,
@@ -6274,6 +6274,39 @@
 "url": "https://ladiesgaelic.ie/fixtures-results/results/"
 },
 {
+"id": "lgfa:2026-05-09T13:00:00+00:00|U-20 Championship|Round 2|Cork|Dublin",
+"date": "2026-05-09T13:00:00+00:00",
+"time": "14:00",
+"tbc": false,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "U-20 Championship",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 2",
+"home": {
+"id": null,
+"name": "Cork"
+},
+"away": {
+"id": null,
+"name": "Dublin"
+},
+"venueId": "lgfa-cloughduv-gaa",
+"venue": "Cloughduv GAA",
+"result": true,
+"score": {
+"hg": 1,
+"hp": 6,
+"ag": 0,
+"ap": 7
+},
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/results/"
+},
+{
 "id": "lgfa:2026-05-09T13:00:00+00:00|U-20 Championship|Round 2|Mayo|Galway",
 "date": "2026-05-09T13:00:00+00:00",
 "time": "14:00",
@@ -6307,8 +6340,8 @@
 "url": "https://ladiesgaelic.ie/fixtures-results/results/"
 },
 {
-"id": "lgfa:2026-05-09T13:00:00+00:00|U-20 Championship|Round 2|Cork|Dublin",
-"date": "2026-05-09T13:00:00+00:00",
+"id": "lgfa:2026-05-23T13:00:00+00:00|U-20 Championship|Round 3|Galway|Cork",
+"date": "2026-05-23T13:00:00+00:00",
 "time": "14:00",
 "tbc": false,
 "status": "active",
@@ -6317,22 +6350,22 @@
 "competitionId": null,
 "rank": null,
 "group": null,
-"round": "Round 2",
+"round": "Round 3",
 "home": {
 "id": null,
-"name": "Cork"
+"name": "Galway"
 },
 "away": {
 "id": null,
-"name": "Dublin"
+"name": "Cork"
 },
-"venueId": "lgfa-cloughduv-gaa",
-"venue": "Cloughduv GAA",
+"venueId": "lgfa-tuam-stadium",
+"venue": "Tuam Stadium",
 "result": true,
 "score": {
-"hg": 1,
-"hp": 6,
-"ag": 0,
+"hg": 3,
+"hp": 4,
+"ag": 1,
 "ap": 7
 },
 "tickets": null,
@@ -6367,39 +6400,6 @@
 "hp": 15,
 "ag": 2,
 "ap": 3
-},
-"tickets": null,
-"tv": null,
-"url": "https://ladiesgaelic.ie/fixtures-results/results/"
-},
-{
-"id": "lgfa:2026-05-23T13:00:00+00:00|U-20 Championship|Round 3|Galway|Cork",
-"date": "2026-05-23T13:00:00+00:00",
-"time": "14:00",
-"tbc": false,
-"status": "active",
-"sport": "Ladies' Football",
-"competition": "U-20 Championship",
-"competitionId": null,
-"rank": null,
-"group": null,
-"round": "Round 3",
-"home": {
-"id": null,
-"name": "Galway"
-},
-"away": {
-"id": null,
-"name": "Cork"
-},
-"venueId": "lgfa-tuam-stadium",
-"venue": "Tuam Stadium",
-"result": true,
-"score": {
-"hg": 3,
-"hp": 4,
-"ag": 1,
-"ap": 7
 },
 "tickets": null,
 "tv": null,
@@ -6604,7 +6604,7 @@
 "url": "https://ladiesgaelic.ie/fixtures-results/results/"
 },
 {
-"id": "lgfa:2026-05-31T13:00:00+00:00|All-Ireland Intermediate Championship|Round 1|Westmeath|Monaghan",
+"id": "lgfa:2026-05-31T13:00:00+00:00|All-Ireland Intermediate Championship|Round 1|Cavan|Roscommon",
 "date": "2026-05-31T13:00:00+00:00",
 "time": "14:00",
 "tbc": false,
@@ -6613,24 +6613,24 @@
 "competition": "All-Ireland Intermediate Championship",
 "competitionId": null,
 "rank": null,
-"group": "Group 2",
+"group": "Group 1",
 "round": "Round 1",
 "home": {
 "id": null,
-"name": "Westmeath"
+"name": "Cavan"
 },
 "away": {
 "id": null,
-"name": "Monaghan"
+"name": "Roscommon"
 },
-"venueId": "93dcaa49-6b15-416e-9fbb-bb643a5ebd3a",
-"venue": "TEG Cusack Park, Westmeath",
+"venueId": "edb4d5a9-2ef6-4bec-92cd-2d4dfde3895c",
+"venue": "Kingspan Breffni, Cavan",
 "result": true,
 "score": {
-"hg": 3,
-"hp": 9,
-"ag": 0,
-"ap": 4
+"hg": 0,
+"hp": 16,
+"ag": 2,
+"ap": 7
 },
 "tickets": null,
 "tv": null,
@@ -6670,7 +6670,7 @@
 "url": "https://ladiesgaelic.ie/fixtures-results/results/"
 },
 {
-"id": "lgfa:2026-05-31T13:00:00+00:00|All-Ireland Intermediate Championship|Round 1|Cavan|Roscommon",
+"id": "lgfa:2026-05-31T13:00:00+00:00|All-Ireland Intermediate Championship|Round 1|Westmeath|Monaghan",
 "date": "2026-05-31T13:00:00+00:00",
 "time": "14:00",
 "tbc": false,
@@ -6679,24 +6679,24 @@
 "competition": "All-Ireland Intermediate Championship",
 "competitionId": null,
 "rank": null,
-"group": "Group 1",
+"group": "Group 2",
 "round": "Round 1",
 "home": {
 "id": null,
-"name": "Cavan"
+"name": "Westmeath"
 },
 "away": {
 "id": null,
-"name": "Roscommon"
+"name": "Monaghan"
 },
-"venueId": "edb4d5a9-2ef6-4bec-92cd-2d4dfde3895c",
-"venue": "Kingspan Breffni, Cavan",
+"venueId": "93dcaa49-6b15-416e-9fbb-bb643a5ebd3a",
+"venue": "TEG Cusack Park, Westmeath",
 "result": true,
 "score": {
-"hg": 0,
-"hp": 16,
-"ag": 2,
-"ap": 7
+"hg": 3,
+"hp": 9,
+"ag": 0,
+"ap": 4
 },
 "tickets": null,
 "tv": null,
@@ -6736,39 +6736,6 @@
 "url": "https://ladiesgaelic.ie/fixtures-results/results/"
 },
 {
-"id": "lgfa:2026-05-31T13:00:00+00:00|All-Ireland Junior Championship|Round 1|Longford|Kilkenny",
-"date": "2026-05-31T13:00:00+00:00",
-"time": "14:00",
-"tbc": false,
-"status": "active",
-"sport": "Ladies' Football",
-"competition": "All-Ireland Junior Championship",
-"competitionId": null,
-"rank": null,
-"group": "Group A",
-"round": "Round 1",
-"home": {
-"id": null,
-"name": "Longford"
-},
-"away": {
-"id": null,
-"name": "Kilkenny"
-},
-"venueId": "17d67366-e912-4be8-9eeb-72a4ca3d4266",
-"venue": "Glennon Brother's Pearse Park",
-"result": true,
-"score": {
-"hg": 5,
-"hp": 21,
-"ag": 0,
-"ap": 1
-},
-"tickets": null,
-"tv": null,
-"url": "https://ladiesgaelic.ie/fixtures-results/results/"
-},
-{
 "id": "lgfa:2026-05-31T13:00:00+00:00|All-Ireland Junior Championship|Round 1|Carlow|Limerick",
 "date": "2026-05-31T13:00:00+00:00",
 "time": "14:00",
@@ -6802,33 +6769,33 @@
 "url": "https://ladiesgaelic.ie/fixtures-results/results/"
 },
 {
-"id": "lgfa:2026-05-31T13:00:00+00:00|U-20 Championship|Round 4|Dublin|Galway",
+"id": "lgfa:2026-05-31T13:00:00+00:00|All-Ireland Junior Championship|Round 1|Longford|Kilkenny",
 "date": "2026-05-31T13:00:00+00:00",
 "time": "14:00",
 "tbc": false,
 "status": "active",
 "sport": "Ladies' Football",
-"competition": "U-20 Championship",
+"competition": "All-Ireland Junior Championship",
 "competitionId": null,
 "rank": null,
-"group": null,
-"round": "Round 4",
+"group": "Group A",
+"round": "Round 1",
 "home": {
 "id": null,
-"name": "Dublin"
+"name": "Longford"
 },
 "away": {
 "id": null,
-"name": "Galway"
+"name": "Kilkenny"
 },
-"venueId": "lgfa-national-games-development-centre-pitch-1",
-"venue": "National Games Development Centre (Pitch 1)",
+"venueId": "17d67366-e912-4be8-9eeb-72a4ca3d4266",
+"venue": "Glennon Brother's Pearse Park",
 "result": true,
 "score": {
-"hg": 4,
-"hp": 16,
-"ag": 2,
-"ap": 13
+"hg": 5,
+"hp": 21,
+"ag": 0,
+"ap": 1
 },
 "tickets": null,
 "tv": null,
@@ -6862,6 +6829,39 @@
 "hp": 17,
 "ag": 2,
 "ap": 8
+},
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/results/"
+},
+{
+"id": "lgfa:2026-05-31T13:00:00+00:00|U-20 Championship|Round 4|Dublin|Galway",
+"date": "2026-05-31T13:00:00+00:00",
+"time": "14:00",
+"tbc": false,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "U-20 Championship",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 4",
+"home": {
+"id": null,
+"name": "Dublin"
+},
+"away": {
+"id": null,
+"name": "Galway"
+},
+"venueId": "8f33a11e-c10c-4013-bac4-edcc35f9ac08",
+"venue": "National Games Development Centre (Pitch 1)",
+"result": true,
+"score": {
+"hg": 4,
+"hp": 16,
+"ag": 2,
+"ap": 13
 },
 "tickets": null,
 "tv": null,
@@ -7066,39 +7066,6 @@
 "url": "https://ladiesgaelic.ie/fixtures-results/results/"
 },
 {
-"id": "lgfa:2026-06-07T13:00:00+00:00|All-Ireland Junior Championship|Round 2|Offaly|Longford",
-"date": "2026-06-07T13:00:00+00:00",
-"time": "14:00",
-"tbc": false,
-"status": "active",
-"sport": "Ladies' Football",
-"competition": "All-Ireland Junior Championship",
-"competitionId": null,
-"rank": null,
-"group": "Group A",
-"round": "Round 2",
-"home": {
-"id": null,
-"name": "Offaly"
-},
-"away": {
-"id": null,
-"name": "Longford"
-},
-"venueId": "23baabb1-ff0d-4bf4-8176-38fbe315561e",
-"venue": "Glenisk O'Connor Park, Tullamore",
-"result": true,
-"score": {
-"hg": 1,
-"hp": 22,
-"ag": 3,
-"ap": 2
-},
-"tickets": null,
-"tv": null,
-"url": "https://ladiesgaelic.ie/fixtures-results/results/"
-},
-{
 "id": "lgfa:2026-06-07T13:00:00+00:00|All-Ireland Junior Championship|Round 2|Derry|Antrim",
 "date": "2026-06-07T13:00:00+00:00",
 "time": "14:00",
@@ -7126,6 +7093,39 @@
 "hp": 17,
 "ag": 1,
 "ap": 12
+},
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/results/"
+},
+{
+"id": "lgfa:2026-06-07T13:00:00+00:00|All-Ireland Junior Championship|Round 2|Offaly|Longford",
+"date": "2026-06-07T13:00:00+00:00",
+"time": "14:00",
+"tbc": false,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "All-Ireland Junior Championship",
+"competitionId": null,
+"rank": null,
+"group": "Group A",
+"round": "Round 2",
+"home": {
+"id": null,
+"name": "Offaly"
+},
+"away": {
+"id": null,
+"name": "Longford"
+},
+"venueId": "23baabb1-ff0d-4bf4-8176-38fbe315561e",
+"venue": "Glenisk O'Connor Park, Tullamore",
+"result": true,
+"score": {
+"hg": 1,
+"hp": 22,
+"ag": 3,
+"ap": 2
 },
 "tickets": null,
 "tv": null,
@@ -7363,72 +7363,6 @@
 "url": "https://ladiesgaelic.ie/fixtures-results/results/"
 },
 {
-"id": "lgfa:2026-06-14T13:00:00+00:00|All-Ireland Intermediate Championship|Round 3|Wicklow|Fermanagh",
-"date": "2026-06-14T13:00:00+00:00",
-"time": "14:00",
-"tbc": false,
-"status": "active",
-"sport": "Ladies' Football",
-"competition": "All-Ireland Intermediate Championship",
-"competitionId": null,
-"rank": null,
-"group": "Group 4",
-"round": "Round 3",
-"home": {
-"id": null,
-"name": "Wicklow"
-},
-"away": {
-"id": null,
-"name": "Fermanagh"
-},
-"venueId": "lgfa-an-tochar-gaa",
-"venue": "An Tóchar GAA",
-"result": true,
-"score": {
-"hg": 1,
-"hp": 7,
-"ag": 2,
-"ap": 18
-},
-"tickets": null,
-"tv": null,
-"url": "https://ladiesgaelic.ie/fixtures-results/results/"
-},
-{
-"id": "lgfa:2026-06-14T13:00:00+00:00|All-Ireland Intermediate Championship|Round 3|Wexford|Laois",
-"date": "2026-06-14T13:00:00+00:00",
-"time": "14:00",
-"tbc": false,
-"status": "active",
-"sport": "Ladies' Football",
-"competition": "All-Ireland Intermediate Championship",
-"competitionId": null,
-"rank": null,
-"group": "Group 3",
-"round": "Round 3",
-"home": {
-"id": null,
-"name": "Wexford"
-},
-"away": {
-"id": null,
-"name": "Laois"
-},
-"venueId": "79529a7e-f684-46ec-a8e9-c9ca00d6c629",
-"venue": "Chadwicks Wexford Park",
-"result": true,
-"score": {
-"hg": 5,
-"hp": 11,
-"ag": 2,
-"ap": 14
-},
-"tickets": null,
-"tv": null,
-"url": "https://ladiesgaelic.ie/fixtures-results/results/"
-},
-{
 "id": "lgfa:2026-06-14T13:00:00+00:00|All-Ireland Intermediate Championship|Round 3|Monaghan|Louth",
 "date": "2026-06-14T13:00:00+00:00",
 "time": "14:00",
@@ -7489,6 +7423,105 @@
 "hp": 13,
 "ag": 1,
 "ap": 12
+},
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/results/"
+},
+{
+"id": "lgfa:2026-06-14T13:00:00+00:00|All-Ireland Intermediate Championship|Round 3|Wexford|Laois",
+"date": "2026-06-14T13:00:00+00:00",
+"time": "14:00",
+"tbc": false,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "All-Ireland Intermediate Championship",
+"competitionId": null,
+"rank": null,
+"group": "Group 3",
+"round": "Round 3",
+"home": {
+"id": null,
+"name": "Wexford"
+},
+"away": {
+"id": null,
+"name": "Laois"
+},
+"venueId": "79529a7e-f684-46ec-a8e9-c9ca00d6c629",
+"venue": "Chadwicks Wexford Park",
+"result": true,
+"score": {
+"hg": 5,
+"hp": 11,
+"ag": 2,
+"ap": 14
+},
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/results/"
+},
+{
+"id": "lgfa:2026-06-14T13:00:00+00:00|All-Ireland Intermediate Championship|Round 3|Wicklow|Fermanagh",
+"date": "2026-06-14T13:00:00+00:00",
+"time": "14:00",
+"tbc": false,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "All-Ireland Intermediate Championship",
+"competitionId": null,
+"rank": null,
+"group": "Group 4",
+"round": "Round 3",
+"home": {
+"id": null,
+"name": "Wicklow"
+},
+"away": {
+"id": null,
+"name": "Fermanagh"
+},
+"venueId": "lgfa-an-tochar-gaa",
+"venue": "An Tóchar GAA",
+"result": true,
+"score": {
+"hg": 1,
+"hp": 7,
+"ag": 2,
+"ap": 18
+},
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/results/"
+},
+{
+"id": "lgfa:2026-06-14T13:00:00+00:00|All-Ireland Junior Championship|Round 2|Carlow|Sligo",
+"date": "2026-06-14T13:00:00+00:00",
+"time": "14:00",
+"tbc": false,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "All-Ireland Junior Championship",
+"competitionId": null,
+"rank": null,
+"group": "Group B",
+"round": "Round 2",
+"home": {
+"id": null,
+"name": "Carlow"
+},
+"away": {
+"id": null,
+"name": "Sligo"
+},
+"venueId": "d440c515-723b-4848-a974-0a90a9b61e47",
+"venue": "SETU Carlow GAA Stand Pitch (Main Campus Pitch)",
+"result": true,
+"score": {
+"hg": 2,
+"hp": 14,
+"ag": 0,
+"ap": 10
 },
 "tickets": null,
 "tv": null,
@@ -7561,39 +7594,6 @@
 "url": "https://ladiesgaelic.ie/fixtures-results/results/"
 },
 {
-"id": "lgfa:2026-06-14T13:00:00+00:00|All-Ireland Junior Championship|Round 2|Carlow|Sligo",
-"date": "2026-06-14T13:00:00+00:00",
-"time": "14:00",
-"tbc": false,
-"status": "active",
-"sport": "Ladies' Football",
-"competition": "All-Ireland Junior Championship",
-"competitionId": null,
-"rank": null,
-"group": "Group B",
-"round": "Round 2",
-"home": {
-"id": null,
-"name": "Carlow"
-},
-"away": {
-"id": null,
-"name": "Sligo"
-},
-"venueId": "d440c515-723b-4848-a974-0a90a9b61e47",
-"venue": "SETU Carlow GAA Stand Pitch (Main Campus Pitch)",
-"result": true,
-"score": {
-"hg": 2,
-"hp": 14,
-"ag": 0,
-"ap": 10
-},
-"tickets": null,
-"tv": null,
-"url": "https://ladiesgaelic.ie/fixtures-results/results/"
-},
-{
 "id": "lgfa:2026-06-20T11:00:00+00:00|All-Ireland Junior Championship|Round 3|London|Carlow",
 "date": "2026-06-20T11:00:00+00:00",
 "time": "12:00",
@@ -7627,39 +7627,6 @@
 "url": "https://ladiesgaelic.ie/fixtures-results/results/"
 },
 {
-"id": "lgfa:2026-06-20T12:00:00+00:00|All-Ireland Senior Championship|Round 3|Tyrone|Meath",
-"date": "2026-06-20T12:00:00+00:00",
-"time": "13:00",
-"tbc": false,
-"status": "active",
-"sport": "Ladies' Football",
-"competition": "All-Ireland Senior Championship",
-"competitionId": null,
-"rank": null,
-"group": "Group 4",
-"round": "Round 3",
-"home": {
-"id": null,
-"name": "Tyrone"
-},
-"away": {
-"id": null,
-"name": "Meath"
-},
-"venueId": "8ccafc9e-352f-4efc-8861-881246eadab9",
-"venue": "O'Neills Healy Park, Omagh",
-"result": true,
-"score": {
-"hg": 1,
-"hp": 10,
-"ag": 1,
-"ap": 12
-},
-"tickets": null,
-"tv": null,
-"url": "https://ladiesgaelic.ie/fixtures-results/results/"
-},
-{
 "id": "lgfa:2026-06-20T12:00:00+00:00|All-Ireland Senior Championship|Round 3|Donegal|Mayo",
 "date": "2026-06-20T12:00:00+00:00",
 "time": "13:00",
@@ -7687,6 +7654,39 @@
 "hp": 6,
 "ag": 1,
 "ap": 15
+},
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/results/"
+},
+{
+"id": "lgfa:2026-06-20T12:00:00+00:00|All-Ireland Senior Championship|Round 3|Tyrone|Meath",
+"date": "2026-06-20T12:00:00+00:00",
+"time": "13:00",
+"tbc": false,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "All-Ireland Senior Championship",
+"competitionId": null,
+"rank": null,
+"group": "Group 4",
+"round": "Round 3",
+"home": {
+"id": null,
+"name": "Tyrone"
+},
+"away": {
+"id": null,
+"name": "Meath"
+},
+"venueId": "8ccafc9e-352f-4efc-8861-881246eadab9",
+"venue": "O'Neills Healy Park, Omagh",
+"result": true,
+"score": {
+"hg": 1,
+"hp": 10,
+"ag": 1,
+"ap": 12
 },
 "tickets": null,
 "tv": null,
@@ -7891,39 +7891,6 @@
 "url": "https://ladiesgaelic.ie/fixtures-results/results/"
 },
 {
-"id": "lgfa:2026-06-25T18:30:00+00:00|All-Ireland U-16A Championship|Semi-Final|Cork|Kildare",
-"date": "2026-06-25T18:30:00+00:00",
-"time": "19:30",
-"tbc": false,
-"status": "active",
-"sport": "Ladies' Football",
-"competition": "All-Ireland U-16A Championship",
-"competitionId": null,
-"rank": null,
-"group": null,
-"round": "Semi-Final",
-"home": {
-"id": null,
-"name": "Cork"
-},
-"away": {
-"id": null,
-"name": "Kildare"
-},
-"venueId": "14e621bb-f607-43ec-9c4e-67237f95af25",
-"venue": "Fethard Town Park (Grass Pitch)",
-"result": true,
-"score": {
-"hg": 3,
-"hp": 10,
-"ag": 2,
-"ap": 14
-},
-"tickets": null,
-"tv": null,
-"url": "https://ladiesgaelic.ie/fixtures-results/results/"
-},
-{
 "id": "lgfa:2026-06-25T18:30:00+00:00|All-Ireland U-16A Championship|Semi-Final|Cavan|Galway",
 "date": "2026-06-25T18:30:00+00:00",
 "time": "19:30",
@@ -7957,33 +7924,33 @@
 "url": "https://ladiesgaelic.ie/fixtures-results/results/"
 },
 {
-"id": "lgfa:2026-06-25T18:30:00+00:00|All-Ireland U-16B Championship|Semi-Final|Laois|Tipperary",
+"id": "lgfa:2026-06-25T18:30:00+00:00|All-Ireland U-16A Championship|Semi-Final|Cork|Kildare",
 "date": "2026-06-25T18:30:00+00:00",
 "time": "19:30",
 "tbc": false,
 "status": "active",
 "sport": "Ladies' Football",
-"competition": "All-Ireland U-16B Championship",
+"competition": "All-Ireland U-16A Championship",
 "competitionId": null,
 "rank": null,
 "group": null,
 "round": "Semi-Final",
 "home": {
 "id": null,
-"name": "Laois"
+"name": "Cork"
 },
 "away": {
 "id": null,
-"name": "Tipperary"
+"name": "Kildare"
 },
-"venueId": "552693d6-fbbf-4281-aa5d-abd90e5df51d",
-"venue": "MW Hire Training Centre, Dunmore",
+"venueId": "14e621bb-f607-43ec-9c4e-67237f95af25",
+"venue": "Fethard Town Park (Grass Pitch)",
 "result": true,
 "score": {
-"hg": 4,
+"hg": 3,
 "hp": 10,
 "ag": 2,
-"ap": 7
+"ap": 14
 },
 "tickets": null,
 "tv": null,
@@ -8023,33 +7990,33 @@
 "url": "https://ladiesgaelic.ie/fixtures-results/results/"
 },
 {
-"id": "lgfa:2026-06-27T13:00:00+00:00|U-20 Championship|Round 5|Meath|Dublin",
-"date": "2026-06-27T13:00:00+00:00",
-"time": "14:00",
+"id": "lgfa:2026-06-25T18:30:00+00:00|All-Ireland U-16B Championship|Semi-Final|Laois|Tipperary",
+"date": "2026-06-25T18:30:00+00:00",
+"time": "19:30",
 "tbc": false,
 "status": "active",
 "sport": "Ladies' Football",
-"competition": "U-20 Championship",
+"competition": "All-Ireland U-16B Championship",
 "competitionId": null,
 "rank": null,
 "group": null,
-"round": "Round 5",
+"round": "Semi-Final",
 "home": {
 "id": null,
-"name": "Meath"
+"name": "Laois"
 },
 "away": {
 "id": null,
-"name": "Dublin"
+"name": "Tipperary"
 },
-"venueId": "lgfa-bective-gfc",
-"venue": "Bective GFC",
+"venueId": "552693d6-fbbf-4281-aa5d-abd90e5df51d",
+"venue": "MW Hire Training Centre, Dunmore",
 "result": true,
 "score": {
-"hg": 1,
-"hp": 8,
-"ag": 1,
-"ap": 8
+"hg": 4,
+"hp": 10,
+"ag": 2,
+"ap": 7
 },
 "tickets": null,
 "tv": null,
@@ -8089,132 +8056,33 @@
 "url": "https://ladiesgaelic.ie/fixtures-results/results/"
 },
 {
-"id": "lgfa:2026-06-28T13:00:00+00:00|All-Ireland Intermediate Championship|Quarter-Final 4|Leitrim|Roscommon",
-"date": "2026-06-28T13:00:00+00:00",
+"id": "lgfa:2026-06-27T13:00:00+00:00|U-20 Championship|Round 5|Meath|Dublin",
+"date": "2026-06-27T13:00:00+00:00",
 "time": "14:00",
 "tbc": false,
 "status": "active",
 "sport": "Ladies' Football",
-"competition": "All-Ireland Intermediate Championship",
+"competition": "U-20 Championship",
 "competitionId": null,
 "rank": null,
 "group": null,
-"round": "Quarter-Final 4",
+"round": "Round 5",
 "home": {
 "id": null,
-"name": "Leitrim"
+"name": "Meath"
 },
 "away": {
 "id": null,
-"name": "Roscommon"
+"name": "Dublin"
 },
-"venueId": "e8fe6c11-9763-4cab-a721-6eea7112549f",
-"venue": "Heartland Credit Union Páirc Seán MacDiarmada",
+"venueId": "lgfa-bective-gfc",
+"venue": "Bective GFC",
 "result": true,
 "score": {
-"hg": 2,
+"hg": 1,
 "hp": 8,
-"ag": 2,
-"ap": 12
-},
-"tickets": null,
-"tv": null,
-"url": "https://ladiesgaelic.ie/fixtures-results/results/"
-},
-{
-"id": "lgfa:2026-06-28T13:00:00+00:00|All-Ireland Intermediate Championship|Relegation Qualifier|Louth|Wicklow",
-"date": "2026-06-28T13:00:00+00:00",
-"time": "14:00",
-"tbc": false,
-"status": "active",
-"sport": "Ladies' Football",
-"competition": "All-Ireland Intermediate Championship",
-"competitionId": null,
-"rank": null,
-"group": null,
-"round": "Relegation Qualifier",
-"home": {
-"id": null,
-"name": "Louth"
-},
-"away": {
-"id": null,
-"name": "Wicklow"
-},
-"venueId": "acc06fbc-c693-445b-8fbf-727cbb1fe3d5",
-"venue": "Donaghmore Ashbourne GAA",
-"result": true,
-"score": {
-"hg": 2,
-"hp": 15,
-"ag": 0,
-"ap": 6
-},
-"tickets": null,
-"tv": null,
-"url": "https://ladiesgaelic.ie/fixtures-results/results/"
-},
-{
-"id": "lgfa:2026-06-28T13:00:00+00:00|All-Ireland Intermediate Championship|Quarter-Final 3|Down|Monaghan",
-"date": "2026-06-28T13:00:00+00:00",
-"time": "14:00",
-"tbc": false,
-"status": "active",
-"sport": "Ladies' Football",
-"competition": "All-Ireland Intermediate Championship",
-"competitionId": null,
-"rank": null,
-"group": null,
-"round": "Quarter-Final 3",
-"home": {
-"id": null,
-"name": "Down"
-},
-"away": {
-"id": null,
-"name": "Monaghan"
-},
-"venueId": "c0b04cad-5890-43b4-869c-da8807e7ecc8",
-"venue": "Páirc Esler, Newry",
-"result": true,
-"score": {
-"hg": 0,
-"hp": 18,
-"ag": 2,
-"ap": 7
-},
-"tickets": null,
-"tv": null,
-"url": "https://ladiesgaelic.ie/fixtures-results/results/"
-},
-{
-"id": "lgfa:2026-06-28T13:00:00+00:00|All-Ireland Intermediate Championship|Relegation Qualifier|Cavan|Laois",
-"date": "2026-06-28T13:00:00+00:00",
-"time": "14:00",
-"tbc": false,
-"status": "active",
-"sport": "Ladies' Football",
-"competition": "All-Ireland Intermediate Championship",
-"competitionId": null,
-"rank": null,
-"group": null,
-"round": "Relegation Qualifier",
-"home": {
-"id": null,
-"name": "Cavan"
-},
-"away": {
-"id": null,
-"name": "Laois"
-},
-"venueId": "lgfa-athlone-gaa",
-"venue": "Athlone GAA",
-"result": true,
-"score": {
-"hg": 2,
-"hp": 12,
 "ag": 1,
-"ap": 6
+"ap": 8
 },
 "tickets": null,
 "tv": null,
@@ -8281,6 +8149,138 @@
 "hp": 12,
 "ag": 3,
 "ap": 7
+},
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/results/"
+},
+{
+"id": "lgfa:2026-06-28T13:00:00+00:00|All-Ireland Intermediate Championship|Quarter-Final 3|Down|Monaghan",
+"date": "2026-06-28T13:00:00+00:00",
+"time": "14:00",
+"tbc": false,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "All-Ireland Intermediate Championship",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Quarter-Final 3",
+"home": {
+"id": null,
+"name": "Down"
+},
+"away": {
+"id": null,
+"name": "Monaghan"
+},
+"venueId": "c0b04cad-5890-43b4-869c-da8807e7ecc8",
+"venue": "Páirc Esler, Newry",
+"result": true,
+"score": {
+"hg": 0,
+"hp": 18,
+"ag": 2,
+"ap": 7
+},
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/results/"
+},
+{
+"id": "lgfa:2026-06-28T13:00:00+00:00|All-Ireland Intermediate Championship|Quarter-Final 4|Leitrim|Roscommon",
+"date": "2026-06-28T13:00:00+00:00",
+"time": "14:00",
+"tbc": false,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "All-Ireland Intermediate Championship",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Quarter-Final 4",
+"home": {
+"id": null,
+"name": "Leitrim"
+},
+"away": {
+"id": null,
+"name": "Roscommon"
+},
+"venueId": "e8fe6c11-9763-4cab-a721-6eea7112549f",
+"venue": "Heartland Credit Union Páirc Seán MacDiarmada",
+"result": true,
+"score": {
+"hg": 2,
+"hp": 8,
+"ag": 2,
+"ap": 12
+},
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/results/"
+},
+{
+"id": "lgfa:2026-06-28T13:00:00+00:00|All-Ireland Intermediate Championship|Relegation Qualifier|Cavan|Laois",
+"date": "2026-06-28T13:00:00+00:00",
+"time": "14:00",
+"tbc": false,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "All-Ireland Intermediate Championship",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Relegation Qualifier",
+"home": {
+"id": null,
+"name": "Cavan"
+},
+"away": {
+"id": null,
+"name": "Laois"
+},
+"venueId": "lgfa-athlone-gaa",
+"venue": "Athlone GAA",
+"result": true,
+"score": {
+"hg": 2,
+"hp": 12,
+"ag": 1,
+"ap": 6
+},
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/results/"
+},
+{
+"id": "lgfa:2026-06-28T13:00:00+00:00|All-Ireland Intermediate Championship|Relegation Qualifier|Louth|Wicklow",
+"date": "2026-06-28T13:00:00+00:00",
+"time": "14:00",
+"tbc": false,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "All-Ireland Intermediate Championship",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Relegation Qualifier",
+"home": {
+"id": null,
+"name": "Louth"
+},
+"away": {
+"id": null,
+"name": "Wicklow"
+},
+"venueId": "acc06fbc-c693-445b-8fbf-727cbb1fe3d5",
+"venue": "Donaghmore Ashbourne GAA",
+"result": true,
+"score": {
+"hg": 2,
+"hp": 15,
+"ag": 0,
+"ap": 6
 },
 "tickets": null,
 "tv": null,
@@ -8438,7 +8438,7 @@
 "id": null,
 "name": "Wicklow"
 },
-"venueId": "lgfa-national-games-development-centre-pitch-1",
+"venueId": "8f33a11e-c10c-4013-bac4-edcc35f9ac08",
 "venue": "National Games Development Centre (Pitch 1)",
 "result": true,
 "score": {
@@ -8504,7 +8504,7 @@
 "id": null,
 "name": "Tyrone"
 },
-"venueId": "lgfa-st-loman-s-mullingar",
+"venueId": "2e24c80c-229e-4df0-a70f-a3e3dcdaf42c",
 "venue": "St. Loman's Mullingar",
 "result": true,
 "score": {
@@ -8617,39 +8617,6 @@
 "url": "https://ladiesgaelic.ie/fixtures-results/results/"
 },
 {
-"id": "lgfa:2026-07-08T18:30:00+00:00|All-Ireland U-18C Championship|Semi-Final|Limerick|Longford",
-"date": "2026-07-08T18:30:00+00:00",
-"time": "19:30",
-"tbc": false,
-"status": "active",
-"sport": "Ladies' Football",
-"competition": "All-Ireland U-18C Championship",
-"competitionId": null,
-"rank": null,
-"group": null,
-"round": "Semi-Final",
-"home": {
-"id": null,
-"name": "Limerick"
-},
-"away": {
-"id": null,
-"name": "Longford"
-},
-"venueId": "ee37d5ac-6c4c-4067-92dd-17dc3a1cbb7e",
-"venue": "Duggan Park, Ballinasloe",
-"result": true,
-"score": {
-"hg": 2,
-"hp": 11,
-"ag": 5,
-"ap": 11
-},
-"tickets": null,
-"tv": null,
-"url": "https://ladiesgaelic.ie/fixtures-results/results/"
-},
-{
 "id": "lgfa:2026-07-08T18:30:00+00:00|All-Ireland U-18C Championship|Semi-Final|Armagh|Leitrim",
 "date": "2026-07-08T18:30:00+00:00",
 "time": "19:30",
@@ -8677,6 +8644,39 @@
 "hp": 19,
 "ag": 0,
 "ap": 5
+},
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/results/"
+},
+{
+"id": "lgfa:2026-07-08T18:30:00+00:00|All-Ireland U-18C Championship|Semi-Final|Limerick|Longford",
+"date": "2026-07-08T18:30:00+00:00",
+"time": "19:30",
+"tbc": false,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "All-Ireland U-18C Championship",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Semi-Final",
+"home": {
+"id": null,
+"name": "Limerick"
+},
+"away": {
+"id": null,
+"name": "Longford"
+},
+"venueId": "ee37d5ac-6c4c-4067-92dd-17dc3a1cbb7e",
+"venue": "Duggan Park, Ballinasloe",
+"result": true,
+"score": {
+"hg": 2,
+"hp": 11,
+"ag": 5,
+"ap": 11
 },
 "tickets": null,
 "tv": null,
@@ -8749,39 +8749,6 @@
 "url": "https://ladiesgaelic.ie/fixtures-results/results/"
 },
 {
-"id": "lgfa:2026-07-09T18:30:00+00:00|All-Ireland U-18B Championship|Semi-Final|Tyrone|Sligo",
-"date": "2026-07-09T18:30:00+00:00",
-"time": "19:30",
-"tbc": false,
-"status": "active",
-"sport": "Ladies' Football",
-"competition": "All-Ireland U-18B Championship",
-"competitionId": null,
-"rank": null,
-"group": null,
-"round": "Semi-Final",
-"home": {
-"id": null,
-"name": "Tyrone"
-},
-"away": {
-"id": null,
-"name": "Sligo"
-},
-"venueId": "c6778b91-d8d8-43e8-8561-af473a8651dc",
-"venue": "Fr Tierney Park",
-"result": true,
-"score": {
-"hg": 3,
-"hp": 13,
-"ag": 0,
-"ap": 11
-},
-"tickets": null,
-"tv": null,
-"url": "https://ladiesgaelic.ie/fixtures-results/results/"
-},
-{
 "id": "lgfa:2026-07-09T18:30:00+00:00|All-Ireland U-18B Championship|Semi-Final|Kerry|Laois",
 "date": "2026-07-09T18:30:00+00:00",
 "time": "19:30",
@@ -8809,6 +8776,39 @@
 "hp": 4,
 "ag": 0,
 "ap": 7
+},
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/results/"
+},
+{
+"id": "lgfa:2026-07-09T18:30:00+00:00|All-Ireland U-18B Championship|Semi-Final|Tyrone|Sligo",
+"date": "2026-07-09T18:30:00+00:00",
+"time": "19:30",
+"tbc": false,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "All-Ireland U-18B Championship",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Semi-Final",
+"home": {
+"id": null,
+"name": "Tyrone"
+},
+"away": {
+"id": null,
+"name": "Sligo"
+},
+"venueId": "c6778b91-d8d8-43e8-8561-af473a8651dc",
+"venue": "Fr Tierney Park",
+"result": true,
+"score": {
+"hg": 3,
+"hp": 13,
+"ag": 0,
+"ap": 11
 },
 "tickets": null,
 "tv": null,

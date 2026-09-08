@@ -94,7 +94,10 @@ def write_source(key, rows, source_url, min_rows=1, fetched=None):
         if len(rs) < min_rows:
             print(f"skip {year}: only {len(rs)} rows")
             continue
-        rs.sort(key=lambda r: (r["date"] or "", r["competition"] or ""))
+        # Sorted on the id as well as the date: two rows can share a date and a
+        # competition, and without a total order they swap places between runs and every
+        # refresh commits a diff that changes nothing.
+        rs.sort(key=lambda r: (r["date"] or "", r["competition"] or "", str(r["id"])))
         out = {"season": year, "source": source_url, "fetched": now, "fixtures": rs}
         with open(path(year, key), "w", encoding="utf-8") as f:
             json.dump(out, f, ensure_ascii=False, indent=0)
