@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Pull camogie inter-county fixtures/results from camogie.ie into camogie.json,
+"""Pull camogie inter-county fixtures/results from camogie.ie into data/<year>-camogie.json,
 in the same record shape fetch.py writes for gaa.ie (sport: "Camogie").
 
 camogie.ie is a WordPress site (theme "camogie_association") whose fixtures-results
@@ -23,8 +23,10 @@ Notably: camogie.ie's venueID values are the *same* GAA venue UUIDs gaa.ie uses
 associations share a venue database. So venues.json can be reused as-is; no separate
 camogie geocoding pass is needed except for venues gaa.ie has never listed.
 
-Only inter-county fixtures/results (level=inter_county) from the current calendar
-year are kept, matching the window gaa.ie's own fetch.py effectively captures.
+Only inter-county fixtures/results (level=inter_county) from the current calendar year are
+kept, matching the window gaa.ie's own fetch.py effectively captures. camogie.ie does keep
+older seasons behind the same endpoint; --since <year> will take them, at the cost of
+geocoding the venues they add.
 
 Times need converting: camogie.ie prints a bare Irish wall-clock time with no zone,
 so a throw-in is read in Europe/Dublin and written as the UTC instant fetch.py gets
@@ -33,14 +35,17 @@ from gaa.ie for free. Getting this wrong puts every summer match an hour out.
 import datetime as dt
 import html
 import json
+import os
 import re
 import sys
 import time
 import urllib.request
 from zoneinfo import ZoneInfo
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import data  # noqa: E402
+
 BASE = "https://camogie.ie/fixtures-results/"
-OUT = "camogie.json"
 IRELAND = ZoneInfo("Europe/Dublin")
 UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128 Safari/537.36"
 PAGE_SIZE = 50
@@ -48,6 +53,7 @@ MAX_PAGES = 20  # safety cap per feed
 SLEEP = 1.0
 
 THIS_YEAR = dt.datetime.now(dt.timezone.utc).year
+SINCE = int(sys.argv[sys.argv.index("--since") + 1]) if "--since" in sys.argv else THIS_YEAR
 
 DATE_SPLIT_RE = re.compile(r'<h3 class="fix_res_date[^"]*"[^>]*>\s*([^<]+?)\s*</h3>')
 ORDINAL_RE = re.compile(r"(\d+)(st|nd|rd|th)\b")
@@ -224,7 +230,7 @@ def fetch_feed(feed_type):
         if not data.get("ok"):
             break
         rows = parse_fragment(data.get("html", ""), is_result)
-        current_year_rows = [r for r in rows if r["date"][:4] == str(THIS_YEAR)]
+        current_year_rows = [r for r in rows if int(r["date"][:4]) >= SINCE]
         out.extend(current_year_rows)
         if not current_year_rows:
             stale_pages += 1
@@ -252,15 +258,8 @@ def main():
         n = seen.get(key, 0)
         seen[key] = n + 1
         r["id"] = f"camogie:{key}" + (f"#{n}" if n else "")
-    rows.sort(key=lambda r: (r["date"] or "", r["competition"] or ""))
-    out = {
-        "fetched": dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-        "source": BASE,
-        "fixtures": rows,
-    }
-    with open(OUT, "w", encoding="utf-8") as f:
-        json.dump(out, f, ensure_ascii=False, indent=0)
-    print(f"{len(rows)} camogie fixtures, {rows[0]['date'][:10]} to {rows[-1]['date'][:10]}")
+    for year, n in data.write_source("camogie", rows, BASE, min_rows=20):
+        print(f"{year}: {n} camogie fixtures")
 
 
 if __name__ == "__main__":

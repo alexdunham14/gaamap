@@ -4,14 +4,13 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>GAA Map</title>
-<meta name="description" content="A map of hurling, Irish football and camogie fixtures, filterable by sport, level, competition, team, and date.">
+<meta name="description" content="A map of hurling, Gaelic football, camogie and ladies' football fixtures, filterable by sport, level, competition, team, and date.">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <h1>GAA Map</h1>
-<p>A filterable map of inter-county hurling, football and camogie matches, as listed on gaa.ie and camogie.ie.</p>
-<p class="note">Ladies&rsquo; football is published on a third site, ladiesgaelic.ie, and is to be added ahead of the 2027 season.</p>
+<p>A filterable map of inter-county hurling, football, camogie and ladies&rsquo; football matches, as listed on gaa.ie, camogie.ie and ladiesgaelic.ie.</p>
 <p id="season"></p>
 
 <details id="guide">
@@ -19,8 +18,15 @@
   <div id="guide-body"></div>
 </details>
 
-<noscript><p>The map and the fixture list need JavaScript. The data is in <a href="fixtures.json">fixtures.json</a>, <a href="camogie.json">camogie.json</a> and <a href="venues.json">venues.json</a>.</p></noscript>
+<noscript><p>The map and the fixture list need JavaScript. The data is one file per source per season, indexed by <a href="data/seasons.json">data/seasons.json</a>, with the grounds in <a href="venues.json">venues.json</a>.</p></noscript>
 <form id="f" onsubmit="return false">
+  <div class="row" id="season-row" hidden>
+    <span class="rowlabel">season</span>
+    <div class="ctl">
+      <select id="seasonpick" aria-label="Season"></select>
+      <span class="tag">each season is its own file; only the one shown is downloaded</span>
+    </div>
+  </div>
   <div class="row">
     <span class="rowlabel">dates</span>
     <div class="ctl">
@@ -37,6 +43,7 @@
       <label><input type="checkbox" name="sport" value="Football" checked> <span class="dot football"></span>football</label>
       <label><input type="checkbox" name="sport" value="Hurling" checked> <span class="dot hurling"></span>hurling</label>
       <label><input type="checkbox" name="sport" value="Camogie" checked> <span class="dot hurling"></span>camogie</label>
+      <label><input type="checkbox" name="sport" value="Ladies' Football" checked> <span class="dot football"></span>ladies&rsquo; football</label>
     </div>
   </div>
   <div class="row">

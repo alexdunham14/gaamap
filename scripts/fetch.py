@@ -1,18 +1,23 @@
 #!/usr/bin/env python3
-"""Pull the fixture list gaa.ie embeds in its fixtures page and write fixtures.json.
+"""Pull the fixture list gaa.ie embeds in its fixtures page into data/<year>-gaa.json.
 
 gaa.ie is a Next.js app; the fixtures-results page ships the whole season's match
 records inline as React Server Components payload (self.__next_f.push chunks), as
 JSON-in-a-string. No API needed. If the page format changes this script breaks and the
-site simply keeps serving the last good fixtures.json.
+site simply keeps serving the last good file.
+
+The page only ever shows the season it is in, so the output goes to that season's file
+(data/<year>-gaa.json, see scripts/data.py) and last season's is left untouched.
 """
-import datetime as dt
 import gzip
 import json
 import os
 import re
 import sys
 import urllib.request
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import data  # noqa: E402
 
 URL = "https://www.gaa.ie/fixtures-results"
 UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128 Safari/537.36"
@@ -105,13 +110,14 @@ def main():
         o = overrides.get(r["id"])
         if o:
             r["venueId"], r["venue"] = o["venueId"], o["venue"]
-    rows.sort(key=lambda r: (r["date"] or "", r["competition"] or ""))
+    rows = [r for r in rows if r["date"]]
     if len(rows) < 50:
-        sys.exit(f"only {len(rows)} fixtures parsed; refusing to overwrite fixtures.json")
-    out = {"fetched": dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"), "source": URL, "fixtures": rows}
-    with open("fixtures.json", "w", encoding="utf-8") as f:
-        json.dump(out, f, ensure_ascii=False, indent=0)
-    print(f"{len(rows)} fixtures, {rows[0]['date'][:10]} to {rows[-1]['date'][:10]}")
+        sys.exit(f"only {len(rows)} fixtures parsed; refusing to overwrite the season's file")
+    # 50 rows is a whole-season floor; a season file is only replaced if this run found
+    # at least 20 rows for that season, so a January run that has seen three 2027 club
+    # fixtures does not overwrite a complete 2026.
+    for year, n in data.write_source("gaa", rows, URL, min_rows=20):
+        print(f"{year}: {n} fixtures")
 
 
 if __name__ == "__main__":

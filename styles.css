@@ -11,6 +11,7 @@ h2 { font-weight: normal; font-size: 1.2rem; margin: 1.5rem 0 .25rem; border-bot
 form { margin: 1rem 0; border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; }
 form .row { display: grid; grid-template-columns: 6.5rem 1fr; align-items: baseline; padding: .5rem 0; }
 form .row + .row { border-top: 1px solid #eee; }
+form .row[hidden] { display: none; }  /* an author display rule outranks the browser's [hidden] */
 .rowlabel { font-size: .8rem; letter-spacing: .06em; text-transform: uppercase; color: #777; }
 .ctl { display: flex; flex-wrap: wrap; gap: .4rem .9rem; align-items: center; min-width: 0; }
 .ctl label { white-space: nowrap; }
@@ -54,12 +55,30 @@ td.venue a { color: inherit; }
 td small a { color: inherit; }
 .tag { color: #555; }
 .tbc { color: #a33; font-size: .85em; }
-.pop { font: .9rem/1.35 Georgia, serif; }
-.pop b { display: block; margin-bottom: .2rem; }
+/* A dot's popup: a heading, then one block per match with a rule between them, rather than
+   a run-on paragraph. Leaflet scrolls it past maxHeight (see the popup options in app.js). */
+.pop { font: .9rem/1.4 Georgia, serif; }
+.pop > b { display: block; font-size: 1rem; }
+.pop > .tag { display: block; font-size: .8rem; margin-bottom: .3rem; }
+.pop ol { list-style: none; margin: 0; padding: 0; }
+.pop li { padding: .45rem 0; border-top: 1px solid #ddd; }
+.pop li > span { display: block; }
+.pop-when { font-size: .8rem; color: #555; }
+.pop-detail { font-size: .8rem; color: #555; }
+.pop-jump { font-size: .8rem; }
+.leaflet-popup-content { margin: .7rem .8rem; }
+.leaflet-popup-scrolled { border-bottom: 1px solid #ddd; }
+
+/* The row a popup's "see it in the list below" link lands on. */
+tr.lit td { background: #fff6d5; }
+@media (prefers-color-scheme: dark) { tr.lit td { background: #3a3320; } }
 .none, #season { color: #666; }
 #meta { color: #666; font-size: .9rem; }
 @media (prefers-color-scheme: dark) {
   td.when, #meta, .none, .tag, .legend, summary, #guide-body dt, #guide-body .tier, #season, .rowlabel { color: #999; }
   h2 { border-color: #444; } form { border-color: #333; } form .row + .row { border-color: #2a2a2a; } #map { background: #222; }
   button.clear, .nudge button { border-color: #555; }
+  .pop li { border-color: #444; }
+  .pop-when, .pop-detail { color: #999; }
+  .leaflet-popup-scrolled { border-color: #444; }
 }

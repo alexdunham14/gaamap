@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Geocode every venue in fixtures.json once, into venues.json. Hand-fix venues.json afterwards;
+"""Geocode every venue in the fixture files once, into venues.json. Hand-fix venues.json afterwards;
 this script never overwrites an entry that already has coordinates unless --force.
 
 Uses Nominatim (OpenStreetMap), one request per second as its policy requires. The county
@@ -35,8 +35,8 @@ EIRCODE_RE = re.compile(r"\b[A-Z]\d{2}\s?[A-Z0-9]{4}\b")
 # "Edendork St. Malachy's GAC", "Fethard Town Park (Grass Pitch)", "Hawkfield Kildare C of
 # Excel". Nominatim knows the places, not the boilerplate, so the stripped name is tried too.
 BOILER_RE = re.compile(
-    r"\b(GAA|GAC|CLG|Club|Centre of Excellence|C of Excel|CoE|Grass Pitch|Main Campus Pitch|"
-    r"Stand Pitch|3G Pitch|Pitch\s*\d*|Hurling and Camogie|Camogie|Grounds?)\b", re.I)
+    r"\b(GAA|GAC|CLG|GFC|Club|Centre of Excellence|C of Excel|CoE|Grass Pitch|Main Campus Pitch|"
+    r"Stand Pitch|[34]G Pitch|Pitch\s*\d*|Hurling and Camogie|Camogie|Grounds?)\b", re.I)
 
 
 def county_matches(hit, county):
@@ -70,6 +70,10 @@ def main():
     hints = {}
     for f in fixtures:
         vid, home = f["venueId"], (f["home"] or {}).get("name", "")
+        # ladiesgaelic.ie leaves the venue out of some rows altogether. A fixture with no
+        # venue has nothing to geocode and must not become a "null" entry in venues.json.
+        if not vid:
+            continue
         hints.setdefault(vid, {"name": f["venue"], "counties": collections.Counter(), "abroad": set()})
         if home in COUNTIES:
             hints[vid]["counties"][home] += 1
@@ -77,11 +81,22 @@ def main():
             hints[vid]["abroad"].add(ABROAD[home])
     for vid, h in hints.items():
         v = venues.setdefault(vid, {"name": h["name"]})
-        if v.get("lat") is not None and not force:
-            continue
         name = h["name"]
         if not name:
             print("skip venue with no name", vid, flush=True)
+            continue
+        # A venue_queries.json entry can be a string instead of a list of queries: a note
+        # saying no query for this ground is trustworthy, so leave it off the map. Some
+        # grounds are in villages Nominatim has never heard of, and its nearest answer is
+        # a street somewhere else named after the same place. Checked before the
+        # already-placed test, so writing the note also takes back a bad earlier hit.
+        note = manual.get(name) if isinstance(manual.get(name), str) else None
+        if note:
+            if v.get("lat") is not None or "why" not in v:
+                v.update({"lat": None, "lon": None, "hint": None, "why": note})
+                print("SKIP", name, "--", note[:60], flush=True)
+            continue
+        if v.get("lat") is not None and not force:
             continue
         region = next(iter(h["abroad"]), None)
         # The county a ground most often hosts, not only the unanimous case: a club ground

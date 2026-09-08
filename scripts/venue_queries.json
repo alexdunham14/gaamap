@@ -226,5 +226,100 @@
  ],
  "St Peregrine's": [
   "Blakestown, Dublin, Ireland"
- ]
+ ],
+ "Mallow GAA Sports Complex": [
+  "Mallow, County Cork, Ireland"
+ ],
+ "University of Galway": [
+  "Dangan, Galway, Ireland"
+ ],
+ "St. Croan's GAA, Roscommon": [
+  "Ballintubber, County Roscommon, Ireland"
+ ],
+ "Páirc Chiaráin, Athlone": [
+  "Athlone, County Westmeath, Ireland"
+ ],
+ "Mourneabbey Community Centre": [
+  "Mourneabbey, County Cork, Ireland"
+ ],
+ "Cloonacool Community Park": [
+  "Cloonacool, County Sligo, Ireland"
+ ],
+ "McCann Park, Portarlington": [
+  "Portarlington, County Laois, Ireland"
+ ],
+ "St. Loman's Mullingar": [
+  "St Lomans GAA Club, Mullingar, County Westmeath, Ireland"
+ ],
+ "National Games Development Centre (Pitch 1)": [
+  "Abbotstown, Dublin, Ireland"
+ ],
+ "ATU Sligo": [
+  "Institute of Technology Sligo, Sligo, Ireland"
+ ],
+ "University College Cork": [
+  "Mardyke Arena, Cork, Ireland"
+ ],
+ "Clonmel Sportsfield": [
+  "Clonmel, County Tipperary, Ireland"
+ ],
+ "Crettyard GAA": [
+  "Crettyard, County Laois, Ireland"
+ ],
+ "DCU Dóchas Éireann": [
+  "Dublin City University, Glasnevin, Dublin, Ireland"
+ ],
+ "Emmet Park, Lisnaskea": [
+  "Lisnaskea, County Fermanagh, UK"
+ ],
+ "Emyvale": [
+  "Emyvale, County Monaghan, Ireland"
+ ],
+ "Faithful Fields, Offaly GAA Centre of Excellence": [
+  "Kilcormac, County Offaly, Ireland"
+ ],
+ "Galbally Pearses GAC": [
+  "Galbally, County Tyrone, UK"
+ ],
+ "Holy Trinity College Cookstown": [
+  "Holy Trinity College, Cookstown, UK"
+ ],
+ "Kinawley Brian Boru GAA": [
+  "Kinawley, County Fermanagh, UK"
+ ],
+ "Liatroim Fontenoys GAC": [
+  "Liatroim, County Down, Ireland"
+ ],
+ "Moyne Templetuohy GAA": [
+  "Templetuohy, County Tipperary, Ireland"
+ ],
+ "Orchard Park, Elphin GAA": [
+  "Elphin, County Roscommon, Ireland"
+ ],
+ "Pádraig Pearses GAA": [
+  "Padraig Pearses GAA Roscommon, County Roscommon, Ireland"
+ ],
+ "Samaritans St. Patrick's Park": [
+  "Park Enniscorthy, County Wexford, Ireland"
+ ],
+ "Silverbridge Harps GAA": [
+  "Silverbridge, County Armagh, UK"
+ ],
+ "St. Barry's GFC, Tarmonbarry": [
+  "Tarmonbarry, County Roscommon, Ireland"
+ ],
+ "St. Oliver Plunkett Park, Crossmaglen": [
+  "St Oliver Plunkett Park, Crossmaglen, UK"
+ ],
+ "Tempo Maguires GAC": [
+  "Tempo, County Fermanagh, UK"
+ ],
+ "Tuam Stadium": [
+  "Tuam, County Galway, Ireland"
+ ],
+ "University of Limerick, Maguires 4G Pitch": [
+  "University of Limerick, Limerick, Ireland"
+ ],
+ "Glenfin GAA": "Nominatim has no Glenfin in Donegal, only a Glenfin Street in Stranorlar 8 km away, and it answers every query for the village with that street. A dot there would be wrong.",
+ "Annanough GAA": "Nominatim has no Annanough at all, under any spelling, and nothing nearby is named after the club. Left off rather than guessed at."
 }
