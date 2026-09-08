@@ -10,11 +10,11 @@
 </head>
 <body>
 <h1>GAA Map</h1>
-<p>A filterable map of inter-county hurling, football, camogie and ladies&rsquo; football matches, as listed on gaa.ie, camogie.ie and ladiesgaelic.ie, and of the club championships from the county boards and provincial councils whose sites can be read.</p>
-<p id="season"></p>
+<p>Hurling, football, camogie and ladies&rsquo; football fixtures, inter-county and club, on a map of Ireland.</p>
+<p id="season" hidden></p>
 
 <details id="guide">
-  <summary>Details on the map contents</summary>
+  <summary>What the levels mean</summary>
   <div id="guide-body"></div>
 </details>
 
@@ -24,7 +24,6 @@
     <span class="rowlabel">season</span>
     <div class="ctl">
       <select id="seasonpick" aria-label="Season"></select>
-      <span class="tag">each season is its own file; only the one shown is downloaded</span>
     </div>
   </div>
   <div class="row">
@@ -32,8 +31,7 @@
     <div class="ctl">
       <label>from <input id="from" type="date"></label>
       <label>to <input id="to" type="date"></label>
-      <span class="nudge"><button type="button" id="earlier" title="Shift the range back by its own length">&lsaquo; earlier</button> <button type="button" id="later" title="Shift the range forward by its own length">later &rsaquo;</button></span>
-      <button type="button" id="clear-dates" class="clear" title="Show the whole season">clear</button>
+      <span class="nudge"><button type="button" id="earlier" title="Shift the range back by its own length">&lsaquo; earlier</button> <button type="button" id="later" title="Shift the range forward by its own length">later &rsaquo;</button> <button type="button" id="clear-dates" class="clear" title="Show the whole season">clear</button></span>
       <span class="presets" id="presets"></span>
     </div>
   </div>
@@ -56,9 +54,9 @@
   <div class="row">
     <span class="rowlabel">team</span>
     <div class="ctl">
-      <input id="team" type="search" placeholder="Kerry" size="14" aria-label="Team or county">
-      <label><input id="results" type="checkbox"> include played matches</label>
-      <button type="button" id="reset" class="clear" title="Clear every filter">reset all</button>
+      <input id="team" type="search" placeholder="team or county" size="16" aria-label="Team or county">
+      <label><input id="results" type="checkbox"> include played</label>
+      <button type="button" id="reset" class="clear" title="Clear every filter">reset</button>
     </div>
   </div>
 </form>

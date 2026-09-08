@@ -43,17 +43,17 @@
   const SPORTS = ["Football", "Hurling", "Camogie", "Ladies' Football"];
   const LEVELS = ["Senior championship", "National league", "Under-23", "Under-20", "Under-18", "Minor", "Under-16", "Under-14", "Third level", "Club", "Schools"];
   const LEVEL_NOTE = {
-    "Senior championship": "the summer championship for county teams",
-    "National league": "the spring league for county teams, with promotion and relegation between divisions",
-    "Under-23": "county teams, under-23s (camogie's grade; the GAA's equivalent is under-20)",
-    "Under-20": "county teams, under-20s",
-    "Under-18": "county teams, under-18s (the LGFA's grade; the GAA's equivalent is minor)",
-    Minor: "county teams, under-17s",
-    "Under-16": "county teams, under-16s",
-    "Under-14": "county teams, under-14s",
-    "Third level": "the All-Ireland third-level championships, between universities and colleges; the cups below the Lynch Cup are not ranked here",
-    Club: "the club championships: county rounds from the county boards that publish them (about half do, see the note at the foot of the page), the provincial series, and the All-Ireland stages from gaa.ie",
-    Schools: "post-primary schools' All-Ireland finals",
+    "Senior championship": "county teams, summer",
+    "National league": "county teams, spring, in divisions",
+    "Under-23": "county teams; camogie's grade for the GAA's under-20",
+    "Under-20": "county teams",
+    "Under-18": "county teams; the LGFA's grade for the GAA's minor",
+    Minor: "county teams, under-17",
+    "Under-16": "county teams",
+    "Under-14": "county teams",
+    "Third level": "universities and colleges; the cups below the Lynch Cup are unranked",
+    Club: "county rounds from the boards whose sites can be read, the provincial series, and the All-Ireland stages",
+    Schools: "post-primary All-Ireland finals",
   };
   const SPONSOR = /^(AIB|Allianz|Electric Ireland|Fulfil|Dalata Hotel Group|Masita|Beko|Bord Gáis Energy|EirGrid|Lidl|Glen Dimplex|Very)\s+(GAA\s+)?/i;
   const shortName = c => clean(c).replace(SPONSOR, "").replace(/\bGAA\s+/, "").replace(/\bRoinn\b/, "Division").replace(/\s+-\s+/, ", ")
@@ -147,18 +147,16 @@
     return `${ht > at ? `<b>${H}</b>` : H} <span class="tag">(${ht})</span> v ${ht < at ? `<b>${A}</b>` : A} <span class="tag">(${at})</span>`;
   };
 
-  // "Tailteann Cup, Round 1, senior football championship, tier 2": the sport only when the name does not say it.
+  // "Tailteann Cup, Round 1, football, tier 2": only what the name does not already say. The
+  // sport when the name lacks it; the tier where it is not the top one; the club stage.
   const detail = f => {
-    const sport = new RegExp(f.sport, "i").test(f.short) ? "" : f.sport.toLowerCase() + " ";
-    const tier = f.level === "Senior championship" || f.level === "Minor" ? ", " + f.tierName.replace(/,.*/, "") : /^Under-/.test(f.level) && f.tier > 1 ? ", " + f.tierName : f.level === "Third level" && f.tierName ? ", " + f.tierName.replace(/,.*/, "") : "";
-    // Camogie's top competition is called just "Senior Championship", so the usual phrasing
-    // would read "Senior Championship, ..., senior camogie championship". Say it once.
-    const level = f.level === "Senior championship"
-      ? (f.sport === "Camogie" && /senior/i.test(f.short) ? "camogie championship" : `senior ${sport}championship`)
-      : f.level === "Third level" ? `third-level ${f.sport.toLowerCase()}`
-      : f.level === "Club" ? `${f.club === "county" ? "county" : f.club === "provincial" ? "provincial" : "All-Ireland"} club ${sport}`.trim() + `, ${f.tierName}`
-      : `${sport}${f.level.toLowerCase()}`;
-    return `${esc(f.short)}${f.group ? ", " + esc(f.group) : ""}${f.round ? ", " + esc(round(f)) : ""}, ${esc(level + tier)}`;
+    const bits = [f.short, f.group, f.round && round(f)];
+    if (!new RegExp(f.sport === "Ladies' Football" ? "ladies" : f.sport, "i").test(f.short)) bits.push(f.sport.toLowerCase());
+    if ((f.level === "Senior championship" || f.level === "Minor" || /^Under-/.test(f.level)) && f.tier > 1 && f.tier < 9) bits.push(f.tierName.replace(/,.*/, ""));
+    if (f.level === "Third level" && f.tierName) bits.push(f.tierName.replace(/,.*/, ""));
+    if (f.level === "Club") bits.push(f.club === "county" ? "county club" : f.club === "provincial" ? "provincial club" : "All-Ireland club");
+    if (f.level === "Schools") bits.push("schools");
+    return bits.filter(Boolean).map(esc).join(", ");
   };
 
   // gaa.ie gives the match page as a path, the other two a whole URL. Build the link from
@@ -171,7 +169,10 @@
   };
 
   // ---- Map --------------------------------------------------------------------------
-  const map = L.map("map").setView([53.4, -7.9], 7);
+  // Fitted to the island rather than a fixed zoom: a phone's narrow map at zoom 7 opened on
+  // the sea north of Donegal, with half of Ireland below the fold.
+  const IRELAND = [[51.35, -10.6], [55.45, -5.4]];
+  const map = L.map("map", { zoomSnap: 0.25 }).fitBounds(IRELAND, { padding: [4, 4] });
   L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", { maxZoom: 18, attribution: "&copy; OpenStreetMap contributors" }).addTo(map);
   const layer = L.layerGroup().addTo(map);
   // Colour says which game is played, size says the level (and, within the senior
@@ -185,8 +186,8 @@
   // A county round of the club championship is a smaller dot than the provincial and All-Ireland stages.
   const radiusOf = f => f.level === "Senior championship" ? Math.max(7, RADIUS[f.level] - 1.5 * (Math.min(f.tier, 5) - 1)) : f.club === "county" ? 6 : RADIUS[f.level] || 5;
   const rankOf = f => LEVELS.indexOf(f.level) * 10 + f.tier;
-  $("legend").innerHTML = `<span><i class="dot football"></i>football and ladies' football</span><span><i class="dot hurling"></i>hurling and camogie</span><span><i class="dot both"></i>both games</span>`
-    + `<span class="key">size is the level:</span>` + [[12, "senior, tier 1"], [9, "lower tiers"], [9, "league"], [7, "under-23, under-20, provincial and All-Ireland club, third level"], [6, "county club, under-18, minor"], [5, "under-16, under-14, schools"]].map(([r, n]) => `<span><i class="size" style="width:${r * 1.3}px;height:${r * 1.3}px"></i>${n}</span>`).join("") + `<span class="key">click a dot for the matches there</span>`;
+  $("legend").innerHTML = `<span><i class="dot football"></i>football, ladies' football</span><span><i class="dot hurling"></i>hurling, camogie</span><span><i class="dot both"></i>both</span>`
+    + [[12, "senior championship"], [9, "league, lower tiers"], [7, "club, under-20"], [5, "under-age, schools"]].map(([r, n]) => `<span><i class="size" style="width:${r * 1.3}px;height:${r * 1.3}px"></i>${n}</span>`).join("");
   let dots = [];  // { marker, base, radius, label, rank }
   // Dots grow a little as the map zooms in past the whole-island view, so the small ones stay visible.
   const grow = () => Math.min(5, Math.max(0, map.getZoom() - 7) * .8);
@@ -226,12 +227,12 @@
   // score, the television, the tickets and the link to the source page already are. Leaflet
   // scrolls the popup itself once it passes maxHeight, which busy grounds do quickly.
   const popup = (v, list) => `<div class="pop"><b>${esc(v.name)}</b>`
-    + `<span class="tag">${list.length} match${list.length === 1 ? "" : "es"} here${list.length > 3 ? ", scroll for the rest" : ""}</span>`
+    + `<span class="tag">${list.length} match${list.length === 1 ? "" : "es"}</span>`
     + `<ol>` + list.map(f => `<li>
         <span class="pop-when">${fmtDate(f.date)}, ${fmtTime(f)}</span>
         <span class="pop-teams">${teamLine(f)}</span>
         <span class="pop-detail">${detail(f)}</span>
-        <a class="pop-jump" href="#${f.row}" data-jump="${f.row}">see it in the list below</a>
+        <a class="pop-jump" href="#${f.row}" data-jump="${f.row}">in the list</a>
       </li>`).join("") + `</ol></div>`;
 
   // Sized from the map, not from a constant: a popup taller than the map cannot be panned
@@ -359,12 +360,11 @@
     linkDates();
     $("results").checked = !upcoming || (initial && p.has("results"));
 
+    // Said only when there is nothing ahead: with fixtures to come, the map speaks for itself.
     const next = SEASONS[SEASONS.indexOf(SEASONS.find(s => s.year === y)) - 1];
-    $("season").textContent = upcoming
-      ? `The ${y} season runs ${fmtShort(first)} to ${fmtShort(last)}; ${fixtures.filter(f => new Date(f.date) >= today).length} fixtures still to play.`
-      : next
-        ? `The ${y} season, ${fixtures.length} matches from ${fmtShort(first)} to ${fmtShort(last)}.`
-        : `The ${y} season is over (${fmtShort(first)} to ${fmtShort(last)}, ${fixtures.length} matches). ${y + 1} fixtures will appear here once published on ${sources.map(s => s.site).join(", ").replace(/, ([^,]*)$/, " and $1")}.`;
+    $("season").hidden = upcoming;
+    $("season").textContent = upcoming ? "" : next ? `${fixtures.length} matches, ${fmtShort(first)} to ${fmtShort(last)}.`
+      : `The ${y} season is over. ${y + 1} fixtures appear once the sites publish them.`;
 
     // The level menu, the competition menu and the guide are this season's, not every season's.
     $("level").innerHTML = '<option value="">all</option>';
@@ -404,9 +404,10 @@
     }).join("") + "</dl>").join("");
 
     const clubSites = [...new Set(fixtures.filter(f => f.club).map(f => { try { return new URL(f.url).host.replace(/^www\./, ""); } catch { return null; } }).filter(Boolean))].sort();
-    $("meta").innerHTML = `${y}: ` + sources.map(s => `${esc(s.count)} from ${esc(s.site)}, fetched ${esc(s.fetched.slice(0, 10))}`).join("; ")
-      + `. Competition names are each site's with the sponsor dropped; the level and tier labels are this site's reading of them.`
-      + (clubSites.length ? ` Club fixtures come from the boards whose sites can be read (${clubSites.map(esc).join(", ")}); the rest of the counties publish theirs elsewhere, so a county missing here is not a county with no matches. Club fixtures are published a few weeks ahead and refreshed weekly.` : "");
+    const fetched = [...new Set(sources.map(s => s.fetched.slice(0, 10)))].map(fmtShort).join(", ");
+    $("meta").innerHTML = `${y}: ` + sources.map(s => `${esc(s.count)} from ${esc(s.site)}`).join(", ") + `; fetched ${esc(fetched)}, refreshed weekly.`
+      + ` Names are the sites' with sponsors dropped; levels and tiers are this site's reading.`
+      + (clubSites.length ? ` Club fixtures: ${clubSites.map(esc).join(", ")}. The other counties publish elsewhere, so a county missing here is not a county with no matches.` : "");
     render();
   }
 
@@ -467,7 +468,7 @@
       </table>`).join("") : `<p class="none">No fixtures match. ${$("results").checked ? "Widen the dates or clear a filter." : 'Widen the dates, clear a filter, or tick "include played matches".'}</p>`;
     const fv = $("from").value, tvv = $("to").value;
     const range = fv && tvv ? `, ${fmtShort(fv)} to ${fmtShort(tvv)}` : fv ? `, from ${fmtShort(fv)}` : tvv ? `, to ${fmtShort(tvv)}` : ", whole season";
-    $("count").textContent = `${shown.length} fixture${shown.length === 1 ? "" : "s"} at ${grounds} venue${grounds === 1 ? "" : "s"}${range}${unplaced || unnamed ? " (" + [unnamed && `${unnamed} with no venue listed`, unplaced && `${unplaced} at venues not yet on the map`].filter(Boolean).join(", ") + ")" : ""}.`;
+    $("count").textContent = `${shown.length} fixture${shown.length === 1 ? "" : "s"} at ${grounds} ground${grounds === 1 ? "" : "s"}${range}${unplaced || unnamed ? "; " + [unnamed && `${unnamed} with no venue`, unplaced && `${unplaced} not yet placed`].filter(Boolean).join(", ") : ""}.`;
   }
 
   const asked = Number(p.get("season"));

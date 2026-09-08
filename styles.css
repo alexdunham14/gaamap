@@ -1,4 +1,5 @@
 body { max-width: 60rem; margin: 1.5rem auto; padding: 0 1rem; font: 1rem/1.5 Georgia, "Times New Roman", serif; color: #1a1a1a; background: #fff; }
+@media (max-width: 40rem) { body { margin: .8rem auto; padding: 0 .8rem; } h1 { font-size: 1.5rem; } }
 @media (prefers-color-scheme: dark) { body { color: #e6e6e6; background: #141414; } a { color: #9cc4ff; } }
 h1 { font-weight: normal; font-size: 1.9rem; margin: 0 0 .4rem; }
 h2 { font-weight: normal; font-size: 1.2rem; margin: 1.5rem 0 .25rem; border-bottom: 1px solid #ccc; }
@@ -15,19 +16,20 @@ form .row[hidden] { display: none; }  /* an author display rule outranks the bro
 .rowlabel { font-size: .8rem; letter-spacing: .06em; text-transform: uppercase; color: #777; }
 .ctl { display: flex; flex-wrap: wrap; gap: .4rem .9rem; align-items: center; min-width: 0; }
 .ctl label { white-space: nowrap; }
-@media (max-width: 40rem) { form .row { grid-template-columns: 1fr; row-gap: .3rem; } }
+@media (max-width: 40rem) { form .row { grid-template-columns: 1fr; row-gap: .25rem; padding: .4rem 0; } .rowlabel { font-size: .7rem; } .ctl { gap: .3rem .7rem; } }
 input, select, button { font: inherit; }
 select { max-width: min(22rem, calc(100vw - 9rem)); }
 button.clear, .nudge button { font-size: .85rem; padding: .1rem .5rem; border: 1px solid #bbb; border-radius: .25rem; background: transparent; color: inherit; cursor: pointer; }
 button.clear:hover, .nudge button:hover { border-color: #666; }
 .nudge { white-space: nowrap; }
-.presets a { margin-right: .6rem; }
-.presets { font-size: .9rem; }
+/* The month links are a line of their own, always the width of their row: as a flex item
+   sized to its content they ran off the right edge of a phone. */
+.presets { flex-basis: 100%; min-width: 0; display: flex; flex-wrap: wrap; gap: .1rem .7rem; font-size: .9rem; }
 
 #map { height: 60vh; min-height: 24rem; margin: .5rem 0 .25rem; background: #eee; }
-.legend { display: flex; flex-wrap: wrap; gap: .25rem 1rem; margin: 0 0 1rem; font-size: .85rem; color: #555; }
+@media (max-width: 40rem) { #map { height: 62vh; min-height: 20rem; max-height: 34rem; } }
+.legend { display: flex; flex-wrap: wrap; gap: .2rem .9rem; margin: 0 0 .8rem; font-size: .85rem; color: #555; }
 .legend span { white-space: nowrap; }
-.legend .key { margin-right: -.4rem; }
 .dot { display: inline-block; width: .7em; height: .7em; border-radius: 50%; margin: 0 .25em 0 .1em; vertical-align: baseline; border: 1px solid rgba(0,0,0,.35); }
 .dot.football { background: #e0864f; }
 .dot.hurling { background: #5aa06e; }
@@ -73,6 +75,7 @@ td small a { color: inherit; }
 tr.lit td { background: #fff6d5; }
 @media (prefers-color-scheme: dark) { tr.lit td { background: #3a3320; } }
 .none, #season { color: #666; }
+#season[hidden] { display: none; }
 #meta { color: #666; font-size: .9rem; }
 @media (prefers-color-scheme: dark) {
   td.when, #meta, .none, .tag, .legend, summary, #guide-body dt, #guide-body .tier, #season, .rowlabel { color: #999; }
