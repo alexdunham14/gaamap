@@ -10,11 +10,11 @@
 </head>
 <body>
 <h1>GAA Map</h1>
-<p>Hurling, football, camogie and ladies&rsquo; football fixtures, inter-county and club, on a map of Ireland.</p>
+<p>Hurling, football, camogie and ladies&rsquo; football fixtures, inter-county and club.</p>
 <p id="season" hidden></p>
 
 <details id="guide">
-  <summary>What the levels mean</summary>
+  <summary>Levels</summary>
   <div id="guide-body"></div>
 </details>
 
@@ -49,6 +49,13 @@
     <div class="ctl">
       <label>level <select id="level"><option value="">all</option></select></label>
       <label>competition <select id="comp"><option value="">all</option></select></label>
+    </div>
+  </div>
+  <div class="row" id="club-row" hidden>
+    <span class="rowlabel">club</span>
+    <div class="ctl">
+      <label><input id="club" type="checkbox"> include club championships</label>
+      <span class="tag" id="club-note"></span>
     </div>
   </div>
   <div class="row">

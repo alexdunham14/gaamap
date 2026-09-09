@@ -9,6 +9,15 @@ For the traveller who wants to know what is on near them next week.
 
 ## Definition of done
 
+- **The page opens on the data that is complete.** gaa.ie, camogie.ie and
+  ladiesgaelic.ie between them list every inter-county fixture, so that half can be
+  shown as the whole truth. The club championships cannot: they are read off the county
+  and provincial sites whose pages can be read, and a county whose site cannot be read is
+  absent with nothing on the map to say so. So club fixtures are an opt-in --
+  "include club championships", with the count of counties covered beside it -- and the
+  page says where they are when the inter-county season is over. Ticking it is a change of
+  scope, not a filter: the dates, the menus, the guide and the footer are all rebuilt for
+  it, and `?club=` in the URL keeps it. A Foireann key would remove the distinction.
 - A static page: map with a point per venue sized by the level of the best match
   there and coloured by the game played, and a plain list by day underneath. Filters for date range
   (with presets for the coming weeks and each month of the season),
@@ -44,7 +53,7 @@ For the traveller who wants to know what is on near them next week.
 - Venues geocoded once into `venues.json`, hand-corrected where the geocoder
   guessed wrong. New venues get geocoded on the next refresh and flagged.
 
-Out of scope: club fixtures from the counties whose sites are not readable
+Out of scope, and the reason the club rows are opt-in: club fixtures from the counties whose sites are not readable
 (Antrim, Armagh, Carlow, Cork, Derry, Dublin, Galway, Leitrim, Limerick, Longford,
 Louth, Mayo, Roscommon, Sligo, Waterford, Wexford, Wicklow, and Leinster and Munster
 as provinces), club leagues and junior grades below what the sites file under senior
@@ -127,7 +136,10 @@ and each one adds a few dozen club grounds to geocode.
   entries are kept, so a hand edit (a near-duplicate further apart, or a
   better choice of name) sticks. The map groups fixtures by the canonical id.
 - `index.html`, `styles.css`, `app.js`: the site. Leaflet from cdnjs, tiles
-  from OpenStreetMap. No build step.
+  from OpenStreetMap. No build step. `app.js` keeps the season's every row in `all` and
+  the rows in scope in `fixtures`; `scope()` is what stands between them, and everything
+  season-shaped is built from `fixtures` so that turning the club rows on rebuilds the
+  page the same way changing season does.
 
 ## Refresh by hand
 

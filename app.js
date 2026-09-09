@@ -52,9 +52,14 @@
     "Under-16": "county teams",
     "Under-14": "county teams",
     "Third level": "universities and colleges; the cups below the Lynch Cup are unranked",
-    Club: "county rounds from the boards whose sites can be read, the provincial series, and the All-Ireland stages",
+    Club: "the All-Ireland stages, which gaa.ie lists in full",
     Schools: "post-primary All-Ireland finals",
   };
+  // The club level means two different things depending on the scope: with the county and
+  // provincial rows off it is only the All-Ireland stages, which gaa.ie lists in full.
+  const levelNote = l => l === "Club" && withClub
+    ? "county rounds from the boards whose sites can be read, the provincial series, and the All-Ireland stages"
+    : LEVEL_NOTE[l];
   const SPONSOR = /^(AIB|Allianz|Electric Ireland|Fulfil|Dalata Hotel Group|Masita|Beko|Bord Gáis Energy|EirGrid|Lidl|Glen Dimplex|Very)\s+(GAA\s+)?/i;
   const shortName = c => clean(c).replace(SPONSOR, "").replace(/\bGAA\s+/, "").replace(/\bRoinn\b/, "Division").replace(/\s+-\s+/, ", ")
     .replace(/^(Football|Hurling) All-Ireland (Senior|Intermediate|Junior|U20\w*) (Club )?Championship/, "All-Ireland $2 $3$1 Championship")
@@ -262,8 +267,10 @@
   });
 
   // ---- Per-season state -------------------------------------------------------------
-  let fixtures = [], comps = new Map(), compList = [], sources = [];
-  let first, last, upcoming, defaultFrom, defaultTo, year;
+  // `all` is every row of the season; `fixtures` is the rows in scope, which is `all` minus
+  // the club championships unless they are asked for. See scope() for why.
+  let all = [], fixtures = [], comps = new Map(), compList = [], sources = [];
+  let first, last, upcoming, defaultFrom, defaultTo, year, withClub = false;
 
   const p = new URLSearchParams(location.search);
   const today = new Date(); today.setHours(0, 0, 0, 0);
@@ -302,9 +309,12 @@
 
   $("reset").addEventListener("click", () => {
     for (const cb of document.querySelectorAll("input[name=sport]")) cb.checked = true;
-    $("level").value = ""; fillComps(); $("comp").value = ""; $("team").value = ""; $("results").checked = !upcoming;
-    setDates(defaultFrom, defaultTo);
+    $("team").value = ""; withClub = false;
+    scope(false);   // rebuilds the menus, the dates and "include played" for the default scope
   });
+  // The club toggle changes which rows the season is made of, not which of them pass a
+  // filter, so it goes through scope() rather than straight to render().
+  $("club").addEventListener("change", () => { withClub = $("club").checked; scope(false); });
   $("presets").addEventListener("click", ev => {
     const a = ev.target.closest("a[data-from]"); if (!a) return;
     ev.preventDefault(); setDates(a.dataset.from, a.dataset.to);
@@ -326,7 +336,7 @@
     map.setView([v.lat, v.lon], 11, { animate: false });
     layer.eachLayer(m => { const ll = m.getLatLng(); if (ll.lat === v.lat && ll.lng === v.lon) m.openPopup(); });
   });
-  for (const el of document.querySelectorAll("#f input:not([type=date]), #f select:not(#seasonpick)"))
+  for (const el of document.querySelectorAll("#f input:not([type=date]):not(#club), #f select:not(#seasonpick)"))
     el.addEventListener(el.id === "team" ? "input" : "change", () => { if (el.id === "level" || el.name === "sport") fillComps(); render(); });
 
   // Season picker: only worth showing once there is more than one season on file.
@@ -344,15 +354,38 @@
     year = y;
     const parts = await seasonRows(y);
     sources = parts.filter(part => part.rows.length).map(part => part.src);
-    fixtures = [].concat(...parts.map(part => part.rows))
+    all = [].concat(...parts.map(part => part.rows))
       .map(f => Object.assign(f, classify(f), { short: shortName(f.competition), teams: fold(f.home.name + " " + f.away.name + " " + (f.county || "")) }));
-    fixtures.sort((a, b) => a.date.localeCompare(b.date));
+    all.sort((a, b) => a.date.localeCompare(b.date));
+    if (initial) withClub = p.has("club");
+    scope(initial);
+  }
+
+  // ---- What the page counts as the season -------------------------------------------
+  // The three association sites between them list every inter-county fixture, so that half
+  // of the data is complete and can be shown as such. The club championships are not: they
+  // are read off the county and provincial sites whose pages can be read, and a county whose
+  // site cannot be read is simply absent, with no sign on the map that it is missing. So the
+  // page opens on the complete half and the club rows are asked for, rather than showing a
+  // map that is silently blank over half of Ireland. Everything that depends on which rows
+  // are in scope -- the dates, the menus, the guide, the footer -- is rebuilt here, so
+  // turning the club rows on or off rebuilds the page the same way changing season does.
+  function scope(initial) {
+    fixtures = all.filter(f => withClub || !f.club);
+    // A season with nothing but club rows (the club championship starts before gaa.ie
+    // publishes the next inter-county year) would leave an empty page: show them instead.
+    if (!fixtures.length) { withClub = true; fixtures = all.slice(); }
+    $("club").checked = withClub;
+    $("club-row").hidden = !all.some(f => f.club);
+    const counties = new Set(all.filter(f => f.club === "county" && f.county).map(f => f.county));
+    $("club-note").textContent = counties.size
+      ? `${counties.size} of the 32 county boards publish fixtures this site can read; the rest are missing.` : "";
     first = fixtures[0].date.slice(0, 10);
     last = fixtures[fixtures.length - 1].date.slice(0, 10);
     upcoming = fixtures.some(f => new Date(f.date) >= today);
     defaultFrom = upcoming ? day(today) : first;
     defaultTo = upcoming ? plus(day(today), 42) : last;
-    if (SEASONS.length > 1) $("seasonpick").value = String(y);
+    if (SEASONS.length > 1) $("seasonpick").value = String(year);
 
     $("from").min = $("to").min = first; $("from").max = $("to").max = last;
     $("from").value = initial && p.has("from") ? p.get("from") : defaultFrom;
@@ -361,10 +394,15 @@
     $("results").checked = !upcoming || (initial && p.has("results"));
 
     // Said only when there is nothing ahead: with fixtures to come, the map speaks for itself.
-    const next = SEASONS[SEASONS.indexOf(SEASONS.find(s => s.year === y)) - 1];
+    // The inter-county season ends in July and the club championships run to December, so
+    // "nothing ahead" is usually not the whole truth, and the line says where the rest is.
+    const next = SEASONS[SEASONS.indexOf(SEASONS.find(s => s.year === year)) - 1];
+    const clubAhead = all.filter(f => f.club && new Date(f.date) >= today);
     $("season").hidden = upcoming;
-    $("season").textContent = upcoming ? "" : next ? `${fixtures.length} matches, ${fmtShort(first)} to ${fmtShort(last)}.`
-      : `The ${y} season is over. ${y + 1} fixtures appear once the sites publish them.`;
+    $("season").textContent = upcoming ? ""
+      : clubAhead.length ? `The ${year} inter-county season is over. ${clubAhead.length} club championship fixtures run to ${fmtShort(clubAhead[clubAhead.length - 1].date)}: tick "include club championships" to put them on the map.`
+      : next ? `${fixtures.length} matches, ${fmtShort(first)} to ${fmtShort(last)}.`
+      : `The ${year} season is over. ${year + 1} fixtures appear once the sites publish them.`;
 
     // The level menu, the competition menu and the guide are this season's, not every season's.
     $("level").innerHTML = '<option value="">all</option>';
@@ -399,23 +437,25 @@
       const cs = compList.filter(c => c.sport === sport && c.level === l);
       const byTier = new Map(); for (const c of cs) { if (!byTier.has(c.tier)) byTier.set(c.tier, []); byTier.get(c.tier).push(c); }
       const line = c => `<a href="#" data-comp="${esc(c.name)}">${esc(c.short)}</a> <span class="tag">${c.n}</span>`;
-      return `<dt>${esc(l)}<span class="tag">, ${esc(LEVEL_NOTE[l])}</span></dt>` + [...byTier.values()].map(list =>
+      return `<dt>${esc(l)}<span class="tag">, ${esc(levelNote(l))}</span></dt>` + [...byTier.values()].map(list =>
         `<dd>${l !== "National league" ? `<span class="tier">${esc(list[0].tierName.replace(/,.*/, ""))}</span> ` : ""}${list.map(line).join(", ")}${/,/.test(list[0].tierName) ? ` <span class="tag">(${esc(list[0].tierName.replace(/^[^,]*, /, ""))})</span>` : ""}</dd>`).join("");
     }).join("") + "</dl>").join("");
 
     const clubSites = [...new Set(fixtures.filter(f => f.club).map(f => { try { return new URL(f.url).host.replace(/^www\./, ""); } catch { return null; } }).filter(Boolean))].sort();
-    const fetched = [...new Set(sources.map(s => s.fetched.slice(0, 10)))].map(fmtShort).join(", ");
-    $("meta").innerHTML = `${y}: ` + sources.map(s => `${esc(s.count)} from ${esc(s.site)}`).join(", ") + `; fetched ${esc(fetched)}, refreshed weekly.`
+    // The footer counts what is on the page, so the club source is listed only when it is in scope.
+    const inScope = sources.filter(s => s.key !== "club" || withClub);
+    const fetched = [...new Set(inScope.map(s => s.fetched.slice(0, 10)))].map(fmtShort).join(", ");
+    $("meta").innerHTML = `${year}: ` + inScope.map(s => `${esc(s.count)} from ${esc(s.site)}`).join(", ") + `; fetched ${esc(fetched)}, refreshed weekly.`
       + ` Names are the sites' with sponsors dropped; levels and tiers are this site's reading.`
       + (clubSites.length ? ` Club fixtures: ${clubSites.map(esc).join(", ")}. The other counties publish elsewhere, so a county missing here is not a county with no matches.` : "");
     render();
   }
 
-  function selected() {
+  function selected(list = fixtures) {
     const from = $("from").value, to = $("to").value;
     const sports = [...document.querySelectorAll("input[name=sport]:checked")].map(cb => cb.value);
     const level = $("level").value, comp = $("comp").value, results = $("results").checked, team = fold($("team").value);
-    return fixtures.filter(f => {
+    return list.filter(f => {
       const d = irishDay(f.date);
       return (!from || d >= from) && (!to || d <= to) && sports.includes(f.sport) && (!level || f.level === level) && (!comp || f.competition === comp) && (!team || f.teams.includes(team)) && (results || !f.result);
     });
@@ -423,10 +463,14 @@
 
   function render() {
     const shown = selected();
+    // The club rows that these same filters would show if the scope let them through: a
+    // count of what is being left out is the only way the reader can tell it is happening.
+    const hiddenClub = withClub ? 0 : selected(all.filter(f => f.club)).length;
     const u = new URL(location.href);
     u.searchParams.set("from", $("from").value); u.searchParams.set("to", $("to").value);
     for (const k of ["level", "comp", "team"]) $(k).value.trim() ? u.searchParams.set(k, $(k).value.trim()) : u.searchParams.delete(k);
     $("results").checked ? u.searchParams.set("results", "") : u.searchParams.delete("results");
+    withClub ? u.searchParams.set("club", "") : u.searchParams.delete("club");
     year === index.latest ? u.searchParams.delete("season") : u.searchParams.set("season", year);
     u.searchParams.delete("sport");
     const sports = [...document.querySelectorAll("input[name=sport]:checked")].map(cb => cb.value);
@@ -465,10 +509,11 @@
         <tr id="${f.row}"><td class="when">${fmtTime(f)}</td>
             <td>${teamLine(f)}<br><small class="tag">${detail(f)}${tv(f) ? ", " + esc(tv(f)) : ""}${f.tickets ? `, <a href="${esc(f.tickets)}" rel="noopener">tickets</a>` : ""}${source(f)}</small></td>
             <td class="venue">${venues[canon(f.venueId)] && venues[canon(f.venueId)].lat != null ? `<a href="#map" data-venue="${esc(canon(f.venueId))}">${esc(f.venue)}</a>` : esc(f.venue) || '<span class="tag">venue TBC</span>'}</td></tr>`).join("")}
-      </table>`).join("") : `<p class="none">No fixtures match. ${$("results").checked ? "Widen the dates or clear a filter." : 'Widen the dates, clear a filter, or tick "include played matches".'}</p>`;
+      </table>`).join("") : `<p class="none">No fixtures match. ${hiddenClub ? `${hiddenClub} club championship fixture${hiddenClub === 1 ? "" : "s"} in this range: tick "include club championships" to see ${hiddenClub === 1 ? "it" : "them"}.` : $("results").checked ? "Widen the dates or clear a filter." : 'Widen the dates, clear a filter, or tick "include played matches".'}</p>`;
     const fv = $("from").value, tvv = $("to").value;
     const range = fv && tvv ? `, ${fmtShort(fv)} to ${fmtShort(tvv)}` : fv ? `, from ${fmtShort(fv)}` : tvv ? `, to ${fmtShort(tvv)}` : ", whole season";
-    $("count").textContent = `${shown.length} fixture${shown.length === 1 ? "" : "s"} at ${grounds} ground${grounds === 1 ? "" : "s"}${range}${unplaced || unnamed ? "; " + [unnamed && `${unnamed} with no venue`, unplaced && `${unplaced} not yet placed`].filter(Boolean).join(", ") : ""}.`;
+    $("count").textContent = `${shown.length} fixture${shown.length === 1 ? "" : "s"} at ${grounds} ground${grounds === 1 ? "" : "s"}${range}${unplaced || unnamed ? "; " + [unnamed && `${unnamed} with no venue`, unplaced && `${unplaced} not yet placed`].filter(Boolean).join(", ") : ""}.`
+      + (shown.length && hiddenClub ? ` ${hiddenClub} club championship fixture${hiddenClub === 1 ? "" : "s"} not shown.` : "");
   }
 
   const asked = Number(p.get("season"));
