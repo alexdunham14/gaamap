@@ -52,13 +52,13 @@
     "Under-16": "county teams",
     "Under-14": "county teams",
     "Third level": "universities and colleges; the cups below the Lynch Cup are unranked",
-    Club: "the All-Ireland stages, which gaa.ie lists in full",
+    Club: "the All-Ireland stages",
     Schools: "post-primary All-Ireland finals",
   };
   // The club level means two different things depending on the scope: with the county and
   // provincial rows off it is only the All-Ireland stages, which gaa.ie lists in full.
   const levelNote = l => l === "Club" && withClub
-    ? "county rounds from the boards whose sites can be read, the provincial series, and the All-Ireland stages"
+    ? "county championships, the provincial series and the All-Ireland stages"
     : LEVEL_NOTE[l];
   const SPONSOR = /^(AIB|Allianz|Electric Ireland|Fulfil|Dalata Hotel Group|Masita|Beko|Bord Gáis Energy|EirGrid|Lidl|Glen Dimplex|Very)\s+(GAA\s+)?/i;
   const shortName = c => clean(c).replace(SPONSOR, "").replace(/\bGAA\s+/, "").replace(/\bRoinn\b/, "Division").replace(/\s+-\s+/, ", ")
@@ -379,7 +379,7 @@
     $("club-row").hidden = !all.some(f => f.club);
     const counties = new Set(all.filter(f => f.club === "county" && f.county).map(f => f.county));
     $("club-note").textContent = counties.size
-      ? `${counties.size} of the 32 county boards publish fixtures publicly; the rest are missing.` : "";
+      ? `${counties.size} of the 32 counties are included.` : "";
     first = fixtures[0].date.slice(0, 10);
     last = fixtures[fixtures.length - 1].date.slice(0, 10);
     upcoming = fixtures.some(f => new Date(f.date) >= today);
@@ -402,7 +402,7 @@
     $("season").textContent = upcoming ? ""
       : clubAhead.length ? `The ${year} inter-county season is over. ${clubAhead.length} club championship fixtures run to ${fmtShort(clubAhead[clubAhead.length - 1].date)}: tick "include club championships" to put them on the map.`
       : next ? `${fixtures.length} matches, ${fmtShort(first)} to ${fmtShort(last)}.`
-      : `The ${year} season is over. ${year + 1} fixtures appear once the sites publish them.`;
+      : `The ${year} season is over. ${year + 1} fixtures appear here once they are published.`;
 
     // The level menu, the competition menu and the guide are this season's, not every season's.
     $("level").innerHTML = '<option value="">all</option>';
@@ -441,13 +441,13 @@
         `<dd>${l !== "National league" ? `<span class="tier">${esc(list[0].tierName.replace(/,.*/, ""))}</span> ` : ""}${list.map(line).join(", ")}${/,/.test(list[0].tierName) ? ` <span class="tag">(${esc(list[0].tierName.replace(/^[^,]*, /, ""))})</span>` : ""}</dd>`).join("");
     }).join("") + "</dl>").join("");
 
-    const clubSites = [...new Set(fixtures.filter(f => f.club).map(f => { try { return new URL(f.url).host.replace(/^www\./, ""); } catch { return null; } }).filter(Boolean))].sort();
-    // The footer counts what is on the page, so the club source is listed only when it is in scope.
+    // The footer counts what is on the page, so the club source is listed only when it is in
+    // scope. It says where the fixtures come from and how fresh they are; the reader has no
+    // reason to care how the sites are read, and every row already links to its own source.
     const inScope = sources.filter(s => s.key !== "club" || withClub);
     const fetched = [...new Set(inScope.map(s => s.fetched.slice(0, 10)))].map(fmtShort).join(", ");
     $("meta").innerHTML = `${year}: ` + inScope.map(s => `${esc(s.count)} from ${esc(s.site)}`).join(", ") + `; fetched ${esc(fetched)}, refreshed weekly.`
-      + ` Names are the sites' with sponsors dropped; levels and tiers are this site's reading.`
-      + (clubSites.length ? ` Club fixtures: ${clubSites.map(esc).join(", ")}. The other counties publish elsewhere, so a county missing here is not a county with no matches.` : "");
+      + ` Sponsors are dropped from competition names; the levels and tiers are this site's own.`;
     render();
   }
 
@@ -512,7 +512,7 @@
       </table>`).join("") : `<p class="none">No fixtures match. ${hiddenClub ? `${hiddenClub} club championship fixture${hiddenClub === 1 ? "" : "s"} in this range: tick "include club championships" to see ${hiddenClub === 1 ? "it" : "them"}.` : $("results").checked ? "Widen the dates or clear a filter." : 'Widen the dates, clear a filter, or tick "include played matches".'}</p>`;
     const fv = $("from").value, tvv = $("to").value;
     const range = fv && tvv ? `, ${fmtShort(fv)} to ${fmtShort(tvv)}` : fv ? `, from ${fmtShort(fv)}` : tvv ? `, to ${fmtShort(tvv)}` : ", whole season";
-    $("count").textContent = `${shown.length} fixture${shown.length === 1 ? "" : "s"} at ${grounds} ground${grounds === 1 ? "" : "s"}${range}${unplaced || unnamed ? "; " + [unnamed && `${unnamed} with no venue`, unplaced && `${unplaced} not yet placed`].filter(Boolean).join(", ") : ""}.`
+    $("count").textContent = `${shown.length} fixture${shown.length === 1 ? "" : "s"} at ${grounds} ground${grounds === 1 ? "" : "s"}${range}${unplaced || unnamed ? "; " + [unnamed && `${unnamed} with no venue`, unplaced && `${unplaced} not on the map`].filter(Boolean).join(", ") : ""}.`
       + (shown.length && hiddenClub ? ` ${hiddenClub} club championship fixture${hiddenClub === 1 ? "" : "s"} not shown.` : "");
   }
 

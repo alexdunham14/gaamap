@@ -14,10 +14,16 @@ For the traveller who wants to know what is on near them next week.
   shown as the whole truth. The club championships cannot: they are read off the county
   and provincial sites whose pages can be read, and a county whose site cannot be read is
   absent with nothing on the map to say so. So club fixtures are an opt-in --
-  "include club championships", with the count of counties covered beside it -- and the
-  page says where they are when the inter-county season is over. Ticking it is a change of
-  scope, not a filter: the dates, the menus, the guide and the footer are all rebuilt for
+  "include club championships", with "15 of the 32 counties are included." beside it -- and
+  the page says where they are when the inter-county season is over. Ticking it is a change
+  of scope, not a filter: the dates, the menus, the guide and the footer are all rebuilt for
   it, and `?club=` in the URL keeps it. A Foireann key would remove the distinction.
+- **The page states, it does not explain itself.** A visitor knows the games, not this
+  site's plumbing: which counties are in, how fresh the data is and where a fixture came
+  from are worth saying; which county sites can be parsed, what a geocoder failed to place
+  and how the files are shaped are not. The reasons live in this README. So the coverage
+  note is a count, the footer is the sources and the date, and "not yet placed" reads
+  "not on the map".
 - A static page: map with a point per venue sized by the level of the best match
   there and coloured by the game played, and a plain list by day underneath. Filters for date range
   (with presets for the coming weeks and each month of the season),
