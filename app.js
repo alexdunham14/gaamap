@@ -379,7 +379,7 @@
     $("club-row").hidden = !all.some(f => f.club);
     const counties = new Set(all.filter(f => f.club === "county" && f.county).map(f => f.county));
     $("club-note").textContent = counties.size
-      ? `${counties.size} of the 32 county boards publish fixtures this site can read; the rest are missing.` : "";
+      ? `${counties.size} of the 32 county boards publish fixtures publicly; the rest are missing.` : "";
     first = fixtures[0].date.slice(0, 10);
     last = fixtures[fixtures.length - 1].date.slice(0, 10);
     upcoming = fixtures.some(f => new Date(f.date) >= today);
