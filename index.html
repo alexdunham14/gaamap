@@ -7,10 +7,11 @@
 <meta name="description" content="A map of hurling, Gaelic football, camogie and ladies' football fixtures, inter-county and club, filterable by sport, level, competition, team, and date.">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
 <link rel="stylesheet" href="styles.css">
+<link rel="icon" href="data:,">
 </head>
 <body>
-<h1>GAA Map</h1>
-<p>Hurling, football, camogie and ladies&rsquo; football fixtures, inter-county and club.</p>
+<h1><a href="./">GAA Map</a></h1>
+<p class="lede">Hurling, football, camogie and ladies&rsquo; football fixtures, inter-county and club.</p>
 <p id="season" hidden></p>
 
 <details id="guide">
@@ -19,52 +20,58 @@
 </details>
 
 <noscript><p>The map and the fixture list need JavaScript. The fixtures are in <a href="data/seasons.json">data/seasons.json</a> and the grounds in <a href="venues.json">venues.json</a>.</p></noscript>
-<form id="f" onsubmit="return false">
-  <div class="row" id="season-row" hidden>
-    <span class="rowlabel">season</span>
-    <div class="ctl">
+<form id="f" class="panel" onsubmit="return false">
+  <div class="opts" id="season-row" hidden>
+    <div class="group" role="group" aria-label="Season">
+      <span class="lbl">Season</span>
       <select id="seasonpick" aria-label="Season"></select>
     </div>
   </div>
-  <div class="row">
-    <span class="rowlabel">dates</span>
-    <div class="ctl">
+  <div class="opts">
+    <div class="group dates" role="group" aria-label="Dates">
+      <span class="lbl">Dates</span>
       <label>from <input id="from" type="date"></label>
       <label>to <input id="to" type="date"></label>
-      <span class="nudge"><button type="button" id="earlier" title="Shift the range back by its own length">&lsaquo; earlier</button> <button type="button" id="later" title="Shift the range forward by its own length">later &rsaquo;</button> <button type="button" id="clear-dates" class="clear" title="Show the whole season">clear</button></span>
+      <span class="chips">
+        <button type="button" class="chip" id="earlier" title="Shift the range back by its own length">&lsaquo; earlier</button>
+        <button type="button" class="chip" id="later" title="Shift the range forward by its own length">later &rsaquo;</button>
+        <button type="button" class="chip" id="clear-dates" title="Show the whole season">all dates</button>
+      </span>
       <span class="presets" id="presets"></span>
     </div>
   </div>
-  <div class="row">
-    <span class="rowlabel">sport</span>
-    <div class="ctl">
+  <div class="opts">
+    <div class="group" role="group" aria-label="Sport">
+      <span class="lbl">Sport</span>
       <label><input type="checkbox" name="sport" value="Football" checked> <span class="dot football"></span>football</label>
       <label><input type="checkbox" name="sport" value="Hurling" checked> <span class="dot hurling"></span>hurling</label>
       <label><input type="checkbox" name="sport" value="Camogie" checked> <span class="dot hurling"></span>camogie</label>
       <label><input type="checkbox" name="sport" value="Ladies' Football" checked> <span class="dot football"></span>ladies&rsquo; football</label>
     </div>
   </div>
-  <div class="row">
-    <span class="rowlabel">competition</span>
-    <div class="ctl">
+  <div class="opts">
+    <div class="group" role="group" aria-label="Competition">
+      <span class="lbl">Competition</span>
       <label>level <select id="level"><option value="">all</option></select></label>
       <label>competition <select id="comp"><option value="">all</option></select></label>
     </div>
   </div>
-  <div class="row" id="club-row" hidden>
-    <span class="rowlabel">club</span>
-    <div class="ctl">
+  <div class="opts" id="club-row" hidden>
+    <div class="group" role="group" aria-label="Club">
+      <span class="lbl">Club</span>
       <label><input id="club" type="checkbox"> include club championships</label>
       <span class="tag" id="club-note"></span>
     </div>
   </div>
-  <div class="row">
-    <span class="rowlabel">team</span>
-    <div class="ctl">
-      <input id="team" type="search" placeholder="team or county" size="16" aria-label="Team or county">
+  <div class="opts">
+    <div class="group search" role="group" aria-label="Team">
+      <span class="lbl">Team</span>
+      <input id="team" type="search" placeholder="team or county" aria-label="Team or county">
       <label><input id="results" type="checkbox"> include played</label>
-      <button type="button" id="reset" class="clear" title="Clear every filter">reset</button>
     </div>
+  </div>
+  <div class="tools">
+    <button type="button" class="chip" id="reset" title="Clear every filter">Clear all filters</button>
   </div>
 </form>
 
@@ -74,8 +81,7 @@
 <p id="count"></p>
 <div id="list"></div>
 
-<hr>
-<p id="meta"></p>
+<footer id="meta"></footer>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
 <script src="app.js"></script>
 </body>
