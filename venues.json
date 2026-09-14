@@ -1516,6 +1516,14 @@
   "hint": "Donegal",
   "same": "fa30905c-8bca-4a32-b6ca-1543afec6478"
  },
+ "95d141a8-ee46-4a2b-a91a-663bb0cbba49": {
+  "name": "Doonbeg",
+  "lat": 52.70248,
+  "lon": -9.39258,
+  "query": "Doonbeg, County Clare, Ireland",
+  "matched": "Doonbeg, County Clare, Munster, Éire / Ireland",
+  "hint": "Clare"
+ },
  "8ba3e03e-a9c4-44ab-bc86-7c815d752f9b": {
   "name": "Dovida Lakepoint Park",
   "lat": 53.53321,
@@ -2225,6 +2233,12 @@
   "hint": null,
   "why": "The site names no ground, only a pitch type; nothing to place."
  },
+ "3b4c3329-99cf-4280-bd26-14808797844e": {
+  "name": "Gurteen",
+  "lat": null,
+  "lon": null,
+  "hint": "Clare"
+ },
  "a5650f69-1117-4df1-a64f-5e649e392a46": {
   "name": "Hastings Insurance MacHale Park, Castlebar",
   "lat": 53.85336,
@@ -2837,10 +2851,12 @@
  },
  "52609bde-15f7-493c-92bf-24e602b27b51": {
   "name": "Main Pitch",
-  "lat": null,
-  "lon": null,
-  "hint": null,
-  "why": "camogie.ie's and kildaregaa.ie's rows name the pitch and not the ground: Kildare's is Clane's, hand-placed in venues.json; Clare's under-age one could not be identified, so it stays off the map."
+  "lat": 52.75281,
+  "lon": -8.49934,
+  "hint": "Clare",
+  "why": "camogie.ie's and kildaregaa.ie's rows name the pitch and not the ground: Kildare's is Clane's, hand-placed in venues.json; Clare's under-age one could not be identified, so it stays off the map.",
+  "query": "Main, County Clare, Ireland",
+  "matched": "Main Street, O'Briensbridge ED, Killaloe Municipal District, County Clare, Munster, Éire / Ireland"
  },
  "0376105d-f01f-4763-832e-f925fc457a67": {
   "name": "Main Pitch",
@@ -3465,6 +3481,12 @@
   "lon": -7.23795,
   "query": "Duke Park Stradone, County Cavan, Ireland",
   "matched": "PJ Duke Memorial Park running track, Dark Road, Stradone ED, Bailieborough-Cootehill Municipal District, County Cavan, U",
+  "hint": "Cavan"
+ },
+ "9d099122-c0a6-437a-a4f7-8106f6be3b3f": {
+  "name": "Packie Devlin Park Killeshandra",
+  "lat": null,
+  "lon": null,
   "hint": "Cavan"
  },
  "925fe68b-9c38-4644-830b-c18d649ce77f": {

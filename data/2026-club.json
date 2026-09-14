@@ -1,7 +1,7 @@
 {
 "season": 2026,
 "source": "county board and provincial council websites, listed in scripts/club_sites.json",
-"fetched": "2026-09-08T19:28:54Z",
+"fetched": "2026-09-14T10:53:22Z",
 "fixtures": [
 {
 "id": "club:kilkenny:2026-08-25:bennettsbridge-v-mullinavat",
@@ -543,279 +543,6 @@
 "county": "Kilkenny",
 "site": "kilkenny",
 "referee": "Conor Everard"
-},
-{
-"id": "club:cavan:2026-08-26:clg-cuchulainn-v-cavan-gaels",
-"date": "2026-08-26T18:00:00+00:00",
-"time": "19:00",
-"tbc": false,
-"status": "active",
-"sport": "Ladies' Football",
-"competition": "Cavan Intermediate Ladies' Football Championship",
-"competitionId": null,
-"rank": null,
-"title": "Kyte Powertech Intermediate Championship - Group A - Round 3",
-"group": "Group A",
-"round": "Round 3",
-"home": {
-"id": null,
-"name": "CLG Cuchulainn"
-},
-"away": {
-"id": null,
-"name": "Cavan Gaels"
-},
-"venueId": "9379f88e-09d4-4398-9915-65a8716acfd7",
-"venue": "Jim Smith Park, Killinkere",
-"result": true,
-"score": {
-"hg": 3,
-"hp": 7,
-"ag": 1,
-"ap": 7
-},
-"tickets": null,
-"tv": null,
-"url": "https://cavangaa.ie/fixtures-results/ladies_football/club/intermediate/2026-adult-intermediate-championship/53870b53-792e-4555-83dd-07346e747183/",
-"club": "county",
-"grade": "intermediate",
-"county": "Cavan",
-"site": "cavan",
-"referee": "yvonne Duffy"
-},
-{
-"id": "club:cavan:2026-08-26:cornafean-v-bailieborough",
-"date": "2026-08-26T18:00:00+00:00",
-"time": "19:00",
-"tbc": false,
-"status": "active",
-"sport": "Ladies' Football",
-"competition": "Cavan Intermediate Ladies' Football Championship",
-"competitionId": null,
-"rank": null,
-"title": "Kyte Powertech Intermediate Championship - Group A - Round 3",
-"group": "Group A",
-"round": "Round 3",
-"home": {
-"id": null,
-"name": "Cornafean"
-},
-"away": {
-"id": null,
-"name": "Bailieborough"
-},
-"venueId": "28dccf17-2f7a-4895-b01e-998afeb26935",
-"venue": "St. Bridget's Park Knockbride",
-"result": true,
-"score": {
-"hg": 1,
-"hp": 11,
-"ag": 1,
-"ap": 10
-},
-"tickets": null,
-"tv": null,
-"url": "https://cavangaa.ie/fixtures-results/ladies_football/club/intermediate/2026-adult-intermediate-championship/53870b53-792e-4555-83dd-07346e747183/",
-"club": "county",
-"grade": "intermediate",
-"county": "Cavan",
-"site": "cavan",
-"referee": "matthew Banville"
-},
-{
-"id": "club:cavan:2026-08-26:gowna-v-st-finbarrs",
-"date": "2026-08-26T18:00:00+00:00",
-"time": "19:00",
-"tbc": false,
-"status": "active",
-"sport": "Ladies' Football",
-"competition": "Cavan Intermediate Ladies' Football Championship",
-"competitionId": null,
-"rank": null,
-"title": "Kyte Powertech Intermediate Championship - Round 3",
-"group": null,
-"round": "Round 3",
-"home": {
-"id": null,
-"name": "Gowna"
-},
-"away": {
-"id": null,
-"name": "St Finbarrs"
-},
-"venueId": "ae0d35e8-61f7-4cbf-a96e-5758c8e1af3c",
-"venue": "Lacken GAA",
-"result": true,
-"score": {
-"hg": 2,
-"hp": 5,
-"ag": 1,
-"ap": 6
-},
-"tickets": null,
-"tv": null,
-"url": "https://cavangaa.ie/fixtures-results/ladies_football/club/intermediate/2026-adult-intermediate-championship/53870b53-792e-4555-83dd-07346e747183/",
-"club": "county",
-"grade": "intermediate",
-"county": "Cavan",
-"site": "cavan",
-"referee": "Padraig Sheridan"
-},
-{
-"id": "club:cavan:2026-08-26:kingscourt-stars-v-drumlane",
-"date": "2026-08-26T18:00:00+00:00",
-"time": "19:00",
-"tbc": false,
-"status": "active",
-"sport": "Ladies' Football",
-"competition": "Cavan Intermediate Ladies' Football Championship",
-"competitionId": null,
-"rank": null,
-"title": "Kyte Powertech Intermediate Championship - Round 3",
-"group": null,
-"round": "Round 3",
-"home": {
-"id": null,
-"name": "Kingscourt Stars"
-},
-"away": {
-"id": null,
-"name": "Drumlane"
-},
-"venueId": "d2dbfbab-7d22-4136-aeba-f808e057e2fe",
-"venue": "Drung Gaa Grounds",
-"result": true,
-"score": {
-"hg": 3,
-"hp": 15,
-"ag": 1,
-"ap": 5
-},
-"tickets": null,
-"tv": null,
-"url": "https://cavangaa.ie/fixtures-results/ladies_football/club/intermediate/2026-adult-intermediate-championship/53870b53-792e-4555-83dd-07346e747183/",
-"club": "county",
-"grade": "intermediate",
-"county": "Cavan",
-"site": "cavan",
-"referee": "Mickey Lee"
-},
-{
-"id": "club:cavan:2026-08-26:lavey-v-butlersbridge-g-a-a",
-"date": "2026-08-26T18:00:00+00:00",
-"time": "19:00",
-"tbc": false,
-"status": "active",
-"sport": "Ladies' Football",
-"competition": "Cavan Intermediate Ladies' Football Championship",
-"competitionId": null,
-"rank": null,
-"title": "Kyte Powertech Intermediate Championship - Round 3",
-"group": null,
-"round": "Round 3",
-"home": {
-"id": null,
-"name": "Lavey"
-},
-"away": {
-"id": null,
-"name": "Butlersbridge G.A.A"
-},
-"venueId": "90e92bf5-4add-4732-9059-411cdf0f52d2",
-"venue": "O'Connell Park Drumlane",
-"result": true,
-"score": {
-"hg": 3,
-"hp": 8,
-"ag": 3,
-"ap": 11
-},
-"tickets": null,
-"tv": null,
-"url": "https://cavangaa.ie/fixtures-results/ladies_football/club/intermediate/2026-adult-intermediate-championship/53870b53-792e-4555-83dd-07346e747183/",
-"club": "county",
-"grade": "intermediate",
-"county": "Cavan",
-"site": "cavan",
-"referee": "Jim Giblin"
-},
-{
-"id": "club:cavan:2026-08-26:munterconnaught-mountnugent-v-templeport",
-"date": "2026-08-26T18:00:00+00:00",
-"time": "19:00",
-"tbc": false,
-"status": "active",
-"sport": "Ladies' Football",
-"competition": "Cavan Intermediate Ladies' Football Championship",
-"competitionId": null,
-"rank": null,
-"title": "Kyte Powertech Intermediate Championship - Round 3",
-"group": null,
-"round": "Round 3",
-"home": {
-"id": null,
-"name": "Munterconnaught/Mountnugent"
-},
-"away": {
-"id": null,
-"name": "Templeport"
-},
-"venueId": "34362899-005a-4b1f-9233-64bd67eb0277",
-"venue": "Terry Coyle Park Cavan",
-"result": true,
-"score": {
-"hg": 1,
-"hp": 12,
-"ag": 6,
-"ap": 10
-},
-"tickets": null,
-"tv": null,
-"url": "https://cavangaa.ie/fixtures-results/ladies_football/club/intermediate/2026-adult-intermediate-championship/53870b53-792e-4555-83dd-07346e747183/",
-"club": "county",
-"grade": "intermediate",
-"county": "Cavan",
-"site": "cavan",
-"referee": "John Emmo"
-},
-{
-"id": "club:cavan:2026-08-26:killygarry-gaa-club-clg-coill-an-gharrai-v-mullahoran",
-"date": "2026-08-26T18:00:00+00:00",
-"time": "19:00",
-"tbc": false,
-"status": "active",
-"sport": "Ladies' Football",
-"competition": "Cavan Senior Ladies' Football Championship",
-"competitionId": null,
-"rank": null,
-"title": "Imperial Bar Cavan Snr Championship - GROUP B - Round 2",
-"group": "Group B",
-"round": "Round 2",
-"home": {
-"id": null,
-"name": "Killygarry GAA Club/CLG Coill an Gharraí"
-},
-"away": {
-"id": null,
-"name": "Mullahoran"
-},
-"venueId": "72a08b7d-2845-455c-bfac-7a84bec5f83a",
-"venue": "Athletic Grounds Killygarry",
-"result": true,
-"score": {
-"hg": 3,
-"hp": 11,
-"ag": 2,
-"ap": 14
-},
-"tickets": null,
-"tv": null,
-"url": "https://cavangaa.ie/fixtures-results/ladies_football/club/senior/senior-championship/f7da8a0d-1fa9-4a59-9845-225235bcd4f9/",
-"club": "county",
-"grade": "senior",
-"county": "Cavan",
-"site": "cavan",
-"referee": "Kieran McCarville"
 },
 {
 "id": "club:donegal:2026-08-26:gaeil-fhanada-v-clg-an-tearmainn",
@@ -2334,45 +2061,6 @@
 "referee": "Raymond Kelly"
 },
 {
-"id": "club:cavan:2026-08-27:laragh-united-v-crosserlough",
-"date": "2026-08-27T19:00:00+00:00",
-"time": "20:00",
-"tbc": false,
-"status": "active",
-"sport": "Football",
-"competition": "Cavan Senior Football Championship",
-"competitionId": null,
-"rank": null,
-"title": "Senior Championship Kyte Powertech - Rd 3",
-"group": null,
-"round": "Round 3",
-"home": {
-"id": null,
-"name": "Laragh United"
-},
-"away": {
-"id": null,
-"name": "Crosserlough"
-},
-"venueId": "edb4d5a9-2ef6-4bec-92cd-2d4dfde3895c",
-"venue": "Kingspan Breffni, Cavan",
-"result": true,
-"score": {
-"hg": 1,
-"hp": 6,
-"ag": 5,
-"ap": 22
-},
-"tickets": null,
-"tv": null,
-"url": "https://cavangaa.ie/fixtures-results/football/club/senior/championship-2026/2b2fe789-6b05-484a-9cb6-7273d38ec288/",
-"club": "county",
-"grade": "senior",
-"county": "Cavan",
-"site": "cavan",
-"referee": "Padraig Sheridan"
-},
-{
 "id": "club:kildare:2026-08-27:ardclough-v-naas",
 "date": "2026-08-27T19:00:00+00:00",
 "time": "20:00",
@@ -2488,201 +2176,6 @@
 "county": "Tipperary",
 "site": "tipperary",
 "referee": "Tom Mc Grath"
-},
-{
-"id": "club:clare:2026-08-28:newmarket-on-fergus-v-clooney-quin",
-"date": "2026-08-28T17:15:00+00:00",
-"time": "18:15",
-"tbc": false,
-"status": "active",
-"sport": "Camogie",
-"competition": "Clare Senior Camogie Championship",
-"competitionId": null,
-"rank": null,
-"title": "Clare Credit Unions Senior Camogie Championship - Round 3",
-"group": null,
-"round": "Round 3",
-"home": {
-"id": null,
-"name": "Newmarket-on-Fergus"
-},
-"away": {
-"id": null,
-"name": "Clooney Quin"
-},
-"venueId": "85436917-8a67-4226-a487-d8a2e0e309f3",
-"venue": "Clareabbey",
-"result": true,
-"score": {
-"hg": 2,
-"hp": 8,
-"ag": 1,
-"ap": 14
-},
-"tickets": null,
-"tv": null,
-"url": "https://clare.gaa.ie/fixtures-results/camogie/club/senior/senior-camogie-championship/7fce8224-4cae-400c-a21e-954a8c920fe7/",
-"club": "county",
-"grade": "senior",
-"county": "Clare",
-"site": "clare",
-"referee": "Ger Hoey"
-},
-{
-"id": "club:clare:2026-08-28:kilkishen-v-crusheen",
-"date": "2026-08-28T17:30:00+00:00",
-"time": "18:30",
-"tbc": false,
-"status": "active",
-"sport": "Camogie",
-"competition": "Clare Intermediate Camogie Championship",
-"competitionId": null,
-"rank": null,
-"title": "Clare Credit Unions Intermediate Camogie Championship - Round 2",
-"group": null,
-"round": "Round 2",
-"home": {
-"id": null,
-"name": "Kilkishen"
-},
-"away": {
-"id": null,
-"name": "Crusheen"
-},
-"venueId": "dfb411b1-d564-4d2b-baa7-4ee3d9f10571",
-"venue": "Kilkishen",
-"result": true,
-"score": {
-"hg": 1,
-"hp": 19,
-"ag": 0,
-"ap": 8
-},
-"tickets": null,
-"tv": null,
-"url": "https://clare.gaa.ie/fixtures-results/camogie/club/intermediate/intermediate-camogie-championship/6e1387f3-7c59-489d-a33e-ef78259c2ea2/",
-"club": "county",
-"grade": "intermediate",
-"county": "Clare",
-"site": "clare",
-"referee": "Kieran Liddane"
-},
-{
-"id": "club:clare:2026-08-28:kilmaley-camogie-club-v-clarecastle-ballyea",
-"date": "2026-08-28T17:30:00+00:00",
-"time": "18:30",
-"tbc": false,
-"status": "active",
-"sport": "Camogie",
-"competition": "Clare Senior Camogie Championship",
-"competitionId": null,
-"rank": null,
-"title": "Clare Credit Unions Senior Camogie Championship - Round 3",
-"group": null,
-"round": "Round 3",
-"home": {
-"id": null,
-"name": "Kilmaley Camogie Club"
-},
-"away": {
-"id": null,
-"name": "Clarecastle/Ballyea"
-},
-"venueId": "1e13f0c9-6809-4c30-8652-7599f5ade0e8",
-"venue": "Kilnamona",
-"result": true,
-"score": {
-"hg": 1,
-"hp": 18,
-"ag": 1,
-"ap": 13
-},
-"tickets": null,
-"tv": null,
-"url": "https://clare.gaa.ie/fixtures-results/camogie/club/senior/senior-camogie-championship/7fce8224-4cae-400c-a21e-954a8c920fe7/",
-"club": "county",
-"grade": "senior",
-"county": "Clare",
-"site": "clare",
-"referee": "James jim Hickey"
-},
-{
-"id": "club:clare:2026-08-28:scariff-ogonnelloe-v-feakle-killanena",
-"date": "2026-08-28T17:30:00+00:00",
-"time": "18:30",
-"tbc": false,
-"status": "active",
-"sport": "Camogie",
-"competition": "Clare Senior Camogie Championship",
-"competitionId": null,
-"rank": null,
-"title": "Clare Credit Unions Senior Camogie Championship - Round 3",
-"group": null,
-"round": "Round 3",
-"home": {
-"id": null,
-"name": "Scariff-Ogonnelloe"
-},
-"away": {
-"id": null,
-"name": "Feakle-Killanena"
-},
-"venueId": "28f5bb8d-2eff-4ca8-8e37-e53446c1c9c6",
-"venue": "Clonlara",
-"result": true,
-"score": {
-"hg": 1,
-"hp": 19,
-"ag": 3,
-"ap": 7
-},
-"tickets": null,
-"tv": null,
-"url": "https://clare.gaa.ie/fixtures-results/camogie/club/senior/senior-camogie-championship/7fce8224-4cae-400c-a21e-954a8c920fe7/",
-"club": "county",
-"grade": "senior",
-"county": "Clare",
-"site": "clare",
-"referee": "Kevin Corry"
-},
-{
-"id": "club:clare:2026-08-28:st-josephs-s-doora-barefield-v-tulla",
-"date": "2026-08-28T17:30:00+00:00",
-"time": "18:30",
-"tbc": false,
-"status": "active",
-"sport": "Camogie",
-"competition": "Clare Senior Camogie Championship",
-"competitionId": null,
-"rank": null,
-"title": "Clare Credit Unions Senior Camogie Championship - Round 3",
-"group": null,
-"round": "Round 3",
-"home": {
-"id": null,
-"name": "St. Josephs's Doora Barefield"
-},
-"away": {
-"id": null,
-"name": "Tulla"
-},
-"venueId": "3987d30d-81f4-4fe0-aee3-4eb9cb1b7ea5",
-"venue": "Clooney",
-"result": true,
-"score": {
-"hg": 1,
-"hp": 13,
-"ag": 2,
-"ap": 10
-},
-"tickets": null,
-"tv": null,
-"url": "https://clare.gaa.ie/fixtures-results/camogie/club/senior/senior-camogie-championship/7fce8224-4cae-400c-a21e-954a8c920fe7/",
-"club": "county",
-"grade": "senior",
-"county": "Clare",
-"site": "clare",
-"referee": "Pat Healy"
 },
 {
 "id": "club:donegal:2026-08-28:sean-mac-cumhaill-v-naomh-adhamhnain-st-eunan-s",
@@ -2956,201 +2449,6 @@
 "county": "Tyrone",
 "site": "tyrone",
 "referee": null
-},
-{
-"id": "club:cavan:2026-08-28:crosserlough-v-denn",
-"date": "2026-08-28T18:00:00+00:00",
-"time": "19:00",
-"tbc": false,
-"status": "active",
-"sport": "Camogie",
-"competition": "Cavan Senior Camogie Championship",
-"competitionId": null,
-"rank": null,
-"title": "Senior Championship - Round 2",
-"group": null,
-"round": "Round 2",
-"home": {
-"id": null,
-"name": "Crosserlough"
-},
-"away": {
-"id": null,
-"name": "Denn"
-},
-"venueId": "a81bf62e-403f-4481-8328-9776165d3aab",
-"venue": "Dr. Plunkett Memorial Park Kilnaleck",
-"result": true,
-"score": {
-"hg": 2,
-"hp": 13,
-"ag": 1,
-"ap": 8
-},
-"tickets": null,
-"tv": null,
-"url": "https://cavangaa.ie/fixtures-results/camogie/club/senior/senior-championship/ccca736a-15b2-4a77-9d01-5201a69d5b67/",
-"club": "county",
-"grade": "senior",
-"county": "Cavan",
-"site": "cavan",
-"referee": "Barry Nea"
-},
-{
-"id": "club:cavan:2026-08-28:laragh-united-v-lacken-gaa",
-"date": "2026-08-28T18:00:00+00:00",
-"time": "19:00",
-"tbc": false,
-"status": "active",
-"sport": "Camogie",
-"competition": "Cavan Senior Camogie Championship",
-"competitionId": null,
-"rank": null,
-"title": "Senior Championship - Round 2",
-"group": null,
-"round": "Round 2",
-"home": {
-"id": null,
-"name": "Laragh United"
-},
-"away": {
-"id": null,
-"name": "Lacken GAA"
-},
-"venueId": "22b2dbbd-2b03-4d99-8cbc-0c4fccdd9f8c",
-"venue": "Laragh Community Park",
-"result": true,
-"score": {
-"hg": 1,
-"hp": 7,
-"ag": 1,
-"ap": 12
-},
-"tickets": null,
-"tv": null,
-"url": "https://cavangaa.ie/fixtures-results/camogie/club/senior/senior-championship/ccca736a-15b2-4a77-9d01-5201a69d5b67/",
-"club": "county",
-"grade": "senior",
-"county": "Cavan",
-"site": "cavan",
-"referee": "Lisa Bannon"
-},
-{
-"id": "club:clare:2026-08-28:eire-og-inis-v-corofin-camogie-club",
-"date": "2026-08-28T18:00:00+00:00",
-"time": "19:00",
-"tbc": false,
-"status": "active",
-"sport": "Camogie",
-"competition": "Clare Intermediate Camogie Championship",
-"competitionId": null,
-"rank": null,
-"title": "Clare Credit Unions Intermediate Camogie Championship - Round 2",
-"group": null,
-"round": "Round 2",
-"home": {
-"id": null,
-"name": "Éire Óg Inis"
-},
-"away": {
-"id": null,
-"name": "Corofin Camogie Club"
-},
-"venueId": "9e3da8fc-8fd0-4dab-9602-26116a848d82",
-"venue": "Eire Og, Ennis",
-"result": true,
-"score": {
-"hg": 1,
-"hp": 18,
-"ag": 2,
-"ap": 2
-},
-"tickets": null,
-"tv": null,
-"url": "https://clare.gaa.ie/fixtures-results/camogie/club/intermediate/intermediate-camogie-championship/6e1387f3-7c59-489d-a33e-ef78259c2ea2/",
-"club": "county",
-"grade": "intermediate",
-"county": "Clare",
-"site": "clare",
-"referee": "Andrew McMahon"
-},
-{
-"id": "club:clare:2026-08-28:sixmilebridge-v-broadford-bodyke",
-"date": "2026-08-28T18:00:00+00:00",
-"time": "19:00",
-"tbc": false,
-"status": "active",
-"sport": "Camogie",
-"competition": "Clare Intermediate Camogie Championship",
-"competitionId": null,
-"rank": null,
-"title": "Clare Credit Unions Intermediate Camogie Championship - Round 2",
-"group": null,
-"round": "Round 2",
-"home": {
-"id": null,
-"name": "Sixmilebridge"
-},
-"away": {
-"id": null,
-"name": "Broadford/Bodyke"
-},
-"venueId": "746a540f-aadb-494f-88d2-0354cb17e57a",
-"venue": "Sixmilebridge",
-"result": true,
-"score": {
-"hg": 2,
-"hp": 5,
-"ag": 1,
-"ap": 12
-},
-"tickets": null,
-"tv": null,
-"url": "https://clare.gaa.ie/fixtures-results/camogie/club/intermediate/intermediate-camogie-championship/6e1387f3-7c59-489d-a33e-ef78259c2ea2/",
-"club": "county",
-"grade": "intermediate",
-"county": "Clare",
-"site": "clare",
-"referee": "Kevin Walsh"
-},
-{
-"id": "club:clare:2026-08-28:whitegate-v-ruan",
-"date": "2026-08-28T18:00:00+00:00",
-"time": "19:00",
-"tbc": false,
-"status": "active",
-"sport": "Camogie",
-"competition": "Clare Intermediate Camogie Championship",
-"competitionId": null,
-"rank": null,
-"title": "Clare Credit Unions Intermediate Camogie Championship - Round 2",
-"group": null,
-"round": "Round 2",
-"home": {
-"id": null,
-"name": "Whitegate"
-},
-"away": {
-"id": null,
-"name": "Ruan"
-},
-"venueId": "61ac3ab2-555b-474a-a9d0-b2cd63178f8f",
-"venue": "Whitegate",
-"result": true,
-"score": {
-"hg": 1,
-"hp": 10,
-"ag": 1,
-"ap": 7
-},
-"tickets": null,
-"tv": null,
-"url": "https://clare.gaa.ie/fixtures-results/camogie/club/intermediate/intermediate-camogie-championship/6e1387f3-7c59-489d-a33e-ef78259c2ea2/",
-"club": "county",
-"grade": "intermediate",
-"county": "Clare",
-"site": "clare",
-"referee": "Brendan Hannon"
 },
 {
 "id": "club:down:2026-08-28:bryansford-v-saul",
@@ -3504,45 +2802,6 @@
 "referee": "Eamon O Connor"
 },
 {
-"id": "club:cavan:2026-08-28:ramor-united-gfc-v-ballyhaise",
-"date": "2026-08-28T19:00:00+00:00",
-"time": "20:00",
-"tbc": false,
-"status": "active",
-"sport": "Football",
-"competition": "Cavan Senior Football Championship",
-"competitionId": null,
-"rank": null,
-"title": "Senior Championship Kyte Powertech - Rd 3",
-"group": null,
-"round": "Round 3",
-"home": {
-"id": null,
-"name": "Ramor United GFC"
-},
-"away": {
-"id": null,
-"name": "Ballyhaise"
-},
-"venueId": "c86451db-07be-41ef-8a4f-c0a8269c2e16",
-"venue": "Our Lady of Lourdes Park Mullahoran",
-"result": true,
-"score": {
-"hg": 2,
-"hp": 21,
-"ag": 3,
-"ap": 17
-},
-"tickets": null,
-"tv": null,
-"url": "https://cavangaa.ie/fixtures-results/football/club/senior/championship-2026/2b2fe789-6b05-484a-9cb6-7273d38ec288/",
-"club": "county",
-"grade": "senior",
-"county": "Cavan",
-"site": "cavan",
-"referee": "Noel Mooney"
-},
-{
 "id": "club:tyrone:2026-08-28:cookstown-fr-rock-s-gaa-v-drumquin-wolfe-tones",
 "date": "2026-08-28T19:15:00+00:00",
 "time": "20:15",
@@ -3582,40 +2841,6 @@
 "referee": null
 },
 {
-"id": "club:cavan:2026-08-29:maghera-macfinns-c-v-belturbet-rory-o-moores",
-"date": "2026-08-29T00:00:00+00:00",
-"time": null,
-"tbc": true,
-"status": "active",
-"sport": "Football",
-"competition": "Cavan Junior Football Championship",
-"competitionId": null,
-"rank": null,
-"title": "Junior Championship Rudden Services Station - Rd 4",
-"group": null,
-"round": "Round 4",
-"home": {
-"id": null,
-"name": "Maghera MacFinns (C)"
-},
-"away": {
-"id": null,
-"name": "Belturbet Rory O'Moores"
-},
-"venueId": "33b5b682-9edf-41e7-9b60-3352466560e7",
-"venue": "Pairc Naomh Fionnan Cornafean",
-"result": true,
-"score": null,
-"tickets": null,
-"tv": null,
-"url": "https://cavangaa.ie/fixtures-results/football/club/senior/championship-2026/2b2fe789-6b05-484a-9cb6-7273d38ec288/",
-"club": "county",
-"grade": "senior",
-"county": "Cavan",
-"site": "cavan",
-"referee": "Matthew McGahern"
-},
-{
 "id": "club:donegal:2026-08-29:clg-chill-chartha-v-four-masters",
 "date": "2026-08-29T11:15:00+00:00",
 "time": "12:15",
@@ -3653,84 +2878,6 @@
 "county": "Donegal",
 "site": "donegal",
 "referee": "Kevin McGinley"
-},
-{
-"id": "club:clare:2026-08-29:an-bratach-inis-v-cill-ruis-seamrog",
-"date": "2026-08-29T12:00:00+00:00",
-"time": "13:00",
-"tbc": false,
-"status": "active",
-"sport": "Football",
-"competition": "Clare Intermediate Football Championship",
-"competitionId": null,
-"rank": null,
-"title": "TUS TUS Intermediate Football - Group 2 - RD 3",
-"group": "Group 2",
-"round": "Round 3",
-"home": {
-"id": null,
-"name": "An Bratach Inis"
-},
-"away": {
-"id": null,
-"name": "Cill Rúis Seamróg"
-},
-"venueId": "d5ae9490-d860-4a60-a99f-d2fa8c36e7da",
-"venue": "Ballynacally",
-"result": true,
-"score": {
-"hg": 1,
-"hp": 22,
-"ag": 2,
-"ap": 13
-},
-"tickets": null,
-"tv": null,
-"url": "https://clare.gaa.ie/fixtures-results/football/club/intermediate/tus-intermediate-football/69cfb9ce-1f51-4455-aa1f-2bd40c26cc1d/",
-"club": "county",
-"grade": "intermediate",
-"county": "Clare",
-"site": "clare",
-"referee": "Pat Healy"
-},
-{
-"id": "club:clare:2026-08-29:naomh-eoin-v-cul-min",
-"date": "2026-08-29T12:00:00+00:00",
-"time": "13:00",
-"tbc": false,
-"status": "active",
-"sport": "Football",
-"competition": "Clare Intermediate Football Championship",
-"competitionId": null,
-"rank": null,
-"title": "TUS TUS Intermediate Football - Group 2 - RD 3",
-"group": "Group 2",
-"round": "Round 3",
-"home": {
-"id": null,
-"name": "Naomh Eoin"
-},
-"away": {
-"id": null,
-"name": "Cúl Mín"
-},
-"venueId": "7de7f137-a977-4db3-8463-6e003e0f64d6",
-"venue": "Cooraclare",
-"result": true,
-"score": {
-"hg": 1,
-"hp": 14,
-"ag": 0,
-"ap": 11
-},
-"tickets": null,
-"tv": null,
-"url": "https://clare.gaa.ie/fixtures-results/football/club/intermediate/tus-intermediate-football/69cfb9ce-1f51-4455-aa1f-2bd40c26cc1d/",
-"club": "county",
-"grade": "intermediate",
-"county": "Clare",
-"site": "clare",
-"referee": "Robert Harte"
 },
 {
 "id": "club:down:2026-08-29:dromara-v-ballymartin",
@@ -3887,84 +3034,6 @@
 "county": "Down",
 "site": "down",
 "referee": "Sean Cunningham"
-},
-{
-"id": "club:clare:2026-08-29:creatlach-v-dun-beag",
-"date": "2026-08-29T14:00:00+00:00",
-"time": "15:00",
-"tbc": false,
-"status": "active",
-"sport": "Football",
-"competition": "Clare Senior Football Championship",
-"competitionId": null,
-"rank": null,
-"title": "TUS TUS Senior Football - Group 1 - RD 3",
-"group": "Group 1",
-"round": "Round 3",
-"home": {
-"id": null,
-"name": "Creatlach"
-},
-"away": {
-"id": null,
-"name": "Dún Beag"
-},
-"venueId": "924c9ec9-05cd-431d-a857-9b502e7ae0bd",
-"venue": "Clarecastle GAA",
-"result": true,
-"score": {
-"hg": 2,
-"hp": 7,
-"ag": 4,
-"ap": 13
-},
-"tickets": null,
-"tv": null,
-"url": "https://clare.gaa.ie/fixtures-results/football/club/senior/tus-senior-football/6442d7b0-4b4b-4cac-bc1f-aef4695e3415/",
-"club": "county",
-"grade": "senior",
-"county": "Clare",
-"site": "clare",
-"referee": "Gary Twomey"
-},
-{
-"id": "club:clare:2026-08-29:eire-og-inis-v-naomh-iosaif-sr-na-cathrach",
-"date": "2026-08-29T14:00:00+00:00",
-"time": "15:00",
-"tbc": false,
-"status": "active",
-"sport": "Football",
-"competition": "Clare Senior Football Championship",
-"competitionId": null,
-"rank": null,
-"title": "TUS TUS Senior Football - Group 1 - RD 3",
-"group": "Group 1",
-"round": "Round 3",
-"home": {
-"id": null,
-"name": "Éire Óg Inis"
-},
-"away": {
-"id": null,
-"name": "Naomh Iosaif Sr. na Cathrach"
-},
-"venueId": "16a1c297-ad76-495e-be45-1ee016b1c637",
-"venue": "Kilmihil GAA",
-"result": true,
-"score": {
-"hg": 1,
-"hp": 22,
-"ag": 0,
-"ap": 12
-},
-"tickets": null,
-"tv": null,
-"url": "https://clare.gaa.ie/fixtures-results/football/club/senior/tus-senior-football/6442d7b0-4b4b-4cac-bc1f-aef4695e3415/",
-"club": "county",
-"grade": "senior",
-"county": "Clare",
-"site": "clare",
-"referee": "Fergal O’Brien"
 },
 {
 "id": "club:kerry:2026-08-29:desmonds-v-firies",
@@ -4318,279 +3387,6 @@
 "referee": "Marius Stones"
 },
 {
-"id": "club:cavan:2026-08-29:kill-shamrocks-gaa-v-st-mary-s-gaa-swanlinbar",
-"date": "2026-08-29T16:00:00+00:00",
-"time": "17:00",
-"tbc": false,
-"status": "active",
-"sport": "Football",
-"competition": "Cavan Junior Football Championship",
-"competitionId": null,
-"rank": null,
-"title": "Junior Championship Rudden Services Station - Rd 4",
-"group": null,
-"round": "Round 4",
-"home": {
-"id": null,
-"name": "Kill Shamrocks GAA"
-},
-"away": {
-"id": null,
-"name": "St Mary's GAA, Swanlinbar"
-},
-"venueId": "7ff494da-dfd5-46d1-9c28-b8adf16f22e1",
-"venue": "Pairc na gCead Ultach",
-"result": true,
-"score": {
-"hg": 6,
-"hp": 19,
-"ag": 2,
-"ap": 13
-},
-"tickets": null,
-"tv": null,
-"url": "https://cavangaa.ie/fixtures-results/football/club/senior/championship-2026/2b2fe789-6b05-484a-9cb6-7273d38ec288/",
-"club": "county",
-"grade": "senior",
-"county": "Cavan",
-"site": "cavan",
-"referee": "Paul Kerr"
-},
-{
-"id": "club:cavan:2026-08-29:killeshandra-v-mountnugent",
-"date": "2026-08-29T16:00:00+00:00",
-"time": "17:00",
-"tbc": false,
-"status": "active",
-"sport": "Football",
-"competition": "Cavan Junior Football Championship",
-"competitionId": null,
-"rank": null,
-"title": "Junior Championship Rudden Services Station - Rd 4",
-"group": null,
-"round": "Round 4",
-"home": {
-"id": null,
-"name": "Killeshandra"
-},
-"away": {
-"id": null,
-"name": "Mountnugent"
-},
-"venueId": "d301b036-f273-4101-b71d-5a154c5c9814",
-"venue": "Ballinagh GAA Grounds",
-"result": true,
-"score": {
-"hg": 2,
-"hp": 13,
-"ag": 1,
-"ap": 8
-},
-"tickets": null,
-"tv": null,
-"url": "https://cavangaa.ie/fixtures-results/football/club/senior/championship-2026/2b2fe789-6b05-484a-9cb6-7273d38ec288/",
-"club": "county",
-"grade": "senior",
-"county": "Cavan",
-"site": "cavan",
-"referee": "Conor Dourneen"
-},
-{
-"id": "club:cavan:2026-08-29:lacken-gaa-v-shannon-gaels",
-"date": "2026-08-29T16:00:00+00:00",
-"time": "17:00",
-"tbc": false,
-"status": "active",
-"sport": "Football",
-"competition": "Cavan Junior Football Championship",
-"competitionId": null,
-"rank": null,
-"title": "Junior Championship Rudden Services Station - Rd 4",
-"group": null,
-"round": "Round 4",
-"home": {
-"id": null,
-"name": "Lacken GAA"
-},
-"away": {
-"id": null,
-"name": "Shannon Gaels"
-},
-"venueId": "90e92bf5-4add-4732-9059-411cdf0f52d2",
-"venue": "O'Connell Park Drumlane",
-"result": true,
-"score": {
-"hg": 1,
-"hp": 18,
-"ag": 2,
-"ap": 6
-},
-"tickets": null,
-"tv": null,
-"url": "https://cavangaa.ie/fixtures-results/football/club/senior/championship-2026/2b2fe789-6b05-484a-9cb6-7273d38ec288/",
-"club": "county",
-"grade": "senior",
-"county": "Cavan",
-"site": "cavan",
-"referee": "Kieran McCarville"
-},
-{
-"id": "club:cavan:2026-08-29:redhills-v-drumalee",
-"date": "2026-08-29T16:00:00+00:00",
-"time": "17:00",
-"tbc": false,
-"status": "active",
-"sport": "Football",
-"competition": "Cavan Junior Football Championship",
-"competitionId": null,
-"rank": null,
-"title": "Junior Championship Rudden Services Station - Rd 4",
-"group": null,
-"round": "Round 4",
-"home": {
-"id": null,
-"name": "Redhills"
-},
-"away": {
-"id": null,
-"name": "Drumalee"
-},
-"venueId": "f0cffe7b-522b-4f7c-87d2-130abdd8c2e8",
-"venue": "Annalee Park Ballyhaise",
-"result": true,
-"score": {
-"hg": 1,
-"hp": 12,
-"ag": 0,
-"ap": 7
-},
-"tickets": null,
-"tv": null,
-"url": "https://cavangaa.ie/fixtures-results/football/club/senior/championship-2026/2b2fe789-6b05-484a-9cb6-7273d38ec288/",
-"club": "county",
-"grade": "senior",
-"county": "Cavan",
-"site": "cavan",
-"referee": "John Emmo"
-},
-{
-"id": "club:cavan:2026-08-29:templeport-st-aidan-s-gaa-v-drung",
-"date": "2026-08-29T16:00:00+00:00",
-"time": "17:00",
-"tbc": false,
-"status": "active",
-"sport": "Football",
-"competition": "Cavan Junior Football Championship",
-"competitionId": null,
-"rank": null,
-"title": "Junior Championship Rudden Services Station - Rd 4",
-"group": null,
-"round": "Round 4",
-"home": {
-"id": null,
-"name": "Templeport St. Aidan's GAA"
-},
-"away": {
-"id": null,
-"name": "Drung"
-},
-"venueId": "4d1e9147-b1f2-4cb2-aa56-3574911e1cc9",
-"venue": "Emmett Park Butlersbridge",
-"result": true,
-"score": {
-"hg": 3,
-"hp": 21,
-"ag": 1,
-"ap": 14
-},
-"tickets": null,
-"tv": null,
-"url": "https://cavangaa.ie/fixtures-results/football/club/senior/championship-2026/2b2fe789-6b05-484a-9cb6-7273d38ec288/",
-"club": "county",
-"grade": "senior",
-"county": "Cavan",
-"site": "cavan",
-"referee": "Adrian O'Hanlon"
-},
-{
-"id": "club:clare:2026-08-29:inis-diomain-peil-v-cill-an-disirt",
-"date": "2026-08-29T16:00:00+00:00",
-"time": "17:00",
-"tbc": false,
-"status": "active",
-"sport": "Football",
-"competition": "Clare Senior Football Championship",
-"competitionId": null,
-"rank": null,
-"title": "TUS TUS Senior Football - Group 2 - RD 3",
-"group": "Group 2",
-"round": "Round 3",
-"home": {
-"id": null,
-"name": "Inis Díomáin Peil"
-},
-"away": {
-"id": null,
-"name": "Cill an Dísirt"
-},
-"venueId": "7de7f137-a977-4db3-8463-6e003e0f64d6",
-"venue": "Cooraclare",
-"result": true,
-"score": {
-"hg": 2,
-"hp": 9,
-"ag": 1,
-"ap": 23
-},
-"tickets": null,
-"tv": null,
-"url": "https://clare.gaa.ie/fixtures-results/football/club/senior/tus-senior-football/6442d7b0-4b4b-4cac-bc1f-aef4695e3415/",
-"club": "county",
-"grade": "senior",
-"county": "Clare",
-"site": "clare",
-"referee": "John OConnell"
-},
-{
-"id": "club:clare:2026-08-29:naomh-seosamh-dubhraith-gortloman-v-cill-mhichil",
-"date": "2026-08-29T16:00:00+00:00",
-"time": "17:00",
-"tbc": false,
-"status": "active",
-"sport": "Football",
-"competition": "Clare Senior Football Championship",
-"competitionId": null,
-"rank": null,
-"title": "TUS TUS Senior Football - Group 2 - RD 3",
-"group": "Group 2",
-"round": "Round 3",
-"home": {
-"id": null,
-"name": "Naomh Seosamh Dubhraith Gortlomán"
-},
-"away": {
-"id": null,
-"name": "Cill Mhichíl"
-},
-"venueId": "d38467fa-44f0-4ecc-8054-25e683fd0a37",
-"venue": "Lissycasey",
-"result": true,
-"score": {
-"hg": 3,
-"hp": 16,
-"ag": 2,
-"ap": 11
-},
-"tickets": null,
-"tv": null,
-"url": "https://clare.gaa.ie/fixtures-results/football/club/senior/tus-senior-football/6442d7b0-4b4b-4cac-bc1f-aef4695e3415/",
-"club": "county",
-"grade": "senior",
-"county": "Clare",
-"site": "clare",
-"referee": "Barry Keating"
-},
-{
 "id": "club:donegal:2026-08-29:ardara-v-gleann-tsuili",
 "date": "2026-08-29T16:00:00+00:00",
 "time": "17:00",
@@ -4862,84 +3658,6 @@
 "county": "Tyrone",
 "site": "tyrone",
 "referee": null
-},
-{
-"id": "club:cavan:2026-08-29:arva-st-patrick-s-gaa-v-cavan-gaels",
-"date": "2026-08-29T17:00:00+00:00",
-"time": "18:00",
-"tbc": false,
-"status": "active",
-"sport": "Football",
-"competition": "Cavan Senior Football Championship",
-"competitionId": null,
-"rank": null,
-"title": "Senior Championship Kyte Powertech - Rd 3",
-"group": null,
-"round": "Round 3",
-"home": {
-"id": null,
-"name": "Arva St Patrick's GAA"
-},
-"away": {
-"id": null,
-"name": "Cavan Gaels"
-},
-"venueId": "31c78e85-183e-4ae7-8038-8fd039597232",
-"venue": "Sheelin Park Ballymachugh",
-"result": true,
-"score": {
-"hg": 1,
-"hp": 15,
-"ag": 3,
-"ap": 12
-},
-"tickets": null,
-"tv": null,
-"url": "https://cavangaa.ie/fixtures-results/football/club/senior/championship-2026/2b2fe789-6b05-484a-9cb6-7273d38ec288/",
-"club": "county",
-"grade": "senior",
-"county": "Cavan",
-"site": "cavan",
-"referee": "Brendan Sweeney"
-},
-{
-"id": "club:cavan:2026-08-29:clg-cuchulainn-v-kingscourt-stars",
-"date": "2026-08-29T17:00:00+00:00",
-"time": "18:00",
-"tbc": false,
-"status": "active",
-"sport": "Football",
-"competition": "Cavan Senior Football Championship",
-"competitionId": null,
-"rank": null,
-"title": "Senior Championship Kyte Powertech - Rd 3",
-"group": null,
-"round": "Round 3",
-"home": {
-"id": null,
-"name": "CLG Cuchulainn"
-},
-"away": {
-"id": null,
-"name": "Kingscourt Stars"
-},
-"venueId": "801702b6-c8fd-439d-98cb-333c7b4cfa86",
-"venue": "Hugh O Reilly Memorial Park",
-"result": true,
-"score": {
-"hg": 0,
-"hp": 12,
-"ag": 0,
-"ap": 18
-},
-"tickets": null,
-"tv": null,
-"url": "https://cavangaa.ie/fixtures-results/football/club/senior/championship-2026/2b2fe789-6b05-484a-9cb6-7273d38ec288/",
-"club": "county",
-"grade": "senior",
-"county": "Cavan",
-"site": "cavan",
-"referee": "Martin Sexton"
 },
 {
 "id": "club:meath:2026-08-29:gaeil-colmcille-v-drumree",
@@ -5985,84 +4703,6 @@
 "referee": "Shane McGoldrick"
 },
 {
-"id": "club:clare:2026-08-30:cora-finne-v-cill-mhuire-ui-bhreacain",
-"date": "2026-08-30T12:00:00+00:00",
-"time": "13:00",
-"tbc": false,
-"status": "active",
-"sport": "Football",
-"competition": "Clare Senior Football Championship",
-"competitionId": null,
-"rank": null,
-"title": "TUS TUS Senior Football - Group 3 - RD 3",
-"group": "Group 3",
-"round": "Round 3",
-"home": {
-"id": null,
-"name": "Cora Finne"
-},
-"away": {
-"id": null,
-"name": "Cill Mhuire Ui Bhreacáin"
-},
-"venueId": "0198790f-7890-4d73-9ab4-0bfcf8652c59",
-"venue": "Zimmer Biomet Páirc Chíosóg, Ennis",
-"result": true,
-"score": {
-"hg": 0,
-"hp": 14,
-"ag": 3,
-"ap": 9
-},
-"tickets": null,
-"tv": null,
-"url": "https://clare.gaa.ie/fixtures-results/football/club/senior/tus-senior-football/6442d7b0-4b4b-4cac-bc1f-aef4695e3415/",
-"club": "county",
-"grade": "senior",
-"county": "Clare",
-"site": "clare",
-"referee": "Barry Kelly"
-},
-{
-"id": "club:clare:2026-08-30:lios-ui-chathasaigh-v-naomh-breacain",
-"date": "2026-08-30T12:00:00+00:00",
-"time": "13:00",
-"tbc": false,
-"status": "active",
-"sport": "Football",
-"competition": "Clare Senior Football Championship",
-"competitionId": null,
-"rank": null,
-"title": "TUS TUS Senior Football - Group 3 - RD 3",
-"group": "Group 3",
-"round": "Round 3",
-"home": {
-"id": null,
-"name": "Lios Uí Chathasaigh"
-},
-"away": {
-"id": null,
-"name": "Naomh Breacáin"
-},
-"venueId": "99136c69-ddd6-4735-832e-cd252d715aee",
-"venue": "Milltown",
-"result": true,
-"score": {
-"hg": 2,
-"hp": 14,
-"ag": 0,
-"ap": 11
-},
-"tickets": null,
-"tv": null,
-"url": "https://clare.gaa.ie/fixtures-results/football/club/senior/tus-senior-football/6442d7b0-4b4b-4cac-bc1f-aef4695e3415/",
-"club": "county",
-"grade": "senior",
-"county": "Clare",
-"site": "clare",
-"referee": "Fergal O’Brien"
-},
-{
 "id": "club:donegal:2026-08-30:naomh-conaill-v-clg-an-tearmainn",
 "date": "2026-08-30T12:00:00+00:00",
 "time": "13:00",
@@ -6492,279 +5132,6 @@
 "referee": null
 },
 {
-"id": "club:cavan:2026-08-30:cnoc-bride-v-cornafean",
-"date": "2026-08-30T13:00:00+00:00",
-"time": "14:00",
-"tbc": false,
-"status": "active",
-"sport": "Football",
-"competition": "Cavan Intermediate Football Championship",
-"competitionId": null,
-"rank": null,
-"title": "Intermediate Championship O'Reilly Precast - Rd 4",
-"group": null,
-"round": "Round 4",
-"home": {
-"id": null,
-"name": "Cnoc Bríde"
-},
-"away": {
-"id": null,
-"name": "Cornafean"
-},
-"venueId": "72a08b7d-2845-455c-bfac-7a84bec5f83a",
-"venue": "Athletic Grounds Killygarry",
-"result": true,
-"score": {
-"hg": 1,
-"hp": 9,
-"ag": 2,
-"ap": 11
-},
-"tickets": null,
-"tv": null,
-"url": "https://cavangaa.ie/fixtures-results/football/club/senior/championship-2026/2b2fe789-6b05-484a-9cb6-7273d38ec288/",
-"club": "county",
-"grade": "senior",
-"county": "Cavan",
-"site": "cavan",
-"referee": "Joe McQuillan"
-},
-{
-"id": "club:cavan:2026-08-30:denn-v-ballymachugh",
-"date": "2026-08-30T13:00:00+00:00",
-"time": "14:00",
-"tbc": false,
-"status": "active",
-"sport": "Football",
-"competition": "Cavan Intermediate Football Championship",
-"competitionId": null,
-"rank": null,
-"title": "Intermediate Championship O'Reilly Precast - Rd 4",
-"group": null,
-"round": "Round 4",
-"home": {
-"id": null,
-"name": "Denn"
-},
-"away": {
-"id": null,
-"name": "Ballymachugh"
-},
-"venueId": "a81bf62e-403f-4481-8328-9776165d3aab",
-"venue": "Dr. Plunkett Memorial Park Kilnaleck",
-"result": true,
-"score": {
-"hg": 4,
-"hp": 16,
-"ag": 2,
-"ap": 11
-},
-"tickets": null,
-"tv": null,
-"url": "https://cavangaa.ie/fixtures-results/football/club/senior/championship-2026/2b2fe789-6b05-484a-9cb6-7273d38ec288/",
-"club": "county",
-"grade": "senior",
-"county": "Cavan",
-"site": "cavan",
-"referee": "Jim Giblin"
-},
-{
-"id": "club:cavan:2026-08-30:drumgoon-v-ballinagh-gaa",
-"date": "2026-08-30T13:00:00+00:00",
-"time": "14:00",
-"tbc": false,
-"status": "active",
-"sport": "Football",
-"competition": "Cavan Intermediate Football Championship",
-"competitionId": null,
-"rank": null,
-"title": "Intermediate Championship O'Reilly Precast - Rd 4",
-"group": null,
-"round": "Round 4",
-"home": {
-"id": null,
-"name": "Drumgoon"
-},
-"away": {
-"id": null,
-"name": "Ballinagh GAA"
-},
-"venueId": "c05c833d-0296-4ee8-bee8-b97d456e0da1",
-"venue": "St. Felim's Park Drumalee",
-"result": true,
-"score": {
-"hg": 0,
-"hp": 9,
-"ag": 4,
-"ap": 21
-},
-"tickets": null,
-"tv": null,
-"url": "https://cavangaa.ie/fixtures-results/football/club/senior/championship-2026/2b2fe789-6b05-484a-9cb6-7273d38ec288/",
-"club": "county",
-"grade": "senior",
-"county": "Cavan",
-"site": "cavan",
-"referee": "Chris McCaffrey"
-},
-{
-"id": "club:cavan:2026-08-30:drumlane-v-cootehill-celtic",
-"date": "2026-08-30T13:00:00+00:00",
-"time": "14:00",
-"tbc": false,
-"status": "active",
-"sport": "Football",
-"competition": "Cavan Intermediate Football Championship",
-"competitionId": null,
-"rank": null,
-"title": "Intermediate Championship O'Reilly Precast - Rd 4",
-"group": null,
-"round": "Round 4",
-"home": {
-"id": null,
-"name": "Drumlane"
-},
-"away": {
-"id": null,
-"name": "Cootehill Celtic"
-},
-"venueId": "e469e295-5112-414c-baba-6944f5b36544",
-"venue": "Max McGrath Memorial Park Redhills",
-"result": true,
-"score": {
-"hg": 0,
-"hp": 10,
-"ag": 1,
-"ap": 22
-},
-"tickets": null,
-"tv": null,
-"url": "https://cavangaa.ie/fixtures-results/football/club/senior/championship-2026/2b2fe789-6b05-484a-9cb6-7273d38ec288/",
-"club": "county",
-"grade": "senior",
-"county": "Cavan",
-"site": "cavan",
-"referee": "Mark Ferncombe"
-},
-{
-"id": "club:cavan:2026-08-30:lavey-v-killinkere-clg",
-"date": "2026-08-30T13:00:00+00:00",
-"time": "14:00",
-"tbc": false,
-"status": "active",
-"sport": "Football",
-"competition": "Cavan Intermediate Football Championship",
-"competitionId": null,
-"rank": null,
-"title": "Intermediate Championship O'Reilly Precast - Rd 4",
-"group": null,
-"round": "Round 4",
-"home": {
-"id": null,
-"name": "Lavey"
-},
-"away": {
-"id": null,
-"name": "Killinkere CLG"
-},
-"venueId": "5773101b-c8c8-439a-a3f6-b19dffb45e6b",
-"venue": "Edwin Carolan Community Park Cuchulainns",
-"result": true,
-"score": {
-"hg": 1,
-"hp": 14,
-"ag": 3,
-"ap": 10
-},
-"tickets": null,
-"tv": null,
-"url": "https://cavangaa.ie/fixtures-results/football/club/senior/championship-2026/2b2fe789-6b05-484a-9cb6-7273d38ec288/",
-"club": "county",
-"grade": "senior",
-"county": "Cavan",
-"site": "cavan",
-"referee": "Bryan Gaffney"
-},
-{
-"id": "club:cavan:2026-08-30:munterconnaught-v-bailieborough",
-"date": "2026-08-30T13:00:00+00:00",
-"time": "14:00",
-"tbc": false,
-"status": "active",
-"sport": "Football",
-"competition": "Cavan Intermediate Football Championship",
-"competitionId": null,
-"rank": null,
-"title": "Intermediate Championship O'Reilly Precast - Rd 4",
-"group": null,
-"round": "Round 4",
-"home": {
-"id": null,
-"name": "Munterconnaught"
-},
-"away": {
-"id": null,
-"name": "Bailieborough"
-},
-"venueId": "16576316-037b-436d-816e-70b1480c9ff0",
-"venue": "O'Raghallaigh Park",
-"result": true,
-"score": {
-"hg": 1,
-"hp": 13,
-"ag": 2,
-"ap": 14
-},
-"tickets": null,
-"tv": null,
-"url": "https://cavangaa.ie/fixtures-results/football/club/senior/championship-2026/2b2fe789-6b05-484a-9cb6-7273d38ec288/",
-"club": "county",
-"grade": "senior",
-"county": "Cavan",
-"site": "cavan",
-"referee": "Gabriel Patterson"
-},
-{
-"id": "club:cavan:2026-08-30:searcog-shercock-v-butlersbridge-g-a-a",
-"date": "2026-08-30T13:00:00+00:00",
-"time": "14:00",
-"tbc": false,
-"status": "active",
-"sport": "Football",
-"competition": "Cavan Intermediate Football Championship",
-"competitionId": null,
-"rank": null,
-"title": "Intermediate Championship O'Reilly Precast - Rd 4",
-"group": null,
-"round": "Round 4",
-"home": {
-"id": null,
-"name": "Searcóg/Shercock"
-},
-"away": {
-"id": null,
-"name": "Butlersbridge G.A.A"
-},
-"venueId": "b9143678-efb8-482c-98a0-6e07945fabff",
-"venue": "Dolan Park Ramor",
-"result": true,
-"score": {
-"hg": 0,
-"hp": 12,
-"ag": 0,
-"ap": 10
-},
-"tickets": null,
-"tv": null,
-"url": "https://cavangaa.ie/fixtures-results/football/club/senior/championship-2026/2b2fe789-6b05-484a-9cb6-7273d38ec288/",
-"club": "county",
-"grade": "senior",
-"county": "Cavan",
-"site": "cavan",
-"referee": "James Clarke"
-},
-{
 "id": "club:down:2026-08-30:east-belfast-v-st-mochai-s-gac-darragh-cross",
 "date": "2026-08-30T13:00:00+00:00",
 "time": "14:00",
@@ -7114,84 +5481,6 @@
 "county": "Westmeath",
 "site": "westmeath",
 "referee": "Alan Coyne"
-},
-{
-"id": "club:clare:2026-08-30:cluain-da-ghad-v-gaeil-na-sionna",
-"date": "2026-08-30T14:00:00+00:00",
-"time": "15:00",
-"tbc": false,
-"status": "active",
-"sport": "Football",
-"competition": "Clare Intermediate Football Championship",
-"competitionId": null,
-"rank": null,
-"title": "TUS TUS Intermediate Football - Group 1 - RD 3",
-"group": "Group 1",
-"round": "Round 3",
-"home": {
-"id": null,
-"name": "Cluain Dá Ghad"
-},
-"away": {
-"id": null,
-"name": "Gaeil na Sionna"
-},
-"venueId": "7de7f137-a977-4db3-8463-6e003e0f64d6",
-"venue": "Cooraclare",
-"result": true,
-"score": {
-"hg": 0,
-"hp": 21,
-"ag": 0,
-"ap": 18
-},
-"tickets": null,
-"tv": null,
-"url": "https://clare.gaa.ie/fixtures-results/football/club/intermediate/tus-intermediate-football/69cfb9ce-1f51-4455-aa1f-2bd40c26cc1d/",
-"club": "county",
-"grade": "intermediate",
-"county": "Clare",
-"site": "clare",
-"referee": "Joe Kelly"
-},
-{
-"id": "club:clare:2026-08-30:wolfe-tones-na-sionna-v-lios-ceannuir",
-"date": "2026-08-30T14:00:00+00:00",
-"time": "15:00",
-"tbc": false,
-"status": "active",
-"sport": "Football",
-"competition": "Clare Intermediate Football Championship",
-"competitionId": null,
-"rank": null,
-"title": "TUS TUS Intermediate Football - Group 1 - RD 3",
-"group": "Group 1",
-"round": "Round 3",
-"home": {
-"id": null,
-"name": "Wolfe Tones na Sionna"
-},
-"away": {
-"id": null,
-"name": "Lios Ceannúir"
-},
-"venueId": "924c9ec9-05cd-431d-a857-9b502e7ae0bd",
-"venue": "Clarecastle GAA",
-"result": true,
-"score": {
-"hg": 2,
-"hp": 18,
-"ag": 3,
-"ap": 7
-},
-"tickets": null,
-"tv": null,
-"url": "https://clare.gaa.ie/fixtures-results/football/club/intermediate/tus-intermediate-football/69cfb9ce-1f51-4455-aa1f-2bd40c26cc1d/",
-"club": "county",
-"grade": "intermediate",
-"county": "Clare",
-"site": "clare",
-"referee": "Ian Daly"
 },
 {
 "id": "club:down:2026-08-30:st-john-bosco-v-clann-na-banna",
@@ -7545,45 +5834,6 @@
 "referee": null
 },
 {
-"id": "club:cavan:2026-08-30:castlerahan-gaa-v-gowna",
-"date": "2026-08-30T15:30:00+00:00",
-"time": "16:30",
-"tbc": false,
-"status": "active",
-"sport": "Football",
-"competition": "Cavan Senior Football Championship",
-"competitionId": null,
-"rank": null,
-"title": "Senior Championship Kyte Powertech - Rd 3",
-"group": null,
-"round": "Round 3",
-"home": {
-"id": null,
-"name": "Castlerahan GAA"
-},
-"away": {
-"id": null,
-"name": "Gowna"
-},
-"venueId": "ae0d35e8-61f7-4cbf-a96e-5758c8e1af3c",
-"venue": "Lacken GAA",
-"result": true,
-"score": {
-"hg": 1,
-"hp": 7,
-"ag": 2,
-"ap": 22
-},
-"tickets": null,
-"tv": null,
-"url": "https://cavangaa.ie/fixtures-results/football/club/senior/championship-2026/2b2fe789-6b05-484a-9cb6-7273d38ec288/",
-"club": "county",
-"grade": "senior",
-"county": "Cavan",
-"site": "cavan",
-"referee": "John Power"
-},
-{
 "id": "club:donegal:2026-08-30:letterkenny-gaels-v-four-masters",
 "date": "2026-08-30T15:30:00+00:00",
 "time": "16:30",
@@ -7701,84 +5951,6 @@
 "referee": null
 },
 {
-"id": "club:clare:2026-08-30:cuar-an-chlair-v-cill-iomar",
-"date": "2026-08-30T16:00:00+00:00",
-"time": "17:00",
-"tbc": false,
-"status": "active",
-"sport": "Football",
-"competition": "Clare Intermediate Football Championship",
-"competitionId": null,
-"rank": null,
-"title": "TUS TUS Intermediate Football - Group 3 - RD 3",
-"group": "Group 3",
-"round": "Round 3",
-"home": {
-"id": null,
-"name": "Cuar An Chlair"
-},
-"away": {
-"id": null,
-"name": "Cill Iomar"
-},
-"venueId": "0314b02b-b752-4c2d-a84e-134ba54e020a",
-"venue": "Kilrush",
-"result": true,
-"score": {
-"hg": 2,
-"hp": 20,
-"ag": 0,
-"ap": 16
-},
-"tickets": null,
-"tv": null,
-"url": "https://clare.gaa.ie/fixtures-results/football/club/intermediate/tus-intermediate-football/69cfb9ce-1f51-4455-aa1f-2bd40c26cc1d/",
-"club": "county",
-"grade": "intermediate",
-"county": "Clare",
-"site": "clare",
-"referee": "Eoin Keane"
-},
-{
-"id": "club:clare:2026-08-30:micheal-chiosog-v-inis-diomain-peil",
-"date": "2026-08-30T16:00:00+00:00",
-"time": "17:00",
-"tbc": false,
-"status": "active",
-"sport": "Football",
-"competition": "Clare Intermediate Football Championship",
-"competitionId": null,
-"rank": null,
-"title": "TUS TUS Intermediate Football - Group 3 - RD 3",
-"group": "Group 3",
-"round": "Round 3",
-"home": {
-"id": null,
-"name": "Mícheál Chíosóg"
-},
-"away": {
-"id": null,
-"name": "Inis Díomáin Peil"
-},
-"venueId": "321d47dc-21a2-4134-bb5c-22abb8c4622d",
-"venue": "Corofin",
-"result": true,
-"score": {
-"hg": 2,
-"hp": 8,
-"ag": 0,
-"ap": 18
-},
-"tickets": null,
-"tv": null,
-"url": "https://clare.gaa.ie/fixtures-results/football/club/intermediate/tus-intermediate-football/69cfb9ce-1f51-4455-aa1f-2bd40c26cc1d/",
-"club": "county",
-"grade": "intermediate",
-"county": "Clare",
-"site": "clare",
-"referee": "Noel Meaney"
-},
-{
 "id": "club:westmeath:2026-08-30:caulry-v-na-dunta",
 "date": "2026-08-30T16:00:00+00:00",
 "time": "17:00",
@@ -7894,45 +6066,6 @@
 "county": "Tyrone",
 "site": "tyrone",
 "referee": null
-},
-{
-"id": "club:cavan:2026-08-30:killygarry-gaa-club-clg-coill-an-gharrai-v-mullahoran-gfc",
-"date": "2026-08-30T17:00:00+00:00",
-"time": "18:00",
-"tbc": false,
-"status": "active",
-"sport": "Football",
-"competition": "Cavan Senior Football Championship",
-"competitionId": null,
-"rank": null,
-"title": "Senior Championship Kyte Powertech - Rd 3",
-"group": null,
-"round": "Round 3",
-"home": {
-"id": null,
-"name": "Killygarry GAA Club/CLG Coill an Gharraí"
-},
-"away": {
-"id": null,
-"name": "Mullahoran GFC"
-},
-"venueId": "ef73cf8b-b4a7-474f-b241-4e3a3c9666c7",
-"venue": "St. Matthews Park Crosskeys",
-"result": true,
-"score": {
-"hg": 3,
-"hp": 13,
-"ag": 2,
-"ap": 7
-},
-"tickets": null,
-"tv": null,
-"url": "https://cavangaa.ie/fixtures-results/football/club/senior/championship-2026/2b2fe789-6b05-484a-9cb6-7273d38ec288/",
-"club": "county",
-"grade": "senior",
-"county": "Cavan",
-"site": "cavan",
-"referee": "Daire Donohoe"
 },
 {
 "id": "club:tyrone:2026-08-30:gortin-st-patrick-s-and-badoney-ladies-v-naomh-eoghan",
@@ -9148,9 +7281,9 @@
 "competition": "Cavan Intermediate Ladies' Football Championship",
 "competitionId": null,
 "rank": null,
-"title": "2026 Adult Intermediate Championship - Quarter Finals -",
+"title": "Kyte Powertech 2026 Adult Intermediate Championship -",
 "group": null,
-"round": "Quarter Finals",
+"round": null,
 "home": {
 "id": null,
 "name": "CLG Cuchulainn"
@@ -9170,7 +7303,7 @@
 },
 "tickets": null,
 "tv": null,
-"url": "https://cavangaa.ie/fixtures-results/ladies_football/club/intermediate/2026-adult-intermediate-championship/53870b53-792e-4555-83dd-07346e747183/",
+"url": "https://cavangaa.ie/fixtures-results/ladies_football/club/intermediate/kyte-powertech-intermediate-championship/53870b53-792e-4555-83dd-07346e747183/",
 "club": "county",
 "grade": "intermediate",
 "county": "Cavan",
@@ -13055,7 +11188,7 @@
 },
 "tickets": null,
 "tv": null,
-"url": "https://cavangaa.ie/fixtures-results/ladies_football/club/intermediate/2026-adult-intermediate-championship/53870b53-792e-4555-83dd-07346e747183/",
+"url": "https://cavangaa.ie/fixtures-results/ladies_football/club/intermediate/kyte-powertech-intermediate-championship/53870b53-792e-4555-83dd-07346e747183/",
 "club": "county",
 "grade": "intermediate",
 "county": "Cavan",
@@ -13367,7 +11500,7 @@
 },
 "tickets": null,
 "tv": null,
-"url": "https://cavangaa.ie/fixtures-results/ladies_football/club/intermediate/2026-adult-intermediate-championship/53870b53-792e-4555-83dd-07346e747183/",
+"url": "https://cavangaa.ie/fixtures-results/ladies_football/club/intermediate/kyte-powertech-intermediate-championship/53870b53-792e-4555-83dd-07346e747183/",
 "club": "county",
 "grade": "intermediate",
 "county": "Cavan",
@@ -13579,9 +11712,9 @@
 "competition": "Cavan Intermediate Ladies' Football Championship",
 "competitionId": null,
 "rank": null,
-"title": "2026 Adult Intermediate Championship - Quarter Finals -",
+"title": "Kyte Powertech 2026 Adult Intermediate Championship -",
 "group": null,
-"round": "Quarter Finals",
+"round": null,
 "home": {
 "id": null,
 "name": "Cornafean"
@@ -13601,7 +11734,7 @@
 },
 "tickets": null,
 "tv": null,
-"url": "https://cavangaa.ie/fixtures-results/ladies_football/club/intermediate/2026-adult-intermediate-championship/53870b53-792e-4555-83dd-07346e747183/",
+"url": "https://cavangaa.ie/fixtures-results/ladies_football/club/intermediate/kyte-powertech-intermediate-championship/53870b53-792e-4555-83dd-07346e747183/",
 "club": "county",
 "grade": "intermediate",
 "county": "Cavan",
@@ -13618,9 +11751,9 @@
 "competition": "Cavan Intermediate Ladies' Football Championship",
 "competitionId": null,
 "rank": null,
-"title": "2026 Adult Intermediate Championship - Quarter Finals -",
+"title": "Kyte Powertech 2026 Adult Intermediate Championship -",
 "group": null,
-"round": "Quarter Finals",
+"round": null,
 "home": {
 "id": null,
 "name": "Gowna"
@@ -13640,7 +11773,7 @@
 },
 "tickets": null,
 "tv": null,
-"url": "https://cavangaa.ie/fixtures-results/ladies_football/club/intermediate/2026-adult-intermediate-championship/53870b53-792e-4555-83dd-07346e747183/",
+"url": "https://cavangaa.ie/fixtures-results/ladies_football/club/intermediate/kyte-powertech-intermediate-championship/53870b53-792e-4555-83dd-07346e747183/",
 "club": "county",
 "grade": "intermediate",
 "county": "Cavan",
@@ -17487,8 +15620,13 @@
 },
 "venueId": "8be15443-c1d9-43be-a2cd-f54fd981d2cb",
 "venue": "Shannon",
-"result": false,
-"score": null,
+"result": true,
+"score": {
+"hg": 1,
+"hp": 11,
+"ag": 2,
+"ap": 18
+},
 "tickets": null,
 "tv": null,
 "url": "https://clare.gaa.ie/fixtures-results/hurling/club/intermediate/tus-intermediate-hurling/6183382b-03d5-4800-ac64-56aad8ad1f53/",
@@ -17555,8 +15693,13 @@
 },
 "venueId": "924c9ec9-05cd-431d-a857-9b502e7ae0bd",
 "venue": "Clarecastle GAA",
-"result": false,
-"score": null,
+"result": true,
+"score": {
+"hg": 0,
+"hp": 19,
+"ag": 0,
+"ap": 13
+},
 "tickets": null,
 "tv": null,
 "url": "https://clare.gaa.ie/fixtures-results/hurling/club/intermediate/tus-premier-intermediate-hurling/50272fa3-f5b3-44a3-bc61-0bdbc1ae4610/",
@@ -17848,7 +15991,7 @@
 "competition": "Cavan Intermediate Ladies' Football Championship",
 "competitionId": null,
 "rank": null,
-"title": "2026 Adult Intermediate Championship - Quarter Finals - Quarter-final",
+"title": "Kyte Powertech 2026 Adult Intermediate Championship - Quarter-final",
 "group": null,
 "round": "Quarter-final",
 "home": {
@@ -17861,11 +16004,16 @@
 },
 "venueId": "5773101b-c8c8-439a-a3f6-b19dffb45e6b",
 "venue": "Edwin Carolan Community Park Cuchulainns",
-"result": false,
-"score": null,
+"result": true,
+"score": {
+"hg": 0,
+"hp": 7,
+"ag": 3,
+"ap": 15
+},
 "tickets": null,
 "tv": null,
-"url": "https://cavangaa.ie/fixtures-results/ladies_football/club/intermediate/2026-adult-intermediate-championship/53870b53-792e-4555-83dd-07346e747183/",
+"url": "https://cavangaa.ie/fixtures-results/ladies_football/club/intermediate/kyte-powertech-intermediate-championship/53870b53-792e-4555-83dd-07346e747183/",
 "club": "county",
 "grade": "intermediate",
 "county": "Cavan",
@@ -18065,8 +16213,13 @@
 },
 "venueId": "96f03101-e020-43d5-8be2-7bee4a162227",
 "venue": "Fr. McNamara Park",
-"result": false,
-"score": null,
+"result": true,
+"score": {
+"hg": 2,
+"hp": 9,
+"ag": 0,
+"ap": 14
+},
 "tickets": null,
 "tv": null,
 "url": "https://clare.gaa.ie/fixtures-results/camogie/club/senior/senior-camogie-championship/7fce8224-4cae-400c-a21e-954a8c920fe7/",
@@ -18109,6 +16262,45 @@
 "county": "Donegal",
 "site": "donegal",
 "referee": "TBC"
+},
+{
+"id": "club:clare:2026-09-11:eidhneach-cill-na-mona-v-an-bratach-inis",
+"date": "2026-09-11T17:45:00+00:00",
+"time": "18:45",
+"tbc": false,
+"status": "active",
+"sport": "Hurling",
+"competition": "Clare Intermediate Hurling Championship",
+"competitionId": null,
+"rank": null,
+"title": "TUS TUS Intermediate Hurling - Group 1 - RD 5",
+"group": "Group 1",
+"round": "Round 5",
+"home": {
+"id": null,
+"name": "Eidhneach-Cill na Mona"
+},
+"away": {
+"id": null,
+"name": "An Bratach Inis"
+},
+"venueId": "c2c2aee9-aeeb-4a77-82a6-9d82236b402d",
+"venue": "Tubber",
+"result": true,
+"score": {
+"hg": 0,
+"hp": 22,
+"ag": 4,
+"ap": 13
+},
+"tickets": null,
+"tv": null,
+"url": "https://clare.gaa.ie/fixtures-results/hurling/club/intermediate/tus-intermediate-hurling/6183382b-03d5-4800-ac64-56aad8ad1f53/",
+"club": "county",
+"grade": "intermediate",
+"county": "Clare",
+"site": "clare",
+"referee": "Ian Daly"
 },
 {
 "id": "club:down:2026-09-11:longstone-v-clann-na-banna",
@@ -18167,8 +16359,13 @@
 },
 "venueId": "924c9ec9-05cd-431d-a857-9b502e7ae0bd",
 "venue": "Clarecastle GAA",
-"result": false,
-"score": null,
+"result": true,
+"score": {
+"hg": 3,
+"hp": 22,
+"ag": 0,
+"ap": 11
+},
 "tickets": null,
 "tv": null,
 "url": "https://clare.gaa.ie/fixtures-results/hurling/club/intermediate/tus-intermediate-hurling/6183382b-03d5-4800-ac64-56aad8ad1f53/",
@@ -18176,41 +16373,7 @@
 "grade": "intermediate",
 "county": "Clare",
 "site": "clare",
-"referee": "TBC"
-},
-{
-"id": "club:clare:2026-09-11:eidhneach-cill-na-mona-v-an-bratach-inis",
-"date": "2026-09-11T18:30:00+00:00",
-"time": "19:30",
-"tbc": false,
-"status": "active",
-"sport": "Hurling",
-"competition": "Clare Intermediate Hurling Championship",
-"competitionId": null,
-"rank": null,
-"title": "TUS TUS Intermediate Hurling - Group 1 - RD 5",
-"group": "Group 1",
-"round": "Round 5",
-"home": {
-"id": null,
-"name": "Eidhneach-Cill na Mona"
-},
-"away": {
-"id": null,
-"name": "An Bratach Inis"
-},
-"venueId": "c2c2aee9-aeeb-4a77-82a6-9d82236b402d",
-"venue": "Tubber",
-"result": false,
-"score": null,
-"tickets": null,
-"tv": null,
-"url": "https://clare.gaa.ie/fixtures-results/hurling/club/intermediate/tus-intermediate-hurling/6183382b-03d5-4800-ac64-56aad8ad1f53/",
-"club": "county",
-"grade": "intermediate",
-"county": "Clare",
-"site": "clare",
-"referee": "Ian Daly"
+"referee": "Brendan Hannon"
 },
 {
 "id": "club:laois:2026-09-11:mountmellick-v-kilcavan",
@@ -18439,8 +16602,13 @@
 },
 "venueId": "f9abf31f-69a4-475d-829c-8c1c6a231a86",
 "venue": "St. Aidan's Park Templeport",
-"result": false,
-"score": null,
+"result": true,
+"score": {
+"hg": 3,
+"hp": 19,
+"ag": 0,
+"ap": 8
+},
 "tickets": null,
 "tv": null,
 "url": "https://cavangaa.ie/fixtures-results/football/club/senior/championship-2026/2b2fe789-6b05-484a-9cb6-7273d38ec288/",
@@ -18745,8 +16913,13 @@
 },
 "venueId": "9e3da8fc-8fd0-4dab-9602-26116a848d82",
 "venue": "Eire Og, Ennis",
-"result": false,
-"score": null,
+"result": true,
+"score": {
+"hg": 2,
+"hp": 13,
+"ag": 2,
+"ap": 6
+},
 "tickets": null,
 "tv": null,
 "url": "https://clare.gaa.ie/fixtures-results/camogie/club/senior/senior-camogie-championship/7fce8224-4cae-400c-a21e-954a8c920fe7/",
@@ -18779,8 +16952,13 @@
 },
 "venueId": "9ed841da-f647-4db8-80e8-fcc28c1eae44",
 "venue": "Tulla",
-"result": false,
-"score": null,
+"result": true,
+"score": {
+"hg": 1,
+"hp": 21,
+"ag": 0,
+"ap": 22
+},
 "tickets": null,
 "tv": null,
 "url": "https://clare.gaa.ie/fixtures-results/hurling/club/senior/tus-senior-hurling/6c269e92-4b3b-455d-9c10-2233bb6eb2ae/",
@@ -19017,8 +17195,13 @@
 },
 "venueId": "0198790f-7890-4d73-9ab4-0bfcf8652c59",
 "venue": "Zimmer Biomet Páirc Chíosóg, Ennis",
-"result": false,
-"score": null,
+"result": true,
+"score": {
+"hg": 1,
+"hp": 25,
+"ag": 0,
+"ap": 27
+},
 "tickets": null,
 "tv": null,
 "url": "https://clare.gaa.ie/fixtures-results/hurling/club/senior/tus-senior-hurling/6c269e92-4b3b-455d-9c10-2233bb6eb2ae/",
@@ -19289,8 +17472,13 @@
 },
 "venueId": "d301b036-f273-4101-b71d-5a154c5c9814",
 "venue": "Ballinagh GAA Grounds",
-"result": false,
-"score": null,
+"result": true,
+"score": {
+"hg": 0,
+"hp": 16,
+"ag": 1,
+"ap": 12
+},
 "tickets": null,
 "tv": null,
 "url": "https://cavangaa.ie/fixtures-results/football/club/senior/championship-2026/2b2fe789-6b05-484a-9cb6-7273d38ec288/",
@@ -19901,8 +18089,13 @@
 },
 "venueId": "0198790f-7890-4d73-9ab4-0bfcf8652c59",
 "venue": "Zimmer Biomet Páirc Chíosóg, Ennis",
-"result": false,
-"score": null,
+"result": true,
+"score": {
+"hg": 1,
+"hp": 17,
+"ag": 1,
+"ap": 23
+},
 "tickets": null,
 "tv": null,
 "url": "https://clare.gaa.ie/fixtures-results/hurling/club/senior/tus-senior-hurling/6c269e92-4b3b-455d-9c10-2233bb6eb2ae/",
@@ -20139,8 +18332,13 @@
 },
 "venueId": "2745b986-11e8-4e45-b5d3-460d29dc8993",
 "venue": "Ogonnelloe",
-"result": false,
-"score": null,
+"result": true,
+"score": {
+"hg": 1,
+"hp": 11,
+"ag": 3,
+"ap": 11
+},
 "tickets": null,
 "tv": null,
 "url": "https://clare.gaa.ie/fixtures-results/camogie/club/senior/senior-camogie-championship/7fce8224-4cae-400c-a21e-954a8c920fe7/",
@@ -20173,8 +18371,13 @@
 },
 "venueId": "9ed841da-f647-4db8-80e8-fcc28c1eae44",
 "venue": "Tulla",
-"result": false,
-"score": null,
+"result": true,
+"score": {
+"hg": 3,
+"hp": 21,
+"ag": 1,
+"ap": 8
+},
 "tickets": null,
 "tv": null,
 "url": "https://clare.gaa.ie/fixtures-results/camogie/club/senior/senior-camogie-championship/7fce8224-4cae-400c-a21e-954a8c920fe7/",
@@ -20182,7 +18385,7 @@
 "grade": "senior",
 "county": "Clare",
 "site": "clare",
-"referee": "TBC"
+"referee": "Ian Daly"
 },
 {
 "id": "club:donegal:2026-09-12:clg-an-tearmainn-v-naomh-columba",
@@ -20330,9 +18533,9 @@
 "competition": "Cavan Intermediate Ladies' Football Championship",
 "competitionId": null,
 "rank": null,
-"title": "2026 Adult Intermediate Championship - Quarter Finals - Semi-Final",
+"title": "Kyte Powertech 2026 Adult Intermediate Championship - Kyte Powertech Intermediate Championship Semi-Final",
 "group": null,
-"round": "Semi-Final",
+"round": "Kyte Powertech Intermediate Championship Semi-Final",
 "home": {
 "id": null,
 "name": "Cornafean"
@@ -20343,16 +18546,60 @@
 },
 "venueId": "83f97587-094c-46f1-99f1-cbc3d4f897ad",
 "venue": "Rory O'Moore Park Belturbet",
-"result": false,
-"score": null,
+"result": true,
+"score": {
+"hg": 4,
+"hp": 8,
+"ag": 1,
+"ap": 12
+},
 "tickets": null,
 "tv": null,
-"url": "https://cavangaa.ie/fixtures-results/ladies_football/club/intermediate/2026-adult-intermediate-championship/53870b53-792e-4555-83dd-07346e747183/",
+"url": "https://cavangaa.ie/fixtures-results/ladies_football/club/intermediate/kyte-powertech-intermediate-championship/53870b53-792e-4555-83dd-07346e747183/",
 "club": "county",
 "grade": "intermediate",
 "county": "Cavan",
 "site": "cavan",
-"referee": "TBC"
+"referee": "yvonne Duffy"
+},
+{
+"id": "club:cavan:2026-09-12:lurgan-v-crosserlough",
+"date": "2026-09-12T17:00:00+00:00",
+"time": "18:00",
+"tbc": false,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "Cavan Senior Ladies' Football Championship",
+"competitionId": null,
+"rank": null,
+"title": "Imperial Bar Senior Championship - Semi Final",
+"group": null,
+"round": "Semi Final",
+"home": {
+"id": null,
+"name": "Lurgan"
+},
+"away": {
+"id": null,
+"name": "Crosserlough"
+},
+"venueId": "72a08b7d-2845-455c-bfac-7a84bec5f83a",
+"venue": "Athletic Grounds Killygarry",
+"result": true,
+"score": {
+"hg": 2,
+"hp": 15,
+"ag": 2,
+"ap": 14
+},
+"tickets": null,
+"tv": null,
+"url": "https://cavangaa.ie/fixtures-results/ladies_football/club/senior/imperial-bar-senior-championship/232edd32-c96a-4b80-9109-66bbdb73694f/",
+"club": "county",
+"grade": "senior",
+"county": "Cavan",
+"site": "cavan",
+"referee": "James Clarke"
 },
 {
 "id": "club:donegal:2026-09-12:gaeil-fhanada-v-malainn",
@@ -20513,8 +18760,13 @@
 },
 "venueId": "16576316-037b-436d-816e-70b1480c9ff0",
 "venue": "O'Raghallaigh Park",
-"result": false,
-"score": null,
+"result": true,
+"score": {
+"hg": 1,
+"hp": 9,
+"ag": 1,
+"ap": 19
+},
 "tickets": null,
 "tv": null,
 "url": "https://cavangaa.ie/fixtures-results/football/club/senior/championship-2026/2b2fe789-6b05-484a-9cb6-7273d38ec288/",
@@ -20659,6 +18911,45 @@
 "county": "Donegal",
 "site": "donegal",
 "referee": "TBC"
+},
+{
+"id": "club:cavan:2026-09-13:clg-cuchulainn-v-st-finbarrs",
+"date": "2026-09-13T09:00:00+00:00",
+"time": "10:00",
+"tbc": false,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "Cavan Intermediate Ladies' Football Championship",
+"competitionId": null,
+"rank": null,
+"title": "Kyte Powertech 2026 Adult Intermediate Championship - Kyte Powertech Intermediate Championship Semi-Final",
+"group": null,
+"round": "Kyte Powertech Intermediate Championship Semi-Final",
+"home": {
+"id": null,
+"name": "CLG Cuchulainn"
+},
+"away": {
+"id": null,
+"name": "St Finbarrs"
+},
+"venueId": "2dd6fa14-3bc2-44d1-b6aa-908f895d1f90",
+"venue": "St Anne's Park Bailieborough",
+"result": true,
+"score": {
+"hg": 2,
+"hp": 12,
+"ag": 2,
+"ap": 12
+},
+"tickets": null,
+"tv": null,
+"url": "https://cavangaa.ie/fixtures-results/ladies_football/club/intermediate/kyte-powertech-intermediate-championship/53870b53-792e-4555-83dd-07346e747183/",
+"club": "county",
+"grade": "intermediate",
+"county": "Cavan",
+"site": "cavan",
+"referee": "Kieran Smith"
 },
 {
 "id": "club:fermanagh:2026-09-13:aghadrumsee-st-macartans-v-irvinestown-st-molaise",
@@ -20831,6 +19122,45 @@
 "referee": "TBC"
 },
 {
+"id": "club:cavan:2026-09-13:knockbride-v-killygarry-gaa-club-clg-coill-an-gharrai",
+"date": "2026-09-13T10:00:00+00:00",
+"time": "11:00",
+"tbc": false,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "Cavan Senior Ladies' Football Championship",
+"competitionId": null,
+"rank": null,
+"title": "Imperial Bar Senior Championship - Semi Final",
+"group": null,
+"round": "Semi Final",
+"home": {
+"id": null,
+"name": "Knockbride"
+},
+"away": {
+"id": null,
+"name": "Killygarry GAA Club/CLG Coill an Gharraí"
+},
+"venueId": "ef73cf8b-b4a7-474f-b241-4e3a3c9666c7",
+"venue": "St. Matthews Park Crosskeys",
+"result": true,
+"score": {
+"hg": 3,
+"hp": 11,
+"ag": 2,
+"ap": 10
+},
+"tickets": null,
+"tv": null,
+"url": "https://cavangaa.ie/fixtures-results/ladies_football/club/senior/imperial-bar-senior-championship/232edd32-c96a-4b80-9109-66bbdb73694f/",
+"club": "county",
+"grade": "senior",
+"county": "Cavan",
+"site": "cavan",
+"referee": "Martin Sexton"
+},
+{
 "id": "club:fermanagh:2026-09-13:derrygonnelly-harps-v-kinawley-brian-borus",
 "date": "2026-09-13T10:00:00+00:00",
 "time": "11:00",
@@ -20955,8 +19285,13 @@
 },
 "venueId": "3987d30d-81f4-4fe0-aee3-4eb9cb1b7ea5",
 "venue": "Clooney",
-"result": false,
-"score": null,
+"result": true,
+"score": {
+"hg": 2,
+"hp": 17,
+"ag": 3,
+"ap": 16
+},
 "tickets": null,
 "tv": null,
 "url": "https://clare.gaa.ie/fixtures-results/hurling/club/intermediate/tus-intermediate-hurling/6183382b-03d5-4800-ac64-56aad8ad1f53/",
@@ -20989,8 +19324,13 @@
 },
 "venueId": "0e9da82b-a5ba-4556-98f8-fc9d2826b38d",
 "venue": "Killanena",
-"result": false,
-"score": null,
+"result": true,
+"score": {
+"hg": 1,
+"hp": 14,
+"ag": 2,
+"ap": 18
+},
 "tickets": null,
 "tv": null,
 "url": "https://clare.gaa.ie/fixtures-results/hurling/club/intermediate/tus-intermediate-hurling/6183382b-03d5-4800-ac64-56aad8ad1f53/",
@@ -21137,9 +19477,48 @@
 "referee": "Fergal Smyth"
 },
 {
+"id": "club:clare:2026-09-13:an-geata-ban-v-cora-finne",
+"date": "2026-09-13T11:30:00+00:00",
+"time": "12:30",
+"tbc": false,
+"status": "active",
+"sport": "Hurling",
+"competition": "Clare Premier Intermediate Hurling Championship",
+"competitionId": null,
+"rank": null,
+"title": "TUS Premier Intermediate - Group 1 - RD 5",
+"group": "Group 1",
+"round": "Round 5",
+"home": {
+"id": null,
+"name": "An Geata Bán"
+},
+"away": {
+"id": null,
+"name": "Cora Finne"
+},
+"venueId": "746a540f-aadb-494f-88d2-0354cb17e57a",
+"venue": "Sixmilebridge",
+"result": true,
+"score": {
+"hg": 1,
+"hp": 22,
+"ag": 2,
+"ap": 18
+},
+"tickets": null,
+"tv": null,
+"url": "https://clare.gaa.ie/fixtures-results/hurling/club/intermediate/tus-premier-intermediate-hurling/50272fa3-f5b3-44a3-bc61-0bdbc1ae4610/",
+"club": "county",
+"grade": "intermediate",
+"county": "Clare",
+"site": "clare",
+"referee": "Brendan Hannon"
+},
+{
 "id": "club:clare:2026-09-13:naomh-seosamh-dubhraith-gortloman-v-cora-chaitlin",
-"date": "2026-09-13T11:45:00+00:00",
-"time": "12:45",
+"date": "2026-09-13T11:30:00+00:00",
+"time": "12:30",
 "tbc": false,
 "status": "active",
 "sport": "Hurling",
@@ -21159,8 +19538,13 @@
 },
 "venueId": "9ed841da-f647-4db8-80e8-fcc28c1eae44",
 "venue": "Tulla",
-"result": false,
-"score": null,
+"result": true,
+"score": {
+"hg": 1,
+"hp": 17,
+"ag": 3,
+"ap": 19
+},
 "tickets": null,
 "tv": null,
 "url": "https://clare.gaa.ie/fixtures-results/hurling/club/senior/tus-senior-hurling/6c269e92-4b3b-455d-9c10-2233bb6eb2ae/",
@@ -21261,8 +19645,13 @@
 },
 "venueId": "31c78e85-183e-4ae7-8038-8fd039597232",
 "venue": "Sheelin Park Ballymachugh",
-"result": false,
-"score": null,
+"result": true,
+"score": {
+"hg": 4,
+"hp": 14,
+"ag": 0,
+"ap": 18
+},
 "tickets": null,
 "tv": null,
 "url": "https://cavangaa.ie/fixtures-results/football/club/senior/championship-2026/2b2fe789-6b05-484a-9cb6-7273d38ec288/",
@@ -21295,8 +19684,13 @@
 },
 "venueId": "801702b6-c8fd-439d-98cb-333c7b4cfa86",
 "venue": "Hugh O Reilly Memorial Park",
-"result": false,
-"score": null,
+"result": true,
+"score": {
+"hg": 2,
+"hp": 9,
+"ag": 1,
+"ap": 10
+},
 "tickets": null,
 "tv": null,
 "url": "https://cavangaa.ie/fixtures-results/football/club/senior/championship-2026/2b2fe789-6b05-484a-9cb6-7273d38ec288/",
@@ -21329,8 +19723,13 @@
 },
 "venueId": "6a73d33a-4620-4a4d-9927-7574a3aff78d",
 "venue": "Max McGrath Memorial Park Redhills",
-"result": false,
-"score": null,
+"result": true,
+"score": {
+"hg": 0,
+"hp": 12,
+"ag": 2,
+"ap": 11
+},
 "tickets": null,
 "tv": null,
 "url": "https://cavangaa.ie/fixtures-results/football/club/senior/championship-2026/2b2fe789-6b05-484a-9cb6-7273d38ec288/",
@@ -21363,8 +19762,13 @@
 },
 "venueId": "83f97587-094c-46f1-99f1-cbc3d4f897ad",
 "venue": "Rory O'Moore Park Belturbet",
-"result": false,
-"score": null,
+"result": true,
+"score": {
+"hg": 0,
+"hp": 14,
+"ag": 1,
+"ap": 11
+},
 "tickets": null,
 "tv": null,
 "url": "https://cavangaa.ie/fixtures-results/football/club/senior/championship-2026/2b2fe789-6b05-484a-9cb6-7273d38ec288/",
@@ -21372,75 +19776,7 @@
 "grade": "senior",
 "county": "Cavan",
 "site": "cavan",
-"referee": "TBC"
-},
-{
-"id": "club:clare:2026-09-13:an-geata-ban-v-cora-finne",
-"date": "2026-09-13T12:00:00+00:00",
-"time": "13:00",
-"tbc": false,
-"status": "active",
-"sport": "Hurling",
-"competition": "Clare Premier Intermediate Hurling Championship",
-"competitionId": null,
-"rank": null,
-"title": "TUS Premier Intermediate - Group 1 - RD 5",
-"group": "Group 1",
-"round": "Round 5",
-"home": {
-"id": null,
-"name": "An Geata Bán"
-},
-"away": {
-"id": null,
-"name": "Cora Finne"
-},
-"venueId": "746a540f-aadb-494f-88d2-0354cb17e57a",
-"venue": "Sixmilebridge",
-"result": false,
-"score": null,
-"tickets": null,
-"tv": null,
-"url": "https://clare.gaa.ie/fixtures-results/hurling/club/intermediate/tus-premier-intermediate-hurling/50272fa3-f5b3-44a3-bc61-0bdbc1ae4610/",
-"club": "county",
-"grade": "intermediate",
-"county": "Clare",
-"site": "clare",
-"referee": "TBC"
-},
-{
-"id": "club:clare:2026-09-13:parteen-meelick-v-an-tobar",
-"date": "2026-09-13T12:00:00+00:00",
-"time": "13:00",
-"tbc": false,
-"status": "active",
-"sport": "Hurling",
-"competition": "Clare Premier Intermediate Hurling Championship",
-"competitionId": null,
-"rank": null,
-"title": "TUS Premier Intermediate - Group 1 - RD 5",
-"group": "Group 1",
-"round": "Round 5",
-"home": {
-"id": null,
-"name": "Parteen Meelick"
-},
-"away": {
-"id": null,
-"name": "An Tobar"
-},
-"venueId": "8be15443-c1d9-43be-a2cd-f54fd981d2cb",
-"venue": "Shannon",
-"result": false,
-"score": null,
-"tickets": null,
-"tv": null,
-"url": "https://clare.gaa.ie/fixtures-results/hurling/club/intermediate/tus-premier-intermediate-hurling/50272fa3-f5b3-44a3-bc61-0bdbc1ae4610/",
-"club": "county",
-"grade": "intermediate",
-"county": "Clare",
-"site": "clare",
-"referee": "John Healy"
+"referee": "John Emmo"
 },
 {
 "id": "club:donegal:2026-09-13:red-hughs-v-milford",
@@ -22089,106 +20425,43 @@
 "referee": "Patrick Collins"
 },
 {
-"id": "club:clare:2026-09-13:corofin-v-cill-an-disirt",
+"id": "club:cavan:2026-09-13:crosserlough-v-laragh-united",
 "date": "2026-09-13T13:00:00+00:00",
 "time": "14:00",
 "tbc": false,
 "status": "active",
-"sport": "Ladies' Football",
-"competition": "Clare Junior A Ladies' Football Championship",
+"sport": "Football",
+"competition": "Cavan Division 2 O'Reilly Precast Football Championship",
 "competitionId": null,
 "rank": null,
-"title": "Adult Championship - Junior A - 5",
+"title": "Breffni Cup Division 2 O'Reilly Precast - Rd 5",
 "group": null,
 "round": "Round 5",
 "home": {
 "id": null,
-"name": "Corofin"
+"name": "Crosserlough"
 },
 "away": {
 "id": null,
-"name": "Cill an Dísirt"
+"name": "Laragh United"
 },
-"venueId": null,
-"venue": null,
-"result": false,
-"score": null,
+"venueId": "a81bf62e-403f-4481-8328-9776165d3aab",
+"venue": "Dr. Plunkett Memorial Park Kilnaleck",
+"result": true,
+"score": {
+"hg": 4,
+"hp": 16,
+"ag": 5,
+"ap": 8
+},
 "tickets": null,
 "tv": null,
-"url": "https://clare.gaa.ie/fixtures-results/ladies_football/club/senior/adult-championship/1aea1492-6b32-462d-88b6-2d535ba33ac4/",
+"url": "https://cavangaa.ie/fixtures-results/football/club/senior/breffni-cup-2026/947a358a-19a7-4d92-a339-01af92a793fa/",
 "club": "county",
 "grade": "senior",
-"county": "Clare",
-"site": "clare",
-"referee": "TBC"
-},
-{
-"id": "club:clare:2026-09-13:fergus-rovers-2-v-bye",
-"date": "2026-09-13T13:00:00+00:00",
-"time": "14:00",
-"tbc": false,
-"status": "active",
-"sport": "Ladies' Football",
-"competition": "Clare Junior A Ladies' Football Championship",
-"competitionId": null,
-"rank": null,
-"title": "Adult Championship - Junior A - 5",
-"group": null,
-"round": "Round 5",
-"home": {
-"id": null,
-"name": "Fergus Rovers 2"
-},
-"away": {
-"id": null,
-"name": "Bye"
-},
-"venueId": null,
-"venue": null,
-"result": false,
-"score": null,
-"tickets": null,
-"tv": null,
-"url": "https://clare.gaa.ie/fixtures-results/ladies_football/club/senior/adult-championship/1aea1492-6b32-462d-88b6-2d535ba33ac4/",
-"club": "county",
-"grade": "senior",
-"county": "Clare",
-"site": "clare",
-"referee": "TBC"
-},
-{
-"id": "club:clare:2026-09-13:wolfe-tones-na-sionna-v-clooney-quin",
-"date": "2026-09-13T13:00:00+00:00",
-"time": "14:00",
-"tbc": false,
-"status": "active",
-"sport": "Ladies' Football",
-"competition": "Clare Junior A Ladies' Football Championship",
-"competitionId": null,
-"rank": null,
-"title": "Adult Championship - Junior A - 5",
-"group": null,
-"round": "Round 5",
-"home": {
-"id": null,
-"name": "Wolfe Tones na Sionna"
-},
-"away": {
-"id": null,
-"name": "Clooney Quin"
-},
-"venueId": null,
-"venue": null,
-"result": false,
-"score": null,
-"tickets": null,
-"tv": null,
-"url": "https://clare.gaa.ie/fixtures-results/ladies_football/club/senior/adult-championship/1aea1492-6b32-462d-88b6-2d535ba33ac4/",
-"club": "county",
-"grade": "senior",
-"county": "Clare",
-"site": "clare",
-"referee": "TBC"
+"county": "Cavan",
+"site": "cavan",
+"referee": "Gerry Sheridan"
 },
 {
 "id": "club:donegal:2026-09-13:gleann-tsuili-v-clg-an-tearmainn",
@@ -22553,8 +20826,13 @@
 },
 "venueId": "0198790f-7890-4d73-9ab4-0bfcf8652c59",
 "venue": "Zimmer Biomet Páirc Chíosóg, Ennis",
-"result": false,
-"score": null,
+"result": true,
+"score": {
+"hg": 3,
+"hp": 25,
+"ag": 1,
+"ap": 14
+},
 "tickets": null,
 "tv": null,
 "url": "https://clare.gaa.ie/fixtures-results/hurling/club/senior/tus-senior-hurling/6c269e92-4b3b-455d-9c10-2233bb6eb2ae/",
@@ -22723,8 +21001,13 @@
 },
 "venueId": "ced51f38-1313-40f8-bb23-e8091c79f26e",
 "venue": "Inagh",
-"result": false,
-"score": null,
+"result": true,
+"score": {
+"hg": 2,
+"hp": 25,
+"ag": 2,
+"ap": 22
+},
 "tickets": null,
 "tv": null,
 "url": "https://clare.gaa.ie/fixtures-results/hurling/club/intermediate/tus-premier-intermediate-hurling/50272fa3-f5b3-44a3-bc61-0bdbc1ae4610/",
@@ -22757,8 +21040,13 @@
 },
 "venueId": "65fcec3d-0021-458b-b6d4-25cebb8cf9db",
 "venue": "Broadford",
-"result": false,
-"score": null,
+"result": true,
+"score": {
+"hg": 2,
+"hp": 21,
+"ag": 1,
+"ap": 14
+},
 "tickets": null,
 "tv": null,
 "url": "https://clare.gaa.ie/fixtures-results/hurling/club/intermediate/tus-premier-intermediate-hurling/50272fa3-f5b3-44a3-bc61-0bdbc1ae4610/",
@@ -23165,8 +21453,13 @@
 },
 "venueId": "72a08b7d-2845-455c-bfac-7a84bec5f83a",
 "venue": "Athletic Grounds Killygarry",
-"result": false,
-"score": null,
+"result": true,
+"score": {
+"hg": 1,
+"hp": 19,
+"ag": 3,
+"ap": 26
+},
 "tickets": null,
 "tv": null,
 "url": "https://cavangaa.ie/fixtures-results/football/club/senior/championship-2026/2b2fe789-6b05-484a-9cb6-7273d38ec288/",
@@ -23174,7 +21467,7 @@
 "grade": "senior",
 "county": "Cavan",
 "site": "cavan",
-"referee": "TBC"
+"referee": "Kieran McCarville"
 },
 {
 "id": "club:down:2026-09-13:aghaderg-ballyvarley-v-cuchulians",
@@ -23845,8 +22138,13 @@
 },
 "venueId": "0198790f-7890-4d73-9ab4-0bfcf8652c59",
 "venue": "Zimmer Biomet Páirc Chíosóg, Ennis",
-"result": false,
-"score": null,
+"result": true,
+"score": {
+"hg": 1,
+"hp": 20,
+"ag": 1,
+"ap": 17
+},
 "tickets": null,
 "tv": null,
 "url": "https://clare.gaa.ie/fixtures-results/hurling/club/senior/tus-senior-hurling/6c269e92-4b3b-455d-9c10-2233bb6eb2ae/",
@@ -24469,37 +22767,37 @@
 "referee": "TBC"
 },
 {
-"id": "club:cavan:2026-09-18:killygarry-gaa-club-clg-coill-an-gharrai-v-clg-cuchulainn",
-"date": "2026-09-18T00:00:00+00:00",
-"time": null,
-"tbc": true,
+"id": "club:clare:2026-09-18:micheal-chiosog-v-lios-ceannuir",
+"date": "2026-09-18T18:30:00+00:00",
+"time": "19:30",
+"tbc": false,
 "status": "active",
 "sport": "Football",
-"competition": "Cavan Senior Football Championship",
+"competition": "Clare Intermediate Football Cup",
 "competitionId": null,
 "rank": null,
-"title": "Senior Championship Kyte Powertech - Quarter Final",
+"title": "TUS TUS Intermediate Football - Cup - Relegation Semi Final",
 "group": null,
-"round": "Quarter Final",
+"round": "Relegation Semi Final",
 "home": {
 "id": null,
-"name": "Killygarry GAA Club/CLG Coill an Gharraí"
+"name": "Mícheál Chíosóg"
 },
 "away": {
 "id": null,
-"name": "CLG Cuchulainn"
+"name": "Lios Ceannúir"
 },
-"venueId": null,
-"venue": null,
+"venueId": "99136c69-ddd6-4735-832e-cd252d715aee",
+"venue": "Milltown",
 "result": false,
 "score": null,
 "tickets": null,
 "tv": null,
-"url": "https://cavangaa.ie/fixtures-results/football/club/senior/championship-2026/2b2fe789-6b05-484a-9cb6-7273d38ec288/",
+"url": "https://clare.gaa.ie/fixtures-results/football/club/intermediate/tus-intermediate-football/69cfb9ce-1f51-4455-aa1f-2bd40c26cc1d/",
 "club": "county",
-"grade": "senior",
-"county": "Cavan",
-"site": "cavan",
+"grade": "intermediate",
+"county": "Clare",
+"site": "clare",
 "referee": "TBC"
 },
 {
@@ -24569,6 +22867,40 @@
 "county": "Cavan",
 "site": "cavan",
 "referee": "John Emmo"
+},
+{
+"id": "club:cavan:2026-09-18:killygarry-gaa-club-clg-coill-an-gharrai-v-clg-cuchulainn",
+"date": "2026-09-18T19:00:00+00:00",
+"time": "20:00",
+"tbc": false,
+"status": "active",
+"sport": "Football",
+"competition": "Cavan Senior Football Championship",
+"competitionId": null,
+"rank": null,
+"title": "Senior Championship Kyte Powertech - Quarter Final",
+"group": null,
+"round": "Quarter Final",
+"home": {
+"id": null,
+"name": "Killygarry GAA Club/CLG Coill an Gharraí"
+},
+"away": {
+"id": null,
+"name": "CLG Cuchulainn"
+},
+"venueId": "edb4d5a9-2ef6-4bec-92cd-2d4dfde3895c",
+"venue": "Kingspan Breffni, Cavan",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://cavangaa.ie/fixtures-results/football/club/senior/championship-2026/2b2fe789-6b05-484a-9cb6-7273d38ec288/",
+"club": "county",
+"grade": "senior",
+"county": "Cavan",
+"site": "cavan",
+"referee": "Joe McQuillan"
 },
 {
 "id": "club:kildare:2026-09-18:allenwood-v-johnstownbridge-gaa",
@@ -24741,71 +23073,37 @@
 "referee": "TBC"
 },
 {
-"id": "club:cavan:2026-09-19:templeport-st-aidan-s-gaa-v-kill-shamrocks-gaa",
-"date": "2026-09-19T00:00:00+00:00",
-"time": null,
-"tbc": true,
+"id": "club:clare:2026-09-19:cill-iomar-v-wolfe-tones-na-sionna",
+"date": "2026-09-19T12:00:00+00:00",
+"time": "13:00",
+"tbc": false,
 "status": "active",
 "sport": "Football",
-"competition": "Cavan Junior Football Championship",
+"competition": "Clare Intermediate Football Cup",
 "competitionId": null,
 "rank": null,
-"title": "Junior Championship Rudden Services Station - Semi Final",
+"title": "TUS TUS Intermediate Football - Cup - Q-Final",
 "group": null,
-"round": "Semi Final",
+"round": "Quarter-Final",
 "home": {
 "id": null,
-"name": "Templeport St. Aidan's GAA"
+"name": "Cill Iomar"
 },
 "away": {
 "id": null,
-"name": "Kill Shamrocks GAA"
+"name": "Wolfe Tones na Sionna"
 },
-"venueId": null,
-"venue": null,
+"venueId": "16a1c297-ad76-495e-be45-1ee016b1c637",
+"venue": "Kilmihil GAA",
 "result": false,
 "score": null,
 "tickets": null,
 "tv": null,
-"url": "https://cavangaa.ie/fixtures-results/football/club/senior/championship-2026/2b2fe789-6b05-484a-9cb6-7273d38ec288/",
+"url": "https://clare.gaa.ie/fixtures-results/football/club/intermediate/tus-intermediate-football/69cfb9ce-1f51-4455-aa1f-2bd40c26cc1d/",
 "club": "county",
-"grade": "senior",
-"county": "Cavan",
-"site": "cavan",
-"referee": "TBC"
-},
-{
-"id": "club:cavan:2026-09-19:kingscourt-stars-v-cavan-gaels",
-"date": "2026-09-19T00:00:00+00:00",
-"time": null,
-"tbc": true,
-"status": "active",
-"sport": "Football",
-"competition": "Cavan Senior Football Championship",
-"competitionId": null,
-"rank": null,
-"title": "Senior Championship Kyte Powertech - Quarter Final",
-"group": null,
-"round": "Quarter Final",
-"home": {
-"id": null,
-"name": "Kingscourt Stars"
-},
-"away": {
-"id": null,
-"name": "Cavan Gaels"
-},
-"venueId": null,
-"venue": null,
-"result": false,
-"score": null,
-"tickets": null,
-"tv": null,
-"url": "https://cavangaa.ie/fixtures-results/football/club/senior/championship-2026/2b2fe789-6b05-484a-9cb6-7273d38ec288/",
-"club": "county",
-"grade": "senior",
-"county": "Cavan",
-"site": "cavan",
+"grade": "intermediate",
+"county": "Clare",
+"site": "clare",
 "referee": "TBC"
 },
 {
@@ -24909,6 +23207,74 @@
 "county": "Tipperary",
 "site": "tipperary",
 "referee": "Sean Lonergan"
+},
+{
+"id": "club:clare:2026-09-19:cuar-an-chlair-v-cill-ruis-seamrog",
+"date": "2026-09-19T14:00:00+00:00",
+"time": "15:00",
+"tbc": false,
+"status": "active",
+"sport": "Football",
+"competition": "Clare Intermediate Football Cup",
+"competitionId": null,
+"rank": null,
+"title": "TUS TUS Intermediate Football - Cup - Q-Final",
+"group": null,
+"round": "Quarter-Final",
+"home": {
+"id": null,
+"name": "Cuar An Chlair"
+},
+"away": {
+"id": null,
+"name": "Cill Rúis Seamróg"
+},
+"venueId": "95d141a8-ee46-4a2b-a91a-663bb0cbba49",
+"venue": "Doonbeg",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://clare.gaa.ie/fixtures-results/football/club/intermediate/tus-intermediate-football/69cfb9ce-1f51-4455-aa1f-2bd40c26cc1d/",
+"club": "county",
+"grade": "intermediate",
+"county": "Clare",
+"site": "clare",
+"referee": "TBC"
+},
+{
+"id": "club:clare:2026-09-19:cill-an-disirt-v-lios-ui-chathasaigh",
+"date": "2026-09-19T14:00:00+00:00",
+"time": "15:00",
+"tbc": false,
+"status": "active",
+"sport": "Football",
+"competition": "Clare Senior Football Cup",
+"competitionId": null,
+"rank": null,
+"title": "TUS TUS Senior Football - Cup - Q-Final",
+"group": null,
+"round": "Quarter-Final",
+"home": {
+"id": null,
+"name": "Cill an Dísirt"
+},
+"away": {
+"id": null,
+"name": "Lios Uí Chathasaigh"
+},
+"venueId": "0198790f-7890-4d73-9ab4-0bfcf8652c59",
+"venue": "Zimmer Biomet Páirc Chíosóg, Ennis",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://clare.gaa.ie/fixtures-results/football/club/senior/tus-senior-football/6442d7b0-4b4b-4cac-bc1f-aef4695e3415/",
+"club": "county",
+"grade": "senior",
+"county": "Clare",
+"site": "clare",
+"referee": "TBC"
 },
 {
 "id": "club:donegal:2026-09-19:aodh-ruadh-ballyshannon-v-winner-semi-final-2",
@@ -25523,6 +23889,40 @@
 "referee": "TBC"
 },
 {
+"id": "club:clare:2026-09-19:whitegate-v-sixmilebridge",
+"date": "2026-09-19T15:30:00+00:00",
+"time": "16:30",
+"tbc": false,
+"status": "active",
+"sport": "Camogie",
+"competition": "Clare Intermediate Camogie Championship",
+"competitionId": null,
+"rank": null,
+"title": "Clare Credit Unions Intermediate Camogie Championship - Round 3",
+"group": null,
+"round": "Round 3",
+"home": {
+"id": null,
+"name": "Whitegate"
+},
+"away": {
+"id": null,
+"name": "Sixmilebridge"
+},
+"venueId": "61ac3ab2-555b-474a-a9d0-b2cd63178f8f",
+"venue": "Whitegate",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://clare.gaa.ie/fixtures-results/camogie/club/intermediate/intermediate-camogie-championship/6e1387f3-7c59-489d-a33e-ef78259c2ea2/",
+"club": "county",
+"grade": "intermediate",
+"county": "Clare",
+"site": "clare",
+"referee": "Brendan Hannon"
+},
+{
 "id": "club:meath:2026-09-19:donaghmore-ashbourne-v-trim",
 "date": "2026-09-19T15:30:00+00:00",
 "time": "16:30",
@@ -25625,6 +24025,40 @@
 "referee": "TBC"
 },
 {
+"id": "club:cavan:2026-09-19:templeport-st-aidan-s-gaa-v-kill-shamrocks-gaa",
+"date": "2026-09-19T16:00:00+00:00",
+"time": "17:00",
+"tbc": false,
+"status": "active",
+"sport": "Football",
+"competition": "Cavan Junior Football Championship",
+"competitionId": null,
+"rank": null,
+"title": "Junior Championship Rudden Services Station - Semi Final",
+"group": null,
+"round": "Semi Final",
+"home": {
+"id": null,
+"name": "Templeport St. Aidan's GAA"
+},
+"away": {
+"id": null,
+"name": "Kill Shamrocks GAA"
+},
+"venueId": "edb4d5a9-2ef6-4bec-92cd-2d4dfde3895c",
+"venue": "Kingspan Breffni, Cavan",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://cavangaa.ie/fixtures-results/football/club/senior/championship-2026/2b2fe789-6b05-484a-9cb6-7273d38ec288/",
+"club": "county",
+"grade": "senior",
+"county": "Cavan",
+"site": "cavan",
+"referee": "Mark Ferncombe"
+},
+{
 "id": "club:cavan:2026-09-19:ballyhaise-v-laragh-united",
 "date": "2026-09-19T16:00:00+00:00",
 "time": "17:00",
@@ -25688,6 +24122,40 @@
 "url": "https://clare.gaa.ie/fixtures-results/camogie/club/intermediate/intermediate-camogie-championship/6e1387f3-7c59-489d-a33e-ef78259c2ea2/",
 "club": "county",
 "grade": "intermediate",
+"county": "Clare",
+"site": "clare",
+"referee": "TBC"
+},
+{
+"id": "club:clare:2026-09-19:naomh-iosaif-sr-na-cathrach-v-inis-diomain-peil",
+"date": "2026-09-19T16:00:00+00:00",
+"time": "17:00",
+"tbc": false,
+"status": "active",
+"sport": "Football",
+"competition": "Clare Senior Football Cup",
+"competitionId": null,
+"rank": null,
+"title": "TUS TUS Senior Football - Cup - Q-Final",
+"group": null,
+"round": "Quarter-Final",
+"home": {
+"id": null,
+"name": "Naomh Iosaif Sr. na Cathrach"
+},
+"away": {
+"id": null,
+"name": "Inis Díomáin Peil"
+},
+"venueId": "0198790f-7890-4d73-9ab4-0bfcf8652c59",
+"venue": "Zimmer Biomet Páirc Chíosóg, Ennis",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://clare.gaa.ie/fixtures-results/football/club/senior/tus-senior-football/6442d7b0-4b4b-4cac-bc1f-aef4695e3415/",
+"club": "county",
+"grade": "senior",
 "county": "Clare",
 "site": "clare",
 "referee": "TBC"
@@ -26033,6 +24501,40 @@
 "referee": "Padraig Sheridan"
 },
 {
+"id": "club:cavan:2026-09-19:kingscourt-stars-v-cavan-gaels",
+"date": "2026-09-19T17:45:00+00:00",
+"time": "18:45",
+"tbc": false,
+"status": "active",
+"sport": "Football",
+"competition": "Cavan Senior Football Championship",
+"competitionId": null,
+"rank": null,
+"title": "Senior Championship Kyte Powertech - Quarter Final",
+"group": null,
+"round": "Quarter Final",
+"home": {
+"id": null,
+"name": "Kingscourt Stars"
+},
+"away": {
+"id": null,
+"name": "Cavan Gaels"
+},
+"venueId": "edb4d5a9-2ef6-4bec-92cd-2d4dfde3895c",
+"venue": "Kingspan Breffni, Cavan",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://cavangaa.ie/fixtures-results/football/club/senior/championship-2026/2b2fe789-6b05-484a-9cb6-7273d38ec288/",
+"club": "county",
+"grade": "senior",
+"county": "Cavan",
+"site": "cavan",
+"referee": "TBC"
+},
+{
 "id": "club:fermanagh:2026-09-19:aghadrumsee-st-macartans-v-devenish-st-mary-s",
 "date": "2026-09-19T18:00:00+00:00",
 "time": "19:00",
@@ -26132,108 +24634,6 @@
 "grade": "intermediate",
 "county": "Meath",
 "site": "meath",
-"referee": "TBC"
-},
-{
-"id": "club:cavan:2026-09-20:lacken-gaa-v-belturbet-rory-o-moores",
-"date": "2026-09-20T00:00:00+00:00",
-"time": null,
-"tbc": true,
-"status": "active",
-"sport": "Football",
-"competition": "Cavan Junior Football Championship",
-"competitionId": null,
-"rank": null,
-"title": "Junior Championship Rudden Services Station - Semi Final",
-"group": null,
-"round": "Semi Final",
-"home": {
-"id": null,
-"name": "Lacken GAA"
-},
-"away": {
-"id": null,
-"name": "Belturbet Rory O'Moores"
-},
-"venueId": null,
-"venue": null,
-"result": false,
-"score": null,
-"tickets": null,
-"tv": null,
-"url": "https://cavangaa.ie/fixtures-results/football/club/senior/championship-2026/2b2fe789-6b05-484a-9cb6-7273d38ec288/",
-"club": "county",
-"grade": "senior",
-"county": "Cavan",
-"site": "cavan",
-"referee": "TBC"
-},
-{
-"id": "club:cavan:2026-09-20:crosserlough-v-mullahoran-gfc",
-"date": "2026-09-20T00:00:00+00:00",
-"time": null,
-"tbc": true,
-"status": "active",
-"sport": "Football",
-"competition": "Cavan Senior Football Championship",
-"competitionId": null,
-"rank": null,
-"title": "Senior Championship Kyte Powertech - Quarter Final",
-"group": null,
-"round": "Quarter Final",
-"home": {
-"id": null,
-"name": "Crosserlough"
-},
-"away": {
-"id": null,
-"name": "Mullahoran GFC"
-},
-"venueId": null,
-"venue": null,
-"result": false,
-"score": null,
-"tickets": null,
-"tv": null,
-"url": "https://cavangaa.ie/fixtures-results/football/club/senior/championship-2026/2b2fe789-6b05-484a-9cb6-7273d38ec288/",
-"club": "county",
-"grade": "senior",
-"county": "Cavan",
-"site": "cavan",
-"referee": "TBC"
-},
-{
-"id": "club:cavan:2026-09-20:gowna-v-ramor-united-gfc",
-"date": "2026-09-20T00:00:00+00:00",
-"time": null,
-"tbc": true,
-"status": "active",
-"sport": "Football",
-"competition": "Cavan Senior Football Championship",
-"competitionId": null,
-"rank": null,
-"title": "Senior Championship Kyte Powertech - Quarter Final",
-"group": null,
-"round": "Quarter Final",
-"home": {
-"id": null,
-"name": "Gowna"
-},
-"away": {
-"id": null,
-"name": "Ramor United GFC"
-},
-"venueId": null,
-"venue": null,
-"result": false,
-"score": null,
-"tickets": null,
-"tv": null,
-"url": "https://cavangaa.ie/fixtures-results/football/club/senior/championship-2026/2b2fe789-6b05-484a-9cb6-7273d38ec288/",
-"club": "county",
-"grade": "senior",
-"county": "Cavan",
-"site": "cavan",
 "referee": "TBC"
 },
 {
@@ -26348,7 +24748,7 @@
 "competition": "Cavan Intermediate Ladies' Football Championship",
 "competitionId": null,
 "rank": null,
-"title": "2026 Adult Intermediate Championship - Quarter Finals - Relegation Play Off",
+"title": "Kyte Powertech 2026 Adult Intermediate Championship - Relegation Play Off",
 "group": null,
 "round": "Relegation Play Off",
 "home": {
@@ -26365,7 +24765,7 @@
 "score": null,
 "tickets": null,
 "tv": null,
-"url": "https://cavangaa.ie/fixtures-results/ladies_football/club/intermediate/2026-adult-intermediate-championship/53870b53-792e-4555-83dd-07346e747183/",
+"url": "https://cavangaa.ie/fixtures-results/ladies_football/club/intermediate/kyte-powertech-intermediate-championship/53870b53-792e-4555-83dd-07346e747183/",
 "club": "county",
 "grade": "intermediate",
 "county": "Cavan",
@@ -26404,6 +24804,40 @@
 "grade": "intermediate",
 "county": "Donegal",
 "site": "donegal",
+"referee": "TBC"
+},
+{
+"id": "club:cavan:2026-09-20:st-mary-s-gaa-swanlinbar-v-mountnugent",
+"date": "2026-09-20T11:00:00+00:00",
+"time": "12:00",
+"tbc": false,
+"status": "active",
+"sport": "Football",
+"competition": "Cavan Junior Football Championship",
+"competitionId": null,
+"rank": null,
+"title": "Junior Championship Rudden Services Station - Shield Semi Final Replay",
+"group": null,
+"round": "Shield Semi Final Replay",
+"home": {
+"id": null,
+"name": "St Mary's GAA, Swanlinbar"
+},
+"away": {
+"id": null,
+"name": "Mountnugent"
+},
+"venueId": "4d1e9147-b1f2-4cb2-aa56-3574911e1cc9",
+"venue": "Emmett Park Butlersbridge",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://cavangaa.ie/fixtures-results/football/club/senior/championship-2026/2b2fe789-6b05-484a-9cb6-7273d38ec288/",
+"club": "county",
+"grade": "senior",
+"county": "Cavan",
+"site": "cavan",
 "referee": "TBC"
 },
 {
@@ -26476,8 +24910,8 @@
 },
 {
 "id": "club:cavan:2026-09-20:arva-st-patrick-s-gaa-v-castlerahan-gaa",
-"date": "2026-09-20T12:00:00+00:00",
-"time": "13:00",
+"date": "2026-09-20T11:30:00+00:00",
+"time": "12:30",
 "tbc": false,
 "status": "active",
 "sport": "Football",
@@ -26506,6 +24940,210 @@
 "grade": "senior",
 "county": "Cavan",
 "site": "cavan",
+"referee": "TBC"
+},
+{
+"id": "club:clare:2026-09-20:an-bratach-inis-v-gaeil-na-sionna",
+"date": "2026-09-20T11:30:00+00:00",
+"time": "12:30",
+"tbc": false,
+"status": "active",
+"sport": "Football",
+"competition": "Clare Intermediate Football Cup",
+"competitionId": null,
+"rank": null,
+"title": "TUS TUS Intermediate Football - Cup - Q-Final",
+"group": null,
+"round": "Quarter-Final",
+"home": {
+"id": null,
+"name": "An Bratach Inis"
+},
+"away": {
+"id": null,
+"name": "Gaeil na Sionna"
+},
+"venueId": "d38467fa-44f0-4ecc-8054-25e683fd0a37",
+"venue": "Lissycasey",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://clare.gaa.ie/fixtures-results/football/club/intermediate/tus-intermediate-football/69cfb9ce-1f51-4455-aa1f-2bd40c26cc1d/",
+"club": "county",
+"grade": "intermediate",
+"county": "Clare",
+"site": "clare",
+"referee": "TBC"
+},
+{
+"id": "club:cavan:2026-09-20:clg-cuchulainn-v-cornafean",
+"date": "2026-09-20T12:00:00+00:00",
+"time": "13:00",
+"tbc": false,
+"status": "active",
+"sport": "Football",
+"competition": "Cavan Division 2 O'Reilly Precast Football Championship",
+"competitionId": null,
+"rank": null,
+"title": "Breffni Cup Division 2 O'Reilly Precast - Rd 4",
+"group": null,
+"round": "Round 4",
+"home": {
+"id": null,
+"name": "CLG Cuchulainn"
+},
+"away": {
+"id": null,
+"name": "Cornafean"
+},
+"venueId": "5773101b-c8c8-439a-a3f6-b19dffb45e6b",
+"venue": "Edwin Carolan Community Park Cuchulainns",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://cavangaa.ie/fixtures-results/football/club/senior/breffni-cup-2026/947a358a-19a7-4d92-a339-01af92a793fa/",
+"club": "county",
+"grade": "senior",
+"county": "Cavan",
+"site": "cavan",
+"referee": "TBC"
+},
+{
+"id": "club:cavan:2026-09-20:drumlane-v-drung",
+"date": "2026-09-20T12:00:00+00:00",
+"time": "13:00",
+"tbc": false,
+"status": "active",
+"sport": "Football",
+"competition": "Cavan Division 4 Fresh Today Football Championship",
+"competitionId": null,
+"rank": null,
+"title": "Breffni Cup Division 4 Fresh Today - Rd 4",
+"group": null,
+"round": "Round 4",
+"home": {
+"id": null,
+"name": "Drumlane"
+},
+"away": {
+"id": null,
+"name": "Drung"
+},
+"venueId": "90e92bf5-4add-4732-9059-411cdf0f52d2",
+"venue": "O'Connell Park Drumlane",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://cavangaa.ie/fixtures-results/football/club/senior/breffni-cup-2026/947a358a-19a7-4d92-a339-01af92a793fa/",
+"club": "county",
+"grade": "senior",
+"county": "Cavan",
+"site": "cavan",
+"referee": "TBC"
+},
+{
+"id": "club:cavan:2026-09-20:killeshandra-v-cootehill-celtic",
+"date": "2026-09-20T12:00:00+00:00",
+"time": "13:00",
+"tbc": false,
+"status": "active",
+"sport": "Football",
+"competition": "Cavan Division 4 Fresh Today Football Championship",
+"competitionId": null,
+"rank": null,
+"title": "Breffni Cup Division 4 Fresh Today - Rd 4",
+"group": null,
+"round": "Round 4",
+"home": {
+"id": null,
+"name": "Killeshandra"
+},
+"away": {
+"id": null,
+"name": "Cootehill Celtic"
+},
+"venueId": "9d099122-c0a6-437a-a4f7-8106f6be3b3f",
+"venue": "Packie Devlin Park Killeshandra",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://cavangaa.ie/fixtures-results/football/club/senior/breffni-cup-2026/947a358a-19a7-4d92-a339-01af92a793fa/",
+"club": "county",
+"grade": "senior",
+"county": "Cavan",
+"site": "cavan",
+"referee": "TBC"
+},
+{
+"id": "club:cavan:2026-09-20:munterconnaught-v-drumgoon",
+"date": "2026-09-20T12:00:00+00:00",
+"time": "13:00",
+"tbc": false,
+"status": "active",
+"sport": "Football",
+"competition": "Cavan Intermediate Football Championship",
+"competitionId": null,
+"rank": null,
+"title": "Intermediate Championship O'Reilly Precast - Relegation Final",
+"group": null,
+"round": "Relegation Final",
+"home": {
+"id": null,
+"name": "Munterconnaught"
+},
+"away": {
+"id": null,
+"name": "Drumgoon"
+},
+"venueId": "2dd6fa14-3bc2-44d1-b6aa-908f895d1f90",
+"venue": "St Anne's Park Bailieborough",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://cavangaa.ie/fixtures-results/football/club/senior/championship-2026/2b2fe789-6b05-484a-9cb6-7273d38ec288/",
+"club": "county",
+"grade": "senior",
+"county": "Cavan",
+"site": "cavan",
+"referee": "TBC"
+},
+{
+"id": "club:clare:2026-09-20:creatlach-v-naomh-breacain",
+"date": "2026-09-20T12:00:00+00:00",
+"time": "13:00",
+"tbc": false,
+"status": "active",
+"sport": "Football",
+"competition": "Clare Senior Football Cup",
+"competitionId": null,
+"rank": null,
+"title": "TUS TUS Senior Football - Cup - Relegation Semi Final",
+"group": null,
+"round": "Relegation Semi Final",
+"home": {
+"id": null,
+"name": "Creatlach"
+},
+"away": {
+"id": null,
+"name": "Naomh Breacáin"
+},
+"venueId": "3b4c3329-99cf-4280-bd26-14808797844e",
+"venue": "Gurteen",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://clare.gaa.ie/fixtures-results/football/club/senior/tus-senior-football/6442d7b0-4b4b-4cac-bc1f-aef4695e3415/",
+"club": "county",
+"grade": "senior",
+"county": "Clare",
+"site": "clare",
 "referee": "TBC"
 },
 {
@@ -26812,6 +25450,74 @@
 "grade": "senior",
 "county": "Kerry",
 "site": "kerry",
+"referee": "TBC"
+},
+{
+"id": "club:cavan:2026-09-20:lacken-gaa-v-belturbet-rory-o-moores",
+"date": "2026-09-20T13:00:00+00:00",
+"time": "14:00",
+"tbc": false,
+"status": "active",
+"sport": "Football",
+"competition": "Cavan Junior Football Championship",
+"competitionId": null,
+"rank": null,
+"title": "Junior Championship Rudden Services Station - Semi Final",
+"group": null,
+"round": "Semi Final",
+"home": {
+"id": null,
+"name": "Lacken GAA"
+},
+"away": {
+"id": null,
+"name": "Belturbet Rory O'Moores"
+},
+"venueId": "edb4d5a9-2ef6-4bec-92cd-2d4dfde3895c",
+"venue": "Kingspan Breffni, Cavan",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://cavangaa.ie/fixtures-results/football/club/senior/championship-2026/2b2fe789-6b05-484a-9cb6-7273d38ec288/",
+"club": "county",
+"grade": "senior",
+"county": "Cavan",
+"site": "cavan",
+"referee": "Gavin Smith"
+},
+{
+"id": "club:clare:2026-09-20:cill-mhuire-ui-bhreacain-v-dun-beag",
+"date": "2026-09-20T13:00:00+00:00",
+"time": "14:00",
+"tbc": false,
+"status": "active",
+"sport": "Football",
+"competition": "Clare Senior Football Cup",
+"competitionId": null,
+"rank": null,
+"title": "TUS TUS Senior Football - Cup - Q-Final",
+"group": null,
+"round": "Quarter-Final",
+"home": {
+"id": null,
+"name": "Cill Mhuire Ui Bhreacáin"
+},
+"away": {
+"id": null,
+"name": "Dún Beag"
+},
+"venueId": "7de7f137-a977-4db3-8463-6e003e0f64d6",
+"venue": "Cooraclare",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://clare.gaa.ie/fixtures-results/football/club/senior/tus-senior-football/6442d7b0-4b4b-4cac-bc1f-aef4695e3415/",
+"club": "county",
+"grade": "senior",
+"county": "Clare",
+"site": "clare",
 "referee": "TBC"
 },
 {
@@ -27631,6 +26337,40 @@
 "referee": "TBC"
 },
 {
+"id": "club:cavan:2026-09-20:crosserlough-v-mullahoran-gfc",
+"date": "2026-09-20T14:45:00+00:00",
+"time": "15:45",
+"tbc": false,
+"status": "active",
+"sport": "Football",
+"competition": "Cavan Senior Football Championship",
+"competitionId": null,
+"rank": null,
+"title": "Senior Championship Kyte Powertech - Quarter Final",
+"group": null,
+"round": "Quarter Final",
+"home": {
+"id": null,
+"name": "Crosserlough"
+},
+"away": {
+"id": null,
+"name": "Mullahoran GFC"
+},
+"venueId": "edb4d5a9-2ef6-4bec-92cd-2d4dfde3895c",
+"venue": "Kingspan Breffni, Cavan",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://cavangaa.ie/fixtures-results/football/club/senior/championship-2026/2b2fe789-6b05-484a-9cb6-7273d38ec288/",
+"club": "county",
+"grade": "senior",
+"county": "Cavan",
+"site": "cavan",
+"referee": "Martin Sexton"
+},
+{
 "id": "club:down:2026-09-20:ballygalget-gac-v-liatroim",
 "date": "2026-09-20T15:00:00+00:00",
 "time": "16:00",
@@ -28036,6 +26776,74 @@
 "grade": "senior",
 "county": "Offaly",
 "site": "offaly",
+"referee": "TBC"
+},
+{
+"id": "club:clare:2026-09-20:cluain-da-ghad-v-naomh-eoin",
+"date": "2026-09-20T15:30:00+00:00",
+"time": "16:30",
+"tbc": false,
+"status": "active",
+"sport": "Football",
+"competition": "Clare Intermediate Football Cup",
+"competitionId": null,
+"rank": null,
+"title": "TUS TUS Intermediate Football - Cup - Q-Final",
+"group": null,
+"round": "Quarter-Final",
+"home": {
+"id": null,
+"name": "Cluain Dá Ghad"
+},
+"away": {
+"id": null,
+"name": "Naomh Eoin"
+},
+"venueId": "0314b02b-b752-4c2d-a84e-134ba54e020a",
+"venue": "Kilrush",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://clare.gaa.ie/fixtures-results/football/club/intermediate/tus-intermediate-football/69cfb9ce-1f51-4455-aa1f-2bd40c26cc1d/",
+"club": "county",
+"grade": "intermediate",
+"county": "Clare",
+"site": "clare",
+"referee": "TBC"
+},
+{
+"id": "club:clare:2026-09-20:eire-og-inis-v-naomh-seosamh-dubhraith-gortloman",
+"date": "2026-09-20T15:30:00+00:00",
+"time": "16:30",
+"tbc": false,
+"status": "active",
+"sport": "Football",
+"competition": "Clare Senior Football Cup",
+"competitionId": null,
+"rank": null,
+"title": "TUS TUS Senior Football - Cup - Q-Final",
+"group": null,
+"round": "Quarter-Final",
+"home": {
+"id": null,
+"name": "Éire Óg Inis"
+},
+"away": {
+"id": null,
+"name": "Naomh Seosamh Dubhraith Gortlomán"
+},
+"venueId": "0198790f-7890-4d73-9ab4-0bfcf8652c59",
+"venue": "Zimmer Biomet Páirc Chíosóg, Ennis",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://clare.gaa.ie/fixtures-results/football/club/senior/tus-senior-football/6442d7b0-4b4b-4cac-bc1f-aef4695e3415/",
+"club": "county",
+"grade": "senior",
+"county": "Clare",
+"site": "clare",
 "referee": "TBC"
 },
 {
@@ -28445,6 +27253,40 @@
 "county": "Meath",
 "site": "meath",
 "referee": "TBC"
+},
+{
+"id": "club:cavan:2026-09-20:gowna-v-ramor-united-gfc",
+"date": "2026-09-20T18:00:00+00:00",
+"time": "19:00",
+"tbc": false,
+"status": "active",
+"sport": "Football",
+"competition": "Cavan Senior Football Championship",
+"competitionId": null,
+"rank": null,
+"title": "Senior Championship Kyte Powertech - Quarter Final",
+"group": null,
+"round": "Quarter Final",
+"home": {
+"id": null,
+"name": "Gowna"
+},
+"away": {
+"id": null,
+"name": "Ramor United GFC"
+},
+"venueId": "edb4d5a9-2ef6-4bec-92cd-2d4dfde3895c",
+"venue": "Kingspan Breffni, Cavan",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://cavangaa.ie/fixtures-results/football/club/senior/championship-2026/2b2fe789-6b05-484a-9cb6-7273d38ec288/",
+"club": "county",
+"grade": "senior",
+"county": "Cavan",
+"site": "cavan",
+"referee": "Conor Dourneen"
 },
 {
 "id": "club:tyrone:2026-09-21:eglish-v-brocagh",

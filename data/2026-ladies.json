@@ -1,7 +1,7 @@
 {
 "season": 2026,
 "source": "https://ladiesgaelic.ie/fixtures-results/results/",
-"fetched": "2026-09-08T18:32:31Z",
+"fetched": "2026-09-14T10:37:30Z",
 "fixtures": [
 {
 "id": "lgfa:2026-01-18T14:00:00+00:00|National Football League Division 4|Round 1|Carlow|Sligo",
@@ -1508,7 +1508,7 @@
 "id": null,
 "name": "Wexford"
 },
-"venueId": "lgfa-st-bridget-s-park-knockbride",
+"venueId": "28dccf17-2f7a-4895-b01e-998afeb26935",
 "venue": "St. Bridget's Park Knockbride",
 "result": true,
 "score": {
@@ -2795,7 +2795,7 @@
 "id": null,
 "name": "Roscommon"
 },
-"venueId": "lgfa-cherryvale-4g-pitch-belfast",
+"venueId": "7e4cb319-b801-4849-be44-50670b9bda22",
 "venue": "Cherryvale 4G Pitch, Belfast",
 "result": true,
 "score": {
@@ -3620,7 +3620,7 @@
 "id": null,
 "name": "Monaghan"
 },
-"venueId": "lgfa-jim-smith-park-killinkere",
+"venueId": "9379f88e-09d4-4398-9915-65a8716acfd7",
 "venue": "Jim Smith Park, Killinkere",
 "result": true,
 "score": {
@@ -3719,7 +3719,7 @@
 "id": null,
 "name": "Down"
 },
-"venueId": "lgfa-ederney-st-joseph-s-gaa",
+"venueId": "0b3c6d7b-451f-43ad-915e-f169322038ed",
 "venue": "Ederney St. Joseph's GAA",
 "result": true,
 "score": {
@@ -6986,7 +6986,7 @@
 "id": null,
 "name": "Leitrim"
 },
-"venueId": "lgfa-ederney-st-joseph-s-gaa",
+"venueId": "0b3c6d7b-451f-43ad-915e-f169322038ed",
 "venue": "Ederney St. Joseph's GAA",
 "result": true,
 "score": {
@@ -7646,7 +7646,7 @@
 "id": null,
 "name": "Mayo"
 },
-"venueId": "lgfa-glenfin-gaa",
+"venueId": "205705cb-9530-4151-99b2-772ee29ceff2",
 "venue": "Glenfin GAA",
 "result": true,
 "score": {
@@ -8636,7 +8636,7 @@
 "id": null,
 "name": "Leitrim"
 },
-"venueId": "lgfa-emmet-park-lisnaskea",
+"venueId": "be43c301-357a-4d08-ad35-59e6d9f23685",
 "venue": "Emmet Park, Lisnaskea",
 "result": true,
 "score": {
@@ -8702,7 +8702,7 @@
 "id": null,
 "name": "Dublin"
 },
-"venueId": "lgfa-moyne-templetuohy-gaa",
+"venueId": "aeec8778-79e2-4e3f-8b2d-560672fc5b1b",
 "venue": "Moyne Templetuohy GAA",
 "result": true,
 "score": {
