@@ -1,7 +1,7 @@
 {
 "season": 2026,
 "source": "https://www.gaa.ie/fixtures-results",
-"fetched": "2026-09-14T10:36:23Z",
+"fetched": "2026-09-21T10:40:57Z",
 "fixtures": [
 {
 "id": "74bd5a76-e4ef-4223-8fa6-c6688cbe660a",
@@ -6221,7 +6221,7 @@
 "round": "Semi-Final",
 "home": {
 "id": "64be20f6-dd1d-d46a-df11-0cf871e39059",
-"name": "Colaiste Eamann Ris Callan"
+"name": "Colaiste Eamann Ris, Callan"
 },
 "away": {
 "id": "84c230a5-b1bc-3495-046e-f91695712099",
