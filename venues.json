@@ -1079,6 +1079,14 @@
   "matched": "Boucher Playing Fields, Upper Falls, Ballymurphy, Belfast City District, County Antrim, Northern Ireland / Tuaisceart Éi",
   "hint": "Antrim"
  },
+ "a6ce9079-363e-40bd-bfc3-81e3c523f26b": {
+  "name": "Cloghan, Annyalla",
+  "lat": 54.16042,
+  "lon": -6.79045,
+  "query": "Annyalla, County Monaghan, Ireland",
+  "matched": "Annayalla, Monaghan Municipal District, County Monaghan, Ulster, Éire / Ireland",
+  "hint": "Monaghan"
+ },
  "f9e4bf91-ef7e-4b1f-b701-703f3aa83e06": {
   "name": "Clogher",
   "lat": 54.41299,
@@ -1769,6 +1777,12 @@
   "matched": "Dunganny, Kilcooly ED, The Municipal District of Trim, County Meath, Leinster, Éire / Ireland",
   "hint": "Meath"
  },
+ "b62a4f5c-b1c0-4980-b386-f2cd4ec562d3": {
+  "name": "Dunganny - Floodlit Pitch 1 (500lx)",
+  "lat": null,
+  "lon": null,
+  "hint": "Meath"
+ },
  "32058ab2-93c2-4f68-a0c3-281329c4a25d": {
   "name": "Dunganny - Floodlit Pitch 2 (500lx)",
   "lat": null,
@@ -2058,6 +2072,14 @@
   "query": "Fethard, County Tipperary, Ireland",
   "matched": "Fethard, The Municipal District of Carrick-on-Suir, County Tipperary, Munster, Éire / Ireland",
   "hint": "Waterford"
+ },
+ "d861abf0-8ccf-47c9-95c9-d4870dabb656": {
+  "name": "Fethard Town park (4G Pitch)",
+  "lat": 52.26703,
+  "lon": -7.1073,
+  "query": "(4G Pitch), County Kilkenny, Ireland",
+  "matched": "Ferrybank Pitch and Putt, Kilculliheen, The Municipal District of Piltown, County Kilkenny, Leinster, Éire / Ireland",
+  "hint": "Kilkenny"
  },
  "9b9e3a1e-0a56-479e-bbbf-8e663c884d6d": {
   "name": "Find Insurance Celtic Park",
@@ -2975,6 +2997,14 @@
   "hint": "Fermanagh",
   "same": "47df86e6-c148-4c7b-8aff-8fdbc3510508"
  },
+ "d688099c-d77c-46ca-984b-3ad206985b79": {
+  "name": "MIC, Thurles. E41 C424",
+  "lat": 52.67669,
+  "lon": -7.82191,
+  "query": "Thurles, County Tipperary, Ireland",
+  "matched": "Thurles, Railway Road, Thurles, The Municipal District of Thurles, County Tipperary, Munster, Éire / Ireland",
+  "hint": "Tipperary"
+ },
  "552693d6-fbbf-4281-aa5d-abd90e5df51d": {
   "name": "MW Hire Training Centre, Dunmore",
   "lat": 52.69543,
@@ -3545,6 +3575,12 @@
   "matched": "O'Neill Park, Lisnahull Park, Dungannon, Mid-Ulster District Council, County Tyrone, Northern Ireland / Tuaisceart Éirea",
   "hint": "Tyrone"
  },
+ "05fafe16-0784-47ae-8e33-acd2e13e67c7": {
+  "name": "O'Boyle Park Drumgoon",
+  "lat": null,
+  "lon": null,
+  "hint": "Cavan"
+ },
  "90e92bf5-4add-4732-9059-411cdf0f52d2": {
   "name": "O'Connell Park Drumlane",
   "lat": 54.06929,
@@ -4059,6 +4095,14 @@
   "matched": "Maguiresbridge, County Fermanagh, Northern Ireland / Tuaisceart Éireann, BT94 4NY, United Kingdom",
   "hint": "Fermanagh"
  },
+ "85ff1d8b-9db3-4c7e-bbc7-f9eb337cd594": {
+  "name": "Queens Dub Playing Fields",
+  "lat": 54.5864,
+  "lon": -5.88137,
+  "query": "Playing Fields, County Down, Ireland",
+  "matched": "Orangefield Park Playing Fields, Orangefield, Belfast City District, County Down, Northern Ireland / Tuaisceart Éireann,",
+  "hint": "Down"
+ },
  "lgfa-queens-university-belfast": {
   "name": "Queens University, Belfast",
   "lat": 54.58395,
@@ -4275,6 +4319,23 @@
   "query": "Sallins, County Kildare, Ireland",
   "matched": "Sallins, The Municipal District of Naas, County Kildare, Leinster, Éire / Ireland",
   "hint": "Wicklow"
+ },
+ "362213b2-7df3-4942-ab9f-3504f1a75196": {
+  "name": "Sallins GAA",
+  "lat": 53.2506,
+  "lon": -6.66196,
+  "query": "Sallins GAA, County Kildare, Ireland",
+  "matched": "Sallins GAA, Chapel Lane, Bodenstown ED, The Municipal District of Naas, County Kildare, Leinster, Éire / Ireland",
+  "hint": "Kildare"
+ },
+ "ef179035-efa2-4b9e-bb80-93e04c050bf1": {
+  "name": "Salthill Knocknacarra GAA Club",
+  "lat": 53.26365,
+  "lon": -9.08611,
+  "query": "Salthill Knocknacarra, County Galway, Ireland",
+  "matched": "CLG Bóthar na Trá Cnoc na Cathrach, Doctor Mannix Road, Rockbarton, Cathair na Gaillimhe, County Galway, Connacht, Éire ",
+  "hint": "Galway",
+  "same": "f721c625-53a3-4231-ad7b-7059d8da7db3"
  },
  "lgfa-samaritans-st-patrick-s-park": {
   "name": "Samaritans St. Patrick's Park",
@@ -4717,6 +4778,12 @@
   "query": "St. Mary's Park, Castleblayney, Monaghan, County Monaghan, Ireland",
   "matched": "Saint Mary's Park, Dublin Road, Castleblayney, Carrickmacross-Castleblayney Municipal District, County Monaghan, Ulster,",
   "hint": "Monaghan"
+ },
+ "0ced6489-adc4-44d9-9b05-089e394b9d49": {
+  "name": "St. Mattews Park",
+  "lat": null,
+  "lon": null,
+  "hint": "Cavan"
  },
  "ef73cf8b-b4a7-474f-b241-4e3a3c9666c7": {
   "name": "St. Matthews Park Crosskeys",

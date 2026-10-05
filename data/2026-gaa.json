@@ -1,7 +1,7 @@
 {
 "season": 2026,
 "source": "https://www.gaa.ie/fixtures-results",
-"fetched": "2026-09-28T11:40:10Z",
+"fetched": "2026-10-05T12:15:00Z",
 "fixtures": [
 {
 "id": "74bd5a76-e4ef-4223-8fa6-c6688cbe660a",
@@ -420,7 +420,7 @@
 "name": "London"
 },
 "venueId": "ddd55e5f-e7d1-4e2a-9374-7d980a98479b",
-"venue": "Trim",
+"venue": "St Loman's Park, Trim",
 "result": true,
 "score": {
 "hg": 1,
@@ -486,7 +486,7 @@
 "name": "Kerry"
 },
 "venueId": "1d1e7f46-7380-4641-928b-846be9c18e49",
-"venue": "Celtic Park",
+"venue": "Find Insurance Celtic Park, Derry",
 "result": true,
 "score": {
 "hg": 0,
@@ -552,7 +552,7 @@
 "name": "Sligo"
 },
 "venueId": "30740ae9-6270-4862-85de-89c50fe8aeb3",
-"venue": "Grattan Park, Inniskeen",
+"venue": "Páirc Grattan, Inniskeen",
 "result": true,
 "score": {
 "hg": 0,
@@ -618,7 +618,7 @@
 "name": "Down"
 },
 "venueId": "64f31b44-f357-4eb5-8ea7-3e2548876567",
-"venue": "Netwatch Cullen Park",
+"venue": "Netwatch Cullen Park, Carlow",
 "result": true,
 "score": {
 "hg": 2,
@@ -783,7 +783,7 @@
 "name": "Limerick"
 },
 "venueId": "8f8eb74b-df7e-438d-8c73-119ebde8b3c3",
-"venue": "Laois Hire O'Moore Park",
+"venue": "Laois Hire O'Moore Park, Portlaoise",
 "result": true,
 "score": {
 "hg": 1,
@@ -882,7 +882,7 @@
 "name": "Wexford"
 },
 "venueId": "54b4be41-4c0c-405c-8033-ebe68bbcff34",
-"venue": "Brewster Park",
+"venue": "Brewster Park, Enniskillen",
 "result": true,
 "score": {
 "hg": 0,
@@ -1014,7 +1014,7 @@
 "name": "Cavan"
 },
 "venueId": "81d41026-8e61-4377-89ea-a31fd0c41383",
-"venue": "SuperValu Páirc Uí Chaoimh",
+"venue": "SuperValu Páirc Uí Chaoimh, Cork",
 "result": true,
 "score": {
 "hg": 0,
@@ -1047,7 +1047,7 @@
 "name": "Mayo"
 },
 "venueId": "f721c625-53a3-4231-ad7b-7059d8da7db3",
-"venue": "Pearse Stadium",
+"venue": "Pearse Stadium, Salthill",
 "result": true,
 "score": {
 "hg": 2,
@@ -1179,7 +1179,7 @@
 "name": "Sligo"
 },
 "venueId": "93dcaa49-6b15-416e-9fbb-bb643a5ebd3a",
-"venue": "TEG Cusack Park",
+"venue": "TEG Cusack Park, Westmeath",
 "result": true,
 "score": {
 "hg": 2,
@@ -1377,7 +1377,7 @@
 "name": "Waterford"
 },
 "venueId": "81d41026-8e61-4377-89ea-a31fd0c41383",
-"venue": "SuperValu Páirc Uí Chaoimh",
+"venue": "SuperValu Páirc Uí Chaoimh, Cork",
 "result": true,
 "score": {
 "hg": 3,
@@ -1476,7 +1476,7 @@
 "name": "Tyrone"
 },
 "venueId": "2b305202-074e-44aa-8c8f-104f918d96d5",
-"venue": "Protection & Prosperity Louth GAA Training Centre, Darver",
+"venue": "Cullen Auto Parts Louth GAA Training Centre, Darver",
 "result": true,
 "score": {
 "hg": 0,
@@ -1509,7 +1509,7 @@
 "name": "Cavan"
 },
 "venueId": "a3049914-3c94-41be-b099-418af83e405b",
-"venue": "Michael Fay Park, Longford Slashers",
+"venue": "Michael Fay Park",
 "result": true,
 "score": {
 "hg": 1,
@@ -1575,7 +1575,7 @@
 "name": "Fermanagh"
 },
 "venueId": "5aa37473-ff95-4421-83f5-407aaf243f58",
-"venue": "Letterkenny",
+"venue": "O'Donnell Park, Letterkenny",
 "result": true,
 "score": {
 "hg": 2,
@@ -1740,7 +1740,7 @@
 "name": "Wicklow"
 },
 "venueId": "64f31b44-f357-4eb5-8ea7-3e2548876567",
-"venue": "Netwatch Cullen Park",
+"venue": "Netwatch Cullen Park, Carlow",
 "result": true,
 "score": {
 "hg": 1,
@@ -1773,7 +1773,7 @@
 "name": "Cork"
 },
 "venueId": "f721c625-53a3-4231-ad7b-7059d8da7db3",
-"venue": "Pearse Stadium",
+"venue": "Pearse Stadium, Salthill",
 "result": true,
 "score": {
 "hg": 1,
@@ -1806,7 +1806,7 @@
 "name": "Kildare"
 },
 "venueId": "36e39056-a119-4f14-81ed-49bb9691b04c",
-"venue": "Parnell Park",
+"venue": "Parnell Park, Dublin",
 "result": true,
 "score": {
 "hg": 2,
@@ -1905,7 +1905,7 @@
 "name": "Clare"
 },
 "venueId": "29413cf0-7a37-4904-b159-8286e7bf6c4a",
-"venue": "Rurai Og Cushendall",
+"venue": "Ruairí Óg Cushendall",
 "result": true,
 "score": {
 "hg": 1,
@@ -1938,7 +1938,7 @@
 "name": "Derry"
 },
 "venueId": "8f8eb74b-df7e-438d-8c73-119ebde8b3c3",
-"venue": "Laois Hire O'Moore Park",
+"venue": "Laois Hire O'Moore Park, Portlaoise",
 "result": true,
 "score": {
 "hg": 0,
@@ -2268,7 +2268,7 @@
 "name": "Tipperary"
 },
 "venueId": "23baabb1-ff0d-4bf4-8176-38fbe315561e",
-"venue": "Glenisk O'Connor Park",
+"venue": "Glenisk O'Connor Park, Tullamore",
 "result": true,
 "score": {
 "hg": 1,
@@ -2367,7 +2367,7 @@
 "name": "Westmeath"
 },
 "venueId": "595e1c18-f56d-4ab3-a75f-9b38db3e3d8b",
-"venue": "Austin Stack Park",
+"venue": "Austin Stack Park, Tralee",
 "result": true,
 "score": {
 "hg": 2,
@@ -2433,7 +2433,7 @@
 "name": "London"
 },
 "venueId": "595e1c18-f56d-4ab3-a75f-9b38db3e3d8b",
-"venue": "Austin Stack Park",
+"venue": "Austin Stack Park, Tralee",
 "result": true,
 "score": {
 "hg": 5,
@@ -2631,7 +2631,7 @@
 "name": "Tipperary"
 },
 "venueId": "81d41026-8e61-4377-89ea-a31fd0c41383",
-"venue": "SuperValu Páirc Uí Chaoimh",
+"venue": "SuperValu Páirc Uí Chaoimh, Cork",
 "result": true,
 "score": {
 "hg": 0,
@@ -2829,7 +2829,7 @@
 "name": "Meath"
 },
 "venueId": "93dcaa49-6b15-416e-9fbb-bb643a5ebd3a",
-"venue": "TEG Cusack Park",
+"venue": "TEG Cusack Park, Westmeath",
 "result": true,
 "score": {
 "hg": 0,
@@ -2862,7 +2862,7 @@
 "name": "Louth"
 },
 "venueId": "54b4be41-4c0c-405c-8033-ebe68bbcff34",
-"venue": "Brewster Park",
+"venue": "Brewster Park, Enniskillen",
 "result": true,
 "score": {
 "hg": 2,
@@ -2961,7 +2961,7 @@
 "name": "Galway"
 },
 "venueId": "595e1c18-f56d-4ab3-a75f-9b38db3e3d8b",
-"venue": "Austin Stack Park",
+"venue": "Austin Stack Park, Tralee",
 "result": true,
 "score": {
 "hg": 2,
@@ -3027,7 +3027,7 @@
 "name": "Sligo"
 },
 "venueId": "8f8eb74b-df7e-438d-8c73-119ebde8b3c3",
-"venue": "Laois Hire O'Moore Park",
+"venue": "Laois Hire O'Moore Park, Portlaoise",
 "result": true,
 "score": {
 "hg": 0,
@@ -3192,7 +3192,7 @@
 "name": "Clare"
 },
 "venueId": "54b4be41-4c0c-405c-8033-ebe68bbcff34",
-"venue": "Brewster Park",
+"venue": "Brewster Park, Enniskillen",
 "result": true,
 "score": {
 "hg": 0,
@@ -3291,7 +3291,7 @@
 "name": "Mayo"
 },
 "venueId": "5aa37473-ff95-4421-83f5-407aaf243f58",
-"venue": "Letterkenny",
+"venue": "O'Donnell Park, Letterkenny",
 "result": true,
 "score": {
 "hg": 1,
@@ -3555,7 +3555,7 @@
 "name": "Kerry"
 },
 "venueId": "8f8eb74b-df7e-438d-8c73-119ebde8b3c3",
-"venue": "Laois Hire O'Moore Park",
+"venue": "Laois Hire O'Moore Park, Portlaoise",
 "result": true,
 "score": {
 "hg": 1,
@@ -3588,7 +3588,7 @@
 "name": "Roscommon"
 },
 "venueId": "2b305202-074e-44aa-8c8f-104f918d96d5",
-"venue": "Protection & Prosperity Louth GAA Training Centre, Darver",
+"venue": "Cullen Auto Parts Louth GAA Training Centre, Darver",
 "result": true,
 "score": {
 "hg": 0,
@@ -3621,7 +3621,7 @@
 "name": "Armagh"
 },
 "venueId": "5aa37473-ff95-4421-83f5-407aaf243f58",
-"venue": "Letterkenny",
+"venue": "O'Donnell Park, Letterkenny",
 "result": true,
 "score": {
 "hg": 1,
@@ -3654,7 +3654,7 @@
 "name": "Tyrone"
 },
 "venueId": "54b4be41-4c0c-405c-8033-ebe68bbcff34",
-"venue": "Brewster Park",
+"venue": "Brewster Park, Enniskillen",
 "result": true,
 "score": {
 "hg": 1,
@@ -3786,7 +3786,7 @@
 "name": "Waterford"
 },
 "venueId": "64f31b44-f357-4eb5-8ea7-3e2548876567",
-"venue": "Netwatch Cullen Park",
+"venue": "Netwatch Cullen Park, Carlow",
 "result": true,
 "score": {
 "hg": 1,
@@ -3951,7 +3951,7 @@
 "name": "Roscommon"
 },
 "venueId": "f721c625-53a3-4231-ad7b-7059d8da7db3",
-"venue": "Pearse Stadium",
+"venue": "Pearse Stadium, Salthill",
 "result": true,
 "score": {
 "hg": 0,
@@ -4116,7 +4116,7 @@
 "name": "Derry"
 },
 "venueId": "ddd55e5f-e7d1-4e2a-9374-7d980a98479b",
-"venue": "Trim",
+"venue": "St Loman's Park, Trim",
 "result": true,
 "score": {
 "hg": 1,
@@ -4347,7 +4347,7 @@
 "name": "Fermanagh"
 },
 "venueId": "93dcaa49-6b15-416e-9fbb-bb643a5ebd3a",
-"venue": "TEG Cusack Park",
+"venue": "TEG Cusack Park, Westmeath",
 "result": true,
 "score": {
 "hg": 1,
@@ -5106,7 +5106,7 @@
 "name": "Westmeath"
 },
 "venueId": "8f8eb74b-df7e-438d-8c73-119ebde8b3c3",
-"venue": "Laois Hire O'Moore Park",
+"venue": "Laois Hire O'Moore Park, Portlaoise",
 "result": true,
 "score": {
 "hg": 3,
@@ -5205,7 +5205,7 @@
 "name": "Clare"
 },
 "venueId": "64f31b44-f357-4eb5-8ea7-3e2548876567",
-"venue": "Netwatch Cullen Park",
+"venue": "Netwatch Cullen Park, Carlow",
 "result": true,
 "score": {
 "hg": 0,
@@ -5634,7 +5634,7 @@
 "name": "Limerick"
 },
 "venueId": "23baabb1-ff0d-4bf4-8176-38fbe315561e",
-"venue": "Glenisk O'Connor Park",
+"venue": "Glenisk O'Connor Park, Tullamore",
 "result": true,
 "score": {
 "hg": 0,
@@ -5667,7 +5667,7 @@
 "name": "Waterford"
 },
 "venueId": "f721c625-53a3-4231-ad7b-7059d8da7db3",
-"venue": "Pearse Stadium",
+"venue": "Pearse Stadium, Salthill",
 "result": true,
 "score": {
 "hg": 2,
@@ -5733,7 +5733,7 @@
 "name": "Laois"
 },
 "venueId": "93dcaa49-6b15-416e-9fbb-bb643a5ebd3a",
-"venue": "TEG Cusack Park",
+"venue": "TEG Cusack Park, Westmeath",
 "result": true,
 "score": {
 "hg": 0,
@@ -5799,7 +5799,7 @@
 "name": "Donegal"
 },
 "venueId": "2b305202-074e-44aa-8c8f-104f918d96d5",
-"venue": "Protection & Prosperity Louth GAA Training Centre, Darver",
+"venue": "Cullen Auto Parts Louth GAA Training Centre, Darver",
 "result": true,
 "score": {
 "hg": 1,
@@ -5927,8 +5927,8 @@
 "name": "St. Kieran's College"
 },
 "away": {
-"id": "52caf49d-3a53-6586-25de-8aacf0519379",
-"name": "Nenagh C.B.S"
+"id": "570ad393-4c8f-0b03-f70f-9481e7b12901",
+"name": "Nenagh CBS Secondary"
 },
 "venueId": "6e2df97b-9e9e-4629-98ea-a92984a38f7d",
 "venue": "Rathdowney",
@@ -5941,7 +5941,7 @@
 },
 "tickets": null,
 "tv": null,
-"url": "/hurling/masita-gaa-post-primary-schools-croke-cup-senior-a-hurling/st-kieran-s-college-nenagh-c-b-s/dcaf22cb-d9f3-4e12-a452-e859f21701ab"
+"url": "/hurling/masita-gaa-post-primary-schools-croke-cup-senior-a-hurling/st-kieran-s-college-nenagh-cbs-secondary/dcaf22cb-d9f3-4e12-a452-e859f21701ab"
 },
 {
 "id": "56d34faa-7060-4ddb-8455-b8da69140a65",
@@ -6261,7 +6261,7 @@
 "name": "Down"
 },
 "venueId": "36e39056-a119-4f14-81ed-49bb9691b04c",
-"venue": "Parnell Park",
+"venue": "Parnell Park, Dublin",
 "result": true,
 "score": {
 "hg": 6,
@@ -6294,7 +6294,7 @@
 "name": "Kilkenny"
 },
 "venueId": "f721c625-53a3-4231-ad7b-7059d8da7db3",
-"venue": "Pearse Stadium",
+"venue": "Pearse Stadium, Salthill",
 "result": true,
 "score": {
 "hg": 0,
@@ -6360,7 +6360,7 @@
 "name": "Mayo"
 },
 "venueId": "595e1c18-f56d-4ab3-a75f-9b38db3e3d8b",
-"venue": "Austin Stack Park",
+"venue": "Austin Stack Park, Tralee",
 "result": true,
 "score": {
 "hg": 6,
@@ -6393,7 +6393,7 @@
 "name": "Wicklow"
 },
 "venueId": "5aa37473-ff95-4421-83f5-407aaf243f58",
-"venue": "Letterkenny",
+"venue": "O'Donnell Park, Letterkenny",
 "result": true,
 "score": {
 "hg": 0,
@@ -6492,7 +6492,7 @@
 "name": "Meath"
 },
 "venueId": "8f8eb74b-df7e-438d-8c73-119ebde8b3c3",
-"venue": "Laois Hire O'Moore Park",
+"venue": "Laois Hire O'Moore Park, Portlaoise",
 "result": true,
 "score": {
 "hg": 0,
@@ -6525,7 +6525,7 @@
 "name": "Derry"
 },
 "venueId": "93dcaa49-6b15-416e-9fbb-bb643a5ebd3a",
-"venue": "TEG Cusack Park",
+"venue": "TEG Cusack Park, Westmeath",
 "result": true,
 "score": {
 "hg": 1,
@@ -6558,7 +6558,7 @@
 "name": "Roscommon"
 },
 "venueId": "54b4be41-4c0c-405c-8033-ebe68bbcff34",
-"venue": "Brewster Park",
+"venue": "Brewster Park, Enniskillen",
 "result": true,
 "score": {
 "hg": 2,
@@ -6723,7 +6723,7 @@
 "name": "Mayo"
 },
 "venueId": "595e1c18-f56d-4ab3-a75f-9b38db3e3d8b",
-"venue": "Austin Stack Park",
+"venue": "Austin Stack Park, Tralee",
 "result": true,
 "score": {
 "hg": 2,
@@ -6822,7 +6822,7 @@
 "name": "Laois"
 },
 "venueId": "54b4be41-4c0c-405c-8033-ebe68bbcff34",
-"venue": "Brewster Park",
+"venue": "Brewster Park, Enniskillen",
 "result": true,
 "score": {
 "hg": 2,
@@ -6855,7 +6855,7 @@
 "name": "London"
 },
 "venueId": "64f31b44-f357-4eb5-8ea7-3e2548876567",
-"venue": "Netwatch Cullen Park",
+"venue": "Netwatch Cullen Park, Carlow",
 "result": true,
 "score": {
 "hg": 0,
@@ -7053,7 +7053,7 @@
 "name": "Limerick"
 },
 "venueId": "93dcaa49-6b15-416e-9fbb-bb643a5ebd3a",
-"venue": "TEG Cusack Park",
+"venue": "TEG Cusack Park, Westmeath",
 "result": true,
 "score": {
 "hg": 4,
@@ -7350,7 +7350,7 @@
 "name": "Kerry"
 },
 "venueId": "ddd55e5f-e7d1-4e2a-9374-7d980a98479b",
-"venue": "Trim",
+"venue": "St Loman's Park, Trim",
 "result": true,
 "score": {
 "hg": 0,
@@ -7746,7 +7746,7 @@
 "name": "Dublin"
 },
 "venueId": "64f31b44-f357-4eb5-8ea7-3e2548876567",
-"venue": "Netwatch Cullen Park",
+"venue": "Netwatch Cullen Park, Carlow",
 "result": true,
 "score": {
 "hg": 2,
@@ -7812,7 +7812,7 @@
 "name": "Offaly"
 },
 "venueId": "81d41026-8e61-4377-89ea-a31fd0c41383",
-"venue": "SuperValu Páirc Uí Chaoimh",
+"venue": "SuperValu Páirc Uí Chaoimh, Cork",
 "result": true,
 "score": {
 "hg": 6,
@@ -7911,7 +7911,7 @@
 "name": "Leitrim"
 },
 "venueId": "64f31b44-f357-4eb5-8ea7-3e2548876567",
-"venue": "Netwatch Cullen Park",
+"venue": "Netwatch Cullen Park, Carlow",
 "result": true,
 "score": {
 "hg": 4,
@@ -8340,7 +8340,7 @@
 "name": "Dublin"
 },
 "venueId": "f721c625-53a3-4231-ad7b-7059d8da7db3",
-"venue": "Pearse Stadium",
+"venue": "Pearse Stadium, Salthill",
 "result": true,
 "score": {
 "hg": 0,
@@ -8472,7 +8472,7 @@
 "name": "Kerry"
 },
 "venueId": "8f8eb74b-df7e-438d-8c73-119ebde8b3c3",
-"venue": "Laois Hire O'Moore Park",
+"venue": "Laois Hire O'Moore Park, Portlaoise",
 "result": true,
 "score": {
 "hg": 3,
@@ -9264,7 +9264,7 @@
 "name": "Laois"
 },
 "venueId": "23baabb1-ff0d-4bf4-8176-38fbe315561e",
-"venue": "Glenisk O'Connor Park",
+"venue": "Glenisk O'Connor Park, Tullamore",
 "result": true,
 "score": {
 "hg": 0,
@@ -9297,7 +9297,7 @@
 "name": "Kerry"
 },
 "venueId": "ddd55e5f-e7d1-4e2a-9374-7d980a98479b",
-"venue": "Trim",
+"venue": "St Loman's Park, Trim",
 "result": true,
 "score": {
 "hg": 0,
@@ -9363,7 +9363,7 @@
 "name": "Limerick"
 },
 "venueId": "81d41026-8e61-4377-89ea-a31fd0c41383",
-"venue": "SuperValu Páirc Uí Chaoimh",
+"venue": "SuperValu Páirc Uí Chaoimh, Cork",
 "result": true,
 "score": {
 "hg": 4,
@@ -9429,7 +9429,7 @@
 "name": "Wicklow"
 },
 "venueId": "64f31b44-f357-4eb5-8ea7-3e2548876567",
-"venue": "Netwatch Cullen Park",
+"venue": "Netwatch Cullen Park, Carlow",
 "result": true,
 "score": {
 "hg": 1,
@@ -9990,7 +9990,7 @@
 "name": "Donegal"
 },
 "venueId": "595e1c18-f56d-4ab3-a75f-9b38db3e3d8b",
-"venue": "Austin Stack Park",
+"venue": "Austin Stack Park, Tralee",
 "result": true,
 "score": {
 "hg": 5,
@@ -10122,7 +10122,7 @@
 "name": "Westmeath"
 },
 "venueId": "23baabb1-ff0d-4bf4-8176-38fbe315561e",
-"venue": "Glenisk O'Connor Park",
+"venue": "Glenisk O'Connor Park, Tullamore",
 "result": true,
 "score": {
 "hg": 0,
@@ -10221,7 +10221,7 @@
 "name": "Wexford"
 },
 "venueId": "64f31b44-f357-4eb5-8ea7-3e2548876567",
-"venue": "Netwatch Cullen Park",
+"venue": "Netwatch Cullen Park, Carlow",
 "result": true,
 "score": {
 "hg": 1,
@@ -10320,7 +10320,7 @@
 "name": "Laois"
 },
 "venueId": "c797b913-8551-4a6f-9e31-678e02755b5f",
-"venue": "Cedral St Conleth's Park",
+"venue": "Cedral St Conleth's Park, Newbridge",
 "result": true,
 "score": {
 "hg": 2,
@@ -10716,7 +10716,7 @@
 "name": "Armagh"
 },
 "venueId": "54b4be41-4c0c-405c-8033-ebe68bbcff34",
-"venue": "Brewster Park",
+"venue": "Brewster Park, Enniskillen",
 "result": true,
 "score": {
 "hg": 1,
@@ -10947,7 +10947,7 @@
 "name": "Limerick"
 },
 "venueId": "81d41026-8e61-4377-89ea-a31fd0c41383",
-"venue": "SuperValu Páirc Uí Chaoimh",
+"venue": "SuperValu Páirc Uí Chaoimh, Cork",
 "result": true,
 "score": {
 "hg": 2,
@@ -12102,7 +12102,7 @@
 "name": "Carlow"
 },
 "venueId": "2e69ec4d-97e3-4b7f-b4a5-e0b60666ad66",
-"venue": "UPMC Nowlan Park, Kilkenny",
+"venue": "UPMC Nowlan Park",
 "result": true,
 "score": {
 "hg": 1,
@@ -16667,6 +16667,34 @@
 "tickets": null,
 "tv": "rtebbc",
 "url": "/football/gaa-football-all-ireland-senior-championship/kerry-mayo/3d65ce63-8337-47b5-820e-d5893f857bbf"
+},
+{
+"id": "9abfb6e4-6223-44b7-8d25-57510681e49e",
+"date": "2026-10-24T17:00:00+00:00",
+"time": "17:00:00",
+"tbc": false,
+"status": "active",
+"sport": "Hurling",
+"competition": "Shinty-Hurling International",
+"competitionId": "a03ceb36-4e41-4908-a164-16ca4c9c286a",
+"rank": 71,
+"group": "ShintyHurling",
+"round": "Final",
+"home": {
+"id": "519edc8d-b508-d1c0-88f7-93f2c3620157",
+"name": "Ireland"
+},
+"away": {
+"id": "09d37c08-f7b1-29e9-6277-388757533023",
+"name": "Scotland"
+},
+"venueId": "81d41026-8e61-4377-89ea-a31fd0c41383",
+"venue": "SuperValu Páirc Uí Chaoimh, Cork",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": "Spórt TG4",
+"url": "/hurling/shinty-hurling-international/ireland-scotland/9abfb6e4-6223-44b7-8d25-57510681e49e"
 }
 ]
 }

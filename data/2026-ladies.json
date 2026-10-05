@@ -1,7 +1,7 @@
 {
 "season": 2026,
 "source": "https://ladiesgaelic.ie/fixtures-results/results/",
-"fetched": "2026-09-28T11:40:41Z",
+"fetched": "2026-10-05T12:15:29Z",
 "fixtures": [
 {
 "id": "lgfa:2026-01-18T14:00:00+00:00|National Football League Division 4|Round 1|Carlow|Sligo",
@@ -1080,7 +1080,7 @@
 "name": "Tyrone"
 },
 "venueId": "2e24c80c-229e-4df0-a70f-a3e3dcdaf42c",
-"venue": "St. Loman's GAA, Mullingar",
+"venue": "St. Loman's Mullingar",
 "result": true,
 "score": {
 "hg": 6,
@@ -2182,6 +2182,39 @@
 "url": "https://ladiesgaelic.ie/fixtures-results/results/"
 },
 {
+"id": "lgfa:2026-02-18T14:30:00+00:00|HEC Donaghy Cup|Round 3|Mary Immaculate College Thurles|University of Galway",
+"date": "2026-02-18T14:30:00+00:00",
+"time": "14:30",
+"tbc": false,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "HEC Donaghy Cup",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 3",
+"home": {
+"id": null,
+"name": "Mary Immaculate College Thurles"
+},
+"away": {
+"id": null,
+"name": "University of Galway"
+},
+"venueId": null,
+"venue": null,
+"result": true,
+"score": {
+"hg": 0,
+"hp": 0,
+"ag": 0,
+"ap": 0
+},
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/results/"
+},
+{
 "id": "lgfa:2026-02-18T16:45:00+00:00|HEC Lagan Cup|Semi-Final|DCU Dóchas Éireann|University of Limerick",
 "date": "2026-02-18T16:45:00+00:00",
 "time": "16:45",
@@ -2565,7 +2598,7 @@
 "name": "Cork"
 },
 "venueId": "595e1c18-f56d-4ab3-a75f-9b38db3e3d8b",
-"venue": "Austin Stack Park",
+"venue": "Austin Stack Park, Tralee",
 "result": true,
 "score": {
 "hg": 0,
@@ -3588,7 +3621,7 @@
 "name": "Galway"
 },
 "venueId": "595e1c18-f56d-4ab3-a75f-9b38db3e3d8b",
-"venue": "Austin Stack Park",
+"venue": "Austin Stack Park, Tralee",
 "result": true,
 "score": {
 "hg": 1,
@@ -3753,7 +3786,7 @@
 "name": "Roscommon"
 },
 "venueId": "8f8eb74b-df7e-438d-8c73-119ebde8b3c3",
-"venue": "Laois Hire O'Moore Park",
+"venue": "Laois Hire O'Moore Park, Portlaoise",
 "result": true,
 "score": {
 "hg": 0,
@@ -4050,7 +4083,7 @@
 "name": "Salerno Secondary School"
 },
 "venueId": "1a4d2469-a526-4602-aaf4-53b97137a133",
-"venue": "Coralstown/Kinnegad GAA",
+"venue": "Coralstown/Kinnegad",
 "result": true,
 "score": {
 "hg": 3,
@@ -5568,7 +5601,7 @@
 "name": "Coláiste Bhríde, Carnew"
 },
 "venueId": "1a4d2469-a526-4602-aaf4-53b97137a133",
-"venue": "Coralstown/Kinnegad GAA",
+"venue": "Coralstown/Kinnegad",
 "result": true,
 "score": {
 "hg": 3,
@@ -5601,7 +5634,7 @@
 "name": "St. Josephs Secondary School Spanish Point"
 },
 "venueId": "64f31b44-f357-4eb5-8ea7-3e2548876567",
-"venue": "Netwatch Cullen Park",
+"venue": "Netwatch Cullen Park, Carlow",
 "result": true,
 "score": {
 "hg": 4,
@@ -5634,7 +5667,7 @@
 "name": "Cork"
 },
 "venueId": "36e39056-a119-4f14-81ed-49bb9691b04c",
-"venue": "Parnell Park",
+"venue": "Parnell Park, Dublin",
 "result": true,
 "score": {
 "hg": 2,

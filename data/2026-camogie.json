@@ -1,8 +1,107 @@
 {
 "season": 2026,
 "source": "https://camogie.ie/fixtures-results/",
-"fetched": "2026-09-28T11:40:34Z",
+"fetched": "2026-10-05T12:15:22Z",
 "fixtures": [
+{
+"id": "camogie:2026-02-01T14:00:00+00:00|Minor A Championship|Round 1|Galway|Limerick",
+"date": "2026-02-01T14:00:00+00:00",
+"time": "14:00",
+"tbc": false,
+"status": "active",
+"sport": "Camogie",
+"competition": "Minor A Championship",
+"competitionId": "38b63e42-12f0-47ca-b4ad-6c01548059ab",
+"rank": null,
+"group": null,
+"round": "Round 1",
+"home": {
+"id": null,
+"name": "Galway"
+},
+"away": {
+"id": null,
+"name": "Limerick"
+},
+"venueId": "ef179035-efa2-4b9e-bb80-93e04c050bf1",
+"venue": "Salthill Knocknacarra GAA Club",
+"result": true,
+"score": {
+"hg": 1,
+"hp": 10,
+"ag": 0,
+"ap": 10
+},
+"tickets": null,
+"tv": null,
+"url": "https://camogie.ie/fixtures-results/camogie/inter_county/minor/minor-a-championship/38b63e42-12f0-47ca-b4ad-6c01548059ab/"
+},
+{
+"id": "camogie:2026-02-01T14:00:00+00:00|Minor A Championship|Round 1|Kilkenny|Dublin",
+"date": "2026-02-01T14:00:00+00:00",
+"time": "14:00",
+"tbc": false,
+"status": "active",
+"sport": "Camogie",
+"competition": "Minor A Championship",
+"competitionId": "38b63e42-12f0-47ca-b4ad-6c01548059ab",
+"rank": null,
+"group": null,
+"round": "Round 1",
+"home": {
+"id": null,
+"name": "Kilkenny"
+},
+"away": {
+"id": null,
+"name": "Dublin"
+},
+"venueId": "d861abf0-8ccf-47c9-95c9-d4870dabb656",
+"venue": "Fethard Town park (4G Pitch)",
+"result": true,
+"score": {
+"hg": 3,
+"hp": 11,
+"ag": 1,
+"ap": 7
+},
+"tickets": null,
+"tv": null,
+"url": "https://camogie.ie/fixtures-results/camogie/inter_county/minor/minor-a-championship/38b63e42-12f0-47ca-b4ad-6c01548059ab/"
+},
+{
+"id": "camogie:2026-02-01T14:00:00+00:00|Minor A Championship|Round 1|Tipperary|Cork",
+"date": "2026-02-01T14:00:00+00:00",
+"time": "14:00",
+"tbc": false,
+"status": "active",
+"sport": "Camogie",
+"competition": "Minor A Championship",
+"competitionId": "38b63e42-12f0-47ca-b4ad-6c01548059ab",
+"rank": null,
+"group": null,
+"round": "Round 1",
+"home": {
+"id": null,
+"name": "Tipperary"
+},
+"away": {
+"id": null,
+"name": "Cork"
+},
+"venueId": "d688099c-d77c-46ca-984b-3ad206985b79",
+"venue": "MIC, Thurles. E41 C424",
+"result": true,
+"score": {
+"hg": 1,
+"hp": 14,
+"ag": 2,
+"ap": 9
+},
+"tickets": null,
+"tv": null,
+"url": "https://camogie.ie/fixtures-results/camogie/inter_county/minor/minor-a-championship/38b63e42-12f0-47ca-b4ad-6c01548059ab/"
+},
 {
 "id": "camogie:2026-02-01T14:00:00+00:00|Minor C Championship|Round 1|Mayo|Donegal",
 "date": "2026-02-01T14:00:00+00:00",
@@ -38,6 +137,39 @@
 },
 {
 "id": "camogie:2026-02-08T14:00:00+00:00|U16A Championship|Round 1|Cork|Galway",
+"date": "2026-02-08T14:00:00+00:00",
+"time": "14:00",
+"tbc": false,
+"status": "active",
+"sport": "Camogie",
+"competition": "U16A Championship",
+"competitionId": "893c02a3-6a88-402c-880c-e8fda90fed05",
+"rank": null,
+"group": null,
+"round": "Round 1",
+"home": {
+"id": null,
+"name": "Cork"
+},
+"away": {
+"id": null,
+"name": "Galway"
+},
+"venueId": "1e2b2da4-5c0d-4e36-aa3c-389182ad43d3",
+"venue": "Cork Camogie Grounds, Castle Road",
+"result": true,
+"score": {
+"hg": 1,
+"hp": 5,
+"ag": 2,
+"ap": 9
+},
+"tickets": null,
+"tv": null,
+"url": "https://camogie.ie/fixtures-results/camogie/inter_county/underage/u16-a-all-ireland-championship/893c02a3-6a88-402c-880c-e8fda90fed05/"
+},
+{
+"id": "camogie:2026-02-08T14:00:00+00:00|U16A Championship|Round 1|Cork|Galway#1",
 "date": "2026-02-08T14:00:00+00:00",
 "time": "14:00",
 "tbc": false,
@@ -103,7 +235,73 @@
 "url": "https://camogie.ie/fixtures-results/camogie/inter_county/underage/u16-a-all-ireland-championship/19c42164-cad5-47c0-9639-5287e90f5921/"
 },
 {
+"id": "camogie:2026-02-08T14:00:00+00:00|U16A Championship|Round 1|Limerick|Kilkenny#1",
+"date": "2026-02-08T14:00:00+00:00",
+"time": "14:00",
+"tbc": false,
+"status": "active",
+"sport": "Camogie",
+"competition": "U16A Championship",
+"competitionId": "893c02a3-6a88-402c-880c-e8fda90fed05",
+"rank": null,
+"group": null,
+"round": "Round 1",
+"home": {
+"id": null,
+"name": "Limerick"
+},
+"away": {
+"id": null,
+"name": "Kilkenny"
+},
+"venueId": "72748512-d85a-4d39-a7d9-09dba1cad970",
+"venue": "Kilmallock",
+"result": true,
+"score": {
+"hg": 1,
+"hp": 9,
+"ag": 2,
+"ap": 10
+},
+"tickets": null,
+"tv": null,
+"url": "https://camogie.ie/fixtures-results/camogie/inter_county/underage/u16-a-all-ireland-championship/893c02a3-6a88-402c-880c-e8fda90fed05/"
+},
+{
 "id": "camogie:2026-02-08T14:00:00+00:00|U16A Championship|Round 1|Tipperary|Waterford",
+"date": "2026-02-08T14:00:00+00:00",
+"time": "14:00",
+"tbc": false,
+"status": "active",
+"sport": "Camogie",
+"competition": "U16A Championship",
+"competitionId": "893c02a3-6a88-402c-880c-e8fda90fed05",
+"rank": null,
+"group": null,
+"round": "Round 1",
+"home": {
+"id": null,
+"name": "Tipperary"
+},
+"away": {
+"id": null,
+"name": "Waterford"
+},
+"venueId": "9de8c42d-88c8-4da3-ad46-7e4d99743b55",
+"venue": "The Ragg",
+"result": true,
+"score": {
+"hg": 2,
+"hp": 20,
+"ag": 1,
+"ap": 5
+},
+"tickets": null,
+"tv": null,
+"url": "https://camogie.ie/fixtures-results/camogie/inter_county/underage/u16-a-all-ireland-championship/893c02a3-6a88-402c-880c-e8fda90fed05/"
+},
+{
+"id": "camogie:2026-02-08T14:00:00+00:00|U16A Championship|Round 1|Tipperary|Waterford#1",
 "date": "2026-02-08T14:00:00+00:00",
 "time": "14:00",
 "tbc": false,
@@ -519,7 +717,7 @@
 "name": "Meath"
 },
 "venueId": "2e24c80c-229e-4df0-a70f-a3e3dcdaf42c",
-"venue": "St. Loman's GAA, Mullingar",
+"venue": "St. Loman's Mullingar",
 "result": true,
 "score": {
 "hg": 1,
@@ -563,6 +761,105 @@
 "tickets": null,
 "tv": null,
 "url": "https://camogie.ie/fixtures-results/camogie/inter_county/junior/centra-camogie-leagues-div-3-a/4b68a54f-07fb-4012-8176-5c1de74b6749/"
+},
+{
+"id": "camogie:2026-02-15T11:30:00+00:00|Minor A Championship|Round 2|Tipperary|Kilkenny",
+"date": "2026-02-15T11:30:00+00:00",
+"time": "11:30",
+"tbc": false,
+"status": "active",
+"sport": "Camogie",
+"competition": "Minor A Championship",
+"competitionId": "38b63e42-12f0-47ca-b4ad-6c01548059ab",
+"rank": null,
+"group": null,
+"round": "Round 2",
+"home": {
+"id": null,
+"name": "Tipperary"
+},
+"away": {
+"id": null,
+"name": "Kilkenny"
+},
+"venueId": "d861abf0-8ccf-47c9-95c9-d4870dabb656",
+"venue": "Fethard Town park (4G Pitch)",
+"result": true,
+"score": {
+"hg": 0,
+"hp": 9,
+"ag": 3,
+"ap": 14
+},
+"tickets": null,
+"tv": null,
+"url": "https://camogie.ie/fixtures-results/camogie/inter_county/minor/minor-a-championship/38b63e42-12f0-47ca-b4ad-6c01548059ab/"
+},
+{
+"id": "camogie:2026-02-15T14:00:00+00:00|Minor A Championship|Round 2|Cork|Limerick",
+"date": "2026-02-15T14:00:00+00:00",
+"time": "14:00",
+"tbc": false,
+"status": "active",
+"sport": "Camogie",
+"competition": "Minor A Championship",
+"competitionId": "38b63e42-12f0-47ca-b4ad-6c01548059ab",
+"rank": null,
+"group": null,
+"round": "Round 2",
+"home": {
+"id": null,
+"name": "Cork"
+},
+"away": {
+"id": null,
+"name": "Limerick"
+},
+"venueId": "1e2b2da4-5c0d-4e36-aa3c-389182ad43d3",
+"venue": "Cork Camogie Grounds, Castle Road",
+"result": true,
+"score": {
+"hg": 2,
+"hp": 8,
+"ag": 0,
+"ap": 11
+},
+"tickets": null,
+"tv": null,
+"url": "https://camogie.ie/fixtures-results/camogie/inter_county/minor/minor-a-championship/38b63e42-12f0-47ca-b4ad-6c01548059ab/"
+},
+{
+"id": "camogie:2026-02-15T14:00:00+00:00|Minor A Championship|Round 2|Dublin|Galway",
+"date": "2026-02-15T14:00:00+00:00",
+"time": "14:00",
+"tbc": false,
+"status": "active",
+"sport": "Camogie",
+"competition": "Minor A Championship",
+"competitionId": "38b63e42-12f0-47ca-b4ad-6c01548059ab",
+"rank": null,
+"group": null,
+"round": "Round 2",
+"home": {
+"id": null,
+"name": "Dublin"
+},
+"away": {
+"id": null,
+"name": "Galway"
+},
+"venueId": "9b5b0a3a-6203-4e0f-8b02-5e82befd975c",
+"venue": "O'Toole Park",
+"result": true,
+"score": {
+"hg": 1,
+"hp": 5,
+"ag": 3,
+"ap": 11
+},
+"tickets": null,
+"tv": null,
+"url": "https://camogie.ie/fixtures-results/camogie/inter_county/minor/minor-a-championship/38b63e42-12f0-47ca-b4ad-6c01548059ab/"
 },
 {
 "id": "camogie:2026-02-15T14:00:00+00:00|Minor A Shield Championship|Round 1|Antrim|Kildare",
@@ -717,7 +1014,7 @@
 "name": "Wicklow"
 },
 "venueId": "2e24c80c-229e-4df0-a70f-a3e3dcdaf42c",
-"venue": "St. Loman's GAA, Mullingar",
+"venue": "St. Loman's Mullingar",
 "result": true,
 "score": {
 "hg": 7,
@@ -1258,6 +1555,39 @@
 "url": "https://camogie.ie/fixtures-results/camogie/inter_county/underage/u16-a-all-ireland-championship/19c42164-cad5-47c0-9639-5287e90f5921/"
 },
 {
+"id": "camogie:2026-02-22T14:00:00+00:00|U16A Championship|Round 2|Kilkenny|Cork#1",
+"date": "2026-02-22T14:00:00+00:00",
+"time": "14:00",
+"tbc": false,
+"status": "active",
+"sport": "Camogie",
+"competition": "U16A Championship",
+"competitionId": "893c02a3-6a88-402c-880c-e8fda90fed05",
+"rank": null,
+"group": null,
+"round": "Round 2",
+"home": {
+"id": null,
+"name": "Kilkenny"
+},
+"away": {
+"id": null,
+"name": "Cork"
+},
+"venueId": "a93ed4fa-5c56-4a23-93fb-008befcfd1cc",
+"venue": "Tullogher Rosbercon GAA",
+"result": true,
+"score": {
+"hg": 1,
+"hp": 11,
+"ag": 1,
+"ap": 8
+},
+"tickets": null,
+"tv": null,
+"url": "https://camogie.ie/fixtures-results/camogie/inter_county/underage/u16-a-all-ireland-championship/893c02a3-6a88-402c-880c-e8fda90fed05/"
+},
+{
 "id": "camogie:2026-02-22T14:00:00+00:00|U16A Championship|Round 2|Tipperary|Limerick",
 "date": "2026-02-22T14:00:00+00:00",
 "time": "14:00",
@@ -1291,7 +1621,73 @@
 "url": "https://camogie.ie/fixtures-results/camogie/inter_county/underage/u16-a-all-ireland-championship/19c42164-cad5-47c0-9639-5287e90f5921/"
 },
 {
+"id": "camogie:2026-02-22T14:00:00+00:00|U16A Championship|Round 2|Tipperary|Limerick#1",
+"date": "2026-02-22T14:00:00+00:00",
+"time": "14:00",
+"tbc": false,
+"status": "active",
+"sport": "Camogie",
+"competition": "U16A Championship",
+"competitionId": "893c02a3-6a88-402c-880c-e8fda90fed05",
+"rank": null,
+"group": null,
+"round": "Round 2",
+"home": {
+"id": null,
+"name": "Tipperary"
+},
+"away": {
+"id": null,
+"name": "Limerick"
+},
+"venueId": "9de8c42d-88c8-4da3-ad46-7e4d99743b55",
+"venue": "The Ragg",
+"result": true,
+"score": {
+"hg": 1,
+"hp": 13,
+"ag": 1,
+"ap": 9
+},
+"tickets": null,
+"tv": null,
+"url": "https://camogie.ie/fixtures-results/camogie/inter_county/underage/u16-a-all-ireland-championship/893c02a3-6a88-402c-880c-e8fda90fed05/"
+},
+{
 "id": "camogie:2026-02-22T14:00:00+00:00|U16A Championship|Round 2|Waterford|Galway",
+"date": "2026-02-22T14:00:00+00:00",
+"time": "14:00",
+"tbc": false,
+"status": "active",
+"sport": "Camogie",
+"competition": "U16A Championship",
+"competitionId": "893c02a3-6a88-402c-880c-e8fda90fed05",
+"rank": null,
+"group": null,
+"round": "Round 2",
+"home": {
+"id": null,
+"name": "Waterford"
+},
+"away": {
+"id": null,
+"name": "Galway"
+},
+"venueId": "2e0c7a64-6e3a-48d8-97e2-96fbccbbfe8a",
+"venue": "SETU Waterford X91 XD96",
+"result": true,
+"score": {
+"hg": 1,
+"hp": 5,
+"ag": 5,
+"ap": 12
+},
+"tickets": null,
+"tv": null,
+"url": "https://camogie.ie/fixtures-results/camogie/inter_county/underage/u16-a-all-ireland-championship/893c02a3-6a88-402c-880c-e8fda90fed05/"
+},
+{
+"id": "camogie:2026-02-22T14:00:00+00:00|U16A Championship|Round 2|Waterford|Galway#1",
 "date": "2026-02-22T14:00:00+00:00",
 "time": "14:00",
 "tbc": false,
@@ -1773,7 +2169,7 @@
 "name": "Carlow"
 },
 "venueId": "595e1c18-f56d-4ab3-a75f-9b38db3e3d8b",
-"venue": "Austin Stack Park",
+"venue": "Austin Stack Park, Tralee",
 "result": true,
 "score": {
 "hg": 1,
@@ -2048,6 +2444,105 @@
 "tickets": null,
 "tv": null,
 "url": "https://camogie.ie/fixtures-results/camogie/inter_county/minor/minor-a-shield-all-ireland-championship/b9ad9121-0cc5-416e-9c2c-4adc6206d28f/"
+},
+{
+"id": "camogie:2026-03-01T14:00:00+00:00|Minor A Championship|Round 3|Dublin|Tipperary",
+"date": "2026-03-01T14:00:00+00:00",
+"time": "14:00",
+"tbc": false,
+"status": "active",
+"sport": "Camogie",
+"competition": "Minor A Championship",
+"competitionId": "38b63e42-12f0-47ca-b4ad-6c01548059ab",
+"rank": null,
+"group": null,
+"round": "Round 3",
+"home": {
+"id": null,
+"name": "Dublin"
+},
+"away": {
+"id": null,
+"name": "Tipperary"
+},
+"venueId": "9b5b0a3a-6203-4e0f-8b02-5e82befd975c",
+"venue": "O'Toole Park",
+"result": true,
+"score": {
+"hg": 1,
+"hp": 12,
+"ag": 1,
+"ap": 13
+},
+"tickets": null,
+"tv": null,
+"url": "https://camogie.ie/fixtures-results/camogie/inter_county/minor/minor-a-championship/38b63e42-12f0-47ca-b4ad-6c01548059ab/"
+},
+{
+"id": "camogie:2026-03-01T14:00:00+00:00|Minor A Championship|Round 3|Galway|Cork",
+"date": "2026-03-01T14:00:00+00:00",
+"time": "14:00",
+"tbc": false,
+"status": "active",
+"sport": "Camogie",
+"competition": "Minor A Championship",
+"competitionId": "38b63e42-12f0-47ca-b4ad-6c01548059ab",
+"rank": null,
+"group": null,
+"round": "Round 3",
+"home": {
+"id": null,
+"name": "Galway"
+},
+"away": {
+"id": null,
+"name": "Cork"
+},
+"venueId": "8c472d5c-fb9f-4374-87ce-ec9737b47841",
+"venue": "Carnmore GAA Club",
+"result": true,
+"score": {
+"hg": 3,
+"hp": 10,
+"ag": 1,
+"ap": 12
+},
+"tickets": null,
+"tv": null,
+"url": "https://camogie.ie/fixtures-results/camogie/inter_county/minor/minor-a-championship/38b63e42-12f0-47ca-b4ad-6c01548059ab/"
+},
+{
+"id": "camogie:2026-03-01T14:00:00+00:00|Minor A Championship|Round 3|Limerick|Kilkenny",
+"date": "2026-03-01T14:00:00+00:00",
+"time": "14:00",
+"tbc": false,
+"status": "active",
+"sport": "Camogie",
+"competition": "Minor A Championship",
+"competitionId": "38b63e42-12f0-47ca-b4ad-6c01548059ab",
+"rank": null,
+"group": null,
+"round": "Round 3",
+"home": {
+"id": null,
+"name": "Limerick"
+},
+"away": {
+"id": null,
+"name": "Kilkenny"
+},
+"venueId": "75b44d70-3b6b-4505-a164-73cc6e56607c",
+"venue": "Mungret St Pauls GAA",
+"result": true,
+"score": {
+"hg": 2,
+"hp": 9,
+"ag": 1,
+"ap": 11
+},
+"tickets": null,
+"tv": null,
+"url": "https://camogie.ie/fixtures-results/camogie/inter_county/minor/minor-a-championship/38b63e42-12f0-47ca-b4ad-6c01548059ab/"
 },
 {
 "id": "camogie:2026-03-01T14:00:00+00:00|Minor A Shield Championship|Round 2|Derry|Offaly",
@@ -2400,7 +2895,7 @@
 "name": "Laois"
 },
 "venueId": "64f31b44-f357-4eb5-8ea7-3e2548876567",
-"venue": "Netwatch Cullen Park",
+"venue": "Netwatch Cullen Park, Carlow",
 "result": true,
 "score": {
 "hg": 2,
@@ -2466,7 +2961,7 @@
 "name": "Westmeath"
 },
 "venueId": "595e1c18-f56d-4ab3-a75f-9b38db3e3d8b",
-"venue": "Austin Stack Park",
+"venue": "Austin Stack Park, Tralee",
 "result": true,
 "score": {
 "hg": 0,
@@ -2743,6 +3238,39 @@
 "url": "https://camogie.ie/fixtures-results/camogie/inter_county/underage/u16-a-all-ireland-championship/19c42164-cad5-47c0-9639-5287e90f5921/"
 },
 {
+"id": "camogie:2026-03-08T14:00:00+00:00|U16A Championship|Round 3|Cork|Tipperary#1",
+"date": "2026-03-08T14:00:00+00:00",
+"time": "14:00",
+"tbc": false,
+"status": "active",
+"sport": "Camogie",
+"competition": "U16A Championship",
+"competitionId": "893c02a3-6a88-402c-880c-e8fda90fed05",
+"rank": null,
+"group": null,
+"round": "Round 3",
+"home": {
+"id": null,
+"name": "Cork"
+},
+"away": {
+"id": null,
+"name": "Tipperary"
+},
+"venueId": "1e2b2da4-5c0d-4e36-aa3c-389182ad43d3",
+"venue": "Cork Camogie Grounds, Castle Road",
+"result": true,
+"score": {
+"hg": 2,
+"hp": 7,
+"ag": 1,
+"ap": 14
+},
+"tickets": null,
+"tv": null,
+"url": "https://camogie.ie/fixtures-results/camogie/inter_county/underage/u16-a-all-ireland-championship/893c02a3-6a88-402c-880c-e8fda90fed05/"
+},
+{
 "id": "camogie:2026-03-08T14:00:00+00:00|U16A Championship|Round 3|Galway|Kilkenny",
 "date": "2026-03-08T14:00:00+00:00",
 "time": "14:00",
@@ -2776,6 +3304,39 @@
 "url": "https://camogie.ie/fixtures-results/camogie/inter_county/underage/u16-a-all-ireland-championship/19c42164-cad5-47c0-9639-5287e90f5921/"
 },
 {
+"id": "camogie:2026-03-08T14:00:00+00:00|U16A Championship|Round 3|Galway|Kilkenny#1",
+"date": "2026-03-08T14:00:00+00:00",
+"time": "14:00",
+"tbc": false,
+"status": "active",
+"sport": "Camogie",
+"competition": "U16A Championship",
+"competitionId": "893c02a3-6a88-402c-880c-e8fda90fed05",
+"rank": null,
+"group": null,
+"round": "Round 3",
+"home": {
+"id": null,
+"name": "Galway"
+},
+"away": {
+"id": null,
+"name": "Kilkenny"
+},
+"venueId": "ee37d5ac-6c4c-4067-92dd-17dc3a1cbb7e",
+"venue": "Duggan Park",
+"result": true,
+"score": {
+"hg": 2,
+"hp": 13,
+"ag": 2,
+"ap": 14
+},
+"tickets": null,
+"tv": null,
+"url": "https://camogie.ie/fixtures-results/camogie/inter_county/underage/u16-a-all-ireland-championship/893c02a3-6a88-402c-880c-e8fda90fed05/"
+},
+{
 "id": "camogie:2026-03-08T14:00:00+00:00|U16A Championship|Round 3|Waterford|Limerick",
 "date": "2026-03-08T14:00:00+00:00",
 "time": "14:00",
@@ -2807,6 +3368,39 @@
 "tickets": null,
 "tv": null,
 "url": "https://camogie.ie/fixtures-results/camogie/inter_county/underage/u16-a-all-ireland-championship/19c42164-cad5-47c0-9639-5287e90f5921/"
+},
+{
+"id": "camogie:2026-03-08T14:00:00+00:00|U16A Championship|Round 3|Waterford|Limerick#1",
+"date": "2026-03-08T14:00:00+00:00",
+"time": "14:00",
+"tbc": false,
+"status": "active",
+"sport": "Camogie",
+"competition": "U16A Championship",
+"competitionId": "893c02a3-6a88-402c-880c-e8fda90fed05",
+"rank": null,
+"group": null,
+"round": "Round 3",
+"home": {
+"id": null,
+"name": "Waterford"
+},
+"away": {
+"id": null,
+"name": "Limerick"
+},
+"venueId": "2e0c7a64-6e3a-48d8-97e2-96fbccbbfe8a",
+"venue": "SETU Waterford X91 XD96",
+"result": true,
+"score": {
+"hg": 5,
+"hp": 17,
+"ag": 3,
+"ap": 8
+},
+"tickets": null,
+"tv": null,
+"url": "https://camogie.ie/fixtures-results/camogie/inter_county/underage/u16-a-all-ireland-championship/893c02a3-6a88-402c-880c-e8fda90fed05/"
 },
 {
 "id": "camogie:2026-03-08T14:00:00+00:00|U16A Shield Championship|Round 2|Laois|Antrim",
@@ -3852,7 +4446,7 @@
 "name": "Westmeath"
 },
 "venueId": "8f8eb74b-df7e-438d-8c73-119ebde8b3c3",
-"venue": "Laois Hire O'Moore Park",
+"venue": "Laois Hire O'Moore Park, Portlaoise",
 "result": true,
 "score": {
 "hg": 2,
@@ -4235,6 +4829,39 @@
 "status": "active",
 "sport": "Camogie",
 "competition": "U16A Championship",
+"competitionId": "893c02a3-6a88-402c-880c-e8fda90fed05",
+"rank": null,
+"group": null,
+"round": "Round 4",
+"home": {
+"id": null,
+"name": "Galway"
+},
+"away": {
+"id": null,
+"name": "Limerick"
+},
+"venueId": "ee37d5ac-6c4c-4067-92dd-17dc3a1cbb7e",
+"venue": "Duggan Park",
+"result": true,
+"score": {
+"hg": 2,
+"hp": 19,
+"ag": 0,
+"ap": 4
+},
+"tickets": null,
+"tv": null,
+"url": "https://camogie.ie/fixtures-results/camogie/inter_county/underage/u16-a-all-ireland-championship/893c02a3-6a88-402c-880c-e8fda90fed05/"
+},
+{
+"id": "camogie:2026-03-22T14:00:00+00:00|U16A Championship|Round 4|Galway|Limerick#1",
+"date": "2026-03-22T14:00:00+00:00",
+"time": "14:00",
+"tbc": false,
+"status": "active",
+"sport": "Camogie",
+"competition": "U16A Championship",
 "competitionId": "19c42164-cad5-47c0-9639-5287e90f5921",
 "rank": null,
 "group": null,
@@ -4262,6 +4889,39 @@
 },
 {
 "id": "camogie:2026-03-22T14:00:00+00:00|U16A Championship|Round 4|Kilkenny|Tipperary",
+"date": "2026-03-22T14:00:00+00:00",
+"time": "14:00",
+"tbc": false,
+"status": "active",
+"sport": "Camogie",
+"competition": "U16A Championship",
+"competitionId": "893c02a3-6a88-402c-880c-e8fda90fed05",
+"rank": null,
+"group": null,
+"round": "Round 4",
+"home": {
+"id": null,
+"name": "Kilkenny"
+},
+"away": {
+"id": null,
+"name": "Tipperary"
+},
+"venueId": "44906002-a955-4dad-ba7c-9bad1056a739",
+"venue": "Young Irelands, Gowran",
+"result": true,
+"score": {
+"hg": 1,
+"hp": 16,
+"ag": 2,
+"ap": 6
+},
+"tickets": null,
+"tv": null,
+"url": "https://camogie.ie/fixtures-results/camogie/inter_county/underage/u16-a-all-ireland-championship/893c02a3-6a88-402c-880c-e8fda90fed05/"
+},
+{
+"id": "camogie:2026-03-22T14:00:00+00:00|U16A Championship|Round 4|Kilkenny|Tipperary#1",
 "date": "2026-03-22T14:00:00+00:00",
 "time": "14:00",
 "tbc": false,
@@ -4325,6 +4985,39 @@
 "tickets": null,
 "tv": null,
 "url": "https://camogie.ie/fixtures-results/camogie/inter_county/underage/u16-a-all-ireland-championship/19c42164-cad5-47c0-9639-5287e90f5921/"
+},
+{
+"id": "camogie:2026-03-22T14:00:00+00:00|U16A Championship|Round 4|Waterford|Cork#1",
+"date": "2026-03-22T14:00:00+00:00",
+"time": "14:00",
+"tbc": false,
+"status": "active",
+"sport": "Camogie",
+"competition": "U16A Championship",
+"competitionId": "893c02a3-6a88-402c-880c-e8fda90fed05",
+"rank": null,
+"group": null,
+"round": "Round 4",
+"home": {
+"id": null,
+"name": "Waterford"
+},
+"away": {
+"id": null,
+"name": "Cork"
+},
+"venueId": "2e0c7a64-6e3a-48d8-97e2-96fbccbbfe8a",
+"venue": "SETU Waterford X91 XD96",
+"result": true,
+"score": {
+"hg": 1,
+"hp": 8,
+"ag": 2,
+"ap": 8
+},
+"tickets": null,
+"tv": null,
+"url": "https://camogie.ie/fixtures-results/camogie/inter_county/underage/u16-a-all-ireland-championship/893c02a3-6a88-402c-880c-e8fda90fed05/"
 },
 {
 "id": "camogie:2026-03-22T14:00:00+00:00|U16A Shield Championship|Round 3|Antrim|Wexford",
@@ -5667,7 +6360,7 @@
 "name": "Cavan"
 },
 "venueId": "1a4d2469-a526-4602-aaf4-53b97137a133",
-"venue": "Coralstown/Kinnegad GAA",
+"venue": "Coralstown/Kinnegad",
 "result": true,
 "score": {
 "hg": 4,
