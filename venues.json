@@ -220,6 +220,12 @@
   "matched": "Ardclough GAA, Wheatfield Upper, 13th Lock, Donaghcumper ED, The Municipal District of Celbridge — Leixlip, County Kilda",
   "hint": "Kildare"
  },
+ "ee39b4f3-6a5a-46b9-b9c4-f787b1e22867": {
+  "name": "Ardfert Community Field",
+  "lat": null,
+  "lon": null,
+  "hint": "Kerry"
+ },
  "3eb1fa83-054c-4b5a-baa1-6f72af9c38af": {
   "name": "Ardfinnan GAA Pitch",
   "lat": 52.29979,
@@ -1078,6 +1084,14 @@
   "query": "Playing Fields, County Antrim, Ireland",
   "matched": "Boucher Playing Fields, Upper Falls, Ballymurphy, Belfast City District, County Antrim, Northern Ireland / Tuaisceart Éi",
   "hint": "Antrim"
+ },
+ "77d9a1e4-e12d-4c9c-ac3f-636e1e9ad2bf": {
+  "name": "Cloghan",
+  "lat": 53.22215,
+  "lon": -7.88377,
+  "query": "Cloghan GAA, Ireland",
+  "matched": "Cloghan GAA, Breachach, Cloghan, Cloghan ED, Birr, County Offaly, Leinster, Éire / Ireland",
+  "hint": null
  },
  "a6ce9079-363e-40bd-bfc3-81e3c523f26b": {
   "name": "Cloghan, Annyalla",
@@ -3262,6 +3276,12 @@
   "matched": "Mick Neville Park, L1203, Rathkeale, The Municipal District of Adare — Rathkeale, County Limerick, Munster, Éire / Irela",
   "hint": "Limerick"
  },
+ "61630c34-6732-47e3-bd3d-8c2e6129bdd4": {
+  "name": "Mid Ulster Sports Arenea",
+  "lat": null,
+  "lon": null,
+  "hint": null
+ },
  "dfcdf838-be8a-4ef1-a796-e9be08c172fc": {
   "name": "Mid Ulster Sports Complex, Cookstown",
   "lat": 54.63331,
@@ -3381,6 +3401,14 @@
   "query": "Templetuohy, County Tipperary, Ireland",
   "matched": "Templetouhy, The Municipal District of Thurles, County Tipperary, Munster, Éire / Ireland",
   "same": "aeec8778-79e2-4e3f-8b2d-560672fc5b1b"
+ },
+ "59df6e95-f6ce-4321-a4db-9e771e71dc42": {
+  "name": "Moyvane",
+  "lat": 52.50143,
+  "lon": -9.37069,
+  "query": "Moyvane, County Kerry, Ireland",
+  "matched": "Moyvane, Listowel Municipal District, County Kerry, Munster, Éire / Ireland",
+  "hint": "Kerry"
  },
  "46b3bb69-7ae6-482d-8418-dea17bf29b84": {
   "name": "Muckalee",
@@ -3989,6 +4017,14 @@
   "query": "Freshford, County Kilkenny, Ireland",
   "matched": "Freshford, The Municipal District of Castlecomer, County Kilkenny, Leinster, Éire / Ireland",
   "same": "aac48d2e-f7e1-42ff-abef-20fd5168ef40"
+ },
+ "9f5b59ee-9124-4577-b1f9-69511de17f5e": {
+  "name": "Páirc Mhic Shithigh (Listowel Emmets)",
+  "lat": 52.44725,
+  "lon": -9.47743,
+  "query": "(Listowel Emmets), County Kerry, Ireland",
+  "matched": "Listowel Emmets GAA (Frank Sheehy Park), R555, Listowel Urban ED, Listowel Municipal District, County Kerry, Munster, Éi",
+  "hint": "Kerry"
  },
  "26aaba53-306b-4032-8dcd-015e9dcf9406": {
   "name": "Páirc Na Féile (Brosna)",
@@ -4600,6 +4636,12 @@
   "query": "St Malachy's HS Castlewellan, BY31 9AG, County Down, Ireland",
   "matched": "Saint Malachy's High School, 3, Dublin Road, Burrenbridge, Castlewellan, Newry, Mourne and Down District Council, Northe",
   "hint": "Down"
+ },
+ "ce6adf9f-d7bd-4467-ab7e-05c71e173b08": {
+  "name": "St Malachys Castledawson",
+  "lat": null,
+  "lon": null,
+  "hint": null
  },
  "dbb431ec-c034-4169-aa05-2aa0384d04cb": {
   "name": "St Mary's Park, Garrison",

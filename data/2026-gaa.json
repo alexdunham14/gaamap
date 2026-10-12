@@ -1,7 +1,7 @@
 {
 "season": 2026,
 "source": "https://www.gaa.ie/fixtures-results",
-"fetched": "2026-10-05T12:15:00Z",
+"fetched": "2026-10-12T13:08:03Z",
 "fixtures": [
 {
 "id": "74bd5a76-e4ef-4223-8fa6-c6688cbe660a",
@@ -16695,6 +16695,34 @@
 "tickets": null,
 "tv": "Spórt TG4",
 "url": "/hurling/shinty-hurling-international/ireland-scotland/9abfb6e4-6223-44b7-8d25-57510681e49e"
+},
+{
+"id": "f5ea1b93-a3da-4776-af0c-7f395a5e0d0f",
+"date": "2026-12-05T00:00:00+00:00",
+"time": "00:00:00",
+"tbc": true,
+"status": "active",
+"sport": "Football",
+"competition": "AIB GAA Football All-Ireland Junior Club Championship",
+"competitionId": "54191b7e-49ea-4d16-a712-931041494bf0",
+"rank": 999,
+"group": "JuniorClubF",
+"round": "Twinning Final",
+"home": {
+"id": "9a96a2c7-3c0d-477f-f2a6-da3bf5383018",
+"name": "Britain"
+},
+"away": {
+"id": "37d097ca-f129-9d9a-a79c-2c2b843d2139",
+"name": "Ulster"
+},
+"venueId": "dafc6d23-29ca-4e4b-abb1-422faa9c3bf9",
+"venue": "Find Insurance Owenbeg",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "/football/aib-gaa-football-all-ireland-junior-club-championship/britain-ulster/f5ea1b93-a3da-4776-af0c-7f395a5e0d0f"
 }
 ]
 }
