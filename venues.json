@@ -67,6 +67,12 @@
   "matched": "Aghabog, Aghabog ED, Ballybay-Clones Municipal District, County Monaghan, Ulster, Éire / Ireland",
   "hint": "Monaghan"
  },
+ "67ead012-dad6-4be5-9c95-dd7bb503bac6": {
+  "name": "Aghada",
+  "lat": null,
+  "lon": null,
+  "hint": "Tipperary"
+ },
  "65f74b30-8b93-4421-8e3b-236153523966": {
   "name": "Aghaderg",
   "lat": 54.30307,
@@ -534,6 +540,14 @@
   "matched": "Batterstown, The Municipal District of Ratoath, County Meath, Leinster, Éire / Ireland",
   "hint": "Meath"
  },
+ "0c7be185-c7f6-42fd-b725-2dac546e1b7c": {
+  "name": "Beal Atha Poirin",
+  "lat": 52.27016,
+  "lon": -8.1001,
+  "query": "Beal Atha Poirin, County Tipperary, Ireland",
+  "matched": "Ballyporeen, The Municipal District of Cahir — Cashel, County Tipperary, Munster, Éire / Ireland",
+  "hint": "Tipperary"
+ },
  "fc1b5886-e263-4ce6-99b1-9da5c074e91c": {
   "name": "Beaufort",
   "lat": 52.06897,
@@ -644,6 +658,12 @@
   "matched": "Brewster Park, Factory Road, Kilmacormick, Enniskillen, Fermanagh and Omagh District, Northern Ireland / Tuaisceart Éire",
   "hint": "Fermanagh",
   "same": "54b4be41-4c0c-405c-8033-ebe68bbcff34"
+ },
+ "0b753d8c-8f4f-4399-8d3b-372f82a57e45": {
+  "name": "Britain Venue",
+  "lat": null,
+  "lon": null,
+  "hint": null
  },
  "65fcec3d-0021-458b-b6d4-25cebb8cf9db": {
   "name": "Broadford",
@@ -772,6 +792,12 @@
   "query": "Cappincur GAA, County Offaly, Ireland",
   "matched": "Cappincur GAA, L2025, Cappincur, Cappancur ED, The Municipal District of Tullamore, County Offaly, Leinster, Éire / Irel",
   "hint": "Offaly"
+ },
+ "2e7dd92e-2e3e-4030-9559-df8e26c860ec": {
+  "name": "Cappoquin",
+  "lat": null,
+  "lon": null,
+  "hint": "Clare"
  },
  "6c6b943a-a494-4fb8-93d6-2819ac9828ff": {
   "name": "Cappoquin Logistics Fraher Field",
@@ -1332,6 +1358,15 @@
   "hint": "Offaly"
  },
  "7de7f137-a977-4db3-8463-6e003e0f64d6": {
+  "name": "Cooraclare",
+  "lat": 52.70084,
+  "lon": -9.42083,
+  "query": "Cooraclare, County Clare, Ireland",
+  "matched": "Cooraclare, West Clare Municipal District, County Clare, Munster, Éire / Ireland",
+  "hint": "Clare",
+  "same": "a1ebce9c-dc54-49b6-9e89-939373a41dd4"
+ },
+ "a1ebce9c-dc54-49b6-9e89-939373a41dd4": {
   "name": "Cooraclare",
   "lat": 52.70084,
   "lon": -9.42083,
@@ -2693,6 +2728,12 @@
   "matched": "Killanena, Killanena ED, Killaloe Municipal District, County Clare, Munster, Éire / Ireland",
   "hint": "Clare"
  },
+ "a82af3b5-3b12-4a3f-b6f1-6421ce9f9f37": {
+  "name": "Killeagh",
+  "lat": null,
+  "lon": null,
+  "hint": "Tipperary"
+ },
  "e63600ae-9555-466c-aae3-fab22ae2f51e": {
   "name": "Killeeshil",
   "lat": 54.49581,
@@ -2960,6 +3001,14 @@
   "matched": "Leitrim, Newry, Mourne and Down District Council, Northern Ireland / Tuaisceart Éireann, United Kingdom",
   "hint": "Down",
   "same": "7705a781-b64d-4072-8807-f36afeadef66"
+ },
+ "f729cd38-18a8-41e2-ba30-b265658ac9ab": {
+  "name": "Liscannor",
+  "lat": 52.93858,
+  "lon": -9.39146,
+  "query": "Liscannor, County Clare, Ireland",
+  "matched": "Liscannor, County Clare, Munster, Éire / Ireland",
+  "hint": "Clare"
  },
  "d779efcf-d4ae-4960-89a4-51fe396df7f9": {
   "name": "Lisnaskea",
@@ -3392,6 +3441,12 @@
   "lon": -7.7016,
   "hint": "Donegal",
   "why": "Placed 2026-09-08 by a web search (high confidence, ground precision): Milford GAA, Milford, Co Donegal. Source: https://gaapitchlocator.net/provinces/ulster/donegal/"
+ },
+ "81131f01-eef8-4341-a8d6-5d43ad62fc4e": {
+  "name": "Moyne / Templtuohy Og",
+  "lat": null,
+  "lon": null,
+  "hint": "Tipperary"
  },
  "lgfa-moyne-templetuohy-gaa": {
   "name": "Moyne Templetuohy GAA",
@@ -4899,6 +4954,14 @@
   "matched": "Swinford Amenity Park, Swinford, Swineford ED, Claremorris-Swinford Municipal District, County Mayo, Connacht, Éire / Ir",
   "hint": "Mayo"
  },
+ "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707": {
+  "name": "TBC",
+  "lat": 53.4203,
+  "lon": -7.89427,
+  "query": "TBC, Ireland",
+  "matched": "TBC, Athlone Business and Technology Park, Athlone Business & Technology Park, Garrycastle, Athlone East Rural ED, The M",
+  "hint": null
+ },
  "93dcaa49-6b15-416e-9fbb-bb643a5ebd3a": {
   "name": "TEG Cusack Park, Westmeath",
   "lat": 53.52816,
@@ -5228,6 +5291,14 @@
   "matched": "Tullylish, Bleary, Armagh City, Banbridge and Craigavon District Council, County Down, Northern Ireland / Tuaisceart Éir",
   "hint": "Down"
  },
+ "bffad06f-d1d9-4d29-9871-000c21e1b4b1": {
+  "name": "Tyholland",
+  "lat": 54.26366,
+  "lon": -6.89571,
+  "query": "Tyholland, County Monaghan, Ireland",
+  "matched": "Tehallan, Monaghan Municipal District, County Monaghan, Ulster, Éire / Ireland",
+  "hint": "Monaghan"
+ },
  "lgfa-tir-na-nog-randalstown": {
   "name": "Tír na nÓg, Randalstown",
   "lat": 54.74989,
@@ -5301,6 +5372,12 @@
   "query": "University, Belfast, County Down, Ireland",
   "matched": "Catalyst Inc, Queens Road, Titanic Quarter, Queen's Island, Belfast City District, County Down, Northern Ireland / Tuais",
   "hint": "Down"
+ },
+ "2bcb7c75-3276-4a26-bba8-7b7b87b9c4ba": {
+  "name": "Ulster Venue",
+  "lat": null,
+  "lon": null,
+  "hint": null
  },
  "lgfa-university-college-cork": {
   "name": "University College Cork",
