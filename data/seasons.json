@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-19T10:49:03Z",
+ "generated": "2026-10-26T11:09:14Z",
  "latest": 2026,
  "seasons": [
   {
@@ -16,7 +16,7 @@
      "count": 514,
      "from": "2026-01-03",
      "to": "2026-12-19",
-     "fetched": "2026-10-19T10:43:49Z",
+     "fetched": "2026-10-26T11:03:47Z",
      "source": "https://www.gaa.ie/fixtures-results"
     },
     {
@@ -29,7 +29,7 @@
      "count": 329,
      "from": "2026-02-01",
      "to": "2026-08-09",
-     "fetched": "2026-10-19T10:44:12Z",
+     "fetched": "2026-10-26T11:04:12Z",
      "source": "https://camogie.ie/fixtures-results/"
     },
     {
@@ -42,7 +42,7 @@
      "count": 285,
      "from": "2026-01-18",
      "to": "2026-08-02",
-     "fetched": "2026-10-19T10:44:20Z",
+     "fetched": "2026-10-26T11:04:21Z",
      "source": "https://ladiesgaelic.ie/fixtures-results/results/"
     },
     {
@@ -55,10 +55,10 @@
       "Hurling",
       "Ladies' Football"
      ],
-     "count": 235,
+     "count": 188,
      "from": "2026-08-27",
      "to": "2026-12-06",
-     "fetched": "2026-10-19T10:49:03Z",
+     "fetched": "2026-10-26T11:09:14Z",
      "source": "county board and provincial council websites, listed in scripts/club_sites.json"
     }
    ]

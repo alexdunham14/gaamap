@@ -1,7 +1,7 @@
 {
 "season": 2026,
 "source": "https://www.gaa.ie/fixtures-results",
-"fetched": "2026-10-19T10:43:49Z",
+"fetched": "2026-10-26T11:03:47Z",
 "fixtures": [
 {
 "id": "74bd5a76-e4ef-4223-8fa6-c6688cbe660a",
@@ -16690,9 +16690,14 @@
 },
 "venueId": "81d41026-8e61-4377-89ea-a31fd0c41383",
 "venue": "SuperValu Páirc Uí Chaoimh, Cork",
-"result": false,
-"score": null,
-"tickets": null,
+"result": true,
+"score": {
+"hg": 2,
+"hp": 17,
+"ag": 4,
+"ap": 12
+},
+"tickets": "https://am.ticketmaster.com/gaa/buy/26PC2410",
 "tv": "Spórt TG4",
 "url": "/hurling/shinty-hurling-international/ireland-scotland/9abfb6e4-6223-44b7-8d25-57510681e49e"
 },

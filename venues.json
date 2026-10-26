@@ -377,6 +377,12 @@
   "matched": "Ballybay, Ballybay-Clones Municipal District, County Monaghan, Ulster, Éire / Ireland",
   "hint": "Monaghan"
  },
+ "0abc3b00-d4d9-4700-b2bc-aebf0ce670ce": {
+  "name": "Ballybricken",
+  "lat": null,
+  "lon": null,
+  "hint": "Clare"
+ },
  "3457c0e0-ea4d-4dde-bca1-8014768dd868": {
   "name": "Ballycran",
   "lat": 54.47731,
@@ -390,6 +396,14 @@
   "name": "Ballydonoghue",
   "lat": null,
   "lon": null,
+  "hint": "Kerry"
+ },
+ "4aefc602-4223-4bb4-aa8c-10bedad0d0af": {
+  "name": "Ballyduff",
+  "lat": 52.45556,
+  "lon": -9.66272,
+  "query": "Ballyduff, County Kerry, Ireland",
+  "matched": "Ballyduff, Ballyduff ED, Listowel Municipal District, County Kerry, Munster, Éire / Ireland",
   "hint": "Kerry"
  },
  "39011adf-0101-4f66-8846-0c10c57c90ff": {
@@ -1770,6 +1784,14 @@
   "matched": "Drung GAA Grounds, Lisbree Road, Rakenny ED, Bailieborough-Cootehill Municipal District, County Cavan, Ulster, Éire / Ir",
   "hint": "Cavan"
  },
+ "24c42480-65f9-43ab-a8f8-156bfc294dcb": {
+  "name": "Duagh",
+  "lat": 52.41415,
+  "lon": -9.38991,
+  "query": "Duagh, County Kerry, Ireland",
+  "matched": "Duagh, Listowel Municipal District, County Kerry, Munster, Éire / Ireland",
+  "hint": "Kerry"
+ },
  "ee37d5ac-6c4c-4067-92dd-17dc3a1cbb7e": {
   "name": "Duggan Park",
   "lat": 53.33092,
@@ -2276,6 +2298,12 @@
   "query": "Garvaghey, County Tyrone, Ireland",
   "matched": "Tyrone GAA Garvaghey Centre, 230, Rarogan Road, Ballygawley, Mid-Ulster District Council, Fermanagh and Omagh District, ",
   "hint": "Tyrone"
+ },
+ "38209890-1e33-468b-a4e8-2db7c126660b": {
+  "name": "Gaultier GAA Club",
+  "lat": null,
+  "lon": null,
+  "hint": "Clare"
  },
  "7a2c8ca9-d6aa-4e0b-8fbc-02511abe9b85": {
   "name": "Geashill",
@@ -3410,6 +3438,14 @@
   "query": "Edgeworthstown, County Longford, Ireland",
   "matched": "Edgeworthstown, Station Road, Edgeworthstown, Edgeworthstown ED, Ballymahon Municipal District, County Longford, Leinste",
   "hint": "Louth"
+ },
+ "4eac7345-e69e-481d-9596-4088e526acc1": {
+  "name": "Mountcoal (St Senans)",
+  "lat": 52.39609,
+  "lon": -9.51839,
+  "query": "Mountcoal, County Kerry, Ireland",
+  "matched": "Mountcoal, Rathea ED, Listowel Municipal District, County Kerry, Munster, Éire / Ireland",
+  "hint": "Kerry"
  },
  "lgfa-mourneabbey-community-centre": {
   "name": "Mourneabbey Community Centre",
@@ -4995,6 +5031,14 @@
   "matched": "TUS Campus, Moylish Roundabout, Caherdavin, Coolraine, The Metropolitan District of Limerick City, Limerick, County Lime",
   "hint": "Limerick"
  },
+ "b289d3ab-8904-441e-8069-2400db904e1c": {
+  "name": "Tarbert",
+  "lat": 52.57259,
+  "lon": -9.37454,
+  "query": "Tarbert, County Kerry, Ireland",
+  "matched": "Tarbert, County Kerry, Munster, V31 WD66, Éire / Ireland",
+  "hint": "Kerry"
+ },
  "0ccc553a-e94d-4b35-90f2-dceb3be97152": {
   "name": "Technological University Dublin Blanchardstown Campus",
   "lat": 53.40508,
@@ -5452,6 +5496,14 @@
   "query": "Whitegate, County Clare, Ireland",
   "matched": "Whitegate, Drummaan ED, Killaloe Municipal District, County Clare, Munster, Éire / Ireland",
   "hint": "Clare"
+ },
+ "51f5c939-4131-41f8-afe5-e674a93f5c6e": {
+  "name": "Willie Walsh Park (Knocknagoshel)",
+  "lat": 52.32334,
+  "lon": -9.38271,
+  "query": "Willie Walsh Park (Knocknagoshel), County Kerry, Ireland",
+  "matched": "Willie Walsh Park, Knocknagoshel GAA Grounds, Knocknagashel ED, Tralee Municipal District, County Kerry, Munster, Éire /",
+  "hint": "Kerry"
  },
  "c8e6da93-1011-4825-9366-59f825a68922": {
   "name": "Wolfe Tones Derrymacash",
