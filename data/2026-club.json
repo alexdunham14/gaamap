@@ -1,7 +1,7 @@
 {
 "season": 2026,
 "source": "county board and provincial council websites, listed in scripts/club_sites.json",
-"fetched": "2026-10-26T11:09:14Z",
+"fetched": "2026-11-02T13:33:04Z",
 "fixtures": [
 {
 "id": "club:tyrone:2026-08-27:fianna-oilean-an-ghuail-clg-v-errigal-ciaran",
@@ -238,1059 +238,6 @@
 "referee": null
 },
 {
-"id": "club:kildare:2026-10-13:moorefield-v-naas",
-"date": "2026-10-13T19:00:00+00:00",
-"time": "20:00",
-"tbc": false,
-"status": "active",
-"sport": "Hurling",
-"competition": "Kildare Intermediate Hurling Championship",
-"competitionId": null,
-"rank": null,
-"title": "2026 UPMC Intermediate Hurling Championship Semi Finals - Semi Finals",
-"group": null,
-"round": "Semi Finals",
-"home": {
-"id": null,
-"name": "Moorefield"
-},
-"away": {
-"id": null,
-"name": "Naas"
-},
-"venueId": "62864799-6ea2-4912-ae45-79fdf61f6c1e",
-"venue": "Manguard Park Pitch 1",
-"result": true,
-"score": {
-"hg": 2,
-"hp": 13,
-"ag": 4,
-"ap": 21
-},
-"tickets": null,
-"tv": null,
-"url": "https://kildaregaa.ie/fixtures-results/hurling/club/intermediate/2026-upmc-intermediate-hurling-championship/804abc02-d7b6-4285-953f-7361a2b025ac/",
-"club": "county",
-"grade": "intermediate",
-"county": "Kildare",
-"site": "kildare",
-"referee": "Conor Daly"
-},
-{
-"id": "club:tipperary:2026-10-16:ballyporeen-v-upperchurch-drombane",
-"date": "2026-10-16T18:45:00+00:00",
-"time": "19:45",
-"tbc": false,
-"status": "active",
-"sport": "Football",
-"competition": "Tipperary Tom Cusack Football Cup",
-"competitionId": null,
-"rank": null,
-"title": "Tom Cusack Cup - Cup Division 1 - Final",
-"group": "Cup Division 1",
-"round": "Final",
-"home": {
-"id": null,
-"name": "Ballyporeen"
-},
-"away": {
-"id": null,
-"name": "Upperchurch-Drombane"
-},
-"venueId": "0c7be185-c7f6-42fd-b725-2dac546e1b7c",
-"venue": "Beal Atha Poirin",
-"result": true,
-"score": {
-"hg": 1,
-"hp": 7,
-"ag": 2,
-"ap": 14
-},
-"tickets": null,
-"tv": null,
-"url": "https://tipperary.gaa.ie/fixtures-results/football/club/senior/tom-cusack-cup/c7606a0b-a647-46e7-ad13-b982b72cd713/",
-"club": "county",
-"grade": "senior",
-"county": "Tipperary",
-"site": "tipperary",
-"referee": "Brian Tyrrell"
-},
-{
-"id": "club:donegal:2026-10-16:clg-an-tearmainn-v-sean-mac-cumhaill",
-"date": "2026-10-16T19:00:00+00:00",
-"time": "20:00",
-"tbc": false,
-"status": "active",
-"sport": "Football",
-"competition": "Donegal Senior C Football Championship",
-"competitionId": null,
-"rank": null,
-"title": "Senior C Football Championship - Cup Division 1 - Final",
-"group": "Cup Division 1",
-"round": "Final",
-"home": {
-"id": null,
-"name": "CLG An Tearmainn"
-},
-"away": {
-"id": null,
-"name": "Sean Mac Cumhaill"
-},
-"venueId": "c148b6ca-3019-4a3e-8770-92f7cc080577",
-"venue": "Pairc Naomh Columba",
-"result": true,
-"score": {
-"hg": 0,
-"hp": 9,
-"ag": 1,
-"ap": 10
-},
-"tickets": null,
-"tv": null,
-"url": "https://donegalgaa.ie/fixtures-results/football/club/senior/c-football-championship/eb7ff3fa-fc7e-411b-a5f7-3ee0d01889c9/",
-"club": "county",
-"grade": "senior",
-"county": "Donegal",
-"site": "donegal",
-"referee": "Connie Doherty"
-},
-{
-"id": "club:kildare:2026-10-16:allenwood-v-carbury",
-"date": "2026-10-16T19:00:00+00:00",
-"time": "20:00",
-"tbc": false,
-"status": "active",
-"sport": "Football",
-"competition": "Kildare Senior Football Championship Relegation Play-Offs",
-"competitionId": null,
-"rank": null,
-"title": "2026 Joe Mallon Motor Senior Football Championship Relegation Play-Offs Semi-Finals - Semi Finals",
-"group": null,
-"round": "Semi Finals",
-"home": {
-"id": null,
-"name": "Allenwood"
-},
-"away": {
-"id": null,
-"name": "Carbury"
-},
-"venueId": "62864799-6ea2-4912-ae45-79fdf61f6c1e",
-"venue": "Manguard Park Pitch 1",
-"result": true,
-"score": {
-"hg": 0,
-"hp": 9,
-"ag": 2,
-"ap": 13
-},
-"tickets": null,
-"tv": null,
-"url": "https://kildaregaa.ie/fixtures-results/football/club/senior/2026-joe-mallon-motor-senior-football-championship-relegation-play-offs/031fb57f-24c3-43d2-9b5b-e0f57741b8cf/",
-"club": "county",
-"grade": "senior",
-"county": "Kildare",
-"site": "kildare",
-"referee": "Kieran Harris"
-},
-{
-"id": "club:kildare:2026-10-16:eadestown-v-sallins",
-"date": "2026-10-16T19:15:00+00:00",
-"time": "20:15",
-"tbc": false,
-"status": "active",
-"sport": "Football",
-"competition": "Kildare Senior Football A Championship",
-"competitionId": null,
-"rank": null,
-"title": "2026 Joe Mallon Motor Senior Football A Championship Semi Finals - Semi Finals",
-"group": null,
-"round": "Semi Finals",
-"home": {
-"id": null,
-"name": "Eadestown"
-},
-"away": {
-"id": null,
-"name": "Sallins"
-},
-"venueId": "478f5ee4-d30c-4590-911b-1e67fb1bc202",
-"venue": "Round Towers GFC",
-"result": true,
-"score": {
-"hg": 1,
-"hp": 13,
-"ag": 1,
-"ap": 12
-},
-"tickets": null,
-"tv": null,
-"url": "https://kildaregaa.ie/fixtures-results/football/club/senior/2026-joe-mallon-motors-senior-a-football-championship/21e5aa57-010a-42c1-8e7a-b59291815d12/",
-"club": "county",
-"grade": "senior",
-"county": "Kildare",
-"site": "kildare",
-"referee": "Owen Murphy"
-},
-{
-"id": "club:clare:2026-10-17:whitegate-v-ruan",
-"date": "2026-10-17T12:00:00+00:00",
-"time": "13:00",
-"tbc": false,
-"status": "active",
-"sport": "Camogie",
-"competition": "Clare Intermediate Camogie Championship",
-"competitionId": null,
-"rank": null,
-"title": "Clare Credit Unions Intermediate Camogie Championship - Intermediate Shield Final",
-"group": null,
-"round": "Intermediate Shield Final",
-"home": {
-"id": null,
-"name": "Whitegate"
-},
-"away": {
-"id": null,
-"name": "Ruan"
-},
-"venueId": "9e3da8fc-8fd0-4dab-9602-26116a848d82",
-"venue": "Eire Og, Ennis",
-"result": true,
-"score": {
-"hg": 2,
-"hp": 10,
-"ag": 1,
-"ap": 7
-},
-"tickets": null,
-"tv": null,
-"url": "https://clare.gaa.ie/fixtures-results/camogie/club/intermediate/intermediate-camogie-championship/6e1387f3-7c59-489d-a33e-ef78259c2ea2/",
-"club": "county",
-"grade": "intermediate",
-"county": "Clare",
-"site": "clare",
-"referee": "Kevin Walsh"
-},
-{
-"id": "club:tipperary:2026-10-17:templemore-v-tramore-ladies-gaelic-football-club",
-"date": "2026-10-17T12:00:00+00:00",
-"time": "13:00",
-"tbc": false,
-"status": "active",
-"sport": "Ladies' Football",
-"competition": "Munster Intermediate Club Ladies' Football Championship",
-"competitionId": null,
-"rank": null,
-"title": "Munster Intermediate Club Championship - Cup Division 1 - Qtr Final 1",
-"group": "Cup Division 1",
-"round": "Quarter-Final 1",
-"home": {
-"id": null,
-"name": "Templemore"
-},
-"away": {
-"id": null,
-"name": "Tramore Ladies Gaelic Football Club"
-},
-"venueId": "81131f01-eef8-4341-a8d6-5d43ad62fc4e",
-"venue": "Moyne / Templtuohy Og",
-"result": true,
-"score": {
-"hg": 2,
-"hp": 10,
-"ag": 0,
-"ap": 6
-},
-"tickets": null,
-"tv": null,
-"url": "https://tipperary.gaa.ie/fixtures-results/ladies_football/club/intermediate/munster-intermediate-club-championship-2026/7e453b42-6ee2-4e16-99e6-4b108bfe5550/",
-"club": "provincial",
-"grade": "intermediate",
-"county": "Tipperary",
-"site": "tipperary",
-"referee": "Conor McCarthy"
-},
-{
-"id": "club:down:2026-10-17:clonduff-gac-v-st-patrick-s-gac-portaferry",
-"date": "2026-10-17T13:00:00+00:00",
-"time": "14:00",
-"tbc": false,
-"status": "active",
-"sport": "Camogie",
-"competition": "Down Senior Camogie Championship",
-"competitionId": null,
-"rank": null,
-"title": "2026 Down Camogie Senior Championship - Final",
-"group": null,
-"round": "Final",
-"home": {
-"id": null,
-"name": "Clonduff GAC"
-},
-"away": {
-"id": null,
-"name": "St.Patrick's GAC, Portaferry"
-},
-"venueId": "d916d32f-78ba-413f-8e6f-c06d4227a11e",
-"venue": "Drumaness",
-"result": true,
-"score": {
-"hg": 0,
-"hp": 19,
-"ag": 0,
-"ap": 8
-},
-"tickets": null,
-"tv": null,
-"url": "https://downgaa.net/fixtures-results/camogie/club/senior/2026-down-camogie-adult-championship/605593c0-5d3c-4d6c-a1cf-4741bae992bb/",
-"club": "county",
-"grade": "senior",
-"county": "Down",
-"site": "down",
-"referee": "kieran rice"
-},
-{
-"id": "club:kildare:2026-10-17:caragh-v-kilcock",
-"date": "2026-10-17T13:00:00+00:00",
-"time": "14:00",
-"tbc": false,
-"status": "active",
-"sport": "Football",
-"competition": "Kildare Senior Football Championship Relegation Play-Offs",
-"competitionId": null,
-"rank": null,
-"title": "2026 Joe Mallon Motor Senior Football Championship Relegation Play-Offs Semi-Finals - Semi - Finals",
-"group": null,
-"round": "Finals",
-"home": {
-"id": null,
-"name": "Caragh"
-},
-"away": {
-"id": null,
-"name": "Kilcock"
-},
-"venueId": "62864799-6ea2-4912-ae45-79fdf61f6c1e",
-"venue": "Manguard Park Pitch 1",
-"result": true,
-"score": {
-"hg": 1,
-"hp": 11,
-"ag": 0,
-"ap": 11
-},
-"tickets": null,
-"tv": null,
-"url": "https://kildaregaa.ie/fixtures-results/football/club/senior/2026-joe-mallon-motor-senior-football-championship-relegation-play-offs/031fb57f-24c3-43d2-9b5b-e0f57741b8cf/",
-"club": "county",
-"grade": "senior",
-"county": "Kildare",
-"site": "kildare",
-"referee": "Henry barrett"
-},
-{
-"id": "club:clare:2026-10-17:liscannor-v-clonmel-commercials",
-"date": "2026-10-17T13:00:00+00:00",
-"time": "14:00",
-"tbc": false,
-"status": "active",
-"sport": "Ladies' Football",
-"competition": "Munster Senior B Ladies' Football Championship",
-"competitionId": null,
-"rank": null,
-"title": "Munster Senior B Championship - Cup Division 1 - Qtr Final 1",
-"group": "Cup Division 1",
-"round": "Quarter-Final 1",
-"home": {
-"id": null,
-"name": "Liscannor"
-},
-"away": {
-"id": null,
-"name": "Clonmel Commercials"
-},
-"venueId": "f729cd38-18a8-41e2-ba30-b265658ac9ab",
-"venue": "Liscannor",
-"result": true,
-"score": {
-"hg": 4,
-"hp": 16,
-"ag": 3,
-"ap": 8
-},
-"tickets": null,
-"tv": null,
-"url": "https://clare.gaa.ie/fixtures-results/ladies_football/club/senior/munster-senior-b-championship/ee98d0af-3bef-4b64-bc32-52e815aab233/",
-"club": "provincial",
-"grade": "senior",
-"county": "Clare",
-"site": "clare",
-"referee": "John Purcell"
-},
-{
-"id": "club:westmeath:2026-10-17:raharney-v-turin",
-"date": "2026-10-17T13:00:00+00:00",
-"time": "14:00",
-"tbc": false,
-"status": "active",
-"sport": "Hurling",
-"competition": "Westmeath Intermediate Hurling Championship",
-"competitionId": null,
-"rank": null,
-"title": "Westmeath Intermediate Hurling - Final",
-"group": null,
-"round": "Final",
-"home": {
-"id": null,
-"name": "Raharney"
-},
-"away": {
-"id": null,
-"name": "Turin"
-},
-"venueId": "93dcaa49-6b15-416e-9fbb-bb643a5ebd3a",
-"venue": "TEG Cusack Park, Westmeath",
-"result": true,
-"score": {
-"hg": 1,
-"hp": 9,
-"ag": 0,
-"ap": 19
-},
-"tickets": null,
-"tv": null,
-"url": "https://westmeathgaa.ie/fixtures-results/hurling/club/intermediate/westmeath-intermediate-hurling/e216e0c5-2861-4406-9645-ea085bc7b62f/",
-"club": "county",
-"grade": "intermediate",
-"county": "Westmeath",
-"site": "westmeath",
-"referee": "Kenneth Gunning"
-},
-{
-"id": "club:clare:2026-10-17:broadford-bodyke-v-eire-og-inis",
-"date": "2026-10-17T14:00:00+00:00",
-"time": "15:00",
-"tbc": false,
-"status": "active",
-"sport": "Camogie",
-"competition": "Clare Intermediate Camogie Championship",
-"competitionId": null,
-"rank": null,
-"title": "Clare Credit Unions Intermediate Camogie Championship - Fr. Liam Murray Cup Final",
-"group": null,
-"round": "Fr. Liam Murray Cup Final",
-"home": {
-"id": null,
-"name": "Broadford/Bodyke"
-},
-"away": {
-"id": null,
-"name": "Éire Óg Inis"
-},
-"venueId": "9ed841da-f647-4db8-80e8-fcc28c1eae44",
-"venue": "Tulla",
-"result": true,
-"score": {
-"hg": 0,
-"hp": 11,
-"ag": 0,
-"ap": 7
-},
-"tickets": null,
-"tv": null,
-"url": "https://clare.gaa.ie/fixtures-results/camogie/club/intermediate/intermediate-camogie-championship/6e1387f3-7c59-489d-a33e-ef78259c2ea2/",
-"club": "county",
-"grade": "intermediate",
-"county": "Clare",
-"site": "clare",
-"referee": "Kieran Liddane"
-},
-{
-"id": "club:kildare:2026-10-17:maynooth-v-naas",
-"date": "2026-10-17T14:45:00+00:00",
-"time": "15:45",
-"tbc": false,
-"status": "active",
-"sport": "Football",
-"competition": "Kildare Senior Football Championship",
-"competitionId": null,
-"rank": null,
-"title": "2026 Joe Mallon Motors Senior Football Championship Semi Finals - Semi Finals",
-"group": null,
-"round": "Semi Finals",
-"home": {
-"id": null,
-"name": "Maynooth"
-},
-"away": {
-"id": null,
-"name": "Naas"
-},
-"venueId": "7e4832c4-104a-42f3-82c3-731822a64745",
-"venue": "Cedral St Conleth's Newbridge",
-"result": true,
-"score": {
-"hg": 1,
-"hp": 15,
-"ag": 0,
-"ap": 16
-},
-"tickets": null,
-"tv": null,
-"url": "https://kildaregaa.ie/fixtures-results/football/club/senior/2026-joe-mallon-motors-senior-football-championship/f63c7b12-e530-45d6-b594-49ec95381a23/",
-"club": "county",
-"grade": "senior",
-"county": "Kildare",
-"site": "kildare",
-"referee": "Niall Colgan"
-},
-{
-"id": "club:cavan:2026-10-17:killygarry-gaa-club-clg-coill-an-gharrai-v-ramor-united-gfc",
-"date": "2026-10-17T15:00:00+00:00",
-"time": "16:00",
-"tbc": false,
-"status": "active",
-"sport": "Football",
-"competition": "Cavan Division 1 Kyte Powertech Football Championship",
-"competitionId": null,
-"rank": null,
-"title": "Breffni Cup Division 1 Kyte Powertech - Final",
-"group": null,
-"round": "Final",
-"home": {
-"id": null,
-"name": "Killygarry GAA Club/CLG Coill an Gharraí"
-},
-"away": {
-"id": null,
-"name": "Ramor United GFC"
-},
-"venueId": "5c54cb59-0bdb-4989-bc6b-7f531d9672cc",
-"venue": "Lavey GAA Grounds",
-"result": true,
-"score": {
-"hg": 1,
-"hp": 10,
-"ag": 3,
-"ap": 20
-},
-"tickets": null,
-"tv": null,
-"url": "https://cavangaa.ie/fixtures-results/football/club/senior/breffni-cup-2026/947a358a-19a7-4d92-a339-01af92a793fa/",
-"club": "county",
-"grade": "senior",
-"county": "Cavan",
-"site": "cavan",
-"referee": "Brendan Sweeney"
-},
-{
-"id": "club:cavan:2026-10-17:butlersbridge-g-a-a-v-crosserlough",
-"date": "2026-10-17T15:00:00+00:00",
-"time": "16:00",
-"tbc": false,
-"status": "active",
-"sport": "Football",
-"competition": "Cavan Division 2 O'Reilly Precast Football Championship",
-"competitionId": null,
-"rank": null,
-"title": "Breffni Cup Division 2 O'Reilly Precast - Rd 4",
-"group": null,
-"round": "Round 4",
-"home": {
-"id": null,
-"name": "Butlersbridge G.A.A"
-},
-"away": {
-"id": null,
-"name": "Crosserlough"
-},
-"venueId": "66310c81-2f21-4895-bc74-a3ef9afbe288",
-"venue": "Emmett Park",
-"result": true,
-"score": {
-"hg": 3,
-"hp": 7,
-"ag": 5,
-"ap": 19
-},
-"tickets": null,
-"tv": null,
-"url": "https://cavangaa.ie/fixtures-results/football/club/senior/breffni-cup-2026/947a358a-19a7-4d92-a339-01af92a793fa/",
-"club": "county",
-"grade": "senior",
-"county": "Cavan",
-"site": "cavan",
-"referee": "Kieran McCarville"
-},
-{
-"id": "club:cavan:2026-10-17:denn-v-lacken-gaa",
-"date": "2026-10-17T15:00:00+00:00",
-"time": "16:00",
-"tbc": false,
-"status": "active",
-"sport": "Football",
-"competition": "Cavan Division 3 Ruddens Services Station Football Championship",
-"competitionId": null,
-"rank": null,
-"title": "Breffni Cup Division 3 Ruddens Services Station - Rd 5",
-"group": null,
-"round": "Round 5",
-"home": {
-"id": null,
-"name": "Denn"
-},
-"away": {
-"id": null,
-"name": "Lacken GAA"
-},
-"venueId": "0ced6489-adc4-44d9-9b05-089e394b9d49",
-"venue": "St. Mattews Park",
-"result": true,
-"score": {
-"hg": 3,
-"hp": 12,
-"ag": 1,
-"ap": 5
-},
-"tickets": null,
-"tv": null,
-"url": "https://cavangaa.ie/fixtures-results/football/club/senior/breffni-cup-2026/947a358a-19a7-4d92-a339-01af92a793fa/",
-"club": "county",
-"grade": "senior",
-"county": "Cavan",
-"site": "cavan",
-"referee": "Barry McGovern"
-},
-{
-"id": "club:cavan:2026-10-17:drumgoon-v-cootehill-celtic",
-"date": "2026-10-17T15:00:00+00:00",
-"time": "16:00",
-"tbc": false,
-"status": "active",
-"sport": "Football",
-"competition": "Cavan Division 4 Fresh Today Football Championship",
-"competitionId": null,
-"rank": null,
-"title": "Breffni Cup Division 4 Fresh Today - Final",
-"group": null,
-"round": "Final",
-"home": {
-"id": null,
-"name": "Drumgoon"
-},
-"away": {
-"id": null,
-"name": "Cootehill Celtic"
-},
-"venueId": "e469e295-5112-414c-baba-6944f5b36544",
-"venue": "Max McGrath Memorial Park Redhills",
-"result": true,
-"score": {
-"hg": 3,
-"hp": 15,
-"ag": 2,
-"ap": 5
-},
-"tickets": null,
-"tv": null,
-"url": "https://cavangaa.ie/fixtures-results/football/club/senior/breffni-cup-2026/947a358a-19a7-4d92-a339-01af92a793fa/",
-"club": "county",
-"grade": "senior",
-"county": "Cavan",
-"site": "cavan",
-"referee": "John Emmo"
-},
-{
-"id": "club:clare:2026-10-17:an-bratach-inis-v-wolfe-tones-na-sionna",
-"date": "2026-10-17T15:00:00+00:00",
-"time": "16:00",
-"tbc": false,
-"status": "active",
-"sport": "Football",
-"competition": "Clare Intermediate Football Cup",
-"competitionId": null,
-"rank": null,
-"title": "TUS TUS Intermediate Football - Cup - Final",
-"group": null,
-"round": "Final",
-"home": {
-"id": null,
-"name": "An Bratach Inis"
-},
-"away": {
-"id": null,
-"name": "Wolfe Tones na Sionna"
-},
-"venueId": "0198790f-7890-4d73-9ab4-0bfcf8652c59",
-"venue": "Zimmer Biomet Páirc Chíosóg, Ennis",
-"result": true,
-"score": {
-"hg": 1,
-"hp": 14,
-"ag": 1,
-"ap": 13
-},
-"tickets": null,
-"tv": null,
-"url": "https://clare.gaa.ie/fixtures-results/football/club/intermediate/tus-intermediate-football/69cfb9ce-1f51-4455-aa1f-2bd40c26cc1d/",
-"club": "county",
-"grade": "intermediate",
-"county": "Clare",
-"site": "clare",
-"referee": "Barry Kelly"
-},
-{
-"id": "club:kildare:2026-10-17:clane-v-clogherinkoe",
-"date": "2026-10-17T15:00:00+00:00",
-"time": "16:00",
-"tbc": false,
-"status": "active",
-"sport": "Football",
-"competition": "Kildare Senior Football A Championship",
-"competitionId": null,
-"rank": null,
-"title": "2026 Joe Mallon Motor Senior Football A Championship Semi Finals - Semi Finals",
-"group": null,
-"round": "Semi Finals",
-"home": {
-"id": null,
-"name": "Clane"
-},
-"away": {
-"id": null,
-"name": "Clogherinkoe"
-},
-"venueId": "62864799-6ea2-4912-ae45-79fdf61f6c1e",
-"venue": "Manguard Park Pitch 1",
-"result": true,
-"score": {
-"hg": 3,
-"hp": 21,
-"ag": 1,
-"ap": 18
-},
-"tickets": null,
-"tv": null,
-"url": "https://kildaregaa.ie/fixtures-results/football/club/senior/2026-joe-mallon-motors-senior-a-football-championship/21e5aa57-010a-42c1-8e7a-b59291815d12/",
-"club": "county",
-"grade": "senior",
-"county": "Kildare",
-"site": "kildare",
-"referee": "Frank Delaney"
-},
-{
-"id": "club:meath:2026-10-17:duleek-bellewstown-gfc-v-navan-o-mahonys",
-"date": "2026-10-17T15:00:00+00:00",
-"time": "16:00",
-"tbc": false,
-"status": "active",
-"sport": "Football",
-"competition": "Meath Intermediate Football Championship",
-"competitionId": null,
-"rank": null,
-"title": "2026 - IFC - Meade Farm - Final",
-"group": null,
-"round": "Final",
-"home": {
-"id": null,
-"name": "Duleek-Bellewstown GFC"
-},
-"away": {
-"id": null,
-"name": "Navan O'Mahonys"
-},
-"venueId": "58805dec-a992-4372-945f-baa9b7281d67",
-"venue": "Devenish Park - Pitch 6",
-"result": true,
-"score": {
-"hg": 2,
-"hp": 17,
-"ag": 1,
-"ap": 10
-},
-"tickets": null,
-"tv": null,
-"url": "https://meath.gaa.ie/fixtures-results/football/club/intermediate/2026-ifc-meade-farm/d4103129-88fb-43aa-8642-4f3f74032c66/",
-"club": "county",
-"grade": "intermediate",
-"county": "Meath",
-"site": "meath",
-"referee": "Andrew Smith"
-},
-{
-"id": "club:monaghan:2026-10-17:eire-og-v-tyholland",
-"date": "2026-10-17T15:00:00+00:00",
-"time": "16:00",
-"tbc": false,
-"status": "active",
-"sport": "Football",
-"competition": "Monaghan Intermediate Football League",
-"competitionId": null,
-"rank": null,
-"title": "Intermediate Football League KO - Intermediate Relegation Play Off Final",
-"group": null,
-"round": "Intermediate Relegation Play Off Final",
-"home": {
-"id": null,
-"name": "Eire Óg"
-},
-"away": {
-"id": null,
-"name": "Tyholland"
-},
-"venueId": "db38d68c-6364-46c1-b1cc-d61a9b091d1d",
-"venue": "Scotstown",
-"result": true,
-"score": {
-"hg": 0,
-"hp": 7,
-"ag": 0,
-"ap": 12
-},
-"tickets": null,
-"tv": null,
-"url": "https://monaghangaa.ie/fixtures-results/football/club/intermediate/intermediate-football-league/3d859fba-4895-47ac-9e7c-587d13e7e20e/",
-"club": "county",
-"grade": "intermediate",
-"county": "Monaghan",
-"site": "monaghan",
-"referee": "Pat Mcenaney"
-},
-{
-"id": "club:monaghan:2026-10-17:tyrone-v-donaghmoyne",
-"date": "2026-10-17T15:00:00+00:00",
-"time": "16:00",
-"tbc": false,
-"status": "active",
-"sport": "Ladies' Football",
-"competition": "Monaghan Senior Club Ladies' Football Championship",
-"competitionId": null,
-"rank": null,
-"title": "Senior Club Championship Group 1 - Round 2",
-"group": "Group 1",
-"round": "Round 2",
-"home": {
-"id": null,
-"name": "Tyrone"
-},
-"away": {
-"id": null,
-"name": "Donaghmoyne"
-},
-"venueId": null,
-"venue": null,
-"result": true,
-"score": {
-"hg": 0,
-"hp": 8,
-"ag": 4,
-"ap": 11
-},
-"tickets": null,
-"tv": null,
-"url": "https://monaghangaa.ie/fixtures-results/ladies_football/club/senior/senior-club-championship/11d841b4-d785-46da-b762-96bb572458a0/",
-"club": "county",
-"grade": "senior",
-"county": "Monaghan",
-"site": "monaghan",
-"referee": "Siobhan Kelly"
-},
-{
-"id": "club:westmeath:2026-10-17:castlepollard-v-st-oliver-plunketts",
-"date": "2026-10-17T15:00:00+00:00",
-"time": "16:00",
-"tbc": false,
-"status": "active",
-"sport": "Hurling",
-"competition": "Westmeath Senior B Hurling Championship",
-"competitionId": null,
-"rank": null,
-"title": "Westmeath Senior B Hurling - Final",
-"group": null,
-"round": "Final",
-"home": {
-"id": null,
-"name": "Castlepollard"
-},
-"away": {
-"id": null,
-"name": "St Oliver Plunketts"
-},
-"venueId": "93dcaa49-6b15-416e-9fbb-bb643a5ebd3a",
-"venue": "TEG Cusack Park, Westmeath",
-"result": true,
-"score": {
-"hg": 2,
-"hp": 14,
-"ag": 4,
-"ap": 16
-},
-"tickets": null,
-"tv": null,
-"url": "https://westmeathgaa.ie/fixtures-results/hurling/club/senior/westmeath-senior-b-hurling/d935c3ed-65e1-4ce6-ae93-b5724499e9a8/",
-"club": "county",
-"grade": "senior",
-"county": "Westmeath",
-"site": "westmeath",
-"referee": "Sean Carroll"
-},
-{
-"id": "club:tyrone:2026-10-17:pomeroy-plunketts-v-rock-st-patrick-s",
-"date": "2026-10-17T16:00:00+00:00",
-"time": "17:00",
-"tbc": false,
-"status": "active",
-"sport": "Football",
-"competition": "Tyrone Intermediate Football Championship",
-"competitionId": null,
-"rank": null,
-"title": "Tyrone Intermediate Championship 2026 - Cup Division 1 - Intermediate Final Replay",
-"group": "Cup Division 1",
-"round": "Intermediate Final Replay",
-"home": {
-"id": null,
-"name": "Pomeroy Plunketts"
-},
-"away": {
-"id": null,
-"name": "Rock St Patrick's"
-},
-"venueId": "6ca98f6b-5348-4510-aefa-e0a1639aa028",
-"venue": "Dungannon",
-"result": true,
-"score": {
-"hg": 1,
-"hp": 13,
-"ag": 0,
-"ap": 23
-},
-"tickets": null,
-"tv": null,
-"url": "https://tyronegaa.ie/fixtures-results/football/club/intermediate/connollys-of-moy-intermediate-championship-2026/5afe74c4-e6a1-4d11-9bb9-383e81b0b532/",
-"club": "county",
-"grade": "intermediate",
-"county": "Tyrone",
-"site": "tyrone",
-"referee": null
-},
-{
-"id": "club:down:2026-10-17:newry-shamrocks-v-clonduff-gac",
-"date": "2026-10-17T16:30:00+00:00",
-"time": "17:30",
-"tbc": false,
-"status": "active",
-"sport": "Hurling",
-"competition": "Down Intermediate Hurling Championship",
-"competitionId": null,
-"rank": null,
-"title": "2026 Down GAA Northern Switchgear Intermediate Hurling Championship - Final",
-"group": null,
-"round": "Final",
-"home": {
-"id": null,
-"name": "Newry Shamrocks"
-},
-"away": {
-"id": null,
-"name": "Clonduff GAC"
-},
-"venueId": "c0b04cad-5890-43b4-869c-da8807e7ecc8",
-"venue": "Páirc Esler, Newry",
-"result": true,
-"score": {
-"hg": 2,
-"hp": 14,
-"ag": 1,
-"ap": 12
-},
-"tickets": null,
-"tv": null,
-"url": "https://downgaa.net/fixtures-results/hurling/club/intermediate/northern-switchgear-intermediate-hurling-championship-2026/0797e69d-2375-41af-9532-340bd487e2eb/",
-"club": "county",
-"grade": "intermediate",
-"county": "Down",
-"site": "down",
-"referee": "Denis McKay"
-},
-{
-"id": "club:monaghan:2026-10-18:aughnamullen-v-killeevan-sarsfields-clg",
-"date": "2026-10-18T10:00:00+00:00",
-"time": "11:00",
-"tbc": false,
-"status": "active",
-"sport": "Ladies' Football",
-"competition": "Monaghan Intermediate Ladies' Football League",
-"competitionId": null,
-"rank": null,
-"title": "Intermediate League - League Division 1 - Round 10",
-"group": "League Division 1",
-"round": "Round 10",
-"home": {
-"id": null,
-"name": "Aughnamullen"
-},
-"away": {
-"id": null,
-"name": "Killeevan Sarsfields CLG"
-},
-"venueId": "c8c34426-2897-4785-aa94-295368a8f490",
-"venue": "Aughnamullen",
-"result": true,
-"score": {
-"hg": 3,
-"hp": 11,
-"ag": 4,
-"ap": 11
-},
-"tickets": null,
-"tv": null,
-"url": "https://monaghangaa.ie/fixtures-results/ladies_football/club/intermediate/intermediate-league/87f965fb-4d4d-4a64-b82e-c57b6c2dc5ae/",
-"club": "county",
-"grade": "intermediate",
-"county": "Monaghan",
-"site": "monaghan",
-"referee": "Darren McQuillan"
-},
-{
-"id": "club:monaghan:2026-10-18:carrickmacross-v-castleblayney-faughs",
-"date": "2026-10-18T10:00:00+00:00",
-"time": "11:00",
-"tbc": false,
-"status": "active",
-"sport": "Ladies' Football",
-"competition": "Monaghan Intermediate Ladies' Football League",
-"competitionId": null,
-"rank": null,
-"title": "Intermediate League - League Division 1 - Round 10",
-"group": "League Division 1",
-"round": "Round 10",
-"home": {
-"id": null,
-"name": "Carrickmacross"
-},
-"away": {
-"id": null,
-"name": "Castleblayney Faughs"
-},
-"venueId": "bc702e31-d11e-47dc-a22d-276ed6e422b4",
-"venue": "Carrickmacross",
-"result": true,
-"score": {
-"hg": 2,
-"hp": 12,
-"ag": 1,
-"ap": 11
-},
-"tickets": null,
-"tv": null,
-"url": "https://monaghangaa.ie/fixtures-results/ladies_football/club/intermediate/intermediate-league/87f965fb-4d4d-4a64-b82e-c57b6c2dc5ae/",
-"club": "county",
-"grade": "intermediate",
-"county": "Monaghan",
-"site": "monaghan",
-"referee": "Martin Mc Mahon"
-},
-{
 "id": "club:ulster:2026-10-18:aodh-ruadh-ballyshannon-v-letterkenny-gaels",
 "date": "2026-10-18T10:00:00+00:00",
 "time": "11:00",
@@ -1328,45 +275,6 @@
 "county": null,
 "site": "ulster",
 "referee": "james Callaghan"
-},
-{
-"id": "club:ulster:2026-10-18:ballyvarley-hc-v-fionnbarra-naofa",
-"date": "2026-10-18T10:00:00+00:00",
-"time": "11:00",
-"tbc": false,
-"status": "active",
-"sport": "Hurling",
-"competition": "Ulster Junior Hurling B Club Championship",
-"competitionId": null,
-"rank": null,
-"title": "2026 Ulster GAA Hurling Junior B Club - MUSA Cookstown Group - 1",
-"group": null,
-"round": "Round 1",
-"home": {
-"id": null,
-"name": "Ballyvarley HC"
-},
-"away": {
-"id": null,
-"name": "Fionnbarra Naofa"
-},
-"venueId": "61630c34-6732-47e3-bd3d-8c2e6129bdd4",
-"venue": "Mid Ulster Sports Arenea",
-"result": true,
-"score": {
-"hg": 2,
-"hp": 7,
-"ag": 2,
-"ap": 2
-},
-"tickets": null,
-"tv": null,
-"url": "https://ulster.gaa.ie/fixtures-results/hurling/club/junior/2026-ulster-gaa-hurling-junior-b-club-tournament/0075189d-9307-488c-a960-ebfe8086b08a/",
-"club": "provincial",
-"grade": "junior",
-"county": null,
-"site": "ulster",
-"referee": "Eddie Nash"
 },
 {
 "id": "club:ulster:2026-10-18:banagher-res-v-clg-oirthear-bheal-feirste",
@@ -1447,45 +355,6 @@
 "referee": "Derek Maguire"
 },
 {
-"id": "club:ulster:2026-10-18:latton-o-rahilly-gaa-club-v-knocks-grattans",
-"date": "2026-10-18T10:00:00+00:00",
-"time": "11:00",
-"tbc": false,
-"status": "active",
-"sport": "Hurling",
-"competition": "Ulster Junior Hurling B Club Championship",
-"competitionId": null,
-"rank": null,
-"title": "2026 Ulster GAA Hurling Junior B Club - Cloghan Group - 1",
-"group": null,
-"round": "Round 1",
-"home": {
-"id": null,
-"name": "Latton O'Rahilly GAA Club"
-},
-"away": {
-"id": null,
-"name": "Knocks Grattans"
-},
-"venueId": "77d9a1e4-e12d-4c9c-ac3f-636e1e9ad2bf",
-"venue": "Cloghan",
-"result": true,
-"score": {
-"hg": 1,
-"hp": 7,
-"ag": 0,
-"ap": 0
-},
-"tickets": null,
-"tv": null,
-"url": "https://ulster.gaa.ie/fixtures-results/hurling/club/junior/2026-ulster-gaa-hurling-junior-b-club-tournament/0075189d-9307-488c-a960-ebfe8086b08a/",
-"club": "provincial",
-"grade": "junior",
-"county": null,
-"site": "ulster",
-"referee": "Oisin Maguire"
-},
-{
 "id": "club:ulster:2026-10-18:loch-mor-dal-gcais-gac-v-all-sts-gac-ballymena",
 "date": "2026-10-18T10:00:00+00:00",
 "time": "11:00",
@@ -1523,123 +392,6 @@
 "county": null,
 "site": "ulster",
 "referee": "Ciarán O'Kane"
-},
-{
-"id": "club:ulster:2026-10-18:na-magha-v-macnean-hurling-club",
-"date": "2026-10-18T10:00:00+00:00",
-"time": "11:00",
-"tbc": false,
-"status": "active",
-"sport": "Hurling",
-"competition": "Ulster Junior Hurling B Club Championship",
-"competitionId": null,
-"rank": null,
-"title": "2026 Ulster GAA Hurling Junior B Club - Ballyshannon Group - 1",
-"group": null,
-"round": "Round 1",
-"home": {
-"id": null,
-"name": "Na Magha"
-},
-"away": {
-"id": null,
-"name": "MacNean Hurling Club"
-},
-"venueId": "c6778b91-d8d8-43e8-8561-af473a8651dc",
-"venue": "Father Tierney Park, Ballyshannon",
-"result": true,
-"score": {
-"hg": 3,
-"hp": 5,
-"ag": 0,
-"ap": 4
-},
-"tickets": null,
-"tv": null,
-"url": "https://ulster.gaa.ie/fixtures-results/hurling/club/junior/2026-ulster-gaa-hurling-junior-b-club-tournament/0075189d-9307-488c-a960-ebfe8086b08a/",
-"club": "provincial",
-"grade": "junior",
-"county": null,
-"site": "ulster",
-"referee": "Gerard Mclaughlin"
-},
-{
-"id": "club:ulster:2026-10-18:st-malachy-s-castledawson-v-setanta",
-"date": "2026-10-18T10:00:00+00:00",
-"time": "11:00",
-"tbc": false,
-"status": "active",
-"sport": "Hurling",
-"competition": "Ulster Junior Hurling B Club Championship",
-"competitionId": null,
-"rank": null,
-"title": "2026 Ulster GAA Hurling Junior B Club - Castledawson Group - 1",
-"group": null,
-"round": "Round 1",
-"home": {
-"id": null,
-"name": "St Malachy's Castledawson"
-},
-"away": {
-"id": null,
-"name": "Setanta"
-},
-"venueId": "ce6adf9f-d7bd-4467-ab7e-05c71e173b08",
-"venue": "St Malachys Castledawson",
-"result": true,
-"score": {
-"hg": 4,
-"hp": 5,
-"ag": 1,
-"ap": 4
-},
-"tickets": null,
-"tv": null,
-"url": "https://ulster.gaa.ie/fixtures-results/hurling/club/junior/2026-ulster-gaa-hurling-junior-b-club-tournament/0075189d-9307-488c-a960-ebfe8086b08a/",
-"club": "provincial",
-"grade": "junior",
-"county": null,
-"site": "ulster",
-"referee": "Sean Curran"
-},
-{
-"id": "club:ulster:2026-10-18:ballyvarley-hc-v-banagher-res",
-"date": "2026-10-18T10:30:00+00:00",
-"time": "11:30",
-"tbc": false,
-"status": "active",
-"sport": "Hurling",
-"competition": "Ulster Junior Hurling B Club Championship",
-"competitionId": null,
-"rank": null,
-"title": "2026 Ulster GAA Hurling Junior B Club - MUSA Cookstown Group - 2",
-"group": null,
-"round": "Round 2",
-"home": {
-"id": null,
-"name": "Ballyvarley HC"
-},
-"away": {
-"id": null,
-"name": "Banagher Res"
-},
-"venueId": "61630c34-6732-47e3-bd3d-8c2e6129bdd4",
-"venue": "Mid Ulster Sports Arenea",
-"result": true,
-"score": {
-"hg": 2,
-"hp": 4,
-"ag": 3,
-"ap": 8
-},
-"tickets": null,
-"tv": null,
-"url": "https://ulster.gaa.ie/fixtures-results/hurling/club/junior/2026-ulster-gaa-hurling-junior-b-club-tournament/0075189d-9307-488c-a960-ebfe8086b08a/",
-"club": "provincial",
-"grade": "junior",
-"county": null,
-"site": "ulster",
-"referee": "Alan Nash"
 },
 {
 "id": "club:ulster:2026-10-18:clg-bun-cranncha-v-clg-oirthear-bheal-feirste",
@@ -1720,84 +472,6 @@
 "referee": "Ciarán O'Kane"
 },
 {
-"id": "club:ulster:2026-10-18:loch-mor-dal-gcais-gac-v-st-malachy-s-castledawson",
-"date": "2026-10-18T10:30:00+00:00",
-"time": "11:30",
-"tbc": false,
-"status": "active",
-"sport": "Hurling",
-"competition": "Ulster Junior Hurling B Club Championship",
-"competitionId": null,
-"rank": null,
-"title": "2026 Ulster GAA Hurling Junior B Club - Castledawson Group - 2",
-"group": null,
-"round": "Round 2",
-"home": {
-"id": null,
-"name": "Loch Mór Dál gCais GAC"
-},
-"away": {
-"id": null,
-"name": "St Malachy's Castledawson"
-},
-"venueId": "ce6adf9f-d7bd-4467-ab7e-05c71e173b08",
-"venue": "St Malachys Castledawson",
-"result": true,
-"score": {
-"hg": 0,
-"hp": 3,
-"ag": 0,
-"ap": 9
-},
-"tickets": null,
-"tv": null,
-"url": "https://ulster.gaa.ie/fixtures-results/hurling/club/junior/2026-ulster-gaa-hurling-junior-b-club-tournament/0075189d-9307-488c-a960-ebfe8086b08a/",
-"club": "provincial",
-"grade": "junior",
-"county": null,
-"site": "ulster",
-"referee": "Sean Curran"
-},
-{
-"id": "club:ulster:2026-10-18:inniskeen-v-latton-o-rahilly-gaa-club",
-"date": "2026-10-18T10:50:00+00:00",
-"time": "11:50",
-"tbc": false,
-"status": "active",
-"sport": "Hurling",
-"competition": "Ulster Junior Hurling B Club Championship",
-"competitionId": null,
-"rank": null,
-"title": "2026 Ulster GAA Hurling Junior B Club - Cloghan Group - 2",
-"group": null,
-"round": "Round 2",
-"home": {
-"id": null,
-"name": "Inniskeen"
-},
-"away": {
-"id": null,
-"name": "Latton O'Rahilly GAA Club"
-},
-"venueId": "77d9a1e4-e12d-4c9c-ac3f-636e1e9ad2bf",
-"venue": "Cloghan",
-"result": true,
-"score": {
-"hg": 2,
-"hp": 9,
-"ag": 2,
-"ap": 5
-},
-"tickets": null,
-"tv": null,
-"url": "https://ulster.gaa.ie/fixtures-results/hurling/club/junior/2026-ulster-gaa-hurling-junior-b-club-tournament/0075189d-9307-488c-a960-ebfe8086b08a/",
-"club": "provincial",
-"grade": "junior",
-"county": null,
-"site": "ulster",
-"referee": "Derek Maguire"
-},
-{
 "id": "club:ulster:2026-10-18:knocks-grattans-v-east-cavan-gaels",
 "date": "2026-10-18T10:50:00+00:00",
 "time": "11:50",
@@ -1874,123 +548,6 @@
 "county": null,
 "site": "ulster",
 "referee": "james Callaghan"
-},
-{
-"id": "club:ulster:2026-10-18:na-magha-v-letterkenny-gaels",
-"date": "2026-10-18T10:50:00+00:00",
-"time": "11:50",
-"tbc": false,
-"status": "active",
-"sport": "Hurling",
-"competition": "Ulster Junior Hurling B Club Championship",
-"competitionId": null,
-"rank": null,
-"title": "2026 Ulster GAA Hurling Junior B Club - Ballyshannon Group - 2",
-"group": null,
-"round": "Round 2",
-"home": {
-"id": null,
-"name": "Na Magha"
-},
-"away": {
-"id": null,
-"name": "Letterkenny Gaels"
-},
-"venueId": "c6778b91-d8d8-43e8-8561-af473a8651dc",
-"venue": "Father Tierney Park, Ballyshannon",
-"result": true,
-"score": {
-"hg": 2,
-"hp": 5,
-"ag": 1,
-"ap": 3
-},
-"tickets": null,
-"tv": null,
-"url": "https://ulster.gaa.ie/fixtures-results/hurling/club/junior/2026-ulster-gaa-hurling-junior-b-club-tournament/0075189d-9307-488c-a960-ebfe8086b08a/",
-"club": "provincial",
-"grade": "junior",
-"county": null,
-"site": "ulster",
-"referee": "Gerard Mclaughlin"
-},
-{
-"id": "club:monaghan:2026-10-18:monaghan-v-antrim",
-"date": "2026-10-18T11:00:00+00:00",
-"time": "12:00",
-"tbc": false,
-"status": "active",
-"sport": "Ladies' Football",
-"competition": "Monaghan Intermediate Club Ladies' Football Championship",
-"competitionId": null,
-"rank": null,
-"title": "Intermediate Club Championship - Quarter Finals",
-"group": null,
-"round": "Quarter Finals",
-"home": {
-"id": null,
-"name": "Monaghan"
-},
-"away": {
-"id": null,
-"name": "Antrim"
-},
-"venueId": null,
-"venue": null,
-"result": true,
-"score": {
-"hg": 2,
-"hp": 9,
-"ag": 0,
-"ap": 5
-},
-"tickets": null,
-"tv": null,
-"url": "https://monaghangaa.ie/fixtures-results/ladies_football/club/intermediate/intermediate-club-championship/242c090f-7bff-45ad-80ec-7754a281d575/",
-"club": "county",
-"grade": "intermediate",
-"county": "Monaghan",
-"site": "monaghan",
-"referee": "Sinéad Mc Hugh"
-},
-{
-"id": "club:ulster:2026-10-18:all-sts-gac-ballymena-v-st-malachy-s-castledawson",
-"date": "2026-10-18T11:00:00+00:00",
-"time": "12:00",
-"tbc": false,
-"status": "active",
-"sport": "Hurling",
-"competition": "Ulster Junior Hurling B Club Championship",
-"competitionId": null,
-"rank": null,
-"title": "2026 Ulster GAA Hurling Junior B Club - Castledawson Group - 3",
-"group": null,
-"round": "Round 3",
-"home": {
-"id": null,
-"name": "All Saints GAC, Ballymena"
-},
-"away": {
-"id": null,
-"name": "St Malachy's Castledawson"
-},
-"venueId": "ce6adf9f-d7bd-4467-ab7e-05c71e173b08",
-"venue": "St Malachys Castledawson",
-"result": true,
-"score": {
-"hg": 0,
-"hp": 7,
-"ag": 0,
-"ap": 4
-},
-"tickets": null,
-"tv": null,
-"url": "https://ulster.gaa.ie/fixtures-results/hurling/club/junior/2026-ulster-gaa-hurling-junior-b-club-tournament/0075189d-9307-488c-a960-ebfe8086b08a/",
-"club": "provincial",
-"grade": "junior",
-"county": null,
-"site": "ulster",
-"referee": "Ciarán O'Kane"
 },
 {
 "id": "club:ulster:2026-10-18:clg-bun-cranncha-v-ballyvarley-hc",
@@ -2071,84 +628,6 @@
 "referee": "Sean Curran"
 },
 {
-"id": "club:ulster:2026-10-18:fionnbarra-naofa-v-banagher-res",
-"date": "2026-10-18T11:00:00+00:00",
-"time": "12:00",
-"tbc": false,
-"status": "active",
-"sport": "Hurling",
-"competition": "Ulster Junior Hurling B Club Championship",
-"competitionId": null,
-"rank": null,
-"title": "2026 Ulster GAA Hurling Junior B Club - MUSA Cookstown Group - 3",
-"group": null,
-"round": "Round 3",
-"home": {
-"id": null,
-"name": "Fionnbarra Naofa"
-},
-"away": {
-"id": null,
-"name": "Banagher Res"
-},
-"venueId": "61630c34-6732-47e3-bd3d-8c2e6129bdd4",
-"venue": "Mid Ulster Sports Arenea",
-"result": true,
-"score": {
-"hg": 2,
-"hp": 3,
-"ag": 0,
-"ap": 6
-},
-"tickets": null,
-"tv": null,
-"url": "https://ulster.gaa.ie/fixtures-results/hurling/club/junior/2026-ulster-gaa-hurling-junior-b-club-tournament/0075189d-9307-488c-a960-ebfe8086b08a/",
-"club": "provincial",
-"grade": "junior",
-"county": null,
-"site": "ulster",
-"referee": "Eddie Nash"
-},
-{
-"id": "club:ulster:2026-10-18:all-sts-gac-ballymena-v-clg-carndomhnaigh",
-"date": "2026-10-18T11:30:00+00:00",
-"time": "12:30",
-"tbc": false,
-"status": "active",
-"sport": "Hurling",
-"competition": "Ulster Junior Hurling B Club Championship",
-"competitionId": null,
-"rank": null,
-"title": "2026 Ulster GAA Hurling Junior B Club - Castledawson Group - 4",
-"group": null,
-"round": "Round 4",
-"home": {
-"id": null,
-"name": "All Saints GAC, Ballymena"
-},
-"away": {
-"id": null,
-"name": "CLG Carndomhnaigh"
-},
-"venueId": "ce6adf9f-d7bd-4467-ab7e-05c71e173b08",
-"venue": "St Malachys Castledawson",
-"result": true,
-"score": {
-"hg": 1,
-"hp": 5,
-"ag": 1,
-"ap": 6
-},
-"tickets": null,
-"tv": null,
-"url": "https://ulster.gaa.ie/fixtures-results/hurling/club/junior/2026-ulster-gaa-hurling-junior-b-club-tournament/0075189d-9307-488c-a960-ebfe8086b08a/",
-"club": "provincial",
-"grade": "junior",
-"county": null,
-"site": "ulster",
-"referee": "Sean Curran"
-},
-{
 "id": "club:ulster:2026-10-18:clg-oirthear-bheal-feirste-v-ballyvarley-hc",
 "date": "2026-10-18T11:30:00+00:00",
 "time": "12:30",
@@ -2186,45 +665,6 @@
 "county": null,
 "site": "ulster",
 "referee": "Eddie Nash"
-},
-{
-"id": "club:ulster:2026-10-18:fionnbarra-naofa-v-clg-bun-cranncha",
-"date": "2026-10-18T11:30:00+00:00",
-"time": "12:30",
-"tbc": false,
-"status": "active",
-"sport": "Hurling",
-"competition": "Ulster Junior Hurling B Club Championship",
-"competitionId": null,
-"rank": null,
-"title": "2026 Ulster GAA Hurling Junior B Club - MUSA Cookstown Group - 4",
-"group": null,
-"round": "Round 4",
-"home": {
-"id": null,
-"name": "Fionnbarra Naofa"
-},
-"away": {
-"id": null,
-"name": "CLG Bun Cranncha"
-},
-"venueId": "61630c34-6732-47e3-bd3d-8c2e6129bdd4",
-"venue": "Mid Ulster Sports Arenea",
-"result": true,
-"score": {
-"hg": 0,
-"hp": 8,
-"ag": 3,
-"ap": 3
-},
-"tickets": null,
-"tv": null,
-"url": "https://ulster.gaa.ie/fixtures-results/hurling/club/junior/2026-ulster-gaa-hurling-junior-b-club-tournament/0075189d-9307-488c-a960-ebfe8086b08a/",
-"club": "provincial",
-"grade": "junior",
-"county": null,
-"site": "ulster",
-"referee": "Alan Nash"
 },
 {
 "id": "club:ulster:2026-10-18:setanta-v-loch-mor-dal-gcais-gac",
@@ -2266,45 +706,6 @@
 "referee": "Ciarán O'Kane"
 },
 {
-"id": "club:ulster:2026-10-18:inniskeen-v-knocks-grattans",
-"date": "2026-10-18T11:40:00+00:00",
-"time": "12:40",
-"tbc": false,
-"status": "active",
-"sport": "Hurling",
-"competition": "Ulster Junior Hurling B Club Championship",
-"competitionId": null,
-"rank": null,
-"title": "2026 Ulster GAA Hurling Junior B Club - Cloghan Group - 3",
-"group": null,
-"round": "Round 3",
-"home": {
-"id": null,
-"name": "Inniskeen"
-},
-"away": {
-"id": null,
-"name": "Knocks Grattans"
-},
-"venueId": "77d9a1e4-e12d-4c9c-ac3f-636e1e9ad2bf",
-"venue": "Cloghan",
-"result": true,
-"score": {
-"hg": 3,
-"hp": 6,
-"ag": 1,
-"ap": 2
-},
-"tickets": null,
-"tv": null,
-"url": "https://ulster.gaa.ie/fixtures-results/hurling/club/junior/2026-ulster-gaa-hurling-junior-b-club-tournament/0075189d-9307-488c-a960-ebfe8086b08a/",
-"club": "provincial",
-"grade": "junior",
-"county": null,
-"site": "ulster",
-"referee": "Derek Maguire"
-},
-{
 "id": "club:ulster:2026-10-18:latton-o-rahilly-gaa-club-v-east-cavan-gaels",
 "date": "2026-10-18T11:40:00+00:00",
 "time": "12:40",
@@ -2344,45 +745,6 @@
 "referee": "Oisin Maguire"
 },
 {
-"id": "club:ulster:2026-10-18:macnean-hurling-club-v-letterkenny-gaels",
-"date": "2026-10-18T11:40:00+00:00",
-"time": "12:40",
-"tbc": false,
-"status": "active",
-"sport": "Hurling",
-"competition": "Ulster Junior Hurling B Club Championship",
-"competitionId": null,
-"rank": null,
-"title": "2026 Ulster GAA Hurling Junior B Club - Ballyshannon Group - 3",
-"group": null,
-"round": "Round 3",
-"home": {
-"id": null,
-"name": "MacNean Hurling Club"
-},
-"away": {
-"id": null,
-"name": "Letterkenny Gaels"
-},
-"venueId": "c6778b91-d8d8-43e8-8561-af473a8651dc",
-"venue": "Father Tierney Park, Ballyshannon",
-"result": true,
-"score": {
-"hg": 2,
-"hp": 2,
-"ag": 2,
-"ap": 5
-},
-"tickets": null,
-"tv": null,
-"url": "https://ulster.gaa.ie/fixtures-results/hurling/club/junior/2026-ulster-gaa-hurling-junior-b-club-tournament/0075189d-9307-488c-a960-ebfe8086b08a/",
-"club": "provincial",
-"grade": "junior",
-"county": null,
-"site": "ulster",
-"referee": "james Callaghan"
-},
-{
 "id": "club:ulster:2026-10-18:na-magha-v-aodh-ruadh-ballyshannon",
 "date": "2026-10-18T11:40:00+00:00",
 "time": "12:40",
@@ -2420,162 +782,6 @@
 "county": null,
 "site": "ulster",
 "referee": "Gerard Mclaughlin"
-},
-{
-"id": "club:kerry:2026-10-18:ardfert-football-club-v-annascaul",
-"date": "2026-10-18T12:00:00+00:00",
-"time": "13:00",
-"tbc": false,
-"status": "active",
-"sport": "Football",
-"competition": "Kerry Senior Football County League",
-"competitionId": null,
-"rank": null,
-"title": "McCarthy Insurance Group Senior Football County League Division 3 - Round 11",
-"group": "League Division 3",
-"round": "Round 11",
-"home": {
-"id": null,
-"name": "Ardfert Football Club"
-},
-"away": {
-"id": null,
-"name": "Annascaul"
-},
-"venueId": "ee39b4f3-6a5a-46b9-b9c4-f787b1e22867",
-"venue": "Ardfert Community Field",
-"result": true,
-"score": {
-"hg": 0,
-"hp": 18,
-"ag": 0,
-"ap": 10
-},
-"tickets": null,
-"tv": null,
-"url": "https://kerrygaa.ie/fixtures-results/football/club/senior/mccarthy-insurance-group-senior-football-county-league/9fcb2a49-0aad-4527-96e4-876ea89c7445/",
-"club": "county",
-"grade": "senior",
-"county": "Kerry",
-"site": "kerry",
-"referee": "George O DONNELL"
-},
-{
-"id": "club:clare:2026-10-18:cooraclare-v-mkl-gaels",
-"date": "2026-10-18T12:00:00+00:00",
-"time": "13:00",
-"tbc": false,
-"status": "active",
-"sport": "Ladies' Football",
-"competition": "Munster Intermediate Club Ladies' Football Championship",
-"competitionId": null,
-"rank": null,
-"title": "AIB Munster Intermediate Club Championship - Cup Division 1 - Qtr Final 2",
-"group": "Cup Division 1",
-"round": "Quarter-Final 2",
-"home": {
-"id": null,
-"name": "Cooraclare"
-},
-"away": {
-"id": null,
-"name": "MKL Gaels"
-},
-"venueId": "a1ebce9c-dc54-49b6-9e89-939373a41dd4",
-"venue": "Cooraclare",
-"result": true,
-"score": {
-"hg": 3,
-"hp": 7,
-"ag": 0,
-"ap": 14
-},
-"tickets": null,
-"tv": null,
-"url": "https://clare.gaa.ie/fixtures-results/ladies_football/club/intermediate/munster-intermediate-club-championship-2026/7e453b42-6ee2-4e16-99e6-4b108bfe5550/",
-"club": "provincial",
-"grade": "intermediate",
-"county": "Clare",
-"site": "clare",
-"referee": "Billy CUMMINS"
-},
-{
-"id": "club:tipperary:2026-10-18:ath-fhada-v-cahir",
-"date": "2026-10-18T12:00:00+00:00",
-"time": "13:00",
-"tbc": false,
-"status": "active",
-"sport": "Ladies' Football",
-"competition": "Tipperary Ladies' Football Championship",
-"competitionId": null,
-"rank": null,
-"title": "MunsterSenior Club Championship 2026 - Cup Division 1 - Qtr Final",
-"group": "Cup Division 1",
-"round": "Quarter-Final",
-"home": {
-"id": null,
-"name": "Áth Fhada"
-},
-"away": {
-"id": null,
-"name": "Cahir"
-},
-"venueId": "67ead012-dad6-4be5-9c95-dd7bb503bac6",
-"venue": "Aghada",
-"result": true,
-"score": {
-"hg": 6,
-"hp": 11,
-"ag": 0,
-"ap": 10
-},
-"tickets": null,
-"tv": null,
-"url": "https://tipperary.gaa.ie/fixtures-results/ladies_football/club/senior/munster-senior-club-championship-2026/f38313b7-cb48-4e60-a9d3-5f6de83f06aa/",
-"club": "county",
-"grade": "senior",
-"county": "Tipperary",
-"site": "tipperary",
-"referee": "seamus mulvihill"
-},
-{
-"id": "club:ulster:2026-10-18:banagher-res-v-clg-bun-cranncha",
-"date": "2026-10-18T12:00:00+00:00",
-"time": "13:00",
-"tbc": false,
-"status": "active",
-"sport": "Hurling",
-"competition": "Ulster Junior Hurling B Club Championship",
-"competitionId": null,
-"rank": null,
-"title": "2026 Ulster GAA Hurling Junior B Club - MUSA Cookstown Group - 5",
-"group": null,
-"round": "Round 5",
-"home": {
-"id": null,
-"name": "Banagher Res"
-},
-"away": {
-"id": null,
-"name": "CLG Bun Cranncha"
-},
-"venueId": "61630c34-6732-47e3-bd3d-8c2e6129bdd4",
-"venue": "Mid Ulster Sports Arenea",
-"result": true,
-"score": {
-"hg": 3,
-"hp": 8,
-"ag": 2,
-"ap": 4
-},
-"tickets": null,
-"tv": null,
-"url": "https://ulster.gaa.ie/fixtures-results/hurling/club/junior/2026-ulster-gaa-hurling-junior-b-club-tournament/0075189d-9307-488c-a960-ebfe8086b08a/",
-"club": "provincial",
-"grade": "junior",
-"county": null,
-"site": "ulster",
-"referee": "Eddie Nash"
 },
 {
 "id": "club:ulster:2026-10-18:clg-oirthear-bheal-feirste-v-fionnbarra-naofa",
@@ -2654,903 +860,6 @@
 "county": null,
 "site": "ulster",
 "referee": "Sean Curran"
-},
-{
-"id": "club:ulster:2026-10-18:st-malachy-s-castledawson-v-clg-carndomhnaigh",
-"date": "2026-10-18T12:00:00+00:00",
-"time": "13:00",
-"tbc": false,
-"status": "active",
-"sport": "Hurling",
-"competition": "Ulster Junior Hurling B Club Championship",
-"competitionId": null,
-"rank": null,
-"title": "2026 Ulster GAA Hurling Junior B Club - Castledawson Group - 5",
-"group": null,
-"round": "Round 5",
-"home": {
-"id": null,
-"name": "St Malachy's Castledawson"
-},
-"away": {
-"id": null,
-"name": "CLG Carndomhnaigh"
-},
-"venueId": "ce6adf9f-d7bd-4467-ab7e-05c71e173b08",
-"venue": "St Malachys Castledawson",
-"result": true,
-"score": {
-"hg": 0,
-"hp": 6,
-"ag": 2,
-"ap": 4
-},
-"tickets": null,
-"tv": null,
-"url": "https://ulster.gaa.ie/fixtures-results/hurling/club/junior/2026-ulster-gaa-hurling-junior-b-club-tournament/0075189d-9307-488c-a960-ebfe8086b08a/",
-"club": "provincial",
-"grade": "junior",
-"county": null,
-"site": "ulster",
-"referee": "Ciarán O'Kane"
-},
-{
-"id": "club:kerry:2026-10-18:north-kerry-v-kenmare-shamrocks",
-"date": "2026-10-18T12:30:00+00:00",
-"time": "13:30",
-"tbc": false,
-"status": "active",
-"sport": "Football",
-"competition": "Kerry Senior Football County Championship",
-"competitionId": null,
-"rank": null,
-"title": "Garvey's SuperValu Senior Football County Championship - Semi-Final",
-"group": null,
-"round": "Semi-Final",
-"home": {
-"id": null,
-"name": "North Kerry"
-},
-"away": {
-"id": null,
-"name": "Kenmare Shamrocks"
-},
-"venueId": "3eda4e6f-5c16-4271-bf8a-555243ffbfb3",
-"venue": "Fitzgerald Stadium, Killarney",
-"result": true,
-"score": {
-"hg": 0,
-"hp": 9,
-"ag": 0,
-"ap": 15
-},
-"tickets": null,
-"tv": null,
-"url": "https://kerrygaa.ie/fixtures-results/football/club/senior/garveys-supervalu-senior-football-county-championship/e4978697-f0e6-4d24-84e4-2d1a0643c5cf/",
-"club": "county",
-"grade": "senior",
-"county": "Kerry",
-"site": "kerry",
-"referee": "Edmund Walsh"
-},
-{
-"id": "club:tipperary:2026-10-18:golden-kilfeacle-v-killenaule",
-"date": "2026-10-18T12:30:00+00:00",
-"time": "13:30",
-"tbc": false,
-"status": "active",
-"sport": "Football",
-"competition": "Tipperary Intermediate Football Championship (Barrett Cup)",
-"competitionId": null,
-"rank": null,
-"title": "FBD Insurance - County Tipperary Intermediate Football Championship (Barrett Cup) - Cup Division 1 - Final",
-"group": "Cup Division 1",
-"round": "Final",
-"home": {
-"id": null,
-"name": "Golden-Kilfeacle"
-},
-"away": {
-"id": null,
-"name": "Killenaule"
-},
-"venueId": "94730150-c0d2-49a6-8378-57f5c5408cc9",
-"venue": "FBD Semple Stadium, Thurles",
-"result": true,
-"score": {
-"hg": 0,
-"hp": 14,
-"ag": 2,
-"ap": 11
-},
-"tickets": null,
-"tv": null,
-"url": "https://tipperary.gaa.ie/fixtures-results/football/club/intermediate/fbd-insurance-county-tipperary-intermediate-football-championship-barrett-cup/74ad46d9-8294-490b-9100-1a0249b5ed9e/",
-"club": "county",
-"grade": "intermediate",
-"county": "Tipperary",
-"site": "tipperary",
-"referee": "Derek O Mahoney"
-},
-{
-"id": "club:kildare:2026-10-18:celbridge-v-sarsfields",
-"date": "2026-10-18T12:45:00+00:00",
-"time": "13:45",
-"tbc": false,
-"status": "active",
-"sport": "Football",
-"competition": "Kildare Senior Football Championship",
-"competitionId": null,
-"rank": null,
-"title": "2026 Joe Mallon Motors Senior Football Championship Semi Finals - Semi Finals",
-"group": null,
-"round": "Semi Finals",
-"home": {
-"id": null,
-"name": "Celbridge"
-},
-"away": {
-"id": null,
-"name": "Sarsfields"
-},
-"venueId": "7e4832c4-104a-42f3-82c3-731822a64745",
-"venue": "Cedral St Conleth's Newbridge",
-"result": true,
-"score": {
-"hg": 2,
-"hp": 9,
-"ag": 2,
-"ap": 17
-},
-"tickets": null,
-"tv": null,
-"url": "https://kildaregaa.ie/fixtures-results/football/club/senior/2026-joe-mallon-motors-senior-football-championship/f63c7b12-e530-45d6-b594-49ec95381a23/",
-"club": "county",
-"grade": "senior",
-"county": "Kildare",
-"site": "kildare",
-"referee": "Billy O'Connell"
-},
-{
-"id": "club:cavan:2026-10-18:cavan-v-tyrone",
-"date": "2026-10-18T13:00:00+00:00",
-"time": "14:00",
-"tbc": false,
-"status": "active",
-"sport": "Ladies' Football",
-"competition": "Cavan Intermediate Club Ladies' Football Championship",
-"competitionId": null,
-"rank": null,
-"title": "Intermediate Club Championship - Quarter Finals",
-"group": null,
-"round": "Quarter Finals",
-"home": {
-"id": null,
-"name": "Cavan"
-},
-"away": {
-"id": null,
-"name": "Tyrone"
-},
-"venueId": null,
-"venue": null,
-"result": true,
-"score": {
-"hg": 0,
-"hp": 13,
-"ag": 1,
-"ap": 8
-},
-"tickets": null,
-"tv": null,
-"url": "https://cavangaa.ie/fixtures-results/ladies_football/club/intermediate/intermediate-club-championship/242c090f-7bff-45ad-80ec-7754a281d575/",
-"club": "county",
-"grade": "intermediate",
-"county": "Cavan",
-"site": "cavan",
-"referee": "David Hurson"
-},
-{
-"id": "club:cavan:2026-10-18:knockbride-v-shane-o-neills",
-"date": "2026-10-18T13:00:00+00:00",
-"time": "14:00",
-"tbc": false,
-"status": "active",
-"sport": "Ladies' Football",
-"competition": "Cavan Senior Club Ladies' Football Championship",
-"competitionId": null,
-"rank": null,
-"title": "Senior Club Championship - Group 3 - Round 2",
-"group": "Group 3",
-"round": "Round 2",
-"home": {
-"id": null,
-"name": "Knockbride"
-},
-"away": {
-"id": null,
-"name": "Shane O'Neills"
-},
-"venueId": null,
-"venue": null,
-"result": true,
-"score": {
-"hg": 1,
-"hp": 19,
-"ag": 3,
-"ap": 10
-},
-"tickets": null,
-"tv": null,
-"url": "https://cavangaa.ie/fixtures-results/ladies_football/club/senior/senior-club-championship/11d841b4-d785-46da-b762-96bb572458a0/",
-"club": "county",
-"grade": "senior",
-"county": "Cavan",
-"site": "cavan",
-"referee": "Eddie Cuthbert"
-},
-{
-"id": "club:down:2026-10-18:atticall-v-mayobridge",
-"date": "2026-10-18T13:00:00+00:00",
-"time": "14:00",
-"tbc": false,
-"status": "active",
-"sport": "Camogie",
-"competition": "Down Intermediate Camogie Championship",
-"competitionId": null,
-"rank": null,
-"title": "2026 Down Camogie Intermediate Championship - Final",
-"group": null,
-"round": "Final",
-"home": {
-"id": null,
-"name": "Atticall"
-},
-"away": {
-"id": null,
-"name": "Mayobridge"
-},
-"venueId": "3787a02c-82ac-4131-8047-573290a9f366",
-"venue": "Clonduff",
-"result": true,
-"score": {
-"hg": 1,
-"hp": 8,
-"ag": 1,
-"ap": 13
-},
-"tickets": null,
-"tv": null,
-"url": "https://downgaa.net/fixtures-results/camogie/club/senior/2026-down-camogie-adult-championship/605593c0-5d3c-4d6c-a1cf-4741bae992bb/",
-"club": "county",
-"grade": "senior",
-"county": "Down",
-"site": "down",
-"referee": "Lorenzo McMullan"
-},
-{
-"id": "club:fermanagh:2026-10-18:armagh-v-fermanagh",
-"date": "2026-10-18T13:00:00+00:00",
-"time": "14:00",
-"tbc": false,
-"status": "active",
-"sport": "Ladies' Football",
-"competition": "Fermanagh Intermediate Club Ladies' Football Championship",
-"competitionId": null,
-"rank": null,
-"title": "Intermediate Club Championship - Quarter Finals",
-"group": null,
-"round": "Quarter Finals",
-"home": {
-"id": null,
-"name": "Armagh"
-},
-"away": {
-"id": null,
-"name": "Fermanagh"
-},
-"venueId": null,
-"venue": null,
-"result": true,
-"score": {
-"hg": 1,
-"hp": 12,
-"ag": 0,
-"ap": 10
-},
-"tickets": null,
-"tv": null,
-"url": "https://fermanagh.gaa.ie/fixtures-results/ladies_football/club/intermediate/intermediate-club-championship/242c090f-7bff-45ad-80ec-7754a281d575/",
-"club": "county",
-"grade": "intermediate",
-"county": "Fermanagh",
-"site": "fermanagh",
-"referee": "Ciara Gilroy"
-},
-{
-"id": "club:meath:2026-10-18:bhulf-ton-v-donaghmore-ashbourne",
-"date": "2026-10-18T13:00:00+00:00",
-"time": "14:00",
-"tbc": false,
-"status": "active",
-"sport": "Football",
-"competition": "Meath Senior Football Championship",
-"competitionId": null,
-"rank": null,
-"title": "2026 - SFC - Fairyhouse Steel - Final",
-"group": null,
-"round": "Final",
-"home": {
-"id": null,
-"name": "Bhulf Tón"
-},
-"away": {
-"id": null,
-"name": "Donaghmore/Ashbourne"
-},
-"venueId": "e4fb9164-da71-4adc-b9e4-7a4da24bec9f",
-"venue": "Donaghmore Ashbourne GAA",
-"result": true,
-"score": {
-"hg": 1,
-"hp": 19,
-"ag": 0,
-"ap": 12
-},
-"tickets": null,
-"tv": null,
-"url": "https://meath.gaa.ie/fixtures-results/football/club/senior/2026-sfc-fairyhouse-steel/25a14edf-b4f6-4bcb-ba26-27ad50353860/",
-"club": "county",
-"grade": "senior",
-"county": "Meath",
-"site": "meath",
-"referee": "David Coldrick"
-},
-{
-"id": "club:offaly:2026-10-18:kilcormac-killoughey-v-ballinamere",
-"date": "2026-10-18T13:15:00+00:00",
-"time": "14:15",
-"tbc": false,
-"status": "active",
-"sport": "Hurling",
-"competition": "Offaly Senior Hurling Championship",
-"competitionId": null,
-"rank": null,
-"title": "Molloy Environmental Senior Hurling Championship - Cup Division 1 - Final",
-"group": "Cup Division 1",
-"round": "Final",
-"home": {
-"id": null,
-"name": "Kilcormac-Killoughey"
-},
-"away": {
-"id": null,
-"name": "Ballinamere"
-},
-"venueId": "f7e07df5-c674-4304-96a2-1510941c18ca",
-"venue": "Glenisk O'Connor Park",
-"result": true,
-"score": {
-"hg": 0,
-"hp": 19,
-"ag": 0,
-"ap": 17
-},
-"tickets": null,
-"tv": null,
-"url": "https://offaly.gaa.ie/fixtures-results/hurling/club/senior/2026-senior-hurling-championship/7441793c-f051-4489-8efb-cd7e41617f74/",
-"club": "county",
-"grade": "senior",
-"county": "Offaly",
-"site": "offaly",
-"referee": "Matthew Farrell"
-},
-{
-"id": "club:kilkenny:2026-10-18:james-stephens-v-rower-inistioge",
-"date": "2026-10-18T14:00:00+00:00",
-"time": "15:00",
-"tbc": false,
-"status": "active",
-"sport": "Hurling",
-"competition": "Kilkenny Hurling Championship",
-"competitionId": null,
-"rank": null,
-"title": "Michael Lyng Motors Hyundai Championship - Co Final. Extra Time",
-"group": null,
-"round": null,
-"home": {
-"id": null,
-"name": "James Stephens"
-},
-"away": {
-"id": null,
-"name": "Rower Inistioge"
-},
-"venueId": "2e69ec4d-97e3-4b7f-b4a5-e0b60666ad66",
-"venue": "UPMC Nowlan Park",
-"result": true,
-"score": {
-"hg": 1,
-"hp": 16,
-"ag": 0,
-"ap": 16
-},
-"tickets": null,
-"tv": null,
-"url": "https://kilkennygaa.ie/fixtures-results/hurling/club/intermediate/michael-lyng-motors-hyundai-intermediate-hurling/beef3f3e-84b5-4bfe-af1a-4ed2d210b399/",
-"club": "county",
-"grade": "intermediate",
-"county": "Kilkenny",
-"site": "kilkenny",
-"referee": "Richie Holland"
-},
-{
-"id": "club:westmeath:2026-10-18:lough-lene-gaels-v-raharney",
-"date": "2026-10-18T14:00:00+00:00",
-"time": "15:00",
-"tbc": false,
-"status": "active",
-"sport": "Hurling",
-"competition": "Westmeath Senior A Hurling Championship",
-"competitionId": null,
-"rank": null,
-"title": "Westmeath Senior A Hurling - Final",
-"group": null,
-"round": "Final",
-"home": {
-"id": null,
-"name": "Lough Lene Gaels"
-},
-"away": {
-"id": null,
-"name": "Raharney"
-},
-"venueId": "93dcaa49-6b15-416e-9fbb-bb643a5ebd3a",
-"venue": "TEG Cusack Park, Westmeath",
-"result": true,
-"score": {
-"hg": 1,
-"hp": 16,
-"ag": 0,
-"ap": 16
-},
-"tickets": null,
-"tv": null,
-"url": "https://westmeathgaa.ie/fixtures-results/hurling/club/senior/westmeath-senior-a-hurling/b6dc00ab-714a-4a35-9c05-9aa63094c615/",
-"club": "county",
-"grade": "senior",
-"county": "Westmeath",
-"site": "westmeath",
-"referee": "Caymon Flynn"
-},
-{
-"id": "club:clare:2026-10-18:cill-mhuire-ui-bhreacain-v-eire-og-inis",
-"date": "2026-10-18T14:30:00+00:00",
-"time": "15:30",
-"tbc": false,
-"status": "active",
-"sport": "Football",
-"competition": "Clare Senior Football Cup",
-"competitionId": null,
-"rank": null,
-"title": "TUS TUS Senior Football - Cup - Final",
-"group": null,
-"round": "Final",
-"home": {
-"id": null,
-"name": "Cill Mhuire Ui Bhreacáin"
-},
-"away": {
-"id": null,
-"name": "Éire Óg Inis"
-},
-"venueId": "0198790f-7890-4d73-9ab4-0bfcf8652c59",
-"venue": "Zimmer Biomet Páirc Chíosóg, Ennis",
-"result": true,
-"score": {
-"hg": 1,
-"hp": 10,
-"ag": 2,
-"ap": 15
-},
-"tickets": null,
-"tv": null,
-"url": "https://clare.gaa.ie/fixtures-results/football/club/senior/tus-senior-football/6442d7b0-4b4b-4cac-bc1f-aef4695e3415/",
-"club": "county",
-"grade": "senior",
-"county": "Clare",
-"site": "clare",
-"referee": "Fergal O’Brien"
-},
-{
-"id": "club:donegal:2026-10-18:naomh-adhamhnain-st-eunan-s-v-naomh-conaill",
-"date": "2026-10-18T14:30:00+00:00",
-"time": "15:30",
-"tbc": false,
-"status": "active",
-"sport": "Football",
-"competition": "Donegal Senior Football Championship",
-"competitionId": null,
-"rank": null,
-"title": "Senior Football Championship - Cup Division 1 - Final",
-"group": "Cup Division 1",
-"round": "Final",
-"home": {
-"id": null,
-"name": "Naomh Adhamhnáin/St Eunan's"
-},
-"away": {
-"id": null,
-"name": "Naomh Conaill"
-},
-"venueId": "c6255e98-703f-4b67-adb8-ec2e63fb16e8",
-"venue": "Mac Cumhaill Park",
-"result": true,
-"score": {
-"hg": 1,
-"hp": 16,
-"ag": 1,
-"ap": 15
-},
-"tickets": null,
-"tv": null,
-"url": "https://donegalgaa.ie/fixtures-results/football/club/senior/senior-football-championship/396d5750-ade2-4044-8cb6-25d00f4d46d6/",
-"club": "county",
-"grade": "senior",
-"county": "Donegal",
-"site": "donegal",
-"referee": "Cathal Boland"
-},
-{
-"id": "club:kerry:2026-10-18:dr-crokes-v-spa",
-"date": "2026-10-18T14:30:00+00:00",
-"time": "15:30",
-"tbc": false,
-"status": "active",
-"sport": "Football",
-"competition": "Kerry Senior Football County Championship",
-"competitionId": null,
-"rank": null,
-"title": "Garvey's SuperValu Senior Football County Championship - Semi-Final",
-"group": null,
-"round": "Semi-Final",
-"home": {
-"id": null,
-"name": "Dr. Crokes"
-},
-"away": {
-"id": null,
-"name": "Spa"
-},
-"venueId": "3eda4e6f-5c16-4271-bf8a-555243ffbfb3",
-"venue": "Fitzgerald Stadium, Killarney",
-"result": true,
-"score": {
-"hg": 1,
-"hp": 20,
-"ag": 3,
-"ap": 11
-},
-"tickets": null,
-"tv": null,
-"url": "https://kerrygaa.ie/fixtures-results/football/club/senior/garveys-supervalu-senior-football-county-championship/e4978697-f0e6-4d24-84e4-2d1a0643c5cf/",
-"club": "county",
-"grade": "senior",
-"county": "Kerry",
-"site": "kerry",
-"referee": "Sean Joy"
-},
-{
-"id": "club:monaghan:2026-10-18:gaeil-triucha-clg-v-scotstown",
-"date": "2026-10-18T14:30:00+00:00",
-"time": "15:30",
-"tbc": false,
-"status": "active",
-"sport": "Football",
-"competition": "Monaghan Senior Football Championship",
-"competitionId": null,
-"rank": null,
-"title": "Senior Football Championship KO - Final",
-"group": null,
-"round": "Final",
-"home": {
-"id": null,
-"name": "Gaeil Triucha Clg"
-},
-"away": {
-"id": null,
-"name": "Scotstown"
-},
-"venueId": "d5eada5b-3cad-40ad-99cb-6773a166ec59",
-"venue": "Clones",
-"result": true,
-"score": {
-"hg": 0,
-"hp": 10,
-"ag": 1,
-"ap": 22
-},
-"tickets": null,
-"tv": null,
-"url": "https://monaghangaa.ie/fixtures-results/football/club/senior/senior-football-championship/5d0d90fc-8f40-4280-817b-7a5d71b6d62a/",
-"club": "county",
-"grade": "senior",
-"county": "Monaghan",
-"site": "monaghan",
-"referee": "Diarmuid Boylan"
-},
-{
-"id": "club:laois:2026-10-18:camross-gaa-club-v-the-harps",
-"date": "2026-10-18T14:45:00+00:00",
-"time": "15:45",
-"tbc": false,
-"status": "active",
-"sport": "Hurling",
-"competition": "Laois Senior Hurling Championship",
-"competitionId": null,
-"rank": null,
-"title": "Laois Shopping Centre Senior Hurling Championship - Final",
-"group": null,
-"round": "Final",
-"home": {
-"id": null,
-"name": "Camross GAA Club"
-},
-"away": {
-"id": null,
-"name": "The Harps"
-},
-"venueId": "8f8eb74b-df7e-438d-8c73-119ebde8b3c3",
-"venue": "Laois Hire O'Moore Park, Portlaoise",
-"result": true,
-"score": {
-"hg": 0,
-"hp": 13,
-"ag": 2,
-"ap": 23
-},
-"tickets": null,
-"tv": null,
-"url": "https://laoisgaa.ie/fixtures-results/hurling/club/senior/senior-hurling-championship/45807eed-e83d-4556-b993-09377bea07bf/",
-"club": "county",
-"grade": "senior",
-"county": "Laois",
-"site": "laois",
-"referee": "John Lalor"
-},
-{
-"id": "club:cavan:2026-10-18:gowna-v-kingscourt-stars",
-"date": "2026-10-18T15:00:00+00:00",
-"time": "16:00",
-"tbc": false,
-"status": "active",
-"sport": "Football",
-"competition": "Cavan Senior Football Championship",
-"competitionId": null,
-"rank": null,
-"title": "Senior Championship Kyte Powertech - Final",
-"group": null,
-"round": "Final",
-"home": {
-"id": null,
-"name": "Gowna"
-},
-"away": {
-"id": null,
-"name": "Kingscourt Stars"
-},
-"venueId": "edb4d5a9-2ef6-4bec-92cd-2d4dfde3895c",
-"venue": "Kingspan Breffni, Cavan",
-"result": true,
-"score": {
-"hg": 4,
-"hp": 17,
-"ag": 0,
-"ap": 14
-},
-"tickets": null,
-"tv": null,
-"url": "https://cavangaa.ie/fixtures-results/football/club/senior/championship-2026/2b2fe789-6b05-484a-9cb6-7273d38ec288/",
-"club": "county",
-"grade": "senior",
-"county": "Cavan",
-"site": "cavan",
-"referee": "Martin Sexton"
-},
-{
-"id": "club:down:2026-10-18:ballygalget-v-portaferry",
-"date": "2026-10-18T15:00:00+00:00",
-"time": "16:00",
-"tbc": false,
-"status": "active",
-"sport": "Hurling",
-"competition": "Down Senior Hurling Championship",
-"competitionId": null,
-"rank": null,
-"title": "Down GAA Morgan Fuels Senior Hurling Championship 2026 - Final",
-"group": null,
-"round": "Final",
-"home": {
-"id": null,
-"name": "Ballygalget"
-},
-"away": {
-"id": null,
-"name": "Portaferry"
-},
-"venueId": "c0b04cad-5890-43b4-869c-da8807e7ecc8",
-"venue": "Páirc Esler, Newry",
-"result": true,
-"score": {
-"hg": 2,
-"hp": 17,
-"ag": 2,
-"ap": 28
-},
-"tickets": null,
-"tv": null,
-"url": "https://downgaa.net/fixtures-results/hurling/club/senior/morgan-fuels-senior-hurling-championship-2026/9799562c-3575-4891-a7e8-32f5a169073b/",
-"club": "county",
-"grade": "senior",
-"county": "Down",
-"site": "down",
-"referee": "Peter Owens"
-},
-{
-"id": "club:kildare:2026-10-18:milltown-v-suncroft-gfc",
-"date": "2026-10-18T15:00:00+00:00",
-"time": "16:00",
-"tbc": false,
-"status": "active",
-"sport": "Football",
-"competition": "Kildare Intermediate Football Championship",
-"competitionId": null,
-"rank": null,
-"title": "2026 National Electrical Wholesalers Intermediate Football Championship Final - Final",
-"group": null,
-"round": "Final",
-"home": {
-"id": null,
-"name": "Milltown"
-},
-"away": {
-"id": null,
-"name": "Suncroft GFC"
-},
-"venueId": "7e4832c4-104a-42f3-82c3-731822a64745",
-"venue": "Cedral St Conleth's Newbridge",
-"result": true,
-"score": {
-"hg": 1,
-"hp": 12,
-"ag": 1,
-"ap": 12
-},
-"tickets": null,
-"tv": null,
-"url": "https://kildaregaa.ie/fixtures-results/football/club/intermediate/2026-national-electrical-wholesalers-intermediate-football-championship/1d66aa60-f92a-48fd-a43f-78b5bc33c4e5/",
-"club": "county",
-"grade": "intermediate",
-"county": "Kildare",
-"site": "kildare",
-"referee": "Ryan Moran"
-},
-{
-"id": "club:tipperary:2026-10-18:clonmel-commercials-v-loughmore-castleiney",
-"date": "2026-10-18T15:00:00+00:00",
-"time": "16:00",
-"tbc": false,
-"status": "active",
-"sport": "Football",
-"competition": "Tipperary Senior Football Championship",
-"competitionId": null,
-"rank": null,
-"title": "FBD Insurance - Tipperary Snr Football Chp - Knockout - Final",
-"group": "Knockout",
-"round": "Final",
-"home": {
-"id": null,
-"name": "Clonmel Commercials"
-},
-"away": {
-"id": null,
-"name": "Loughmore - Castleiney"
-},
-"venueId": "94730150-c0d2-49a6-8378-57f5c5408cc9",
-"venue": "FBD Semple Stadium, Thurles",
-"result": true,
-"score": {
-"hg": 0,
-"hp": 13,
-"ag": 0,
-"ap": 15
-},
-"tickets": null,
-"tv": null,
-"url": "https://tipperary.gaa.ie/fixtures-results/football/club/senior/fbd-insurance-county-tipperary-senior-football-championship-philly-ryan-cup/766c95bf-01ee-44e1-a05e-e61d236c794f/",
-"club": "county",
-"grade": "senior",
-"county": "Tipperary",
-"site": "tipperary",
-"referee": "Willie Fitzharris"
-},
-{
-"id": "club:tyrone:2026-10-18:edendork-st-malachy-s-v-aireagal-chiarain-clg",
-"date": "2026-10-18T15:30:00+00:00",
-"time": "16:30",
-"tbc": false,
-"status": "active",
-"sport": "Football",
-"competition": "Tyrone Senior Football Championship",
-"competitionId": null,
-"rank": null,
-"title": "Tyrone Senior Championship 2026 - Cup Division 1 - Final",
-"group": "Cup Division 1",
-"round": "Final",
-"home": {
-"id": null,
-"name": "Edendork St Malachy's"
-},
-"away": {
-"id": null,
-"name": "Aireagal Chiaráin CLG"
-},
-"venueId": "8ccafc9e-352f-4efc-8861-881246eadab9",
-"venue": "O'Neills Healy Park, Omagh",
-"result": true,
-"score": {
-"hg": 1,
-"hp": 12,
-"ag": 0,
-"ap": 15
-},
-"tickets": null,
-"tv": null,
-"url": "https://tyronegaa.ie/fixtures-results/football/club/senior/connollys-of-moy-senior-championship-2026/c61aed3c-7fb0-4199-996e-51af4b1bef94/",
-"club": "county",
-"grade": "senior",
-"county": "Tyrone",
-"site": "tyrone",
-"referee": null
-},
-{
-"id": "club:kildare:2026-10-18:kilcullen-gfc-v-straffan",
-"date": "2026-10-18T17:00:00+00:00",
-"time": "18:00",
-"tbc": false,
-"status": "active",
-"sport": "Football",
-"competition": "Kildare Intermediate Football Championship",
-"competitionId": null,
-"rank": null,
-"title": "2026 National Electricl Wholesalers Intermediate Football Relegation Final - Final",
-"group": null,
-"round": "Final",
-"home": {
-"id": null,
-"name": "Kilcullen GFC"
-},
-"away": {
-"id": null,
-"name": "Straffan"
-},
-"venueId": "62864799-6ea2-4912-ae45-79fdf61f6c1e",
-"venue": "Manguard Park Pitch 1",
-"result": true,
-"score": {
-"hg": 1,
-"hp": 18,
-"ag": 1,
-"ap": 12
-},
-"tickets": null,
-"tv": null,
-"url": "https://kildaregaa.ie/fixtures-results/football/club/intermediate/2026-national-electrical-wholesalers-intermediate-football-relegation-play-offs/95fdb611-dee6-4608-8c43-96f75487fb59/",
-"club": "county",
-"grade": "intermediate",
-"county": "Kildare",
-"site": "kildare",
-"referee": "Frank Delaney"
 },
 {
 "id": "club:ulster:2026-10-21:omagh-st-enda-s-v-erne-gaels-belleek",
@@ -3928,9 +1237,9 @@
 "venue": "Tyholland",
 "result": true,
 "score": {
-"hg": 4,
-"hp": 8,
-"ag": 3,
+"hg": 5,
+"hp": 9,
+"ag": 4,
 "ap": 3
 },
 "tickets": null,
@@ -4099,6 +1408,45 @@
 "referee": "seamus mulvihill"
 },
 {
+"id": "club:kilkenny:2026-10-25:shamrocks-ballyhale-v-tullaroan",
+"date": "2026-10-25T13:45:00+00:00",
+"time": "13:45",
+"tbc": false,
+"status": "active",
+"sport": "Hurling",
+"competition": "Kilkenny Senior Hurling Championship",
+"competitionId": null,
+"rank": null,
+"title": "St. Canice's Credit Union Snr Hurling Championship - Co Final Extra Time",
+"group": null,
+"round": null,
+"home": {
+"id": null,
+"name": "Shamrocks Ballyhale"
+},
+"away": {
+"id": null,
+"name": "Tullaroan"
+},
+"venueId": "2e69ec4d-97e3-4b7f-b4a5-e0b60666ad66",
+"venue": "UPMC Nowlan Park",
+"result": true,
+"score": {
+"hg": 2,
+"hp": 24,
+"ag": 0,
+"ap": 8
+},
+"tickets": null,
+"tv": null,
+"url": "https://kilkennygaa.ie/fixtures-results/hurling/club/senior/st-canices-credit-union-snr-hurling/f9d958a7-c06d-4918-b7b5-2706619ef490/",
+"club": "county",
+"grade": "senior",
+"county": "Kilkenny",
+"site": "kilkenny",
+"referee": "Owen Beehan"
+},
+{
 "id": "club:clare:2026-10-25:clar-atha-an-da-choradh-v-cora-finne",
 "date": "2026-10-25T14:00:00+00:00",
 "time": "14:00",
@@ -4214,6 +1562,45 @@
 "county": "Kerry",
 "site": "kerry",
 "referee": "Sean Joy"
+},
+{
+"id": "club:fermanagh:2026-10-25:derrygonnelly-harps-v-erne-gaels-belleek",
+"date": "2026-10-25T14:30:00+00:00",
+"time": "14:30",
+"tbc": false,
+"status": "active",
+"sport": "Football",
+"competition": "Fermanagh Senior Football Championship",
+"competitionId": null,
+"rank": null,
+"title": "Mannok SFC - Final",
+"group": null,
+"round": "Final",
+"home": {
+"id": null,
+"name": "Derrygonnelly Harps"
+},
+"away": {
+"id": null,
+"name": "Erne Gaels Belleek"
+},
+"venueId": "54b4be41-4c0c-405c-8033-ebe68bbcff34",
+"venue": "Brewster Park, Enniskillen",
+"result": true,
+"score": {
+"hg": 1,
+"hp": 12,
+"ag": 1,
+"ap": 21
+},
+"tickets": null,
+"tv": null,
+"url": "https://fermanagh.gaa.ie/fixtures-results/football/club/senior/mannok-senior-football-championship/d4343792-5afa-4bbc-970b-3091881ca10f/",
+"club": "county",
+"grade": "senior",
+"county": "Fermanagh",
+"site": "fermanagh",
+"referee": "Oliver McShea"
 },
 {
 "id": "club:clare:2026-10-25:an-bratach-inis-v-eidhneach-cill-na-mona",
@@ -4373,8 +1760,8 @@
 },
 {
 "id": "club:fermanagh:2026-10-25:devenish-st-mary-s-v-kinawley-brian-borus",
-"date": "2026-10-25T16:30:00+00:00",
-"time": "16:30",
+"date": "2026-10-25T18:00:00+00:00",
+"time": "18:00",
 "tbc": false,
 "status": "active",
 "sport": "Football",
@@ -4392,8 +1779,8 @@
 "id": null,
 "name": "Kinawley Brian Borus"
 },
-"venueId": "54b4be41-4c0c-405c-8033-ebe68bbcff34",
-"venue": "Brewster Park, Enniskillen",
+"venueId": "fa34cde4-c18c-41f2-8616-874b4e048a85",
+"venue": "Páirc Naomh Pádraig, An t-Iompú Deiseal",
 "result": true,
 "score": {
 "hg": 1,
@@ -4433,8 +1820,13 @@
 },
 "venueId": "73fd7da7-935f-4fbf-b889-5b45f4a06148",
 "venue": "Ballydonoghue",
-"result": false,
-"score": null,
+"result": true,
+"score": {
+"hg": 1,
+"hp": 11,
+"ag": 0,
+"ap": 5
+},
 "tickets": null,
 "tv": null,
 "url": "https://kerrygaa.ie/fixtures-results/football/club/intermediate/south-of-ireland-waste-disposal-north-kerry-intermediate-football-cup/65669eb4-b8af-44ea-8516-7d3110af51bb/",
@@ -4465,10 +1857,15 @@
 "id": null,
 "name": "Eadestown"
 },
-"venueId": "62864799-6ea2-4912-ae45-79fdf61f6c1e",
-"venue": "Manguard Park Pitch 1",
-"result": false,
-"score": null,
+"venueId": "7e4832c4-104a-42f3-82c3-731822a64745",
+"venue": "Cedral St Conleth's Newbridge",
+"result": true,
+"score": {
+"hg": 3,
+"hp": 22,
+"ag": 3,
+"ap": 19
+},
 "tickets": null,
 "tv": null,
 "url": "https://kildaregaa.ie/fixtures-results/football/club/senior/2026-joe-mallon-motors-senior-a-football-championship/21e5aa57-010a-42c1-8e7a-b59291815d12/",
@@ -4476,41 +1873,7 @@
 "grade": "senior",
 "county": "Kildare",
 "site": "kildare",
-"referee": "TBC"
-},
-{
-"id": "club:ulster:2026-10-31:swatragh-v-killeavy-st-moninna",
-"date": "2026-10-31T00:00:00+00:00",
-"time": null,
-"tbc": true,
-"status": "active",
-"sport": "Hurling",
-"competition": "Ulster Junior Club Hurling Championship",
-"competitionId": null,
-"rank": null,
-"title": "2026 Ulster GAA Hurling Junior Club Championship - Cup Division 1 - Quarter Final 2",
-"group": "Cup Division 1",
-"round": "Quarter Final 2",
-"home": {
-"id": null,
-"name": "Swatragh"
-},
-"away": {
-"id": null,
-"name": "Killeavy St Moninna"
-},
-"venueId": "dafc6d23-29ca-4e4b-abb1-422faa9c3bf9",
-"venue": "Find Insurance Owenbeg",
-"result": false,
-"score": null,
-"tickets": null,
-"tv": null,
-"url": "https://ulster.gaa.ie/fixtures-results/hurling/club/junior/2026-ulster-gaa-hurling-junior-club-championship/ce47439c-940c-49da-bad9-ff7b7ebfbbd0/",
-"club": "provincial",
-"grade": "junior",
-"county": null,
-"site": "ulster",
-"referee": "Aiden Mc Aleer"
+"referee": "Fergal Barry"
 },
 {
 "id": "club:kerry:2026-10-31:tarbert-v-brosna",
@@ -4535,8 +1898,13 @@
 },
 "venueId": "b289d3ab-8904-441e-8069-2400db904e1c",
 "venue": "Tarbert",
-"result": false,
-"score": null,
+"result": true,
+"score": {
+"hg": 1,
+"hp": 16,
+"ag": 1,
+"ap": 17
+},
 "tickets": null,
 "tv": null,
 "url": "https://kerrygaa.ie/fixtures-results/football/club/senior/mcmunns-bar-restaurant-bernard-o-callaghan-north-kerry-senior-football-championship/3a487ce9-0882-4ce0-b335-35ee6493c06a/",
@@ -4569,8 +1937,13 @@
 },
 "venueId": "f3b4ccda-1604-4b16-b8b0-8796246fad50",
 "venue": "King & Moffatt Dr. Hyde Park",
-"result": false,
-"score": null,
+"result": true,
+"score": {
+"hg": 0,
+"hp": 14,
+"ag": 5,
+"ap": 36
+},
 "tickets": null,
 "tv": null,
 "url": "https://connachtgaa.ie/fixtures-results/hurling/club/intermediate/connacht-gaa-club-intermediate-hurling-championship-2026/540f934e-c883-4e0f-8161-9323cb8c1ead/",
@@ -4603,8 +1976,13 @@
 },
 "venueId": "89f4424b-e03b-4bcf-aa2e-66f98d649e43",
 "venue": "Dr Crokes Park",
-"result": false,
-"score": null,
+"result": true,
+"score": {
+"hg": 2,
+"hp": 14,
+"ag": 1,
+"ap": 15
+},
 "tickets": null,
 "tv": null,
 "url": "https://kerrygaa.ie/fixtures-results/football/club/senior/kerry-petroleum-senior-football-club-championship/f4820e52-a11e-4085-baef-108c5d4d242f/",
@@ -4612,7 +1990,46 @@
 "grade": "senior",
 "county": "Kerry",
 "site": "kerry",
-"referee": "TBC"
+"referee": "Paul Hayes"
+},
+{
+"id": "club:ulster:2026-10-31:robert-emmets-cushendun-v-lavey",
+"date": "2026-10-31T13:30:00+00:00",
+"time": "13:30",
+"tbc": false,
+"status": "active",
+"sport": "Hurling",
+"competition": "Ulster Intermediate Club Hurling Championship",
+"competitionId": null,
+"rank": null,
+"title": "2026 Ulster GAA Hurling Intermediate Club Championship - Cup Division 1 - Quarter Final 3",
+"group": "Cup Division 1",
+"round": "Quarter Final 3",
+"home": {
+"id": null,
+"name": "Robert Emmets Cushendun"
+},
+"away": {
+"id": null,
+"name": "Lavey"
+},
+"venueId": "bd65c48e-ccb8-40b9-9361-1196315762af",
+"venue": "Glen Rovers GAC Armoy",
+"result": true,
+"score": {
+"hg": 1,
+"hp": 15,
+"ag": 0,
+"ap": 13
+},
+"tickets": null,
+"tv": null,
+"url": "https://ulster.gaa.ie/fixtures-results/hurling/club/intermediate/2026-ulster-gaa-hurling-intermediate-club-championship/a5881399-51de-40b4-a4d5-0efda5a20933/",
+"club": "provincial",
+"grade": "intermediate",
+"county": null,
+"site": "ulster",
+"referee": "Peter Owens"
 },
 {
 "id": "club:ulster:2026-10-31:cootehill-celtic-v-padraig-sairseil-clg",
@@ -4637,8 +2054,13 @@
 },
 "venueId": "edb4d5a9-2ef6-4bec-92cd-2d4dfde3895c",
 "venue": "Kingspan Breffni, Cavan",
-"result": false,
-"score": null,
+"result": true,
+"score": {
+"hg": 1,
+"hp": 17,
+"ag": 4,
+"ap": 19
+},
 "tickets": null,
 "tv": null,
 "url": "https://ulster.gaa.ie/fixtures-results/hurling/club/junior/2026-ulster-gaa-hurling-junior-club-championship/ce47439c-940c-49da-bad9-ff7b7ebfbbd0/",
@@ -4671,8 +2093,13 @@
 },
 "venueId": "f4bf63ef-45f6-4154-b74c-7351eead6ab7",
 "venue": "Truagh",
-"result": false,
-"score": null,
+"result": true,
+"score": {
+"hg": 3,
+"hp": 15,
+"ag": 0,
+"ap": 13
+},
 "tickets": null,
 "tv": null,
 "url": "https://ulster.gaa.ie/fixtures-results/hurling/club/junior/2026-ulster-gaa-hurling-junior-club-championship/ce47439c-940c-49da-bad9-ff7b7ebfbbd0/",
@@ -4705,8 +2132,13 @@
 },
 "venueId": "8ccafc9e-352f-4efc-8861-881246eadab9",
 "venue": "O'Neills Healy Park, Omagh",
-"result": false,
-"score": null,
+"result": true,
+"score": {
+"hg": 1,
+"hp": 13,
+"ag": 2,
+"ap": 16
+},
 "tickets": null,
 "tv": null,
 "url": "https://ulster.gaa.ie/fixtures-results/hurling/club/junior/2026-ulster-gaa-hurling-junior-club-championship/ce47439c-940c-49da-bad9-ff7b7ebfbbd0/",
@@ -4739,8 +2171,13 @@
 },
 "venueId": "59df6e95-f6ce-4321-a4db-9e771e71dc42",
 "venue": "Moyvane",
-"result": false,
-"score": null,
+"result": true,
+"score": {
+"hg": 3,
+"hp": 14,
+"ag": 0,
+"ap": 4
+},
 "tickets": null,
 "tv": null,
 "url": "https://kerrygaa.ie/fixtures-results/football/club/senior/mcmunns-bar-restaurant-bernard-o-callaghan-north-kerry-senior-football-championship/3a487ce9-0882-4ce0-b335-35ee6493c06a/",
@@ -4749,6 +2186,45 @@
 "county": "Kerry",
 "site": "kerry",
 "referee": "Peter Curtin"
+},
+{
+"id": "club:cavan:2026-10-31:arva-st-patrick-s-gaa-v-lavey",
+"date": "2026-10-31T15:00:00+00:00",
+"time": "15:00",
+"tbc": false,
+"status": "active",
+"sport": "Football",
+"competition": "Cavan Division 3 Ruddens Services Station Football Championship",
+"competitionId": null,
+"rank": null,
+"title": "Breffni Cup Division 3 Ruddens Services Station - Semi Final",
+"group": null,
+"round": "Semi Final",
+"home": {
+"id": null,
+"name": "Arva St Patrick's GAA"
+},
+"away": {
+"id": null,
+"name": "Lavey"
+},
+"venueId": "63146fa6-d03e-4f18-8a2d-2308c8a0c16e",
+"venue": "Pairc Naomh Padraig Armhach",
+"result": true,
+"score": {
+"hg": 0,
+"hp": 7,
+"ag": 1,
+"ap": 15
+},
+"tickets": null,
+"tv": null,
+"url": "https://cavangaa.ie/fixtures-results/football/club/senior/breffni-cup-2026/947a358a-19a7-4d92-a339-01af92a793fa/",
+"club": "county",
+"grade": "senior",
+"county": "Cavan",
+"site": "cavan",
+"referee": "Brendan Sweeney"
 },
 {
 "id": "club:down:2026-10-31:rostrevor-v-rock-st-patrick-s",
@@ -4773,8 +2249,13 @@
 },
 "venueId": "7770361b-e351-4405-af04-12a5755ee02b",
 "venue": "Burren",
-"result": false,
-"score": null,
+"result": true,
+"score": {
+"hg": 3,
+"hp": 12,
+"ag": 3,
+"ap": 15
+},
 "tickets": null,
 "tv": null,
 "url": "https://downgaa.net/fixtures-results/football/club/intermediate/2026-ulster-gaa-football-intermediate-club-championship/1e715bd1-7cac-41fe-8ba3-b5945b46705c/",
@@ -4785,30 +2266,35 @@
 "referee": "Niall Mc Kenna"
 },
 {
-"id": "club:ulster:2026-10-31:ballyhegan-v-derry-cavan",
-"date": "2026-10-31T15:30:00+00:00",
-"time": "15:30",
+"id": "club:ulster:2026-10-31:na-piarsaigh-doire-trasna-c-lg-v-lacken-gaa",
+"date": "2026-10-31T15:00:00+00:00",
+"time": "15:00",
 "tbc": false,
 "status": "active",
 "sport": "Football",
 "competition": "Ulster Junior Club Football Championship",
 "competitionId": null,
 "rank": null,
-"title": "2026 Ulster GAA Football Junior Club Championship - Quarter Final 4",
+"title": "2026 Ulster GAA Football Junior Club Championship - Round 1",
 "group": null,
-"round": "Quarter Final 4",
+"round": "Round 1",
 "home": {
 "id": null,
-"name": "Ballyhegan"
+"name": "Na Piarsaigh Doire Trasna C.LG"
 },
 "away": {
 "id": null,
-"name": "Derry / Cavan"
+"name": "Lacken GAA"
 },
-"venueId": null,
-"venue": null,
-"result": false,
-"score": null,
+"venueId": "1d1e7f46-7380-4641-928b-846be9c18e49",
+"venue": "Find Insurance Celtic Park, Derry",
+"result": true,
+"score": {
+"hg": 1,
+"hp": 5,
+"ag": 2,
+"ap": 14
+},
 "tickets": null,
 "tv": null,
 "url": "https://ulster.gaa.ie/fixtures-results/football/club/junior/2026-ulster-gaa-football-junior-club-championship/bb70af5d-5fe0-4d99-91c1-eb3377783caa/",
@@ -4816,7 +2302,46 @@
 "grade": "junior",
 "county": null,
 "site": "ulster",
-"referee": "Cathal Boland"
+"referee": "ryan walsh"
+},
+{
+"id": "club:ulster:2026-10-31:swatragh-v-killeavy-st-moninna",
+"date": "2026-10-31T16:30:00+00:00",
+"time": "16:30",
+"tbc": false,
+"status": "active",
+"sport": "Hurling",
+"competition": "Ulster Junior Club Hurling Championship",
+"competitionId": null,
+"rank": null,
+"title": "2026 Ulster GAA Hurling Junior Club Championship - Cup Division 1 - Quarter Final 2",
+"group": "Cup Division 1",
+"round": "Quarter Final 2",
+"home": {
+"id": null,
+"name": "Swatragh"
+},
+"away": {
+"id": null,
+"name": "Killeavy St Moninna"
+},
+"venueId": "dafc6d23-29ca-4e4b-abb1-422faa9c3bf9",
+"venue": "Find Insurance Owenbeg",
+"result": true,
+"score": {
+"hg": 5,
+"hp": 30,
+"ag": 0,
+"ap": 7
+},
+"tickets": null,
+"tv": null,
+"url": "https://ulster.gaa.ie/fixtures-results/hurling/club/junior/2026-ulster-gaa-hurling-junior-club-championship/ce47439c-940c-49da-bad9-ff7b7ebfbbd0/",
+"club": "provincial",
+"grade": "junior",
+"county": null,
+"site": "ulster",
+"referee": "Aiden Mc Aleer"
 },
 {
 "id": "club:kerry:2026-10-31:listowel-emmets-v-desmonds",
@@ -4841,8 +2366,13 @@
 },
 "venueId": "9f5b59ee-9124-4577-b1f9-69511de17f5e",
 "venue": "Páirc Mhic Shithigh (Listowel Emmets)",
-"result": false,
-"score": null,
+"result": true,
+"score": {
+"hg": 1,
+"hp": 19,
+"ag": 1,
+"ap": 12
+},
 "tickets": null,
 "tv": null,
 "url": "https://kerrygaa.ie/fixtures-results/football/club/senior/mcmunns-bar-restaurant-bernard-o-callaghan-north-kerry-senior-football-championship/3a487ce9-0882-4ce0-b335-35ee6493c06a/",
@@ -4875,8 +2405,13 @@
 },
 "venueId": "62864799-6ea2-4912-ae45-79fdf61f6c1e",
 "venue": "Manguard Park Pitch 1",
-"result": false,
-"score": null,
+"result": true,
+"score": {
+"hg": 0,
+"hp": 14,
+"ag": 2,
+"ap": 11
+},
 "tickets": null,
 "tv": null,
 "url": "https://kildaregaa.ie/fixtures-results/football/club/senior/2026-joe-mallon-motor-senior-football-championship-relegation-play-offs/031fb57f-24c3-43d2-9b5b-e0f57741b8cf/",
@@ -4909,8 +2444,13 @@
 },
 "venueId": "c0b04cad-5890-43b4-869c-da8807e7ecc8",
 "venue": "Páirc Esler, Newry",
-"result": false,
-"score": null,
+"result": true,
+"score": {
+"hg": 0,
+"hp": 12,
+"ag": 0,
+"ap": 17
+},
 "tickets": null,
 "tv": null,
 "url": "https://downgaa.net/fixtures-results/football/club/senior/2026-ulster-gaa-football-senior-club-championship/adcc55b9-2578-48f1-ba37-fb08e20d131a/",
@@ -4919,6 +2459,40 @@
 "county": "Down",
 "site": "down",
 "referee": "Martin McNally"
+},
+{
+"id": "club:kildare:2026-11-01:leixlip-v-naas-c",
+"date": "2026-11-01T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Hurling",
+"competition": "Kildare Intermediate Hurling Championship",
+"competitionId": null,
+"rank": null,
+"title": "2026 UPMC Intermediate Hurling Championship Final - Final",
+"group": null,
+"round": "Final",
+"home": {
+"id": null,
+"name": "Leixlip"
+},
+"away": {
+"id": null,
+"name": "Naas (C)"
+},
+"venueId": "62864799-6ea2-4912-ae45-79fdf61f6c1e",
+"venue": "Manguard Park Pitch 1",
+"result": true,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://kildaregaa.ie/fixtures-results/hurling/club/intermediate/2026-upmc-intermediate-hurling-championship/804abc02-d7b6-4285-953f-7361a2b025ac/",
+"club": "county",
+"grade": "intermediate",
+"county": "Kildare",
+"site": "kildare",
+"referee": "Paul Donnelly"
 },
 {
 "id": "club:monaghan:2026-11-01:latton-v-killeevan-sarsfields-clg",
@@ -4943,8 +2517,13 @@
 },
 "venueId": "f1c97ab5-b345-487f-ba0e-efa0a798aa9d",
 "venue": "Latton",
-"result": false,
-"score": null,
+"result": true,
+"score": {
+"hg": 5,
+"hp": 17,
+"ag": 0,
+"ap": 7
+},
 "tickets": null,
 "tv": null,
 "url": "https://monaghangaa.ie/fixtures-results/ladies_football/club/intermediate/intermediate-league-semi-final/6f4893d9-b98e-4694-be22-d3c3d3c9d28d/",
@@ -4955,72 +2534,43 @@
 "referee": "TBC"
 },
 {
-"id": "club:cavan:2026-11-01:arva-st-patrick-s-gaa-v-lavey",
+"id": "club:donegal:2026-11-01:easkey-v-four-masters",
 "date": "2026-11-01T12:00:00+00:00",
 "time": "12:00",
 "tbc": false,
 "status": "active",
-"sport": "Football",
-"competition": "Cavan Division 3 Ruddens Services Station Football Championship",
+"sport": "Hurling",
+"competition": "Donegal Davis's Yeats Tavern Martin Brennan Hurling Shield",
 "competitionId": null,
 "rank": null,
-"title": "Breffni Cup Division 3 Ruddens Services Station - Semi Final",
+"title": "Davis's Yeats Tavern Martin Brennan Shield Final - Final",
 "group": null,
-"round": "Semi Final",
+"round": "Final",
 "home": {
 "id": null,
-"name": "Arva St Patrick's GAA"
+"name": "Easkey"
 },
 "away": {
 "id": null,
-"name": "Lavey"
+"name": "Four Masters"
 },
-"venueId": "63146fa6-d03e-4f18-8a2d-2308c8a0c16e",
-"venue": "Pairc Naomh Padraig Armhach",
-"result": false,
-"score": null,
+"venueId": "ce976a3e-bedc-4072-af0a-55a1b65cc968",
+"venue": "Hazelwood Main Pitch",
+"result": true,
+"score": {
+"hg": 3,
+"hp": 27,
+"ag": 1,
+"ap": 8
+},
 "tickets": null,
 "tv": null,
-"url": "https://cavangaa.ie/fixtures-results/football/club/senior/breffni-cup-2026/947a358a-19a7-4d92-a339-01af92a793fa/",
+"url": "https://donegalgaa.ie/fixtures-results/hurling/club/senior/daviss-yeats-tavern-martin-brennan-cup/77619e21-df5c-4923-8c53-98c9b0500620/",
 "club": "county",
 "grade": "senior",
-"county": "Cavan",
-"site": "cavan",
-"referee": "TBC"
-},
-{
-"id": "club:cavan:2026-11-01:searcog-shercock-v-killinkere-clg",
-"date": "2026-11-01T12:00:00+00:00",
-"time": "12:00",
-"tbc": false,
-"status": "active",
-"sport": "Football",
-"competition": "Cavan Division 3 Ruddens Services Station Football Championship",
-"competitionId": null,
-"rank": null,
-"title": "Breffni Cup Division 3 Ruddens Services Station - Semi Final",
-"group": null,
-"round": "Semi Final",
-"home": {
-"id": null,
-"name": "Searcóg/Shercock"
-},
-"away": {
-"id": null,
-"name": "Killinkere CLG"
-},
-"venueId": "af3f0a37-da54-44ff-9081-2c55fe6dfc1d",
-"venue": "O'Hagan Park Shercock",
-"result": false,
-"score": null,
-"tickets": null,
-"tv": null,
-"url": "https://cavangaa.ie/fixtures-results/football/club/senior/breffni-cup-2026/947a358a-19a7-4d92-a339-01af92a793fa/",
-"club": "county",
-"grade": "senior",
-"county": "Cavan",
-"site": "cavan",
-"referee": "TBC"
+"county": "Donegal",
+"site": "donegal",
+"referee": "Michael Larkin"
 },
 {
 "id": "club:meath:2026-11-01:moyfenragh-v-tara",
@@ -5045,8 +2595,13 @@
 },
 "venueId": "58805dec-a992-4372-945f-baa9b7281d67",
 "venue": "Devenish Park - Pitch 6",
-"result": false,
-"score": null,
+"result": true,
+"score": {
+"hg": 1,
+"hp": 16,
+"ag": 3,
+"ap": 12
+},
 "tickets": null,
 "tv": null,
 "url": "https://meath.gaa.ie/fixtures-results/football/club/senior/2026-rfc-bradys-garage/29f23325-b3e8-4e59-86af-a208e08bf910/",
@@ -5054,41 +2609,7 @@
 "grade": "senior",
 "county": "Meath",
 "site": "meath",
-"referee": "TBC"
-},
-{
-"id": "club:ulster:2026-11-01:inniskeen-v-clg-bun-cranncha",
-"date": "2026-11-01T12:00:00+00:00",
-"time": "12:00",
-"tbc": false,
-"status": "active",
-"sport": "Hurling",
-"competition": "Ulster Junior Hurling B Club Tournament Championship",
-"competitionId": null,
-"rank": null,
-"title": "2026 Ulster GAA Hurling Junior B Club Tournament Final - Semi Final",
-"group": null,
-"round": "Semi Final",
-"home": {
-"id": null,
-"name": "Inniskeen"
-},
-"away": {
-"id": null,
-"name": "CLG Bun Cranncha"
-},
-"venueId": "61630c34-6732-47e3-bd3d-8c2e6129bdd4",
-"venue": "Mid Ulster Sports Arenea",
-"result": false,
-"score": null,
-"tickets": null,
-"tv": null,
-"url": "https://ulster.gaa.ie/fixtures-results/hurling/club/junior/2026-ulster-gaa-hurling-junior-b-club-tournament-final/41b7d499-4135-4369-8852-f8c6f4b781b6/",
-"club": "provincial",
-"grade": "junior",
-"county": null,
-"site": "ulster",
-"referee": "Eddie Nash"
+"referee": "Cormac Reilly"
 },
 {
 "id": "club:ulster:2026-11-01:na-magha-v-clg-carndomhnaigh",
@@ -5113,8 +2634,13 @@
 },
 "venueId": "61630c34-6732-47e3-bd3d-8c2e6129bdd4",
 "venue": "Mid Ulster Sports Arenea",
-"result": false,
-"score": null,
+"result": true,
+"score": {
+"hg": 0,
+"hp": 6,
+"ag": 1,
+"ap": 11
+},
 "tickets": null,
 "tv": null,
 "url": "https://ulster.gaa.ie/fixtures-results/hurling/club/junior/2026-ulster-gaa-hurling-junior-b-club-tournament-final/41b7d499-4135-4369-8852-f8c6f4b781b6/",
@@ -5123,108 +2649,6 @@
 "county": null,
 "site": "ulster",
 "referee": "Pascal Clarke"
-},
-{
-"id": "club:kerry:2026-11-01:ballyduff-v-bye",
-"date": "2026-11-01T12:30:00+00:00",
-"time": "12:30",
-"tbc": false,
-"status": "active",
-"sport": "Football",
-"competition": "Kerry McMunn's Bar & Restaurant Bernard O' Callaghan North Kerry Senior Football Championship",
-"competitionId": null,
-"rank": null,
-"title": "McMunn's Bar & Restaurant Bernard O' Callaghan North Kerry Senior Football Championship - Round 1",
-"group": null,
-"round": "Round 1",
-"home": {
-"id": null,
-"name": "Ballyduff"
-},
-"away": {
-"id": null,
-"name": "BYE"
-},
-"venueId": "4aefc602-4223-4bb4-aa8c-10bedad0d0af",
-"venue": "Ballyduff",
-"result": false,
-"score": null,
-"tickets": null,
-"tv": null,
-"url": "https://kerrygaa.ie/fixtures-results/football/club/senior/mcmunns-bar-restaurant-bernard-o-callaghan-north-kerry-senior-football-championship/3a487ce9-0882-4ce0-b335-35ee6493c06a/",
-"club": "county",
-"grade": "senior",
-"county": "Kerry",
-"site": "kerry",
-"referee": "TBC"
-},
-{
-"id": "club:kerry:2026-11-01:beale-v-bye",
-"date": "2026-11-01T12:30:00+00:00",
-"time": "12:30",
-"tbc": false,
-"status": "active",
-"sport": "Football",
-"competition": "Kerry McMunn's Bar & Restaurant Bernard O' Callaghan North Kerry Senior Football Championship",
-"competitionId": null,
-"rank": null,
-"title": "McMunn's Bar & Restaurant Bernard O' Callaghan North Kerry Senior Football Championship - Round 1",
-"group": null,
-"round": "Round 1",
-"home": {
-"id": null,
-"name": "Beale"
-},
-"away": {
-"id": null,
-"name": "BYE"
-},
-"venueId": "a0a44876-f2e0-4d12-957d-8ed32c82388b",
-"venue": "Bob Stack Park (Beale)",
-"result": false,
-"score": null,
-"tickets": null,
-"tv": null,
-"url": "https://kerrygaa.ie/fixtures-results/football/club/senior/mcmunns-bar-restaurant-bernard-o-callaghan-north-kerry-senior-football-championship/3a487ce9-0882-4ce0-b335-35ee6493c06a/",
-"club": "county",
-"grade": "senior",
-"county": "Kerry",
-"site": "kerry",
-"referee": "TBC"
-},
-{
-"id": "club:kerry:2026-11-01:knocknagoshel-v-bye",
-"date": "2026-11-01T12:30:00+00:00",
-"time": "12:30",
-"tbc": false,
-"status": "active",
-"sport": "Football",
-"competition": "Kerry McMunn's Bar & Restaurant Bernard O' Callaghan North Kerry Senior Football Championship",
-"competitionId": null,
-"rank": null,
-"title": "McMunn's Bar & Restaurant Bernard O' Callaghan North Kerry Senior Football Championship - Round 1",
-"group": null,
-"round": "Round 1",
-"home": {
-"id": null,
-"name": "Knocknagoshel"
-},
-"away": {
-"id": null,
-"name": "BYE"
-},
-"venueId": "51f5c939-4131-41f8-afe5-e674a93f5c6e",
-"venue": "Willie Walsh Park (Knocknagoshel)",
-"result": false,
-"score": null,
-"tickets": null,
-"tv": null,
-"url": "https://kerrygaa.ie/fixtures-results/football/club/senior/mcmunns-bar-restaurant-bernard-o-callaghan-north-kerry-senior-football-championship/3a487ce9-0882-4ce0-b335-35ee6493c06a/",
-"club": "county",
-"grade": "senior",
-"county": "Kerry",
-"site": "kerry",
-"referee": "TBC"
 },
 {
 "id": "club:kerry:2026-11-01:duagh-v-finuge",
@@ -5249,8 +2673,13 @@
 },
 "venueId": "24c42480-65f9-43ab-a8f8-156bfc294dcb",
 "venue": "Duagh",
-"result": false,
-"score": null,
+"result": true,
+"score": {
+"hg": 1,
+"hp": 13,
+"ag": 0,
+"ap": 10
+},
 "tickets": null,
 "tv": null,
 "url": "https://kerrygaa.ie/fixtures-results/football/club/senior/mcmunns-bar-restaurant-bernard-o-callaghan-north-kerry-senior-football-championship/3a487ce9-0882-4ce0-b335-35ee6493c06a/",
@@ -5261,7 +2690,7 @@
 "referee": "seamus mulvihill"
 },
 {
-"id": "club:ulster:2026-11-01:semi-final-runner-up-v-semi-final-runner-up",
+"id": "club:ulster:2026-11-01:clg-bun-cranncha-v-na-magha",
 "date": "2026-11-01T13:00:00+00:00",
 "time": "13:00",
 "tbc": false,
@@ -5275,16 +2704,21 @@
 "round": "Final",
 "home": {
 "id": null,
-"name": "Semi Final Runner Up"
+"name": "CLG Bun Cranncha"
 },
 "away": {
 "id": null,
-"name": "Semi Final Runner Up"
+"name": "Na Magha"
 },
 "venueId": "61630c34-6732-47e3-bd3d-8c2e6129bdd4",
 "venue": "Mid Ulster Sports Arenea",
-"result": false,
-"score": null,
+"result": true,
+"score": {
+"hg": 3,
+"hp": 8,
+"ag": 2,
+"ap": 10
+},
 "tickets": null,
 "tv": null,
 "url": "https://ulster.gaa.ie/fixtures-results/hurling/club/junior/2026-ulster-gaa-hurling-junior-b-club-tournament-final/41b7d499-4135-4369-8852-f8c6f4b781b6/",
@@ -5292,10 +2726,10 @@
 "grade": "junior",
 "county": null,
 "site": "ulster",
-"referee": ""
+"referee": "Pascal Clarke"
 },
 {
-"id": "club:ulster:2026-11-01:semi-final-winner-v-semi-final-winner",
+"id": "club:ulster:2026-11-01:clg-carndomhnaigh-v-inniskeen",
 "date": "2026-11-01T13:00:00+00:00",
 "time": "13:00",
 "tbc": false,
@@ -5309,16 +2743,21 @@
 "round": "Final",
 "home": {
 "id": null,
-"name": "Semi Final Winner"
+"name": "CLG Carndomhnaigh"
 },
 "away": {
 "id": null,
-"name": "Semi Final Winner"
+"name": "Inniskeen"
 },
 "venueId": "61630c34-6732-47e3-bd3d-8c2e6129bdd4",
 "venue": "Mid Ulster Sports Arenea",
-"result": false,
-"score": null,
+"result": true,
+"score": {
+"hg": 0,
+"hp": 8,
+"ag": 0,
+"ap": 8
+},
 "tickets": null,
 "tv": null,
 "url": "https://ulster.gaa.ie/fixtures-results/hurling/club/junior/2026-ulster-gaa-hurling-junior-b-club-tournament-final/41b7d499-4135-4369-8852-f8c6f4b781b6/",
@@ -5326,7 +2765,7 @@
 "grade": "junior",
 "county": null,
 "site": "ulster",
-"referee": "Pascal Clarke"
+"referee": "Eddie Nash"
 },
 {
 "id": "club:kerry:2026-11-01:clashmore-kinsalebeg-v-abbeydorney",
@@ -5351,8 +2790,13 @@
 },
 "venueId": "3a652195-94cc-43b4-bc24-9a755eaa1bf3",
 "venue": "Cappoquin Logistics Fraher Field, Dungarvan",
-"result": false,
-"score": null,
+"result": true,
+"score": {
+"hg": 1,
+"hp": 19,
+"ag": 3,
+"ap": 14
+},
 "tickets": null,
 "tv": null,
 "url": "https://kerrygaa.ie/fixtures-results/hurling/club/intermediate/munster-ihc-club-championship/2fb70ab7-dd6f-40a7-bd6f-052a740d4302/",
@@ -5360,7 +2804,7 @@
 "grade": "intermediate",
 "county": "Kerry",
 "site": "kerry",
-"referee": "TBC"
+"referee": "Ciarán O Regan"
 },
 {
 "id": "club:tipperary:2026-11-01:st-mary-s-v-ballincollig",
@@ -5385,8 +2829,13 @@
 },
 "venueId": "d338b976-43c9-4598-aedc-6e1ed0b2f14d",
 "venue": "Clonmel Sportsfield",
-"result": false,
-"score": null,
+"result": true,
+"score": {
+"hg": 1,
+"hp": 16,
+"ag": 0,
+"ap": 15
+},
 "tickets": null,
 "tv": null,
 "url": "https://tipperary.gaa.ie/fixtures-results/hurling/club/intermediate/munster-ihc-club-championship/2fb70ab7-dd6f-40a7-bd6f-052a740d4302/",
@@ -5419,8 +2868,13 @@
 },
 "venueId": "b9bd99d3-f4e4-4f47-8cba-bbe587eb37e5",
 "venue": "Páirc Uí Rinn",
-"result": false,
-"score": null,
+"result": true,
+"score": {
+"hg": 1,
+"hp": 14,
+"ag": 1,
+"ap": 21
+},
 "tickets": null,
 "tv": null,
 "url": "https://clare.gaa.ie/fixtures-results/hurling/club/senior/munster-sh-club-championship/fa407ae7-6425-422e-b55d-3f50012fcf8d/",
@@ -5453,8 +2907,13 @@
 },
 "venueId": "5aa37473-ff95-4421-83f5-407aaf243f58",
 "venue": "O'Donnell Park, Letterkenny",
-"result": false,
-"score": null,
+"result": true,
+"score": {
+"hg": 2,
+"hp": 15,
+"ag": 0,
+"ap": 16
+},
 "tickets": null,
 "tv": null,
 "url": "https://donegalgaa.ie/fixtures-results/hurling/club/intermediate/2026-ulster-gaa-hurling-intermediate-club-championship/a5881399-51de-40b4-a4d5-0efda5a20933/",
@@ -5487,8 +2946,13 @@
 },
 "venueId": "54b4be41-4c0c-405c-8033-ebe68bbcff34",
 "venue": "Brewster Park, Enniskillen",
-"result": false,
-"score": null,
+"result": true,
+"score": {
+"hg": 1,
+"hp": 17,
+"ag": 0,
+"ap": 18
+},
 "tickets": null,
 "tv": null,
 "url": "https://fermanagh.gaa.ie/fixtures-results/hurling/club/intermediate/2026-ulster-gaa-hurling-intermediate-club-championship/a5881399-51de-40b4-a4d5-0efda5a20933/",
@@ -5497,74 +2961,6 @@
 "county": "Fermanagh",
 "site": "fermanagh",
 "referee": "Colm McDonald"
-},
-{
-"id": "club:ulster:2026-11-01:robert-emmets-cushendun-v-lavey",
-"date": "2026-11-01T13:30:00+00:00",
-"time": "13:30",
-"tbc": false,
-"status": "active",
-"sport": "Hurling",
-"competition": "Ulster Intermediate Club Hurling Championship",
-"competitionId": null,
-"rank": null,
-"title": "2026 Ulster GAA Hurling Intermediate Club Championship - Cup Division 1 - Quarter Final 3",
-"group": "Cup Division 1",
-"round": "Quarter Final 3",
-"home": {
-"id": null,
-"name": "Robert Emmets Cushendun"
-},
-"away": {
-"id": null,
-"name": "Lavey"
-},
-"venueId": null,
-"venue": null,
-"result": false,
-"score": null,
-"tickets": null,
-"tv": null,
-"url": "https://ulster.gaa.ie/fixtures-results/hurling/club/intermediate/2026-ulster-gaa-hurling-intermediate-club-championship/a5881399-51de-40b4-a4d5-0efda5a20933/",
-"club": "provincial",
-"grade": "intermediate",
-"county": null,
-"site": "ulster",
-"referee": "Peter Owens"
-},
-{
-"id": "club:ulster:2026-11-01:drumhowan-v-st-mary-s-rasharkin",
-"date": "2026-11-01T13:30:00+00:00",
-"time": "13:30",
-"tbc": false,
-"status": "active",
-"sport": "Football",
-"competition": "Ulster Junior Club Football Championship",
-"competitionId": null,
-"rank": null,
-"title": "2026 Ulster GAA Football Junior Club Championship - Quarter Final 1",
-"group": null,
-"round": "Quarter Final 1",
-"home": {
-"id": null,
-"name": "Drumhowan"
-},
-"away": {
-"id": null,
-"name": "St Mary's Rasharkin"
-},
-"venueId": "a46a8058-4bd5-4b47-8560-447f23aa4abc",
-"venue": "St. Tiernach's Park, Clones",
-"result": false,
-"score": null,
-"tickets": null,
-"tv": null,
-"url": "https://ulster.gaa.ie/fixtures-results/football/club/junior/2026-ulster-gaa-football-junior-club-championship/bb70af5d-5fe0-4d99-91c1-eb3377783caa/",
-"club": "provincial",
-"grade": "junior",
-"county": null,
-"site": "ulster",
-"referee": "Mark Turley"
 },
 {
 "id": "club:ulster:2026-11-01:fionntamhnach-na-piarsaigh-v-urris",
@@ -5589,8 +2985,13 @@
 },
 "venueId": "8ccafc9e-352f-4efc-8861-881246eadab9",
 "venue": "O'Neills Healy Park, Omagh",
-"result": false,
-"score": null,
+"result": true,
+"score": {
+"hg": 3,
+"hp": 16,
+"ag": 1,
+"ap": 5
+},
 "tickets": null,
 "tv": null,
 "url": "https://ulster.gaa.ie/fixtures-results/football/club/junior/2026-ulster-gaa-football-junior-club-championship/bb70af5d-5fe0-4d99-91c1-eb3377783caa/",
@@ -5601,38 +3002,43 @@
 "referee": "Cianan Canney"
 },
 {
-"id": "club:ulster:2026-11-01:kilclief-ben-dearg-gac-v-newtownbutler-first-fermanaghs",
-"date": "2026-11-01T13:30:00+00:00",
-"time": "13:30",
+"id": "club:cavan:2026-11-01:killinkere-clg-v-denn",
+"date": "2026-11-01T14:00:00+00:00",
+"time": "14:00",
 "tbc": false,
 "status": "active",
 "sport": "Football",
-"competition": "Ulster Junior Club Football Championship",
+"competition": "Cavan Division 3 Ruddens Services Station Football Championship",
 "competitionId": null,
 "rank": null,
-"title": "2026 Ulster GAA Football Junior Club Championship - Quarter Final 1",
+"title": "Breffni Cup Division 3 Ruddens Services Station - Play off 1",
 "group": null,
-"round": "Quarter Final 1",
+"round": "Play off 1",
 "home": {
 "id": null,
-"name": "Kilclief Ben Dearg GAC"
+"name": "Killinkere CLG"
 },
 "away": {
 "id": null,
-"name": "Newtownbutler First Fermanaghs"
+"name": "Denn"
 },
-"venueId": "0d8ddb3f-e06d-4150-84e4-196e59fb2bad",
-"venue": "Downpatrick",
-"result": false,
-"score": null,
+"venueId": "5c54cb59-0bdb-4989-bc6b-7f531d9672cc",
+"venue": "Lavey GAA Grounds",
+"result": true,
+"score": {
+"hg": 1,
+"hp": 14,
+"ag": 4,
+"ap": 14
+},
 "tickets": null,
 "tv": null,
-"url": "https://ulster.gaa.ie/fixtures-results/football/club/junior/2026-ulster-gaa-football-junior-club-championship/bb70af5d-5fe0-4d99-91c1-eb3377783caa/",
-"club": "provincial",
-"grade": "junior",
-"county": null,
-"site": "ulster",
-"referee": "Thomas Devlin"
+"url": "https://cavangaa.ie/fixtures-results/football/club/senior/breffni-cup-2026/947a358a-19a7-4d92-a339-01af92a793fa/",
+"club": "county",
+"grade": "senior",
+"county": "Cavan",
+"site": "cavan",
+"referee": "Joe McQuillan"
 },
 {
 "id": "club:kildare:2026-11-01:naas-camogie-v-ballinteer-st-johns",
@@ -5657,8 +3063,13 @@
 },
 "venueId": "ee6d136f-6633-4f1d-97bf-7375f4892e80",
 "venue": "Naas GAA",
-"result": false,
-"score": null,
+"result": true,
+"score": {
+"hg": 2,
+"hp": 21,
+"ag": 0,
+"ap": 9
+},
 "tickets": null,
 "tv": null,
 "url": "https://kildaregaa.ie/fixtures-results/camogie/club/senior/aib-leinster-intermediate-club-championship/1906a828-7b0c-4b1f-9173-2eb8eb7cab46/",
@@ -5691,8 +3102,13 @@
 },
 "venueId": "58805dec-a992-4372-945f-baa9b7281d67",
 "venue": "Devenish Park - Pitch 6",
-"result": false,
-"score": null,
+"result": true,
+"score": {
+"hg": 0,
+"hp": 13,
+"ag": 0,
+"ap": 15
+},
 "tickets": null,
 "tv": null,
 "url": "https://meath.gaa.ie/fixtures-results/football/club/senior/2026-rfc-bradys-garage/29f23325-b3e8-4e59-86af-a208e08bf910/",
@@ -5700,7 +3116,7 @@
 "grade": "senior",
 "county": "Meath",
 "site": "meath",
-"referee": "TBC"
+"referee": "Ciarán Flynn"
 },
 {
 "id": "club:kerry:2026-11-01:st-senan-s-v-ballydonoghue",
@@ -5725,8 +3141,13 @@
 },
 "venueId": "4eac7345-e69e-481d-9596-4088e526acc1",
 "venue": "Mountcoal (St Senans)",
-"result": false,
-"score": null,
+"result": true,
+"score": {
+"hg": 1,
+"hp": 12,
+"ag": 1,
+"ap": 13
+},
 "tickets": null,
 "tv": null,
 "url": "https://kerrygaa.ie/fixtures-results/football/club/senior/mcmunns-bar-restaurant-bernard-o-callaghan-north-kerry-senior-football-championship/3a487ce9-0882-4ce0-b335-35ee6493c06a/",
@@ -5735,6 +3156,45 @@
 "county": "Kerry",
 "site": "kerry",
 "referee": "Joe Murphy"
+},
+{
+"id": "club:ulster:2026-11-01:kilclief-ben-dearg-gac-v-newtownbutler-first-fermanaghs",
+"date": "2026-11-01T14:30:00+00:00",
+"time": "14:30",
+"tbc": false,
+"status": "active",
+"sport": "Football",
+"competition": "Ulster Junior Club Football Championship",
+"competitionId": null,
+"rank": null,
+"title": "2026 Ulster GAA Football Junior Club Championship - Quarter Final 1",
+"group": null,
+"round": "Quarter Final 1",
+"home": {
+"id": null,
+"name": "Kilclief Ben Dearg GAC"
+},
+"away": {
+"id": null,
+"name": "Newtownbutler First Fermanaghs"
+},
+"venueId": "0d8ddb3f-e06d-4150-84e4-196e59fb2bad",
+"venue": "Downpatrick",
+"result": true,
+"score": {
+"hg": 0,
+"hp": 7,
+"ag": 2,
+"ap": 18
+},
+"tickets": null,
+"tv": null,
+"url": "https://ulster.gaa.ie/fixtures-results/football/club/junior/2026-ulster-gaa-football-junior-club-championship/bb70af5d-5fe0-4d99-91c1-eb3377783caa/",
+"club": "provincial",
+"grade": "junior",
+"county": null,
+"site": "ulster",
+"referee": "Thomas Devlin"
 },
 {
 "id": "club:kildare:2026-11-01:maynooth-v-sarsfields",
@@ -5759,8 +3219,13 @@
 },
 "venueId": "7e4832c4-104a-42f3-82c3-731822a64745",
 "venue": "Cedral St Conleth's Newbridge",
-"result": false,
-"score": null,
+"result": true,
+"score": {
+"hg": 1,
+"hp": 10,
+"ag": 1,
+"ap": 14
+},
 "tickets": null,
 "tv": null,
 "url": "https://kildaregaa.ie/fixtures-results/football/club/senior/2026-joe-mallon-motors-senior-football-championship/f63c7b12-e530-45d6-b594-49ec95381a23/",
@@ -5793,8 +3258,13 @@
 },
 "venueId": "c0b04cad-5890-43b4-869c-da8807e7ecc8",
 "venue": "Páirc Esler, Newry",
-"result": false,
-"score": null,
+"result": true,
+"score": {
+"hg": 0,
+"hp": 12,
+"ag": 3,
+"ap": 22
+},
 "tickets": null,
 "tv": null,
 "url": "https://downgaa.net/fixtures-results/hurling/club/intermediate/2026-ulster-gaa-hurling-intermediate-club-championship/a5881399-51de-40b4-a4d5-0efda5a20933/",
@@ -5805,25 +3275,59 @@
 "referee": "James Clarke"
 },
 {
-"id": "club:connacht:2026-11-07:corofin-v-galway",
-"date": "2026-11-07T00:00:00+00:00",
-"time": null,
-"tbc": true,
+"id": "club:cavan:2026-11-03:ballyhaise-v-lacken-gaa",
+"date": "2026-11-03T20:30:00+00:00",
+"time": "20:30",
+"tbc": false,
 "status": "active",
-"sport": "Football",
-"competition": "Connacht Intermediate Football Championship",
+"sport": "Ladies' Football",
+"competition": "Cavan Senior Ladies' Football Championship",
 "competitionId": null,
 "rank": null,
-"title": "Intermediate Football Championship - Play Off",
+"title": "Imperial Bar Senior Championship - Relegation Play off",
 "group": null,
-"round": "Play Off",
+"round": "Relegation Play off",
 "home": {
 "id": null,
-"name": "Corofin"
+"name": "Ballyhaise"
 },
 "away": {
 "id": null,
-"name": "Galway"
+"name": "Lacken GAA"
+},
+"venueId": "6d9bee04-6893-48c2-a03d-2681693b24d6",
+"venue": "3G Pitch",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://cavangaa.ie/fixtures-results/ladies_football/club/senior/imperial-bar-senior-championship/232edd32-c96a-4b80-9109-66bbdb73694f/",
+"club": "county",
+"grade": "senior",
+"county": "Cavan",
+"site": "cavan",
+"referee": "Mark Ferncombe"
+},
+{
+"id": "club:clare:2026-11-07:glanmire-v-liscannor",
+"date": "2026-11-07T13:00:00+00:00",
+"time": "13:00",
+"tbc": false,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "Munster Senior B Ladies' Football Championship",
+"competitionId": null,
+"rank": null,
+"title": "Munster Senior B Championship - Cup Division 1 - Senior B Munster Final",
+"group": "Cup Division 1",
+"round": "Senior B Munster Final",
+"home": {
+"id": null,
+"name": "Glanmire"
+},
+"away": {
+"id": null,
+"name": "Liscannor"
 },
 "venueId": null,
 "venue": null,
@@ -5831,7 +3335,41 @@
 "score": null,
 "tickets": null,
 "tv": null,
-"url": "https://connachtgaa.ie/fixtures-results/football/club/intermediate/intermediate-football-championship/46d3750b-ef89-4c85-ab6d-31e8461ab7b0/",
+"url": "https://clare.gaa.ie/fixtures-results/ladies_football/club/senior/munster-senior-b-championship/ee98d0af-3bef-4b64-bc32-52e815aab233/",
+"club": "provincial",
+"grade": "senior",
+"county": "Clare",
+"site": "clare",
+"referee": "TBC"
+},
+{
+"id": "club:connacht:2026-11-07:brothers-pearse-v-tuairin",
+"date": "2026-11-07T13:30:00+00:00",
+"time": "13:30",
+"tbc": false,
+"status": "active",
+"sport": "Hurling",
+"competition": "Connacht Intermediate Hurling Championship",
+"competitionId": null,
+"rank": null,
+"title": "Connacht GAA Club Intermediate Hurling Championship - Semi-Final",
+"group": null,
+"round": "Semi-Final",
+"home": {
+"id": null,
+"name": "Brothers Pearse"
+},
+"away": {
+"id": null,
+"name": "Tuairín"
+},
+"venueId": "861ee127-1e4a-4787-babd-ee4cbacf3403",
+"venue": "Connacht GAA Centre",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://connachtgaa.ie/fixtures-results/hurling/club/intermediate/connacht-gaa-club-intermediate-hurling-championship-2026/540f934e-c883-4e0f-8161-9323cb8c1ead/",
 "club": "provincial",
 "grade": "intermediate",
 "county": null,
@@ -5839,25 +3377,127 @@
 "referee": null
 },
 {
-"id": "club:ulster:2026-11-07:naomh-eanna-clg-v-down-tyrone",
+"id": "club:connacht:2026-11-07:ardagh-v-st-aidan-s",
 "date": "2026-11-07T13:30:00+00:00",
 "time": "13:30",
 "tbc": false,
 "status": "active",
 "sport": "Football",
-"competition": "Ulster Intermediate Club Football Championship",
+"competition": "Connacht Junior Football Championship",
 "competitionId": null,
 "rank": null,
-"title": "2026 Ulster GAA Football Intermediate Club Championship - Quarter Final 4",
+"title": "Connacht GAA Club Junior Football Championship - Quarter-Final",
 "group": null,
-"round": "Quarter Final 4",
+"round": "Quarter-Final",
 "home": {
 "id": null,
-"name": "Naomh Éanna CLG"
+"name": "Ardagh"
 },
 "away": {
 "id": null,
-"name": "Down / Tyrone"
+"name": "St Aidan's"
+},
+"venueId": "a5650f69-1117-4df1-a64f-5e649e392a46",
+"venue": "Hastings Insurance MacHale Park, Castlebar",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://connachtgaa.ie/fixtures-results/football/club/junior/connacht-gaa-club-junior-football-championship/c580c8fc-c0a6-41d1-a027-cced4f72309e/",
+"club": "provincial",
+"grade": "junior",
+"county": null,
+"site": "connacht",
+"referee": null
+},
+{
+"id": "club:connacht:2026-11-07:st-brigids-v-st-mary-s",
+"date": "2026-11-07T13:30:00+00:00",
+"time": "13:30",
+"tbc": false,
+"status": "active",
+"sport": "Football",
+"competition": "Connacht Senior Football Championship",
+"competitionId": null,
+"rank": null,
+"title": "Connacht GAA Club Senior Football Championship - Quarter Final 1",
+"group": null,
+"round": "Quarter Final 1",
+"home": {
+"id": null,
+"name": "St Brigids"
+},
+"away": {
+"id": null,
+"name": "St Mary's"
+},
+"venueId": "f3b4ccda-1604-4b16-b8b0-8796246fad50",
+"venue": "King & Moffatt Dr. Hyde Park",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://connachtgaa.ie/fixtures-results/football/club/senior/connacht-gaa-club-senior-football-championship/d1f86322-38e7-4f06-a129-a9673573c334/",
+"club": "provincial",
+"grade": "senior",
+"county": null,
+"site": "connacht",
+"referee": null
+},
+{
+"id": "club:ulster:2026-11-07:clg-naomh-maolmhaodhog-caislean-uidhilin-v-gaeil-triucha-clg",
+"date": "2026-11-07T13:30:00+00:00",
+"time": "13:30",
+"tbc": false,
+"status": "active",
+"sport": "Hurling",
+"competition": "Ulster Junior Club Hurling Championship",
+"competitionId": null,
+"rank": null,
+"title": "2026 Ulster GAA Hurling Junior Club Championship - Cup Division 1 - Semi Final 2",
+"group": "Cup Division 1",
+"round": "Semi Final 2",
+"home": {
+"id": null,
+"name": "CLG Naomh Maolmhaodhóg Caisleán Uidhilín"
+},
+"away": {
+"id": null,
+"name": "Gaeil Triucha Clg"
+},
+"venueId": "65887803-b024-43c8-9d41-7cc522a76895",
+"venue": "Bann Road",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ulster.gaa.ie/fixtures-results/hurling/club/junior/2026-ulster-gaa-hurling-junior-club-championship/ce47439c-940c-49da-bad9-ff7b7ebfbbd0/",
+"club": "provincial",
+"grade": "junior",
+"county": null,
+"site": "ulster",
+"referee": "TBC"
+},
+{
+"id": "club:ulster:2026-11-07:padraig-sairseil-clg-v-swatragh",
+"date": "2026-11-07T13:30:00+00:00",
+"time": "13:30",
+"tbc": false,
+"status": "active",
+"sport": "Hurling",
+"competition": "Ulster Junior Club Hurling Championship",
+"competitionId": null,
+"rank": null,
+"title": "2026 Ulster GAA Hurling Junior Club Championship - Cup Division 1 - Semi Final 1",
+"group": "Cup Division 1",
+"round": "Semi Final 1",
+"home": {
+"id": null,
+"name": "Pádraig Sáirseil CLG"
+},
+"away": {
+"id": null,
+"name": "Swatragh"
 },
 "venueId": null,
 "venue": null,
@@ -5865,12 +3505,46 @@
 "score": null,
 "tickets": null,
 "tv": null,
-"url": "https://ulster.gaa.ie/fixtures-results/football/club/intermediate/2026-ulster-gaa-football-intermediate-club-championship/1e715bd1-7cac-41fe-8ba3-b5945b46705c/",
+"url": "https://ulster.gaa.ie/fixtures-results/hurling/club/junior/2026-ulster-gaa-hurling-junior-club-championship/ce47439c-940c-49da-bad9-ff7b7ebfbbd0/",
 "club": "provincial",
-"grade": "intermediate",
+"grade": "junior",
 "county": null,
 "site": "ulster",
-"referee": ""
+"referee": "TBC"
+},
+{
+"id": "club:kildare:2026-11-07:knockananna-camogie-v-naas-camogie",
+"date": "2026-11-07T14:00:00+00:00",
+"time": "14:00",
+"tbc": false,
+"status": "active",
+"sport": "Camogie",
+"competition": "Leinster Intermediate Club Camogie Championship",
+"competitionId": null,
+"rank": null,
+"title": "AIB Leinster Intermediate Club Championship - Cup Division 1 - Semi-Final",
+"group": "Cup Division 1",
+"round": "Semi-Final",
+"home": {
+"id": null,
+"name": "Knockananna Camogie"
+},
+"away": {
+"id": null,
+"name": "Naas Camogie"
+},
+"venueId": null,
+"venue": null,
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://kildaregaa.ie/fixtures-results/camogie/club/senior/aib-leinster-intermediate-club-championship/1906a828-7b0c-4b1f-9173-2eb8eb7cab46/",
+"club": "provincial",
+"grade": "senior",
+"county": "Kildare",
+"site": "kildare",
+"referee": "TBC"
 },
 {
 "id": "club:tyrone:2026-11-07:dungannon-thomas-clarke-v-moortown-st-malachy-s",
@@ -5907,7 +3581,41 @@
 "referee": null
 },
 {
-"id": "club:monaghan:2026-11-07:monaghan-v-derry",
+"id": "club:kerry:2026-11-07:brosna-v-ballyduff",
+"date": "2026-11-07T14:30:00+00:00",
+"time": "14:30",
+"tbc": false,
+"status": "active",
+"sport": "Football",
+"competition": "Kerry McMunn's Bar & Restaurant Bernard O' Callaghan North Kerry Senior Football Championship",
+"competitionId": null,
+"rank": null,
+"title": "McMunn's Bar & Restaurant Bernard O' Callaghan North Kerry Senior Football Championship - Quarter-Final",
+"group": null,
+"round": "Quarter-Final",
+"home": {
+"id": null,
+"name": "Brosna"
+},
+"away": {
+"id": null,
+"name": "Ballyduff"
+},
+"venueId": "4eac7345-e69e-481d-9596-4088e526acc1",
+"venue": "Mountcoal (St Senans)",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://kerrygaa.ie/fixtures-results/football/club/senior/mcmunns-bar-restaurant-bernard-o-callaghan-north-kerry-senior-football-championship/3a487ce9-0882-4ce0-b335-35ee6493c06a/",
+"club": "county",
+"grade": "senior",
+"county": "Kerry",
+"site": "kerry",
+"referee": "Eamonn Moran"
+},
+{
+"id": "club:monaghan:2026-11-07:donaghmoyne-v-desertmartin",
 "date": "2026-11-07T15:30:00+00:00",
 "time": "15:30",
 "tbc": false,
@@ -5921,11 +3629,11 @@
 "round": "Quarter Final 2",
 "home": {
 "id": null,
-"name": "Monaghan"
+"name": "Donaghmoyne"
 },
 "away": {
 "id": null,
-"name": "Derry"
+"name": "Desertmartin"
 },
 "venueId": "30740ae9-6270-4862-85de-89c50fe8aeb3",
 "venue": "Páirc Grattan, Inniskeen",
@@ -5938,7 +3646,7 @@
 "grade": "intermediate",
 "county": "Monaghan",
 "site": "monaghan",
-"referee": "TBC"
+"referee": "Neil McGeown"
 },
 {
 "id": "club:cavan:2026-11-07:butlersbridge-g-a-a-v-naomh-peadar",
@@ -5972,10 +3680,10 @@
 "grade": "intermediate",
 "county": "Cavan",
 "site": "cavan",
-"referee": "TBC"
+"referee": "Mark Loughran"
 },
 {
-"id": "club:donegal:2026-11-07:fermanagh-v-naomh-adhamhnain-st-eunan-s",
+"id": "club:donegal:2026-11-07:erne-gaels-belleek-v-naomh-adhamhnain-st-eunan-s",
 "date": "2026-11-07T17:00:00+00:00",
 "time": "17:00",
 "tbc": false,
@@ -5989,7 +3697,7 @@
 "round": "Quarter Final 1",
 "home": {
 "id": null,
-"name": "Fermanagh"
+"name": "Erne Gaels Belleek"
 },
 "away": {
 "id": null,
@@ -6006,7 +3714,41 @@
 "grade": "senior",
 "county": "Donegal",
 "site": "donegal",
-"referee": "TBC"
+"referee": "Kevin Faloon"
+},
+{
+"id": "club:kerry:2026-11-07:moyvane-v-beale",
+"date": "2026-11-07T18:00:00+00:00",
+"time": "18:00",
+"tbc": false,
+"status": "active",
+"sport": "Football",
+"competition": "Kerry McMunn's Bar & Restaurant Bernard O' Callaghan North Kerry Senior Football Championship",
+"competitionId": null,
+"rank": null,
+"title": "McMunn's Bar & Restaurant Bernard O' Callaghan North Kerry Senior Football Championship - Quarter-Final",
+"group": null,
+"round": "Quarter-Final",
+"home": {
+"id": null,
+"name": "Moyvane"
+},
+"away": {
+"id": null,
+"name": "Beale"
+},
+"venueId": "9f5b59ee-9124-4577-b1f9-69511de17f5e",
+"venue": "Páirc Mhic Shithigh (Listowel Emmets)",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://kerrygaa.ie/fixtures-results/football/club/senior/mcmunns-bar-restaurant-bernard-o-callaghan-north-kerry-senior-football-championship/3a487ce9-0882-4ce0-b335-35ee6493c06a/",
+"club": "county",
+"grade": "senior",
+"county": "Kerry",
+"site": "kerry",
+"referee": "Brendan Griffin"
 },
 {
 "id": "club:cavan:2026-11-07:gowna-v-crossmaglen-rangers",
@@ -6040,109 +3782,7 @@
 "grade": "senior",
 "county": "Cavan",
 "site": "cavan",
-"referee": "TBC"
-},
-{
-"id": "club:cavan:2026-11-08:kill-shamrocks-gaa-v-cornafean",
-"date": "2026-11-08T00:00:00+00:00",
-"time": null,
-"tbc": true,
-"status": "active",
-"sport": "Football",
-"competition": "Cavan Division 2 O'Reilly Precast Football Championship",
-"competitionId": null,
-"rank": null,
-"title": "Breffni Cup Division 2 O'Reilly Precast - Final",
-"group": null,
-"round": "Final",
-"home": {
-"id": null,
-"name": "Kill Shamrocks GAA"
-},
-"away": {
-"id": null,
-"name": "Cornafean"
-},
-"venueId": null,
-"venue": null,
-"result": false,
-"score": null,
-"tickets": null,
-"tv": null,
-"url": "https://cavangaa.ie/fixtures-results/football/club/senior/breffni-cup-2026/947a358a-19a7-4d92-a339-01af92a793fa/",
-"club": "county",
-"grade": "senior",
-"county": "Cavan",
-"site": "cavan",
-"referee": "TBC"
-},
-{
-"id": "club:ulster:2026-11-08:quarter-final-1-winner-v-quarter-final-2-winner",
-"date": "2026-11-08T00:00:00+00:00",
-"time": null,
-"tbc": true,
-"status": "active",
-"sport": "Hurling",
-"competition": "Ulster Junior Club Hurling Championship",
-"competitionId": null,
-"rank": null,
-"title": "2026 Ulster GAA Hurling Junior Club Championship - Cup Division 1 - Semi Final 1",
-"group": "Cup Division 1",
-"round": "Semi Final 1",
-"home": {
-"id": null,
-"name": "Quarter Final 1 Winner"
-},
-"away": {
-"id": null,
-"name": "Quarter Final 2 Winner"
-},
-"venueId": null,
-"venue": null,
-"result": false,
-"score": null,
-"tickets": null,
-"tv": null,
-"url": "https://ulster.gaa.ie/fixtures-results/hurling/club/junior/2026-ulster-gaa-hurling-junior-club-championship/ce47439c-940c-49da-bad9-ff7b7ebfbbd0/",
-"club": "provincial",
-"grade": "junior",
-"county": null,
-"site": "ulster",
-"referee": ""
-},
-{
-"id": "club:ulster:2026-11-08:quarter-final-3-winner-v-quarter-final-4-winner",
-"date": "2026-11-08T00:00:00+00:00",
-"time": null,
-"tbc": true,
-"status": "active",
-"sport": "Hurling",
-"competition": "Ulster Junior Club Hurling Championship",
-"competitionId": null,
-"rank": null,
-"title": "2026 Ulster GAA Hurling Junior Club Championship - Cup Division 1 - Semi Final 2",
-"group": "Cup Division 1",
-"round": "Semi Final 2",
-"home": {
-"id": null,
-"name": "Quarter Final 3 Winner"
-},
-"away": {
-"id": null,
-"name": "Quarter Final 4 Winner"
-},
-"venueId": null,
-"venue": null,
-"result": false,
-"score": null,
-"tickets": null,
-"tv": null,
-"url": "https://ulster.gaa.ie/fixtures-results/hurling/club/junior/2026-ulster-gaa-hurling-junior-club-championship/ce47439c-940c-49da-bad9-ff7b7ebfbbd0/",
-"club": "provincial",
-"grade": "junior",
-"county": null,
-"site": "ulster",
-"referee": ""
+"referee": "Paul Faloon"
 },
 {
 "id": "club:meath:2026-11-08:tara-v-an-tuaisceart",
@@ -6179,7 +3819,177 @@
 "referee": "TBC"
 },
 {
-"id": "club:donegal:2026-11-08:fermanagh-v-naomh-padraig-uisce-chaoin",
+"id": "club:kerry:2026-11-08:ballydonoghue-v-duagh",
+"date": "2026-11-08T13:00:00+00:00",
+"time": "13:00",
+"tbc": false,
+"status": "active",
+"sport": "Football",
+"competition": "Kerry McMunn's Bar & Restaurant Bernard O' Callaghan North Kerry Senior Football Championship",
+"competitionId": null,
+"rank": null,
+"title": "McMunn's Bar & Restaurant Bernard O' Callaghan North Kerry Senior Football Championship - Quarter-Final",
+"group": null,
+"round": "Quarter-Final",
+"home": {
+"id": null,
+"name": "Ballydonoghue"
+},
+"away": {
+"id": null,
+"name": "Duagh"
+},
+"venueId": "da86f76a-b583-4d5d-b0db-9603fee55e5d",
+"venue": "Ballylongford",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://kerrygaa.ie/fixtures-results/football/club/senior/mcmunns-bar-restaurant-bernard-o-callaghan-north-kerry-senior-football-championship/3a487ce9-0882-4ce0-b335-35ee6493c06a/",
+"club": "county",
+"grade": "senior",
+"county": "Kerry",
+"site": "kerry",
+"referee": "Patrick Dowling"
+},
+{
+"id": "club:clare:2026-11-08:an-bratach-inis-v-brickey-rangers",
+"date": "2026-11-08T13:15:00+00:00",
+"time": "13:15",
+"tbc": false,
+"status": "active",
+"sport": "Football",
+"competition": "Clare Football Cup",
+"competitionId": null,
+"rank": null,
+"title": "A.I.B. Munster IF Club Championships - Cup Division 1 - Quarter Final",
+"group": "Division 1",
+"round": "Quarter Final",
+"home": {
+"id": null,
+"name": "An Bratach Inis"
+},
+"away": {
+"id": null,
+"name": "Brickey Rangers"
+},
+"venueId": "09a228f3-69be-46ad-8b49-ec7ec9c766d7",
+"venue": "Banner",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://clare.gaa.ie/fixtures-results/football/club/intermediate/munster-if-club-championships/156fe129-e09d-46dc-8d75-a4a7d66c137c/",
+"club": "county",
+"grade": "intermediate",
+"county": "Clare",
+"site": "clare",
+"referee": "Jonathan Hayes"
+},
+{
+"id": "club:clare:2026-11-08:rathgormack-v-eire-og-inis",
+"date": "2026-11-08T13:15:00+00:00",
+"time": "13:15",
+"tbc": false,
+"status": "active",
+"sport": "Football",
+"competition": "Munster SF Club Football Championship",
+"competitionId": null,
+"rank": null,
+"title": "A.I.B. Munster SF Club Championship - Cup Division 1 - Quarter Final",
+"group": "Cup Division 1",
+"round": "Quarter Final",
+"home": {
+"id": null,
+"name": "Rathgormack"
+},
+"away": {
+"id": null,
+"name": "Éire Óg Inis"
+},
+"venueId": "3a652195-94cc-43b4-bc24-9a755eaa1bf3",
+"venue": "Cappoquin Logistics Fraher Field, Dungarvan",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://clare.gaa.ie/fixtures-results/football/club/senior/munster-sf-club-championship/b9178c91-3f5a-40f6-90c4-782990c23499/",
+"club": "provincial",
+"grade": "senior",
+"county": "Clare",
+"site": "clare",
+"referee": "James Regan"
+},
+{
+"id": "club:tipperary:2026-11-08:nemo-rangers-v-loughmore-castleiney",
+"date": "2026-11-08T13:15:00+00:00",
+"time": "13:15",
+"tbc": false,
+"status": "active",
+"sport": "Football",
+"competition": "Munster SF Club Football Championship",
+"competitionId": null,
+"rank": null,
+"title": "Munster SF Club Championship - Cup Division 1 - Quarter Final",
+"group": "Cup Division 1",
+"round": "Quarter Final",
+"home": {
+"id": null,
+"name": "Nemo Rangers"
+},
+"away": {
+"id": null,
+"name": "Loughmore - Castleiney"
+},
+"venueId": "b9bd99d3-f4e4-4f47-8cba-bbe587eb37e5",
+"venue": "Páirc Uí Rinn",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://tipperary.gaa.ie/fixtures-results/football/club/senior/munster-sf-club-championship/b9178c91-3f5a-40f6-90c4-782990c23499/",
+"club": "provincial",
+"grade": "senior",
+"county": "Tipperary",
+"site": "tipperary",
+"referee": "Chris Maguire"
+},
+{
+"id": "club:connacht:2026-11-08:salthill-knocknacarra-v-sean-o-heislin-beal-an-atha-moir-ballinamore-sean-o-heslin-s",
+"date": "2026-11-08T13:30:00+00:00",
+"time": "13:30",
+"tbc": false,
+"status": "active",
+"sport": "Football",
+"competition": "Connacht Senior Football Championship",
+"competitionId": null,
+"rank": null,
+"title": "Connacht GAA Club Senior Football Championship - Quarter Final 2",
+"group": null,
+"round": "Quarter Final 2",
+"home": {
+"id": null,
+"name": "Salthill-Knocknacarra"
+},
+"away": {
+"id": null,
+"name": "Seán Ó hEislin-Béal an Átha Móir/Ballinamore-Sean O'Heslin's"
+},
+"venueId": "e8fe6c11-9763-4cab-a721-6eea7112549f",
+"venue": "Heartland Credit Union Páirc Seán MacDiarmada",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://connachtgaa.ie/fixtures-results/football/club/senior/connacht-gaa-club-senior-football-championship/d1f86322-38e7-4f06-a129-a9673573c334/",
+"club": "provincial",
+"grade": "senior",
+"county": null,
+"site": "connacht",
+"referee": null
+},
+{
+"id": "club:donegal:2026-11-08:kinawley-brian-borus-v-naomh-padraig-uisce-chaoin",
 "date": "2026-11-08T13:30:00+00:00",
 "time": "13:30",
 "tbc": false,
@@ -6193,7 +4003,7 @@
 "round": "Quarter Final 1",
 "home": {
 "id": null,
-"name": "Fermanagh"
+"name": "Kinawley Brian Borus"
 },
 "away": {
 "id": null,
@@ -6210,10 +4020,10 @@
 "grade": "intermediate",
 "county": "Donegal",
 "site": "donegal",
-"referee": "TBC"
+"referee": "Patrick Clarke"
 },
 {
-"id": "club:monaghan:2026-11-08:scotstown-v-derry",
+"id": "club:monaghan:2026-11-08:scotstown-v-o-donovan-rossa",
 "date": "2026-11-08T13:30:00+00:00",
 "time": "13:30",
 "tbc": false,
@@ -6231,7 +4041,7 @@
 },
 "away": {
 "id": null,
-"name": "Derry"
+"name": "O`Donovan Rossa"
 },
 "venueId": "a46a8058-4bd5-4b47-8560-447f23aa4abc",
 "venue": "St. Tiernach's Park, Clones",
@@ -6244,28 +4054,28 @@
 "grade": "senior",
 "county": "Monaghan",
 "site": "monaghan",
-"referee": "TBC"
+"referee": "Noel Mooney"
 },
 {
-"id": "club:ulster:2026-11-08:naomh-brid-v-down-tyrone",
-"date": "2026-11-08T13:30:00+00:00",
-"time": "13:30",
+"id": "club:cavan:2026-11-08:kill-shamrocks-gaa-v-cornafean",
+"date": "2026-11-08T14:00:00+00:00",
+"time": "14:00",
 "tbc": false,
 "status": "active",
 "sport": "Football",
-"competition": "Ulster Senior Club Football Championship",
+"competition": "Cavan Division 2 O'Reilly Precast Football Championship",
 "competitionId": null,
 "rank": null,
-"title": "2026 Ulster GAA Football Senior Club Championship - Quarter Final 4",
+"title": "Breffni Cup Division 2 O'Reilly Precast - Final",
 "group": null,
-"round": "Quarter Final 4",
+"round": "Final",
 "home": {
 "id": null,
-"name": "Naomh Bríd"
+"name": "Kill Shamrocks GAA"
 },
 "away": {
 "id": null,
-"name": "Down / Tyrone"
+"name": "Cornafean"
 },
 "venueId": null,
 "venue": null,
@@ -6273,12 +4083,12 @@
 "score": null,
 "tickets": null,
 "tv": null,
-"url": "https://ulster.gaa.ie/fixtures-results/football/club/senior/2026-ulster-gaa-football-senior-club-championship/adcc55b9-2578-48f1-ba37-fb08e20d131a/",
-"club": "provincial",
+"url": "https://cavangaa.ie/fixtures-results/football/club/senior/breffni-cup-2026/947a358a-19a7-4d92-a339-01af92a793fa/",
+"club": "county",
 "grade": "senior",
-"county": null,
-"site": "ulster",
-"referee": ""
+"county": "Cavan",
+"site": "cavan",
+"referee": "TBC"
 },
 {
 "id": "club:meath:2026-11-08:boyne-valley-v-moyfenragh",
@@ -6315,6 +4125,312 @@
 "referee": "TBC"
 },
 {
+"id": "club:kerry:2026-11-08:knocknagoshel-v-listowel-emmets",
+"date": "2026-11-08T14:30:00+00:00",
+"time": "14:30",
+"tbc": false,
+"status": "active",
+"sport": "Football",
+"competition": "Kerry McMunn's Bar & Restaurant Bernard O' Callaghan North Kerry Senior Football Championship",
+"competitionId": null,
+"rank": null,
+"title": "McMunn's Bar & Restaurant Bernard O' Callaghan North Kerry Senior Football Championship - Quarter-Final",
+"group": null,
+"round": "Quarter-Final",
+"home": {
+"id": null,
+"name": "Knocknagoshel"
+},
+"away": {
+"id": null,
+"name": "Listowel Emmets"
+},
+"venueId": "59df6e95-f6ce-4321-a4db-9e771e71dc42",
+"venue": "Moyvane",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://kerrygaa.ie/fixtures-results/football/club/senior/mcmunns-bar-restaurant-bernard-o-callaghan-north-kerry-senior-football-championship/3a487ce9-0882-4ce0-b335-35ee6493c06a/",
+"club": "county",
+"grade": "senior",
+"county": "Kerry",
+"site": "kerry",
+"referee": "Joe Murphy"
+},
+{
+"id": "club:connacht:2026-11-08:davitts-gaa-club-v-caherlistrane",
+"date": "2026-11-08T15:30:00+00:00",
+"time": "15:30",
+"tbc": false,
+"status": "active",
+"sport": "Football",
+"competition": "Connacht Intermediate Football Championship",
+"competitionId": null,
+"rank": null,
+"title": "Connacht GAA Club Intermediate Football Championship - Quarter Final",
+"group": null,
+"round": "Quarter Final",
+"home": {
+"id": null,
+"name": "Davitts GAA Club"
+},
+"away": {
+"id": null,
+"name": "Caherlistrane"
+},
+"venueId": "a5650f69-1117-4df1-a64f-5e649e392a46",
+"venue": "Hastings Insurance MacHale Park, Castlebar",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://connachtgaa.ie/fixtures-results/football/club/intermediate/connacht-gaa-club-intermediate-football-championship/f6329ac6-a735-4869-bdaa-876d9023fbc7/",
+"club": "provincial",
+"grade": "intermediate",
+"county": null,
+"site": "connacht",
+"referee": null
+},
+{
+"id": "club:tyrone:2026-11-08:rock-st-patrick-s-v-naomh-eanna-clg",
+"date": "2026-11-08T15:30:00+00:00",
+"time": "15:30",
+"tbc": false,
+"status": "active",
+"sport": "Football",
+"competition": "Ulster Intermediate Club Football Championship",
+"competitionId": null,
+"rank": null,
+"title": "2026 Ulster GAA Football Intermediate Club Championship - Quarter Final 4",
+"group": null,
+"round": "Quarter Final 4",
+"home": {
+"id": null,
+"name": "Rock St Patrick's"
+},
+"away": {
+"id": null,
+"name": "Naomh Éanna CLG"
+},
+"venueId": "4a49dd6b-3ee8-4784-8fdd-01e2f9e806fc",
+"venue": "O'Neill Park, Dungannon",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://tyronegaa.ie/fixtures-results/football/club/intermediate/2026-ulster-gaa-football-intermediate-club-championship/1e715bd1-7cac-41fe-8ba3-b5945b46705c/",
+"club": "provincial",
+"grade": "intermediate",
+"county": "Tyrone",
+"site": "tyrone",
+"referee": null
+},
+{
+"id": "club:ulster:2026-11-08:lacken-gaa-v-ballyhegan",
+"date": "2026-11-08T17:00:00+00:00",
+"time": "17:00",
+"tbc": false,
+"status": "active",
+"sport": "Football",
+"competition": "Ulster Junior Club Football Championship",
+"competitionId": null,
+"rank": null,
+"title": "2026 Ulster GAA Football Junior Club Championship - Quarter Final 4",
+"group": null,
+"round": "Quarter Final 4",
+"home": {
+"id": null,
+"name": "Lacken GAA"
+},
+"away": {
+"id": null,
+"name": "Ballyhegan"
+},
+"venueId": "edb4d5a9-2ef6-4bec-92cd-2d4dfde3895c",
+"venue": "Kingspan Breffni, Cavan",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ulster.gaa.ie/fixtures-results/football/club/junior/2026-ulster-gaa-football-junior-club-championship/bb70af5d-5fe0-4d99-91c1-eb3377783caa/",
+"club": "provincial",
+"grade": "junior",
+"county": null,
+"site": "ulster",
+"referee": "Cathal Boland"
+},
+{
+"id": "club:tyrone:2026-11-08:edendork-st-malachy-s-v-naomh-brid",
+"date": "2026-11-08T17:30:00+00:00",
+"time": "17:30",
+"tbc": false,
+"status": "active",
+"sport": "Football",
+"competition": "Ulster Senior Club Football Championship",
+"competitionId": null,
+"rank": null,
+"title": "2026 Ulster GAA Football Senior Club Championship - Quarter Final 4",
+"group": null,
+"round": "Quarter Final 4",
+"home": {
+"id": null,
+"name": "Edendork St Malachy's"
+},
+"away": {
+"id": null,
+"name": "Naomh Bríd"
+},
+"venueId": "4a49dd6b-3ee8-4784-8fdd-01e2f9e806fc",
+"venue": "O'Neill Park, Dungannon",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://tyronegaa.ie/fixtures-results/football/club/senior/2026-ulster-gaa-football-senior-club-championship/adcc55b9-2578-48f1-ba37-fb08e20d131a/",
+"club": "provincial",
+"grade": "senior",
+"county": "Tyrone",
+"site": "tyrone",
+"referee": null
+},
+{
+"id": "club:cavan:2026-11-12:lacken-gaa-v-denn",
+"date": "2026-11-12T20:00:00+00:00",
+"time": "20:00",
+"tbc": false,
+"status": "active",
+"sport": "Football",
+"competition": "Cavan Division 3 Ruddens Services Station Football Championship",
+"competitionId": null,
+"rank": null,
+"title": "Breffni Cup Division 3 Ruddens Services Station - Play off 2",
+"group": null,
+"round": "Play off 2",
+"home": {
+"id": null,
+"name": "Lacken GAA"
+},
+"away": {
+"id": null,
+"name": "Denn"
+},
+"venueId": "6d9bee04-6893-48c2-a03d-2681693b24d6",
+"venue": "3G Pitch",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://cavangaa.ie/fixtures-results/football/club/senior/breffni-cup-2026/947a358a-19a7-4d92-a339-01af92a793fa/",
+"club": "county",
+"grade": "senior",
+"county": "Cavan",
+"site": "cavan",
+"referee": "TBC"
+},
+{
+"id": "club:connacht:2026-11-14:fulham-irish-v-castlebar-mitchels",
+"date": "2026-11-14T13:00:00+00:00",
+"time": "13:00",
+"tbc": false,
+"status": "active",
+"sport": "Football",
+"competition": "Connacht Senior Football Championship",
+"competitionId": null,
+"rank": null,
+"title": "Connacht GAA Club Senior Football Championship - Semi Final 2",
+"group": null,
+"round": "Semi Final 2",
+"home": {
+"id": null,
+"name": "Fulham Irish"
+},
+"away": {
+"id": null,
+"name": "Castlebar Mitchels"
+},
+"venueId": "593966c8-66d2-46b9-8e06-0bd56e1fea96",
+"venue": "McGovern Park, Ruislip",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://connachtgaa.ie/fixtures-results/football/club/senior/connacht-gaa-club-senior-football-championship/d1f86322-38e7-4f06-a129-a9673573c334/",
+"club": "provincial",
+"grade": "senior",
+"county": null,
+"site": "connacht",
+"referee": null
+},
+{
+"id": "club:connacht:2026-11-14:galway-v-mayo",
+"date": "2026-11-14T13:30:00+00:00",
+"time": "13:30",
+"tbc": false,
+"status": "active",
+"sport": "Hurling",
+"competition": "Connacht Junior Hurling Championship",
+"competitionId": null,
+"rank": null,
+"title": "Connacht GAA Club Junior Hurling Championship - Cup Division 1 - Semi-Final 2",
+"group": "Cup Division 1",
+"round": "Semi-Final 2",
+"home": {
+"id": null,
+"name": "Galway"
+},
+"away": {
+"id": null,
+"name": "Mayo"
+},
+"venueId": "dbdb6266-a4fb-4693-a48b-68aa7cfbb73a",
+"venue": "Tuam Stadium",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://connachtgaa.ie/fixtures-results/hurling/club/junior/connacht-gaa-club-junior-hurling-championship-2026/fbd194e2-375d-4282-91fb-07b61355472e/",
+"club": "provincial",
+"grade": "junior",
+"county": null,
+"site": "connacht",
+"referee": null
+},
+{
+"id": "club:connacht:2026-11-14:naomh-eoin-v-leitrim",
+"date": "2026-11-14T13:30:00+00:00",
+"time": "13:30",
+"tbc": false,
+"status": "active",
+"sport": "Hurling",
+"competition": "Connacht Junior Hurling Championship",
+"competitionId": null,
+"rank": null,
+"title": "Connacht GAA Club Junior Hurling Championship - Cup Division 1 - Semi-Final 1",
+"group": "Cup Division 1",
+"round": "Semi-Final 1",
+"home": {
+"id": null,
+"name": "Naomh Eoin"
+},
+"away": {
+"id": null,
+"name": "Leitrim"
+},
+"venueId": "3c397a67-9d3c-4e40-9420-d5258b32b555",
+"venue": "Markievicz Park, Sligo",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://connachtgaa.ie/fixtures-results/hurling/club/junior/connacht-gaa-club-junior-hurling-championship-2026/fbd194e2-375d-4282-91fb-07b61355472e/",
+"club": "provincial",
+"grade": "junior",
+"county": null,
+"site": "connacht",
+"referee": null
+},
+{
 "id": "club:ulster:2026-11-15:qf1-winner-v-qf2-winner",
 "date": "2026-11-15T00:00:00+00:00",
 "time": null,
@@ -6346,7 +4462,7 @@
 "grade": "intermediate",
 "county": null,
 "site": "ulster",
-"referee": ""
+"referee": "TBC"
 },
 {
 "id": "club:ulster:2026-11-15:qf3-winner-v-qf4-winner",
@@ -6380,7 +4496,7 @@
 "grade": "intermediate",
 "county": null,
 "site": "ulster",
-"referee": ""
+"referee": "TBC"
 },
 {
 "id": "club:ulster:2026-11-15:semi-final-1-winner-v-semi-final-2-winner",
@@ -6414,7 +4530,7 @@
 "grade": "junior",
 "county": null,
 "site": "ulster",
-"referee": ""
+"referee": "TBC"
 },
 {
 "id": "club:down:2026-11-15:st-patrick-s-gac-portaferry-v-antrim",
@@ -6448,6 +4564,40 @@
 "grade": "senior",
 "county": "Down",
 "site": "down",
+"referee": "TBC"
+},
+{
+"id": "club:monaghan:2026-11-15:truagh-v-carrickmacross",
+"date": "2026-11-15T11:00:00+00:00",
+"time": "11:00",
+"tbc": false,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "Monaghan Intermediate Ladies' Football League",
+"competitionId": null,
+"rank": null,
+"title": "Intermediate League Semi Final - League Division 1 - Semi Final",
+"group": "League Division 1",
+"round": "Semi Final",
+"home": {
+"id": null,
+"name": "Truagh"
+},
+"away": {
+"id": null,
+"name": "Carrickmacross"
+},
+"venueId": "f4bf63ef-45f6-4154-b74c-7351eead6ab7",
+"venue": "Truagh",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://monaghangaa.ie/fixtures-results/ladies_football/club/intermediate/intermediate-league-semi-final/6f4893d9-b98e-4694-be22-d3c3d3c9d28d/",
+"club": "county",
+"grade": "intermediate",
+"county": "Monaghan",
+"site": "monaghan",
 "referee": "TBC"
 },
 {
@@ -6516,7 +4666,7 @@
 "grade": "junior",
 "county": null,
 "site": "ulster",
-"referee": ""
+"referee": "TBC"
 },
 {
 "id": "club:ulster:2026-11-15:tyrone-donegal-v-armagh-derry-cavan",
@@ -6550,7 +4700,7 @@
 "grade": "junior",
 "county": null,
 "site": "ulster",
-"referee": ""
+"referee": "TBC"
 },
 {
 "id": "club:meath:2026-11-15:an-tuaisceart-v-moyfenragh",
@@ -6621,6 +4771,40 @@
 "referee": null
 },
 {
+"id": "club:connacht:2026-11-21:headford-v-owenmore-gaels",
+"date": "2026-11-21T13:00:00+00:00",
+"time": "13:00",
+"tbc": false,
+"status": "active",
+"sport": "Football",
+"competition": "Connacht Junior Football Championship",
+"competitionId": null,
+"rank": null,
+"title": "Connacht GAA Club Junior Football Championship - Semi-Final 2",
+"group": null,
+"round": "Semi-Final 2",
+"home": {
+"id": null,
+"name": "Headford"
+},
+"away": {
+"id": null,
+"name": "Owenmore Gaels"
+},
+"venueId": "3c397a67-9d3c-4e40-9420-d5258b32b555",
+"venue": "Markievicz Park, Sligo",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://connachtgaa.ie/fixtures-results/football/club/junior/connacht-gaa-club-junior-football-championship/c580c8fc-c0a6-41d1-a027-cced4f72309e/",
+"club": "provincial",
+"grade": "junior",
+"county": null,
+"site": "connacht",
+"referee": null
+},
+{
 "id": "club:ulster:2026-11-21:fermanagh-donegal-v-monaghan-derry",
 "date": "2026-11-21T19:15:00+00:00",
 "time": "19:15",
@@ -6652,7 +4836,7 @@
 "grade": "senior",
 "county": null,
 "site": "ulster",
-"referee": ""
+"referee": "TBC"
 },
 {
 "id": "club:meath:2026-11-22:1st-place-v-2nd-place",
@@ -6689,6 +4873,40 @@
 "referee": "TBC"
 },
 {
+"id": "club:connacht:2026-11-22:annaduff-v-curry-curraigh",
+"date": "2026-11-22T13:30:00+00:00",
+"time": "13:30",
+"tbc": false,
+"status": "active",
+"sport": "Football",
+"competition": "Connacht Intermediate Football Championship",
+"competitionId": null,
+"rank": null,
+"title": "Connacht GAA Club Intermediate Football Championship - Semi-Final 1",
+"group": null,
+"round": "Semi-Final 1",
+"home": {
+"id": null,
+"name": "Annaduff"
+},
+"away": {
+"id": null,
+"name": "Curry/Curraigh"
+},
+"venueId": "3c397a67-9d3c-4e40-9420-d5258b32b555",
+"venue": "Markievicz Park, Sligo",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://connachtgaa.ie/fixtures-results/football/club/intermediate/connacht-gaa-club-intermediate-football-championship/f6329ac6-a735-4869-bdaa-876d9023fbc7/",
+"club": "provincial",
+"grade": "intermediate",
+"county": null,
+"site": "connacht",
+"referee": null
+},
+{
 "id": "club:ulster:2026-11-22:cavan-armagh-v-antrim-down-tyrone",
 "date": "2026-11-22T13:30:00+00:00",
 "time": "13:30",
@@ -6720,7 +4938,7 @@
 "grade": "intermediate",
 "county": null,
 "site": "ulster",
-"referee": ""
+"referee": "TBC"
 },
 {
 "id": "club:ulster:2026-11-22:fermanagh-donegal-v-monaghan-derry",
@@ -6754,7 +4972,7 @@
 "grade": "intermediate",
 "county": null,
 "site": "ulster",
-"referee": ""
+"referee": "TBC"
 },
 {
 "id": "club:ulster:2026-11-22:semi-final-1-winner-v-semi-final-2-winner",
@@ -6788,7 +5006,7 @@
 "grade": "junior",
 "county": null,
 "site": "ulster",
-"referee": ""
+"referee": "TBC"
 },
 {
 "id": "club:ulster:2026-11-29:semi-final-1-winner-v-semi-final-2-winner",
@@ -6822,7 +5040,7 @@
 "grade": "intermediate",
 "county": null,
 "site": "ulster",
-"referee": ""
+"referee": "TBC"
 },
 {
 "id": "club:ulster:2026-11-29:ulster-winner-v-britain-winner",
@@ -6856,7 +5074,7 @@
 "grade": "junior",
 "county": null,
 "site": "ulster",
-"referee": ""
+"referee": "TBC"
 },
 {
 "id": "club:ulster:2026-11-29:clg-roibeard-eimeid-sleacht-neill-v-semi-final-winner",
@@ -6890,7 +5108,7 @@
 "grade": "senior",
 "county": null,
 "site": "ulster",
-"referee": ""
+"referee": "TBC"
 },
 {
 "id": "club:ulster:2026-12-05:semi-final-1-winner-v-semi-final-2-winner",
@@ -6924,7 +5142,7 @@
 "grade": "intermediate",
 "county": null,
 "site": "ulster",
-"referee": ""
+"referee": "TBC"
 },
 {
 "id": "club:ulster:2026-12-06:semi-final-1-winner-v-semi-final-2-winner",
@@ -6958,7 +5176,7 @@
 "grade": "senior",
 "county": null,
 "site": "ulster",
-"referee": ""
+"referee": "TBC"
 }
 ]
 }

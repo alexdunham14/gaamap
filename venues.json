@@ -10,6 +10,14 @@
   "matched": "Castleblayney, 1, 2, Ashview Court, Castleblayney, Carrickmacross-Castleblayney Municipal District, County Monaghan, Uls",
   "hint": "Monaghan"
  },
+ "6d9bee04-6893-48c2-a03d-2681693b24d6": {
+  "name": "3G Pitch",
+  "lat": 53.97915,
+  "lon": -7.36345,
+  "query": "3G Pitch, County Cavan, Ireland",
+  "matched": "3G Pitch, Park Lane, Cavan Rural ED, Cavan-Belturbet Municipal District, County Cavan, Ulster, Éire / Ireland",
+  "hint": "Cavan"
+ },
  "lgfa-atu-donegal": {
   "name": "ATU Donegal",
   "lat": 54.95156,
@@ -447,6 +455,14 @@
   "matched": "Ballylynan, The Municipal District of Graiguecullen — Portarlington, County Laois, Leinster, R14 E171, Éire / Ireland",
   "hint": "Laois"
  },
+ "da86f76a-b583-4d5d-b0db-9603fee55e5d": {
+  "name": "Ballylongford",
+  "lat": 52.54596,
+  "lon": -9.47504,
+  "query": "Ballylongford, County Kerry, Ireland",
+  "matched": "Ballylongford, Listowel Municipal District, County Kerry, Munster, Éire / Ireland",
+  "hint": "Kerry"
+ },
  "c4feada4-6a98-4487-accc-0167a1ed5839": {
   "name": "Ballymacelligott",
   "lat": 52.27137,
@@ -537,6 +553,22 @@
   "query": "Bann Road, County Down, Ireland",
   "matched": "Bann Road, Newry, Armagh City, Banbridge and Craigavon District, County Down, Northern Ireland / Tuaisceart Éireann, Uni",
   "hint": "Down"
+ },
+ "65887803-b024-43c8-9d41-7cc522a76895": {
+  "name": "Bann Road",
+  "lat": 53.37446,
+  "lon": -6.29505,
+  "query": "Bann Road, Ireland",
+  "matched": "Bann Road, Dublin Industrial Estate, Phibsborough, Cabra East A ED, Dublin, County Dublin, Leinster, Éire / Ireland",
+  "hint": null
+ },
+ "09a228f3-69be-46ad-8b49-ec7ec9c766d7": {
+  "name": "Banner",
+  "lat": 52.82924,
+  "lon": -8.981,
+  "query": "Banner, County Clare, Ireland",
+  "matched": "Banner Court, The Hawthorns, Ennis Rural ED, Ennis Municipal District, County Clare, Munster, Éire / Ireland",
+  "hint": "Clare"
  },
  "28be1b81-038b-47bc-ad21-b5dd2407de5d": {
   "name": "Bansha",
@@ -1320,6 +1352,15 @@
   "query": "Connacht GAA Centre, Ireland",
   "matched": "Connacht GAA Centre Of Excellence, R323, Bekan ED, Claremorris-Swinford Municipal District, County Mayo, Connacht, Éire ",
   "hint": "Leitrim",
+  "same": "e9b84b10-bb2b-48bf-a2d3-d1de2941eb13"
+ },
+ "861ee127-1e4a-4787-babd-ee4cbacf3403": {
+  "name": "Connacht GAA Centre",
+  "lat": 53.77349,
+  "lon": -8.85286,
+  "query": "Connacht GAA Centre GAA, Ireland",
+  "matched": "Connacht GAA Centre Of Excellence, R323, Bekan ED, Claremorris-Swinford Municipal District, County Mayo, Connacht, Éire ",
+  "hint": null,
   "same": "e9b84b10-bb2b-48bf-a2d3-d1de2941eb13"
  },
  "7c43708b-79ca-4930-acfc-958ae39575ab": {
@@ -2329,6 +2370,12 @@
   "matched": "Glasdrumman, Saintfield, Newry, Mourne and Down District Council, Northern Ireland / Tuaisceart Éireann, United Kingdom",
   "hint": "Down"
  },
+ "bd65c48e-ccb8-40b9-9361-1196315762af": {
+  "name": "Glen Rovers GAC Armoy",
+  "lat": null,
+  "lon": null,
+  "hint": null
+ },
  "lgfa-glenamaddy-gaa-3g-pitch": {
   "name": "Glenamaddy GAA (3G Pitch)",
   "lat": 53.60603,
@@ -2480,6 +2527,12 @@
   "matched": "Hawkfield, Morristownbiller ED, The Municipal District of Kildare — Newbridge, County Kildare, Leinster, Éire / Ireland",
   "hint": "Kildare",
   "same": "4fbf4de2-7c22-4c14-b82a-e03e03e0ba7d"
+ },
+ "ce976a3e-bedc-4072-af0a-55a1b65cc968": {
+  "name": "Hazelwood Main Pitch",
+  "lat": null,
+  "lon": null,
+  "hint": "Donegal"
  },
  "7aa29806-0a7f-4bd7-bc14-99effafe047b": {
   "name": "Healy Park, Omagh",
@@ -3692,7 +3745,8 @@
   "lon": -6.78728,
   "query": "O Neill Park, Dungannon, County Tyrone, Ireland",
   "matched": "O'Neill Park, Lisnahull Park, Dungannon, Mid-Ulster District Council, County Tyrone, Northern Ireland / Tuaisceart Éirea",
-  "hint": "Tyrone"
+  "hint": "Tyrone",
+  "same": "4a49dd6b-3ee8-4784-8fdd-01e2f9e806fc"
  },
  "05fafe16-0784-47ae-8e33-acd2e13e67c7": {
   "name": "O'Boyle Park Drumgoon",
@@ -3739,6 +3793,14 @@
   "query": "O'Hagan Park Shercock, County Cavan, Ireland",
   "matched": "O'Hagan Park, Kingscourt Road, Shercock ED, Bailieborough-Cootehill Municipal District, County Cavan, Ulster, Éire / Ire",
   "hint": "Cavan"
+ },
+ "4a49dd6b-3ee8-4784-8fdd-01e2f9e806fc": {
+  "name": "O'Neill Park, Dungannon",
+  "lat": 54.50868,
+  "lon": -6.78728,
+  "query": "O'Neill Park, Dungannon, County Tyrone, Ireland",
+  "matched": "O'Neill Park, Lisnahull Park, Dungannon, Mid-Ulster District, County Tyrone, Northern Ireland / Tuaisceart Éireann, BT70",
+  "hint": "Tyrone"
  },
  "8ccafc9e-352f-4efc-8861-881246eadab9": {
   "name": "O'Neills Healy Park, Omagh",
@@ -5285,6 +5347,15 @@
   "hint": "Galway",
   "query": "Tuam, County Galway, Ireland",
   "matched": "Tuam, Tuam Municipal District, County Galway, Connacht, Éire / Ireland"
+ },
+ "dbdb6266-a4fb-4693-a48b-68aa7cfbb73a": {
+  "name": "Tuam Stadium",
+  "lat": 53.51479,
+  "lon": -8.85129,
+  "query": "Tuam, County Galway, Ireland",
+  "matched": "Tuam, Tuam Municipal District, County Galway, Connacht, Éire / Ireland",
+  "hint": "Galway",
+  "same": "lgfa-tuam-stadium"
  },
  "34bc9564-1834-4914-b336-10ee3495e70c": {
   "name": "Tubber",

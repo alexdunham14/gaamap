@@ -1,7 +1,7 @@
 {
 "season": 2026,
 "source": "https://ladiesgaelic.ie/fixtures-results/results/",
-"fetched": "2026-10-26T11:04:21Z",
+"fetched": "2026-11-02T13:28:27Z",
 "fixtures": [
 {
 "id": "lgfa:2026-01-18T14:00:00+00:00|National Football League Division 4|Round 1|Carlow|Sligo",
@@ -9407,6 +9407,34 @@
 "tickets": null,
 "tv": null,
 "url": "https://ladiesgaelic.ie/fixtures-results/results/"
+},
+{
+"id": "lgfa:2026-11-07T00:00:00+00:00|All-Ireland Junior Club Championship|None|None|None",
+"date": "2026-11-07T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "All-Ireland Junior Club Championship",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": null,
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
 }
 ]
 }
