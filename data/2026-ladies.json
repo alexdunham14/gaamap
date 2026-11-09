@@ -1,7 +1,7 @@
 {
 "season": 2026,
 "source": "https://ladiesgaelic.ie/fixtures-results/results/",
-"fetched": "2026-11-02T13:28:27Z",
+"fetched": "2026-11-09T13:51:59Z",
 "fixtures": [
 {
 "id": "lgfa:2026-01-18T14:00:00+00:00|National Football League Division 4|Round 1|Carlow|Sligo",
@@ -9409,10 +9409,10 @@
 "url": "https://ladiesgaelic.ie/fixtures-results/results/"
 },
 {
-"id": "lgfa:2026-11-07T00:00:00+00:00|All-Ireland Junior Club Championship|None|None|None",
-"date": "2026-11-07T00:00:00+00:00",
-"time": null,
-"tbc": true,
+"id": "lgfa:2026-11-07T12:30:00+00:00|All-Ireland Junior Club Championship|None|Oisín CLG|Brussels Craobh Rua",
+"date": "2026-11-07T12:30:00+00:00",
+"time": "12:30",
+"tbc": false,
 "status": "active",
 "sport": "Ladies' Football",
 "competition": "All-Ireland Junior Club Championship",
@@ -9422,19 +9422,24 @@
 "round": null,
 "home": {
 "id": null,
-"name": null
+"name": "Oisín CLG"
 },
 "away": {
 "id": null,
-"name": null
+"name": "Brussels Craobh Rua"
 },
-"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
-"venue": "TBC",
-"result": false,
-"score": null,
+"venueId": "lgfa-old-bedians-sports-ground-manchester",
+"venue": "Old Bedians Sports Ground, Manchester",
+"result": true,
+"score": {
+"hg": 5,
+"hp": 13,
+"ag": 2,
+"ap": 4
+},
 "tickets": null,
 "tv": null,
-"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+"url": "https://ladiesgaelic.ie/fixtures-results/results/"
 }
 ]
 }

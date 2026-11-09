@@ -1569,6 +1569,15 @@
   "matched": "Curry GAA Club, L8906, Achonry West ED, Ballymote-Tubbercurry Municipal District, County Sligo, Connacht, Éire / Ireland",
   "hint": "Sligo"
  },
+ "7564a8dd-4a61-494b-a180-bf2a1db7ac27": {
+  "name": "Cusack Park",
+  "lat": 52.8469,
+  "lon": -8.97826,
+  "query": "Cusack Park, County Clare, Ireland",
+  "matched": "Cusack Park, Francis Street, Ennis, Ennis Municipal District, County Clare, Munster, Éire / Ireland",
+  "hint": "Clare",
+  "same": "0198790f-7890-4d73-9ab4-0bfcf8652c59"
+ },
  "lgfa-dcu-dochas-eireann": {
   "name": "DCU Dóchas Éireann",
   "lat": 53.38186,
@@ -2960,6 +2969,12 @@
   "matched": "Kinnitty, Birr, County Offaly, Leinster, R42 W542, Éire / Ireland",
   "hint": "Offaly"
  },
+ "86eecd4e-d441-4266-8c61-ae62a3cffd9a": {
+  "name": "Knockananna GAA, R93 CC43",
+  "lat": null,
+  "lon": null,
+  "hint": "Kildare"
+ },
  "277845fb-85ac-4e49-bfa2-87eafdeb30bb": {
   "name": "LOETB Centre of Excellence",
   "lat": 53.03714,
@@ -3221,6 +3236,15 @@
   "hint": "Kerry",
   "query": "Mallow, County Cork, Ireland",
   "matched": "Mallow, New Road, Mallow, The Municipal District of Kanturk-Mallow, County Cork, Munster, Éire / Ireland"
+ },
+ "60c72f2f-4eb1-4a6c-9522-51383dfb33f9": {
+  "name": "Mallow GAA Sports Complex",
+  "lat": 52.13891,
+  "lon": -8.65511,
+  "query": "Mallow, County Cork, Ireland",
+  "matched": "Mallow, New Road, Mallow, The Municipal District of Kanturk-Mallow, County Cork, Munster, Éire / Ireland",
+  "hint": "Clare",
+  "same": "lgfa-mallow-gaa-sports-complex"
  },
  "62864799-6ea2-4912-ae45-79fdf61f6c1e": {
   "name": "Manguard Park Pitch 1",
@@ -3843,6 +3867,12 @@
   "matched": "Ogonnelloe, Killaloe Municipal District, County Clare, Munster, Éire / Ireland",
   "hint": "Clare"
  },
+ "lgfa-old-bedians-sports-ground-manchester": {
+  "name": "Old Bedians Sports Ground, Manchester",
+  "lat": null,
+  "lon": null,
+  "hint": null
+ },
  "cb20a064-b49f-4e50-a957-c94e4b00128d": {
   "name": "Oran GAA Club, F42 CD50",
   "lat": 53.67254,
@@ -4082,6 +4112,14 @@
   "query": "Portaferry, County Down, Ireland",
   "matched": "Portaferry, Ards and North Down District Council, County Down, Northern Ireland / Tuaisceart Éireann, BT22 1PB, United K",
   "hint": "Down"
+ },
+ "c8db2b52-99b7-409f-a209-308629930cb4": {
+  "name": "Portroe",
+  "lat": 52.88299,
+  "lon": -8.35222,
+  "query": "Portroe, County Tipperary, Ireland",
+  "matched": "Portroe, The Municipal District of Nenagh, County Tipperary, Munster, E45 R228, Éire / Ireland",
+  "hint": "Tipperary"
  },
  "2b305202-074e-44aa-8c8f-104f918d96d5": {
   "name": "Protection & Prosperity Louth GAA Training Centre, Darver",
@@ -4640,6 +4678,15 @@
   "query": "Silverbridge, County Armagh, UK",
   "matched": "Silverbridge, Newry, Mourne and Down District Council, Northern Ireland / Tuaisceart Éireann, BT35 9LF, United Kingdom"
  },
+ "689b7a99-5670-4b88-aeef-0b5ee6f3c48b": {
+  "name": "Silverbridge Harps GAA",
+  "lat": 54.10213,
+  "lon": -6.52752,
+  "query": "Silverbridge, County Armagh, UK",
+  "matched": "Silverbridge, Newry, Mourne and Down District, Northern Ireland / Tuaisceart Éireann, BT35 9LF, United Kingdom",
+  "hint": null,
+  "same": "lgfa-silverbridge-harps-gaa"
+ },
  "419abb23-91ae-4855-a074-59790c5ba52a": {
   "name": "Simonstown",
   "lat": 53.68198,
@@ -4734,6 +4781,12 @@
   "query": "St Brigid's Kiltoom, County Roscommon, Ireland",
   "matched": "St. Brigid's Sports & Social Centre, L7554, Kiltoom ED, Athlone Municipal District, County Roscommon, Connacht, Éire / I",
   "hint": "Roscommon"
+ },
+ "1c8da3e9-88d3-4685-8520-2280df10c5e8": {
+  "name": "St Colm's Ballinascreen",
+  "lat": null,
+  "lon": null,
+  "hint": null
  },
  "c1643a9b-11db-4724-8244-d558bfba4a9a": {
   "name": "St Dominic's GAA Club",
