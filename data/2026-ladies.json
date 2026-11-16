@@ -1,7 +1,7 @@
 {
 "season": 2026,
 "source": "https://ladiesgaelic.ie/fixtures-results/results/",
-"fetched": "2026-11-09T13:51:59Z",
+"fetched": "2026-11-16T13:36:37Z",
 "fixtures": [
 {
 "id": "lgfa:2026-01-18T14:00:00+00:00|National Football League Division 4|Round 1|Carlow|Sligo",
@@ -9440,6 +9440,62 @@
 "tickets": null,
 "tv": null,
 "url": "https://ladiesgaelic.ie/fixtures-results/results/"
+},
+{
+"id": "lgfa:2026-11-21T00:00:00+00:00|All-Ireland Intermediate Club Championship|Quarter-Final|None|None",
+"date": "2026-11-21T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "All-Ireland Intermediate Club Championship",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Quarter-Final",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "lgfa-sean-o-leary-s-gac-newbridge",
+"venue": "Seán O'Leary's GAC Newbridge",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2026-11-21T00:00:00+00:00|All-Ireland Junior Club Championship|Quarter-Final|None|None",
+"date": "2026-11-21T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "All-Ireland Junior Club Championship",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Quarter-Final",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "lgfa-queen-s-university-belfast-the-arena",
+"venue": "Queen's University Belfast - The Arena",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
 }
 ]
 }

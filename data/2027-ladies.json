@@ -1,0 +1,2947 @@
+{
+"season": 2027,
+"source": "https://ladiesgaelic.ie/fixtures-results/results/",
+"fetched": "2026-11-16T13:36:37Z",
+"fixtures": [
+{
+"id": "lgfa:2027-01-17T00:00:00+00:00|National Football League Division 4|Round 1|None|None",
+"date": "2027-01-17T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 4",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 1",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-01-17T00:00:00+00:00|National Football League Division 4|Round 1|None|None#1",
+"date": "2027-01-17T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 4",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 1",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-01-17T00:00:00+00:00|National Football League Division 4|Round 1|None|None#2",
+"date": "2027-01-17T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 4",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 1",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-01-23T00:00:00+00:00|National Football League Division 1|Round 1|None|None",
+"date": "2027-01-23T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 1",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 1",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-01-24T00:00:00+00:00|National Football League Division 1|Round 1|None|None",
+"date": "2027-01-24T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 1",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 1",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-01-24T00:00:00+00:00|National Football League Division 1|Round 1|None|None#1",
+"date": "2027-01-24T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 1",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 1",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-01-24T00:00:00+00:00|National Football League Division 1|Round 1|None|None#2",
+"date": "2027-01-24T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 1",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 1",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-01-24T00:00:00+00:00|National Football League Division 2|Round 1|None|None",
+"date": "2027-01-24T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 2",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 1",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-01-24T00:00:00+00:00|National Football League Division 2|Round 1|None|None#1",
+"date": "2027-01-24T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 2",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 1",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-01-24T00:00:00+00:00|National Football League Division 2|Round 1|None|None#2",
+"date": "2027-01-24T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 2",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 1",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-01-24T00:00:00+00:00|National Football League Division 2|Round 1|None|None#3",
+"date": "2027-01-24T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 2",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 1",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-01-24T00:00:00+00:00|National Football League Division 3|Round 1|None|None",
+"date": "2027-01-24T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 3",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 1",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-01-24T00:00:00+00:00|National Football League Division 3|Round 1|None|None#1",
+"date": "2027-01-24T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 3",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 1",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-01-24T00:00:00+00:00|National Football League Division 3|Round 1|None|None#2",
+"date": "2027-01-24T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 3",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 1",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-01-24T00:00:00+00:00|National Football League Division 3|Round 1|None|None#3",
+"date": "2027-01-24T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 3",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 1",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-01-24T00:00:00+00:00|National Football League Division 4|Round 2|None|None",
+"date": "2027-01-24T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 4",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 2",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-01-24T00:00:00+00:00|National Football League Division 4|Round 2|None|None#1",
+"date": "2027-01-24T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 4",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 2",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-01-24T00:00:00+00:00|National Football League Division 4|Round 2|None|None#2",
+"date": "2027-01-24T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 4",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 2",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-01-31T00:00:00+00:00|National Football League Division 1|Round 2|None|None",
+"date": "2027-01-31T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 1",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 2",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-01-31T00:00:00+00:00|National Football League Division 1|Round 2|None|None#1",
+"date": "2027-01-31T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 1",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 2",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-01-31T00:00:00+00:00|National Football League Division 2|Round 2|None|None",
+"date": "2027-01-31T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 2",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 2",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-01-31T00:00:00+00:00|National Football League Division 2|Round 2|None|None#1",
+"date": "2027-01-31T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 2",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 2",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-01-31T00:00:00+00:00|National Football League Division 2|Round 2|None|None#2",
+"date": "2027-01-31T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 2",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 2",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-01-31T00:00:00+00:00|National Football League Division 2|Round 2|None|None#3",
+"date": "2027-01-31T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 2",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 2",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-01-31T00:00:00+00:00|National Football League Division 3|Round 2|None|None",
+"date": "2027-01-31T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 3",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 2",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-01-31T00:00:00+00:00|National Football League Division 3|Round 2|None|None#1",
+"date": "2027-01-31T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 3",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 2",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-01-31T00:00:00+00:00|National Football League Division 3|Round 2|None|None#2",
+"date": "2027-01-31T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 3",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 2",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-01-31T00:00:00+00:00|National Football League Division 3|Round 2|None|None#3",
+"date": "2027-01-31T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 3",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 2",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-01-31T00:00:00+00:00|National Football League Division 4|Round 3|None|None",
+"date": "2027-01-31T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 4",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 3",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-01-31T00:00:00+00:00|National Football League Division 4|Round 3|None|None#1",
+"date": "2027-01-31T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 4",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 3",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-01-31T00:00:00+00:00|National Football League Division 4|Round 3|None|None#2",
+"date": "2027-01-31T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 4",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 3",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-02-01T00:00:00+00:00|National Football League Division 1|Round 2|None|None",
+"date": "2027-02-01T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 1",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 2",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-02-01T00:00:00+00:00|National Football League Division 1|Round 2|None|None#1",
+"date": "2027-02-01T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 1",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 2",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-02-06T00:00:00+00:00|National Football League Division 1|Round 3|None|None",
+"date": "2027-02-06T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 1",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 3",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-02-07T00:00:00+00:00|National Football League Division 1|Round 3|None|None",
+"date": "2027-02-07T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 1",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 3",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-02-07T00:00:00+00:00|National Football League Division 1|Round 3|None|None#1",
+"date": "2027-02-07T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 1",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 3",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-02-07T00:00:00+00:00|National Football League Division 1|Round 3|None|None#2",
+"date": "2027-02-07T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 1",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 3",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-02-07T00:00:00+00:00|National Football League Division 2|Round 3|None|None",
+"date": "2027-02-07T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 2",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 3",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-02-07T00:00:00+00:00|National Football League Division 2|Round 3|None|None#1",
+"date": "2027-02-07T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 2",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 3",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-02-07T00:00:00+00:00|National Football League Division 2|Round 3|None|None#2",
+"date": "2027-02-07T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 2",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 3",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-02-07T00:00:00+00:00|National Football League Division 2|Round 3|None|None#3",
+"date": "2027-02-07T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 2",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 3",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-02-07T00:00:00+00:00|National Football League Division 3|Round 3|None|None",
+"date": "2027-02-07T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 3",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 3",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-02-07T00:00:00+00:00|National Football League Division 3|Round 3|None|None#1",
+"date": "2027-02-07T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 3",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 3",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-02-07T00:00:00+00:00|National Football League Division 3|Round 3|None|None#2",
+"date": "2027-02-07T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 3",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 3",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-02-07T00:00:00+00:00|National Football League Division 3|Round 3|None|None#3",
+"date": "2027-02-07T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 3",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 3",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-02-14T00:00:00+00:00|National Football League Division 4|Round 4|None|None",
+"date": "2027-02-14T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 4",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 4",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-02-14T00:00:00+00:00|National Football League Division 4|Round 4|None|None#1",
+"date": "2027-02-14T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 4",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 4",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-02-14T00:00:00+00:00|National Football League Division 4|Round 4|None|None#2",
+"date": "2027-02-14T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 4",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 4",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-02-21T00:00:00+00:00|National Football League Division 1|Round 4|None|None",
+"date": "2027-02-21T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 1",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 4",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-02-21T00:00:00+00:00|National Football League Division 1|Round 4|None|None#1",
+"date": "2027-02-21T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 1",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 4",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-02-21T00:00:00+00:00|National Football League Division 1|Round 4|None|None#2",
+"date": "2027-02-21T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 1",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 4",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-02-21T00:00:00+00:00|National Football League Division 1|Round 4|None|None#3",
+"date": "2027-02-21T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 1",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 4",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-02-21T00:00:00+00:00|National Football League Division 2|Round 4|None|None",
+"date": "2027-02-21T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 2",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 4",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-02-21T00:00:00+00:00|National Football League Division 2|Round 4|None|None#1",
+"date": "2027-02-21T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 2",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 4",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-02-21T00:00:00+00:00|National Football League Division 2|Round 4|None|None#2",
+"date": "2027-02-21T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 2",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 4",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-02-21T00:00:00+00:00|National Football League Division 2|Round 4|None|None#3",
+"date": "2027-02-21T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 2",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 4",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-02-21T00:00:00+00:00|National Football League Division 3|Round 4|None|None",
+"date": "2027-02-21T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 3",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 4",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-02-21T00:00:00+00:00|National Football League Division 3|Round 4|None|None#1",
+"date": "2027-02-21T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 3",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 4",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-02-21T00:00:00+00:00|National Football League Division 3|Round 4|None|None#2",
+"date": "2027-02-21T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 3",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 4",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-02-21T00:00:00+00:00|National Football League Division 3|Round 4|None|None#3",
+"date": "2027-02-21T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 3",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 4",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-02-21T00:00:00+00:00|National Football League Division 4|Round 5|None|None",
+"date": "2027-02-21T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 4",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 5",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-02-21T00:00:00+00:00|National Football League Division 4|Round 5|None|None#1",
+"date": "2027-02-21T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 4",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 5",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-02-21T00:00:00+00:00|National Football League Division 4|Round 5|None|None#2",
+"date": "2027-02-21T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 4",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 5",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-02-28T00:00:00+00:00|National Football League Division 1|Round 5|None|None",
+"date": "2027-02-28T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 1",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 5",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-02-28T00:00:00+00:00|National Football League Division 1|Round 5|None|None#1",
+"date": "2027-02-28T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 1",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 5",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-02-28T00:00:00+00:00|National Football League Division 1|Round 5|None|None#2",
+"date": "2027-02-28T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 1",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 5",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-02-28T00:00:00+00:00|National Football League Division 1|Round 5|None|None#3",
+"date": "2027-02-28T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 1",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 5",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-02-28T00:00:00+00:00|National Football League Division 2|Round 5|None|None",
+"date": "2027-02-28T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 2",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 5",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-02-28T00:00:00+00:00|National Football League Division 2|Round 5|None|None#1",
+"date": "2027-02-28T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 2",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 5",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-02-28T00:00:00+00:00|National Football League Division 2|Round 5|None|None#2",
+"date": "2027-02-28T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 2",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 5",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-02-28T00:00:00+00:00|National Football League Division 2|Round 5|None|None#3",
+"date": "2027-02-28T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 2",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 5",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-02-28T00:00:00+00:00|National Football League Division 3|Round 5|None|None",
+"date": "2027-02-28T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 3",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 5",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-02-28T00:00:00+00:00|National Football League Division 3|Round 5|None|None#1",
+"date": "2027-02-28T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 3",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 5",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-02-28T00:00:00+00:00|National Football League Division 3|Round 5|None|None#2",
+"date": "2027-02-28T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 3",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 5",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-02-28T00:00:00+00:00|National Football League Division 3|Round 5|None|None#3",
+"date": "2027-02-28T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 3",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 5",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-02-28T00:00:00+00:00|National Football League Division 4|Round 6|None|None",
+"date": "2027-02-28T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 4",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 6",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-02-28T00:00:00+00:00|National Football League Division 4|Round 6|None|None#1",
+"date": "2027-02-28T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 4",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 6",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-02-28T00:00:00+00:00|National Football League Division 4|Round 6|None|None#2",
+"date": "2027-02-28T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 4",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 6",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-03-07T00:00:00+00:00|National Football League Division 4|Round 7|None|None",
+"date": "2027-03-07T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 4",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 7",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-03-07T00:00:00+00:00|National Football League Division 4|Round 7|None|None#1",
+"date": "2027-03-07T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 4",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 7",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-03-07T00:00:00+00:00|National Football League Division 4|Round 7|None|None#2",
+"date": "2027-03-07T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 4",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 7",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-03-13T00:00:00+00:00|National Football League Division 1|Round 6|None|None",
+"date": "2027-03-13T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 1",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 6",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-03-13T00:00:00+00:00|National Football League Division 1|Round 6|None|None#1",
+"date": "2027-03-13T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 1",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 6",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-03-13T00:00:00+00:00|National Football League Division 1|Round 6|None|None#2",
+"date": "2027-03-13T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 1",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 6",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-03-13T00:00:00+00:00|National Football League Division 1|Round 6|None|None#3",
+"date": "2027-03-13T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 1",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 6",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-03-14T00:00:00+00:00|National Football League Division 2|Round 6|None|None",
+"date": "2027-03-14T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 2",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 6",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-03-14T00:00:00+00:00|National Football League Division 2|Round 6|None|None#1",
+"date": "2027-03-14T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 2",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 6",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-03-14T00:00:00+00:00|National Football League Division 2|Round 6|None|None#2",
+"date": "2027-03-14T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 2",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 6",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-03-14T00:00:00+00:00|National Football League Division 2|Round 6|None|None#3",
+"date": "2027-03-14T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 2",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 6",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-03-14T00:00:00+00:00|National Football League Division 3|Round 6|None|None",
+"date": "2027-03-14T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 3",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 6",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-03-14T00:00:00+00:00|National Football League Division 3|Round 6|None|None#1",
+"date": "2027-03-14T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 3",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 6",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-03-14T00:00:00+00:00|National Football League Division 3|Round 6|None|None#2",
+"date": "2027-03-14T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 3",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 6",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-03-14T00:00:00+00:00|National Football League Division 3|Round 6|None|None#3",
+"date": "2027-03-14T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 3",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 6",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-03-20T00:00:00+00:00|National Football League Division 1|Round 7|None|None",
+"date": "2027-03-20T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 1",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 7",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-03-20T00:00:00+00:00|National Football League Division 1|Round 7|None|None#1",
+"date": "2027-03-20T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 1",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 7",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-03-20T00:00:00+00:00|National Football League Division 1|Round 7|None|None#2",
+"date": "2027-03-20T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 1",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 7",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-03-20T00:00:00+00:00|National Football League Division 1|Round 7|None|None#3",
+"date": "2027-03-20T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 1",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 7",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-03-21T00:00:00+00:00|National Football League Division 2|Round 7|None|None",
+"date": "2027-03-21T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 2",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 7",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-03-21T00:00:00+00:00|National Football League Division 2|Round 7|None|None#1",
+"date": "2027-03-21T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 2",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 7",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-03-21T00:00:00+00:00|National Football League Division 2|Round 7|None|None#2",
+"date": "2027-03-21T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 2",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 7",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-03-21T00:00:00+00:00|National Football League Division 2|Round 7|None|None#3",
+"date": "2027-03-21T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 2",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 7",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-03-21T00:00:00+00:00|National Football League Division 3|Round 7|None|None",
+"date": "2027-03-21T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 3",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 7",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-03-21T00:00:00+00:00|National Football League Division 3|Round 7|None|None#1",
+"date": "2027-03-21T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 3",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 7",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-03-21T00:00:00+00:00|National Football League Division 3|Round 7|None|None#2",
+"date": "2027-03-21T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 3",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 7",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2027-03-21T00:00:00+00:00|National Football League Division 3|Round 7|None|None#3",
+"date": "2027-03-21T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "National Football League Division 3",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Round 7",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+}
+]
+}

@@ -4322,6 +4322,14 @@
   "matched": "Maguiresbridge, County Fermanagh, Northern Ireland / Tuaisceart Éireann, BT94 4NY, United Kingdom",
   "hint": "Fermanagh"
  },
+ "lgfa-queen-s-university-belfast-the-arena": {
+  "name": "Queen's University Belfast - The Arena",
+  "lat": 53.34762,
+  "lon": -6.22841,
+  "query": "- The Arena, Ireland",
+  "matched": "3Arena, North Wall Quay, North Wall, North Dock B Ward 1986, Dublin, County Dublin, Leinster, Éire / Ireland",
+  "hint": null
+ },
  "85ff1d8b-9db3-4c7e-bbc7-f9eb337cd594": {
   "name": "Queens Dub Playing Fields",
   "lat": 54.5864,
@@ -4628,6 +4636,20 @@
   "query": "Sean Treacy Park, County Tipperary, Ireland",
   "matched": "Sean Treacy Park, Carrick-on-Suir Urban, The Municipal District of Carrick-on-Suir, County Tipperary, Munster, Éire / Ir",
   "hint": "Tipperary"
+ },
+ "0a6ee265-43b7-49c9-af7d-a2bffc14cb84": {
+  "name": "Seán O'Leary's GAC Newbridge",
+  "lat": null,
+  "lon": null,
+  "hint": "Monaghan"
+ },
+ "lgfa-sean-o-leary-s-gac-newbridge": {
+  "name": "Seán O'Leary's GAC Newbridge",
+  "lat": 54.76219,
+  "lon": -6.50725,
+  "query": "GAC Newbridge, Ireland",
+  "matched": "Newbridge GAC, Homelands, Mid-Ulster District, County Londonderry, Northern Ireland / Tuaisceart Éireann, BT41 3SL, Unit",
+  "hint": null
  },
  "79cf7d93-9483-44a4-ada5-af8d8e6060ab": {
   "name": "Shamrock Park, Roslea",
