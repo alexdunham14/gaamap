@@ -1,7 +1,7 @@
 {
 "season": 2026,
 "source": "https://www.gaa.ie/fixtures-results",
-"fetched": "2026-11-16T13:36:04Z",
+"fetched": "2026-11-23T15:55:43Z",
 "fixtures": [
 {
 "id": "74bd5a76-e4ef-4223-8fa6-c6688cbe660a",
@@ -16703,9 +16703,9 @@
 },
 {
 "id": "94ac8cdf-e859-4280-a56f-f71c46daf3c3",
-"date": "2026-11-28T00:00:00+00:00",
-"time": "00:00:00",
-"tbc": true,
+"date": "2026-11-28T13:00:00+00:00",
+"time": "13:00:00",
+"tbc": false,
 "status": "active",
 "sport": "Hurling",
 "competition": "AIB GAA Hurling All-Ireland Junior Club Championship",
@@ -16714,26 +16714,26 @@
 "group": "JuniorClubH",
 "round": "Twinning Final",
 "home": {
-"id": "37d097ca-f129-9d9a-a79c-2c2b843d2139",
-"name": "Ulster"
+"id": "494ad0d2-4e15-c7da-81c7-ea265c714727",
+"name": "Swatragh"
 },
 "away": {
-"id": "9a96a2c7-3c0d-477f-f2a6-da3bf5383018",
-"name": "Britain"
+"id": "4b26dc46-63cc-f960-c853-8d595d0a3694",
+"name": "Father Murphy's GAA Club"
 },
-"venueId": "2bcb7c75-3276-4a26-bba8-7b7b87b9c4ba",
-"venue": "Ulster Venue",
+"venueId": "9f81b90d-fd04-414a-8a8f-6b2bbd8f1c19",
+"venue": "Kickhams GAC Creggan",
 "result": false,
 "score": null,
 "tickets": null,
 "tv": null,
-"url": "/hurling/aib-gaa-hurling-all-ireland-junior-club-championship/ulster-britain/94ac8cdf-e859-4280-a56f-f71c46daf3c3"
+"url": "/hurling/aib-gaa-hurling-all-ireland-junior-club-championship/swatragh-father-murphy-s-gaa-club/94ac8cdf-e859-4280-a56f-f71c46daf3c3"
 },
 {
 "id": "f5ea1b93-a3da-4776-af0c-7f395a5e0d0f",
-"date": "2026-12-05T00:00:00+00:00",
-"time": "00:00:00",
-"tbc": true,
+"date": "2026-12-06T13:00:00+00:00",
+"time": "13:00:00",
+"tbc": false,
 "status": "active",
 "sport": "Football",
 "competition": "AIB GAA Football All-Ireland Junior Club Championship",
@@ -16742,20 +16742,20 @@
 "group": "JuniorClubF",
 "round": "Twinning Final",
 "home": {
-"id": "9a96a2c7-3c0d-477f-f2a6-da3bf5383018",
-"name": "Britain"
+"id": "504c296f-8eb5-fd52-1e74-4da4e8373251",
+"name": "Sean McDermott's"
 },
 "away": {
-"id": "37d097ca-f129-9d9a-a79c-2c2b843d2139",
-"name": "Ulster"
+"id": "6786f3c6-2fbf-9021-694f-6e51cc071452",
+"name": "Drumhowan"
 },
-"venueId": "0b753d8c-8f4f-4399-8d3b-372f82a57e45",
-"venue": "Britain Venue",
+"venueId": "e9ecc463-bc8a-4c62-b646-3b12e38e92ae",
+"venue": "Páirc na hÉireann, Birmingham",
 "result": false,
 "score": null,
 "tickets": null,
 "tv": null,
-"url": "/football/aib-gaa-football-all-ireland-junior-club-championship/britain-ulster/f5ea1b93-a3da-4776-af0c-7f395a5e0d0f"
+"url": "/football/aib-gaa-football-all-ireland-junior-club-championship/sean-mcdermott-s-drumhowan/f5ea1b93-a3da-4776-af0c-7f395a5e0d0f"
 },
 {
 "id": "27e7f8fa-0839-4eec-96de-0c05b5d08eaf",

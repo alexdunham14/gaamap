@@ -2154,6 +2154,14 @@
   "query": "Kilcormac, County Offaly, Ireland",
   "matched": "Kilcormac, Kilcormac ED, Birr, County Offaly, Leinster, R42 RC92, Éire / Ireland"
  },
+ "lgfa-fr-stephen-s-park": {
+  "name": "Father Stephen's Park",
+  "lat": 53.33805,
+  "lon": -6.25902,
+  "query": "Stephen's Park, Ireland",
+  "matched": "St Stephen's Green, Mansion House B ED, Dublin, County Dublin, Leinster, Éire / Ireland",
+  "hint": null
+ },
  "c6778b91-d8d8-43e8-8561-af473a8651dc": {
   "name": "Father Tierney Park, Ballyshannon",
   "lat": 54.50198,
@@ -2300,6 +2308,14 @@
   "query": "Charlestown, County Mayo, Ireland",
   "matched": "Charlestown, Claremorris-Swinford Municipal District, County Mayo, Connacht, F12 Y562, Éire / Ireland",
   "hint": "Mayo"
+ },
+ "60506533-eef3-4ef2-b80a-f518b0b4bc0b": {
+  "name": "Fr. O'Hara Park, Charlestown",
+  "lat": 53.95754,
+  "lon": -8.80285,
+  "query": "Charlestown GAA, Ireland",
+  "matched": "Charlestown Sarsfield GAA, Lowpark, Sonnagh ED, Claremorris-Swinford Municipal District, County Mayo, Connacht, F12 R832",
+  "hint": null
  },
  "11826883-748f-40b9-b154-6a63f236c751": {
   "name": "GAA Faithful Fields Offaly CoE",
@@ -2689,6 +2705,12 @@
   "query": "Kenny Park, Athenry, County Galway, Ireland",
   "matched": "St Mary's Athenry - Kenny Park, Prospect, Athenry ED, Athenry-Oranmore Municipal District, County Galway, Connacht, Éire",
   "hint": "Galway"
+ },
+ "9f81b90d-fd04-414a-8a8f-6b2bbd8f1c19": {
+  "name": "Kickhams GAC Creggan",
+  "lat": null,
+  "lon": null,
+  "hint": null
  },
  "c446a1c9-8981-479d-8821-3687724be21c": {
   "name": "Kilbeacanty",
@@ -4620,6 +4642,14 @@
   "query": "Playing Fields, County Derry, Ireland",
   "matched": "Lisnagelvin Playing Fields, Altnagelvin, Derry/Londonderry, Derry and Strabane District, County Londonderry, Northern Ir",
   "hint": "Derry"
+ },
+ "lgfa-sean-eiffe-park-ratoath": {
+  "name": "Sean Eiffe Park, Ratoath",
+  "lat": 53.5102,
+  "lon": -6.47834,
+  "query": "Sean Eiffe Park, Ratoath, Ireland",
+  "matched": "Seán Eiffe Park, R125, Ratoath ED, The Municipal District of Ratoath, County Meath, Leinster, Éire / Ireland",
+  "hint": null
  },
  "3ab6fbff-daaa-4596-9bb7-c32e5a7b0744": {
   "name": "Sean Newman Park, Bohermeen",

@@ -1,7 +1,7 @@
 {
 "season": 2026,
 "source": "https://camogie.ie/fixtures-results/",
-"fetched": "2026-11-16T13:36:29Z",
+"fetched": "2026-11-23T15:56:11Z",
 "fixtures": [
 {
 "id": "camogie:2026-02-01T14:00:00+00:00|Minor A Championship|Round 1|Galway|Limerick",
@@ -10859,39 +10859,6 @@
 "tickets": null,
 "tv": null,
 "url": "https://camogie.ie/fixtures-results/camogie/inter_county/intermediate/glen-dimplex-intermediate-championship/0c09a41d-385b-4d33-b62c-90b32820c857/"
-},
-{
-"id": "camogie:2026-11-13T13:00:00+00:00|TEST Championship|TEST|Canada|New York",
-"date": "2026-11-13T13:00:00+00:00",
-"time": "13:00",
-"tbc": false,
-"status": "active",
-"sport": "Camogie",
-"competition": "TEST Championship",
-"competitionId": "117e9e68-9d2b-41fc-aa22-d552f4260352",
-"rank": null,
-"group": "League Division 1",
-"round": "TEST",
-"home": {
-"id": null,
-"name": "Canada"
-},
-"away": {
-"id": null,
-"name": "New York"
-},
-"venueId": "8f33a11e-c10c-4013-bac4-edcc35f9ac08",
-"venue": "Abbotstown - Pitch 1",
-"result": true,
-"score": {
-"hg": 1,
-"hp": 10,
-"ag": 1,
-"ap": 11
-},
-"tickets": null,
-"tv": null,
-"url": "https://camogie.ie/fixtures-results/camogie/inter_county/senior/test/117e9e68-9d2b-41fc-aa22-d552f4260352/"
 }
 ]
 }

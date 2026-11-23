@@ -1,7 +1,7 @@
 {
 "season": 2026,
 "source": "https://ladiesgaelic.ie/fixtures-results/results/",
-"fetched": "2026-11-16T13:36:37Z",
+"fetched": "2026-11-23T15:56:20Z",
 "fixtures": [
 {
 "id": "lgfa:2026-01-18T14:00:00+00:00|National Football League Division 4|Round 1|Carlow|Sligo",
@@ -9442,10 +9442,10 @@
 "url": "https://ladiesgaelic.ie/fixtures-results/results/"
 },
 {
-"id": "lgfa:2026-11-21T00:00:00+00:00|All-Ireland Intermediate Club Championship|Quarter-Final|None|None",
-"date": "2026-11-21T00:00:00+00:00",
-"time": null,
-"tbc": true,
+"id": "lgfa:2026-11-21T13:00:00+00:00|All-Ireland Intermediate Club Championship|Quarter-Final|Truagh|Dunedin Connollys",
+"date": "2026-11-21T13:00:00+00:00",
+"time": "13:00",
+"tbc": false,
 "status": "active",
 "sport": "Ladies' Football",
 "competition": "All-Ireland Intermediate Club Championship",
@@ -9455,25 +9455,30 @@
 "round": "Quarter-Final",
 "home": {
 "id": null,
-"name": null
+"name": "Truagh"
 },
 "away": {
 "id": null,
-"name": null
+"name": "Dunedin Connollys"
 },
 "venueId": "lgfa-sean-o-leary-s-gac-newbridge",
 "venue": "Seán O'Leary's GAC Newbridge",
-"result": false,
-"score": null,
+"result": true,
+"score": {
+"hg": 2,
+"hp": 9,
+"ag": 5,
+"ap": 6
+},
 "tickets": null,
 "tv": null,
-"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+"url": "https://ladiesgaelic.ie/fixtures-results/results/"
 },
 {
-"id": "lgfa:2026-11-21T00:00:00+00:00|All-Ireland Junior Club Championship|Quarter-Final|None|None",
-"date": "2026-11-21T00:00:00+00:00",
-"time": null,
-"tbc": true,
+"id": "lgfa:2026-11-21T13:00:00+00:00|All-Ireland Junior Club Championship|Quarter-Final|Sperrin Óg|Oisín CLG",
+"date": "2026-11-21T13:00:00+00:00",
+"time": "13:00",
+"tbc": false,
 "status": "active",
 "sport": "Ladies' Football",
 "competition": "All-Ireland Junior Club Championship",
@@ -9483,14 +9488,187 @@
 "round": "Quarter-Final",
 "home": {
 "id": null,
+"name": "Sperrin Óg"
+},
+"away": {
+"id": null,
+"name": "Oisín CLG"
+},
+"venueId": "lgfa-queen-s-university-belfast-the-arena",
+"venue": "Queen's University Belfast - The Arena",
+"result": true,
+"score": {
+"hg": 1,
+"hp": 16,
+"ag": 2,
+"ap": 10
+},
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/results/"
+},
+{
+"id": "lgfa:2026-11-28T00:00:00+00:00|All-Ireland Intermediate Club Championship|Semi-Final|None|None",
+"date": "2026-11-28T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "All-Ireland Intermediate Club Championship",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Semi-Final",
+"home": {
+"id": null,
 "name": null
 },
 "away": {
 "id": null,
 "name": null
 },
-"venueId": "lgfa-queen-s-university-belfast-the-arena",
-"venue": "Queen's University Belfast - The Arena",
+"venueId": "3ec7fe1c-7729-4f98-9dc5-5ef4fbd8c92f",
+"venue": "Boardsmill GAA",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2026-11-28T00:00:00+00:00|All-Ireland Junior Club Championship|Semi-Final|None|None",
+"date": "2026-11-28T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "All-Ireland Junior Club Championship",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Semi-Final",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2026-11-29T00:00:00+00:00|All-Ireland Intermediate Club Championship|Semi-Final|None|None",
+"date": "2026-11-29T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "All-Ireland Intermediate Club Championship",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Semi-Final",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "86c49f73-0cfd-4d2e-8a31-0f3ba9c58707",
+"venue": "TBC",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2026-11-29T00:00:00+00:00|All-Ireland Junior Club Championship|Semi-Final|None|None",
+"date": "2026-11-29T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "All-Ireland Junior Club Championship",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Semi-Final",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "lgfa-sean-eiffe-park-ratoath",
+"venue": "Sean Eiffe Park, Ratoath",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2026-11-29T00:00:00+00:00|All-Ireland Senior Club Championship|Semi-Final|None|None",
+"date": "2026-11-29T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "All-Ireland Senior Club Championship",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Semi-Final",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "ee3fcdb3-7292-4b30-81d5-6d9f89977c70",
+"venue": "Munster Technological University Arena",
+"result": false,
+"score": null,
+"tickets": null,
+"tv": null,
+"url": "https://ladiesgaelic.ie/fixtures-results/upcoming-fixtures/"
+},
+{
+"id": "lgfa:2026-11-29T00:00:00+00:00|All-Ireland Senior Club Championship|Semi-Final|None|None#1",
+"date": "2026-11-29T00:00:00+00:00",
+"time": null,
+"tbc": true,
+"status": "active",
+"sport": "Ladies' Football",
+"competition": "All-Ireland Senior Club Championship",
+"competitionId": null,
+"rank": null,
+"group": null,
+"round": "Semi-Final",
+"home": {
+"id": null,
+"name": null
+},
+"away": {
+"id": null,
+"name": null
+},
+"venueId": "lgfa-fr-stephen-s-park",
+"venue": "Father Stephen's Park",
 "result": false,
 "score": null,
 "tickets": null,
